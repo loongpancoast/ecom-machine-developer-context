@@ -4,7 +4,8 @@
   "requirements": [
     {
       "id": "U01",
-      "summary": "Build a separate, generic developer-context repository for a full ecommerce operating system. Cover product research and testing, briefs, transcripts, ads, landing pages, connected accounts, complete data history, analytics and iterative improvement. Include useful methods, schemas, skills and integration knowledge, but exclude personal information and actual tested-product records."
+      "summary": "Provide methodology reference for an ecommerce system focused on product research, finished ads and stores, campaign tests and improvement. Historical agents, code and schemas illustrate methods; they are not supplied working software or promised reusable components. Exclude private data.",
+      "status": "current owner clarification"
     },
     {
       "id": "U02",
@@ -20,15 +21,18 @@
     },
     {
       "id": "U05",
-      "summary": "Include full commercial operations, not just acquisition: supplier sourcing and negotiation, purchasing, fulfillment, returns, support and retention. Accounting is part of the agreed full-system scope. Supplier relationships must be private/direct rather than limited to a marketplace catalog."
+      "summary": "Supplier, 3PL and back-office automation is secondary. Include the basic supplier, cost and order information needed for product tests. A separate ERP, warehouse, accounting, support or retention suite is not required for the current delivery.",
+      "status": "current owner clarification"
     },
     {
       "id": "U06",
-      "summary": "Discover new private suppliers and handle outreach and negotiation, as well as managing existing supplier relationships."
+      "summary": "Private supplier discovery and negotiation remain possible later work, not mandatory acceptance for the current research, creative and testing delivery.",
+      "status": "current owner clarification"
     },
     {
       "id": "U07",
-      "summary": "Support private-supplier dropshipping for testing and bulk/private-label purchasing with warehouse or 3PL fulfillment for scaling."
+      "summary": "Dropshipping, bulk/private-label purchasing and 3PL are business context for testing and scaling. Comprehensive integration is secondary and requires an agreed scope.",
+      "status": "current owner clarification"
     },
     {
       "id": "U08",
@@ -59,7 +63,8 @@
     },
     {
       "id": "U14",
-      "summary": "The developer may replace the entire previous architecture. Earlier work is context and a source of reusable ideas, not a mandatory design."
+      "summary": "The developer chooses the architecture. Repository content is methodology reference only, not a working codebase or a promise of reusable software.",
+      "status": "current owner clarification"
     },
     {
       "id": "U15",
@@ -77,7 +82,8 @@
     },
     {
       "id": "U18",
-      "summary": "Current development contract: maximum $8,000 fixed fee, full system complete within one month of kickoff. Definition of done includes all requirement areas working together in the deployed application. Milestones cannot narrow scope to an MVP, discovery phase or partial build."
+      "summary": "Current commercial position: $6,000-$8,000 negotiable fixed fee, with $8,000 as a ceiling rather than a committed price. Aim for about one month with access ready. Price, milestones and schedule must be agreed before hiring. Deliver connected research, finished creative, stores and campaign testing; secondary supplier/3PL/back-office systems are not mandatory acceptance.",
+      "status": "current owner clarification"
     },
     {
       "id": "U19",
@@ -85,12 +91,13 @@
     },
     {
       "id": "U20",
-      "summary": "The client states that they are engineers and understand the scope. Applicants must personally write and submit proposals and follow-up replies. AI-written applications or automated replies mean immediate disqualification. AI-assisted development is welcome."
+      "summary": "Retain that the clients are engineers. Ask for short personal replies, relevant work, personal contribution and honest limits rather than sales pitches, automated messages or copied claims. AI-assisted development is welcome. An existing walkthrough is welcome initially; promising candidates are asked for a short personally recorded Loom. Do not reject solely for missing a bespoke application-stage recording.",
+      "status": "current owner clarification"
     },
     {
       "id": "U21",
-      "summary": "Preserve and make available the system and agent versions attempted over prior months, including node-based video workflows, copywriting and image generation. Review the available history before rebuilding. Maintain explicit omissions and implementation-status labels rather than claiming unverified completeness.",
-      "status": "Preservation narrowed by U23: retain methods and useful references, not stale runnable exports in the current handoff."
+      "summary": "Keep historical agent, creative and system documents as methodology reference. Their presence does not establish working software, reusable components or delivery-time savings. A source-family/revision inventory is not a count of failed full builds.",
+      "status": "current owner clarification"
     },
     {
       "id": "U22",
@@ -102,8 +109,17 @@
     },
     {
       "id": "U24",
-      "summary": "Keep the original full-business goal primary. Detailed methods and architecture notes are supporting context, not a narrower project or mandatory implementation. Build for improving agentic AI: replace or upgrade agents, models and providers while retaining owned source, operational data, business context and history. A dashboard, thin SaaS wrapper or rigid automation alone is not delivery; demonstrate safe adaptability rather than promise immunity to obsolescence."
+      "summary": "Build a useful ecommerce system that is future-proofed for improving agentic AI. Own the code, data and history; replace agents, models and tools without losing previous work or rebuilding the whole application. Demonstrate safe changes. Methodology references do not prescribe architecture.",
+      "status": "current owner clarification"
+    },
+    {
+      "id": "U25",
+      "summary": "Primary delivery is product research, finished ads and stores, campaign testing and improvement. Supplier/3PL work is secondary. This supersedes the earlier requirement that all logistics and back-office functions be complete in the same contract."
+    },
+    {
+      "id": "U26",
+      "summary": "The developer may quote down toward $6,000 within a $6,000-$8,000 negotiable range. No price, milestone, deadline, award or new spending is committed by postings or applicant replies."
     }
   ],
-  "scope_note": "This summarizes the owner direction captured during preparation. Technical source files remain separate reference material. No original owner-message text is included."
+  "scope_note": "Current owner direction. This is a public methodology-reference repository, not a supplied implementation. Current summaries supersede earlier all-area acceptance and definite-price wording retained in Git history."
 }

@@ -3,7 +3,7 @@
   "purpose": "Portable file and source-alias catalog for the developer context.",
   "paths_relative_to": "repository root",
   "hash_scope": "SHA-256 of each listed package file; this manifest excludes its own hash.",
-  "interpretation": "U and H records summarize owner intent. Historical excerpts, templates and code are optional references, not current runtime evidence.",
+  "interpretation": "U/H records summarize intent; historical examples are methodology reference only, not supplied working software or promised reusable components.",
   "artifacts": [
     {
       "id": "C04",
@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "383e2c31c3cd8cabcfaf82a6b3da7efc6dc59f9344205fc899ec156a85a1cd16"
+      "sha256": "81d1b75a6e7d4da34d4eaedebeec48825f883dda4dc69d67dd52071d0fdea41f"
     },
     {
       "id": "H-SUMMARY",
@@ -1497,21 +1497,21 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "f5258b158f29ecc1ce68fa42a5fbd593d366adb65071c71a7f22edbf722459fd"
+      "sha256": "209c55f9d86d29fe2d355fd5cab835919cce9af5471076d946a38cb111157be3"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "f8062aaee26f2751e97719aeec6d8b2d9b591634b272ff9d8b22f169fb6a0ba5"
+      "sha256": "ec74f3e3dc63a1da46b4f3c213cbcd6360aa4399f47aad8d45075c22a795e937"
     },
     {
       "id": "QUESTIONS",
       "package_path": "QUESTIONS.md",
       "classification": "implementation_considerations",
       "source_aliases": [],
-      "sha256": "0e6726f34218310235cbbda7767b198b70aae03bb5d2b6c87e8e125ce7acf52d"
+      "sha256": "e60e85eda1b5ec9ef51b3e085577661222e97c35e2794fb22bf87876162b4668"
     },
     {
       "id": "REFERENCE-SYSTEMS",
@@ -1525,14 +1525,14 @@
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "eb8c371ee984099b9adb51ef588673867cee51c0c7fa8a077cbfb59509b60be3"
+      "sha256": "2df34762b3e9b1dfcac72de974ef500c93c18b360c97f9928333ceab6f8d38d6"
     },
     {
       "id": "READING-NOTES",
       "package_path": "catalog/reading-notes.md",
       "classification": "technical_reference_notes",
       "source_aliases": [],
-      "sha256": "6b07b85f34c4f21c947313809b8214c8bc88512c0730d88cd47c6e1ca322b597"
+      "sha256": "c24bc69ce6b8cf1b041813d7a38739a8ce55b005e2f0b68273f510979ad9f935"
     },
     {
       "id": "INTEGRATION-INDEX",
@@ -1546,7 +1546,7 @@
       "package_path": "catalog/SOURCES.md",
       "classification": "source_navigation",
       "source_aliases": [],
-      "sha256": "b884f683f27dbca4bb07d11dfb03da7e903a934f526df7ade639124db05c4675"
+      "sha256": "335e67c6f1d020c5cc2d152fd5cdc7e61fd03387e8b8929cc41c13cb21ad82e2"
     },
     {
       "id": "PUBLICATION-EXCLUSIONS",
@@ -1567,7 +1567,7 @@
       "package_path": "history/SYSTEM-VERSIONS.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "5870b6b7b28166ad7adf866b6970560459115ca86327c79c4752ec58c766f113"
+      "sha256": "c3df49d06ce46349e4e2ea0735796855c37a0b7803d4ab9714862d3b57314d4b"
     },
     {
       "id": "HISTORY-002",
@@ -1869,7 +1869,7 @@
       "package_path": "methodologies/agent-led-execution.md",
       "classification": "current_owner_direction",
       "source_aliases": [],
-      "sha256": "2b4efbd64780d1c8a3f4d2e68f669c7b2e59f54d0890d9627cfc3b5105317cb3"
+      "sha256": "9e7ece7f63efb1a1ec2ee88637387b18f52351bbec8ad0f8163f8d7a466f07dc"
     }
   ],
   "source_alias_index": {

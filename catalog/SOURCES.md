@@ -1,10 +1,10 @@
-# Technical reference catalog
+# Methodology reference catalog
 
-Start with [requirements](../REQUIREMENTS.md) and [technical reference notes](reading-notes.md). These files contain selected methods, templates, schemas and optional code, not a completed application.
+Start with [requirements](../REQUIREMENTS.md) and [technical reference notes](reading-notes.md). These files explain methods. Templates, schemas and code excerpts are illustrative reference, not supplied working software or promised reusable components.
 
 ## Requirement and historical-intent summaries
 
-- [U01–U22: requirement summaries](../sources/owner-requirements-summary.json)
+- [Current requirement summaries](../sources/owner-requirements-summary.json)
 - [H01–H06: historical-intent summaries](../sources/historical-intent-summary.json)
 
 Owner intent is paraphrased, not quoted. Earlier C01, C02, C03 and C18 aliases resolve to H01, H02, H03 and H06 respectively. The [manifest](manifest.json) provides complete alias resolution and package-file hashes.
@@ -23,7 +23,7 @@ Owner intent is paraphrased, not quoted. Earlier C01, C02, C03 and C18 aliases r
 - [System/version index](../history/SYSTEM-VERSIONS.md): documentary map and explicit gaps.
 - [Copywriting and research](../history/copywriting-agent-systems/README.md): field contracts and preserved revisions.
 - [Earlier agent definitions](../history/agent-systems/business-web-intelligence/README.md).
-- [Media and node-based workflows](../history/media/DEVELOPER-INDEX.md): source export, image runners and production methodology.
+- [Media and node-based workflows](../history/media/DEVELOPER-INDEX.md): image-tool examples and production methodology.
 
 ## Technical sources
 

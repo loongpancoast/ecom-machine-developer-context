@@ -1,85 +1,73 @@
 # Requirements
 
-## 1. Hosted application
+## The main job
 
-A private frontend, backend and operational database for one business managing multiple brands, stores and ad accounts. Include secure login, team roles, brand/account separation, media storage and background processing. The interface should support direct control as well as autonomous execution.
+Build a private, hosted system for one business running multiple ecommerce brands. Connect product research, finished creative, storefronts and campaign testing. Let the owner approve the initial direction, then run routine work within agreed permissions and budgets.
 
-## 2. Research and product testing
+We are engineers. Explain tradeoffs and verify the parts that matter rather than promising everything.
 
-Collect product, market, competitor and customer-language evidence. Compare demand signals, offers, creative approaches, supplier options and economics. Turn findings into product briefs and test plans. Retain sources and prior learning rather than re-creating research at every step.
+## Research
 
-Test new products while scaling successful ones. The initial monthly objective is 60 tests, 2–3 scalable winners and a majority reaching break-even through iteration. The system must accurately measure outcomes; it cannot guarantee commercial winners.
+Collect product facts, competitor ads and pages, customer language, supplier costs and other evidence needed to decide whether a product deserves a test. Keep source links and dates. Use the research to choose an offer and write a brief, scripts and a test plan. Keep rejected ideas and previous results so the next test does not start from scratch.
 
-## 3. Creative production
+## Creative and stores
 
-Produce complete image ads, video/avatar ads, transcripts, scripts and briefs. Use relevant brand references to understand hooks, pacing, visual direction, objections and offers. Create original product-specific work using accurate product information and supported claims.
+Produce finished image ads, video/avatar ads and usable landing pages, product pages and stores. The output must fit the product and brand, use accurate facts and carry the same offer from ad to page. Include the editing needed to turn generated clips into a finished ad.
 
-Preserve the relationship between reference, brief, script, prompt, generation job, selected asset and final edit. Use the best-performing production service or model for the job. Initial owner review establishes creative quality; routine production and improvement should become autonomous.
+The methodology references include before/after frames, AI UGC, customer research and reference-video analysis. They explain possible methods, not a required node editor, model or architecture. Judge the build by the finished output.
 
-Explicitly support reference-video analysis, before/after start-and-end-frame workflows, AI UGC A-roll/B-roll and inspectable node dependencies with generation/edit lineage. Demonstrate actual playable outputs, not only stills, prompts or graph screenshots. See the [detailed creative workflow](methodologies/before-after-ai-ugc.md). Synthetic transformations are not evidence of real product outcomes.
+## Campaigns and improvement
 
-## 4. Pages and storefronts
+Connect the agreed advertising and commerce platforms. Set up and manage tests within approved spend limits. Bring back spend, conversions and orders, linked to the exact ads, offers and pages used. Use those results to propose and test changes.
 
-Build and edit landing pages, product pages and storefronts with coherent branding, strong ad-to-page continuity and functioning commerce behavior. Support products, variants, offers, pricing, cart, checkout and tracking.
+Choose the initial platforms and access requirements before contracting. Do not promise integrations with unnamed providers. External platform approvals and unavailable permissions must be identified before dates are agreed.
 
-Use analytics and heatmaps to diagnose friction, generate improvements and test page variants. Amboras is a relevant reference for prompt-driven storefront construction and autonomous optimization; Arcads is a reference for ad/video/avatar production.
+## Supplier and fulfillment work
 
-## 5. Advertising and learning
+These are secondary to research, creative and testing. Include basic supplier/product-cost records and the order information needed to evaluate tests. Keep the design open to later supplier and fulfillment connections.
 
-Connect advertising accounts and commerce data. Launch and manage campaigns, track spend and join results to the exact creative, page, offer and product versions.
+A custom ERP, warehouse system, autonomous supplier negotiation, comprehensive 3PL integration, full accounting, returns/support or retention suite is not required for this delivery. Further operational automation needs its own agreed scope; it is not an unwritten condition of acceptance.
 
-Use attention, click, page and purchase data to decide what to revise. Preserve experiments, decisions, unsuccessful attempts and subsequent outcomes. Allocate effort between discovery and scaling using both commercial performance and the value of learning.
+## Records and reliability
 
-## 6. Private suppliers and purchasing
+Keep brands and accounts separate. Store sources, product facts, briefs, prompts, media, page versions, campaigns, costs and results. Preserve earlier versions rather than overwriting them.
 
-Discover private suppliers, conduct outreach, negotiate, compare quotes and manage existing relationships. Record samples, quality checks, lead times, shipping terms, capacity, pricing and purchasing decisions.
+Include secure access, media storage, background jobs, logs, cost limits and recovery from failures. Retrying a failed request must not create duplicate campaigns, purchases or posts. Check that external actions actually succeeded.
 
-Support private-supplier dropshipping for testing and bulk/private-label purchasing with warehouse or 3PL fulfillment for scaling.
+## Future-proofing
 
-## 7. Post-purchase operations
+The system must be future-proofed for improving agentic AI. We own the source, data, business context and history. Changing an agent, model or tool must not require rebuilding the application or losing previous work. Demonstrate a tested replacement and show that the saved records still work.
 
-Operate order management, fulfillment, shipment exceptions, returns, refunds, support and retention. Connect these workflows to the relevant commerce, logistics, communication and accounting systems.
+Choose the implementation. Custom development is preferred where it serves the business; reliable existing tools are welcome. Do not make one provider, dashboard or rigid automation sequence the permanent center of the business.
 
-Feed customer issues, refund reasons and fulfillment costs back into product research, supplier selection, public messaging and economics.
+## Budget, costs and schedule
 
-## 8. Shared database and memory
+Budget: $6,000-$8,000 fixed fee, negotiable. $8,000 is the ceiling, not a committed fee. The aim is about one month, with required access ready. Price, milestones and schedule must be agreed before hiring.
 
-Link brands, products, suppliers, sources, customer-language research, briefs, scripts, prompts, media, page versions, ads, campaigns, tests, orders, costs and decisions.
+The fee covers the complete research, creative, store and testing work agreed here. Milestones should produce working results. They are not permission to deliver disconnected screens or an unfinished demo.
 
-Preserve provenance, version history and the meaning of each field. Distinguish observed facts, estimates and hypotheses. Keep missing information separate from zero values. Make the history searchable by the operator, developer and authorized AI workers.
+Use Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation. Verify the actual runtime, image-generation route, allowances and recovery when limits are reached before making a commitment. Do not assume that subscriptions include API credits or use unofficial bypasses. If a requirement cannot be met, identify the specific conflict before contracting. A different cost arrangement requires owner approval.
 
-## 9. Build versus integrate
+Disclose hosting, storage and other non-API costs. No new spending is authorized by this document.
 
-The application owns its interface, data and workflow history. External generation engines and SaaS products may provide individual capabilities when their quality, APIs, export options and economics are suitable.
+The business aims to reach 60 product tests per month. Document realistic capacity and costs; do not promise commercial winners or treat that goal as a requirement to run 60 paid tests during development.
 
-Custom, agent-led development is preferred. Agents must choose tools, inspect results and revise plans rather than rely on a static n8n-style automation as the operating brain. Keep deterministic tools for reliable execution, permissions, validation, duplicate protection and rendering. Historical workflows survive only as useful methodology or supporting primitives, not a prescribed stack. See [current execution direction](methodologies/agent-led-execution.md). Existing MCPs are not a preferred stack; historical stage labels, approval processes and budgets do not override the current contract.
+## Acceptance and handoff
 
-The fixed development fee is capped at $8,000, with the full system delivered within one month of kickoff. Definition of done is every scope area in this document working together in the deployed system, with real outputs and verified integrations. A discovery phase, MVP, partial build, placeholder workflow or dashboard alone is not acceptance. Milestones divide delivery, not scope.
+Agree representative products, platforms, access and acceptance checks before kickoff. The demonstration must cover:
 
-Run the engine on Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation; do not require separately billed LLM, copywriting, image-generation or other API calls. Verify actual subscription capabilities, limits and unattended-use support without bypasses. Disclose hosting, storage and other non-API operating costs before contracting. These requirements do not authorize new spend.
+- Research that produces a product decision and a usable creative brief.
+- Finished image and video ads and a functioning store or product-page workflow.
+- A controlled campaign test on the agreed platform, with results returned to the correct ad, offer and page records.
+- A subsequent change based on those results, with the earlier version retained.
+- Safe retries, account separation, spend limits and an agent or provider replacement without losing history.
 
-### Adaptability as AI improves
+Supply the source, database migrations, deployment instructions, tests and documentation. Use authorized test or development accounts where appropriate, and distinguish test-mode proof from live account activity. Do not label a blocked integration complete.
 
-Build for practical longevity, not a dashboard or thin SaaS wrapper that loses its value as agentic AI advances. The owner retains source code, operational data, business context and history. Agents, models and providers must be replaceable without losing that history or rebuilding the entire system. Demonstrate how an upgrade can be evaluated and introduced safely while preserving core business operations. This is an outcome requirement, not a prescribed architecture or a guarantee that technology never changes.
+## Methodology and privacy
 
-## 10. Deliverables
+The repository is methodology reference only. Agent definitions, code snippets, schemas and historical examples explain methods; they are not supplied working software or promised development savings.
 
-- Deployable application source, frontend, backend and database migrations.
-- Documented integrations, data contracts and background workflows.
-- Working end-to-end demonstrations using appropriate development/test accounts.
-- Functional, visual and operational tests; monitoring and maintainable deployment configuration.
-- Clear technical documentation and handoff.
+Use the [research guide](methodologies/research-to-production.md), [course-derived methods](methodologies/course-derived-product-research.md) and [creative references](methodologies/before-after-ai-ugc.md) where useful. They do not prescribe the implementation. The present scope supersedes older wording that made every supplier, logistics and back-office function mandatory.
 
-## 11. Research methodology and developer background
-
-Implement the [research-to-production methodology](methodologies/research-to-production.md): source selection and capture fields, product matching, independent cross-checks, customer-language analysis, competitor/offer comparisons, supplier economics, product selection, copywriting, node-based video production, finished-output QA and measured improvement. Prior workflows, agents and course-derived methods are reference context; preserve attribution and distinguish historical guidance from verified results.
-
-The named [Ecom Masterclass, Evolve and God Tier Ecom workflows](methodologies/course-derived-product-research.md) must be available as attributed methodological context, including product-first/problem-first discovery, source cross-references, desire/angle distinctions and evidence-to-creative handoffs. Course summaries are not a claim that full licensed transcripts or prompt libraries are publicly bundled.
-
-Preferred background includes dropshipping, product research and demonstrated work on high-converting stores and ads. Applicants should show their personal contribution and measured results. Engineering delivery remains the complete system, not only the developer's strongest specialty.
-
-## 12. Context and privacy
-
-Requirements are assistant-written summaries, not word-for-word owner messages. Technical schemas, code and methodologies remain separate reference material. No personal data, actual tested products, private supplier identities, customer records, account credentials or private source history should be included in the handoff.
-
-The [structured requirement summary](sources/owner-requirements-summary.json) retains stable IDs for traceability. [Reference systems](REFERENCE-SYSTEMS.md) separates product capabilities from unverified integration assumptions.
+Keep private products, account records, customer and supplier information, credentials and applicant conversations out of this public repository. Preserve attribution for reference material.

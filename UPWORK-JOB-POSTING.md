@@ -1,55 +1,46 @@
-# Full-Stack AI Engineer: Ecommerce Operating System ($8k, One Month)
+# Engineer for Ecommerce Research, Ads and Stores ($6k-$8k)
 
-Build a private, cloud-hosted operating system that runs multiple ecommerce brands from one application: product research, creative production, storefronts, advertising, suppliers and post-purchase operations.
+I am hiring an engineer to build a private system for running ecommerce brands. It should help us find products worth testing, make finished ads and stores, run tests and use the results to improve.
 
-Turn research into finished ads and pages, launch tests and improve using results. Connect products, sources, briefs, scripts, prompts, assets, pages, campaigns, costs and decisions. Creative quality matters: real customer language, credible references and product-specific evidence, not generic AI content. I approve the initial direction; the system then operates and evolves autonomously within agreed permissions.
+The main work
 
-Budget: $8,000 USD maximum fixed fee for the FULL SYSTEM, completed within one month of kickoff. Not an MVP, discovery phase or partial build. Milestones divide delivery, not scope.
+- Product research using competitor ads, customer language, product facts and costs.
+- Finished image and video ads, including UGC/avatar formats, plus landing pages, product pages and stores.
+- Campaign setup and management within agreed budgets, with results tied to the ads, offers and pages used.
+- A shared record of the research, prompts, assets, changes, spend and results so each test informs the next one.
 
-Build for improving AI, not obsolescence
+Creative quality matters. The ads and pages need to be good enough to use, not generic copy and unfinished generations. I approve the initial direction; the system should then handle routine work within agreed permissions.
 
-I want this future-proofed: a useful operating system, not a useless dashboard, thin SaaS wrapper or rigid automation that becomes obsolete as agentic AI improves. Better agents and models should make the system more capable, not force us to rebuild it. We own the source, data, business context and history. Agents, models and providers must be replaceable without losing that history. Show how upgrades can be tested and introduced safely. The interface supports real work; it is not the deliverable by itself. Future-proof means adaptable, not immune to change.
+Supplier and 3PL work is secondary. Keep the basic supplier, product-cost and order information needed for testing. A custom ERP, warehouse platform, supplier-negotiation system or full accounting/support suite is not part of this delivery.
 
-Full scope
+Budget and delivery
 
-- Research and testing: collect and cross-reference product, competitor-ad/page, customer-language, market, supplier and economics evidence. Turn it into product decisions, offers, briefs, scripts and test plans.
-- Creative and storefronts: finished image ads, video/avatar ads, landing pages, product pages and stores. Keep brand/product accuracy, creative quality and ad-to-page continuity.
-- Advertising and improvement: connected ad/commerce accounts, campaign operation within permissions and budgets, spend/conversion/order data, page analytics and heatmaps. Tie results to exact creative, offer and page versions, then test improvements.
-- Commerce operations: private supplier sourcing, outreach, negotiation, quotes, samples, purchasing and quality checks; dropshipping for tests; bulk/private-label inventory and warehouse/3PL fulfillment for scaling; orders, returns, support, retention, accounting and profitability.
+Budget range: $6,000-$8,000 fixed fee, negotiable. Quote your price for the agreed work; $8,000 is a ceiling, not a committed fee. Price, milestones and schedule will be agreed before hiring. We are aiming for about one month, with required account access ready. We want the research, creative, store and testing work connected and usable in the deployed system. A standalone dashboard or demo is not enough. Agree the supported platforms and acceptance checks before starting, and flag outside approvals that could affect the schedule.
 
-Context, not a prescribed architecture
+Future-proofing
+
+The system must be future-proofed so better agentic AI makes it more useful. We own the code, data and history. We must be able to replace agents, models and tools without losing that history or rebuilding the whole system. Show that a change can be tested safely. Do not tie the business to one provider or a rigid sequence of automations.
+
+Methodology reference
 
 https://github.com/loongpancoast/ecom-machine-developer-context
 
-The repository contains the main brief, earlier system/agent attempts, product-research methods and creative workflows, including Ecom Masterclass, Evolve, God Tier Ecom, before/after references, AI UGC, node-based video, copywriting and images. These explain the business and methods, not a required stack.
+This is methodology reference, not a working codebase or a promise of reusable software. It covers product research, copywriting and creative methods, including Ecom Masterclass, Evolve, God Tier Ecom, before/after references and AI UGC. Choose the implementation that fits the job.
 
-Reference video:
-https://youtube.com/shorts/Um7gmblnUjg?is=AIKpCuIuaB2CTUpP
-This is a reference, not proof of its cost claims.
+Costs
 
-Custom development is preferred, not existing MCPs or a prescribed stack. We know current repos, APIs and AI coding tools. Use engineered discovery/build/test/fix loops to deliver efficiently. Justify integration choices, time and cost. Use proven tools, not AI jargon.
+Use Codex and Claude subscriptions through officially supported access. Paid APIs are limited to video generation. Verify the actual access, usage limits and image-generation route before committing; do not assume a subscription includes API credits or use a bypass. If a requirement cannot be met this way, explain the specific issue. Disclose hosting and other costs. No additional spend is approved by this posting.
 
-Operating costs
+Applying
 
-Run the engine on Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation. No separately billed LLM, copywriting, image-generation or other API dependencies. Verify subscription capabilities and limits without bypasses. Disclose hosting, storage and other non-API costs before contracting. No new spend is authorized here.
+We are engineers. We care about your work, your judgment and a clear explanation of how you would build this. Ecommerce, product research and experience with converting ads or stores are particularly relevant.
 
-Delivery and acceptance
+Link work you personally contributed to and explain your part. An existing walkthrough is welcome. We will ask promising candidates for a short, personally recorded Loom showing relevant work and their approach. No unpaid custom build is required.
 
-Every scope area must work together in the deployed system, with real outputs and verified integrations. Include secure login/team roles, brand/account separation, database/media storage, background processing, failure recovery, duplicate-safe retries, permissions and cost controls. Deliver source, migrations, deployment instructions, tests and documentation. Demonstrate maintainability and provider/agent replacement without losing business data. A chatbot, prompt library, dashboard or mocked workflow alone is not acceptance.
-
-Target: 60 product tests/month, then scale winners. Profit is a business objective, not an engineering guarantee.
-
-Applications
-
-Preferred: dropshipping, product research, high-converting stores/ads and competent use of ad data. Show work you personally built and measured results. If proposing model training, distinguish it from retrieval/prompting and explain evaluation.
-
-We are engineers and understand the scope. Absolutely no AI-written proposals or automated replies: immediate disqualification. Write every application and follow-up personally. No sales bots or copy-paste pitches. AI-assisted development is welcome.
-
-Send a personally recorded and narrated Loom showing relevant work, your contribution and how you would deliver the full system. No AI avatar or generated narration. Use existing work; no unpaid custom build required.
+Write a short reply in your own words. Skip the sales pitch, automated replies and copied claims. AI-assisted development is welcome. Tell us where you see a real constraint rather than agreeing to everything.
 
 ## Screening questions
 
-1. Send a Loom video personally recorded and narrated by you. Show a relevant system you built, explain your own contribution, and walk through how you would deliver our full scope. Use existing work; no unpaid custom build, AI avatar or generated narration.
-2. Describe your dropshipping/product-research experience and a store/ad improvement you personally made, with measured results. What data did you collect and cross-reference to choose the product, offer and creative?
-3. What custom system would you build for this business, and how would it adopt better agents/models without rebuilding or losing data? Explain integration choices and how current AI tools reduce your build time and cost.
-4. Explain how Codex and Claude subscriptions will run the engine through officially supported access, with paid API usage limited to video generation. Address usage limits and failure recovery.
+1. Link relevant work or an existing walkthrough. What did you personally build, and what result can you substantiate?
+2. How would you connect product research, finished ads and stores, and campaign testing? What would you demonstrate at handoff?
+3. What dependencies or limits could affect the $6,000-$8,000 negotiable budget, roughly one-month target or subscription-based running costs? Be specific about supported access rather than assuming API credits are included.

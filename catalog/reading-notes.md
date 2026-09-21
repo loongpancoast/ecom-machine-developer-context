@@ -1,6 +1,6 @@
-# Technical reference notes
+# Methodology reference notes
 
-[Requirements](../REQUIREMENTS.md) defines the intended application. Historical architecture, tool choices, stage labels, approval rules and budgets are optional context, not requirements.
+[Requirements](../REQUIREMENTS.md) defines the intended application. This repository is methodology reference only, not a software handoff. Historical architecture, tool choices, stage labels, approval rules and budgets are context, not requirements. Supplier/3PL references describe secondary work, not mandatory integrations for this delivery.
 
 Use [SOURCES.md](SOURCES.md) to browse files and [manifest.json](manifest.json) to resolve IDs, classifications and hashes. U IDs identify requirement summaries; H IDs identify historical-intent summaries. Older aliases resolve to the appropriate included summary, source excerpt or derived explanation. A derived explanation does not make an unavailable original accessible.
 
@@ -14,7 +14,7 @@ Use [SOURCES.md](SOURCES.md) to browse files and [manifest.json](manifest.json) 
 | C12 | Supplier selection, negotiation, samples and diligence | Partial method, not a purchasing/order-routing integration. Supplier-tier, response-speed and cultural generalizations are not universal rules. |
 | C14 | Evidence, generation, editing and learning relationships | Historical specified workflow, not a live implementation. Fixed timing and approval language are not binding. |
 | C15 | Test actual output before expanding architecture | Historical lesson, not an instruction to resume an old experiment. |
-| C17 | Sourcing fields and downstream catalog meaning | Documentary redactions change numeric types; not executable data. Repeated placeholders do not imply equal values. Marketplace defaults do not replace private-supplier requirements. |
+| C17 | Sourcing fields and downstream catalog meaning | Documentary redactions change numeric types; not executable data. Repeated placeholders do not imply equal values. Marketplace defaults illustrate one sourcing route; they do not add supplier-integration requirements to the current scope. |
 
 Reference-ad transcripts, customer language, production scripts and rendered-output transcripts serve different purposes. Preserve their source and version relationships; do not turn customer research into fabricated testimonials or competitor claims into product facts.
 

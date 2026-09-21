@@ -1,50 +1,42 @@
 # Ecom Machine
 
-## Project brief
+Build a private system for running ecommerce brands: research products, make finished ads and stores, run tests and use the results to improve.
 
-Build a private, cloud-hosted operating system that runs multiple ecommerce brands from one application: product research, creative production, storefronts, advertising, suppliers and post-purchase operations.
+The priority is the work from product research through creative, storefronts and campaign testing. Keep the research, prompts, assets, page changes, spend and results together so we can see what worked and what to try next. The owner approves the initial direction; routine work should then run within agreed permissions and budgets.
 
-The system should turn research into finished ads and pages, launch tests, collect results and make improvements. Its database should connect every product, source, brief, script, prompt, asset, page, campaign, cost and decision.
+Supplier and 3PL work is secondary. Keep the basic supplier, cost and order information needed for product tests. This delivery does not include a separate ERP, warehouse platform, autonomous supplier-negotiation system or full accounting/support suite.
 
-Creative quality is central. Outputs should reflect credible brand references, real customer language and product-specific evidence—not generic AI copy or template visuals. The owner approves the initial creative direction; the system then operates and evolves autonomously.
+## Future-proofing
 
-### Full scope
+The system must be future-proofed so improving agentic AI makes it more useful. We own the code, data and history. Agents, models and tools must be replaceable without losing that history or rebuilding the whole system. Test changes before putting them into use.
 
-- Product and competitor research, customer-language analysis and product testing.
-- Briefs, transcripts, scripts, image ads and video/avatar ads.
-- Landing pages, product pages and storefront management.
-- Advertising, spend tracking, analytics, heatmaps and iterative optimization.
-- Private supplier discovery, outreach, negotiation, purchasing and quality checks.
-- Dropshipping, bulk/private-label inventory, warehouse/3PL fulfillment, returns and support.
-- Retention, accounting and profitability analysis.
+## Budget and delivery
 
-### Development approach
+Budget: $6,000-$8,000 fixed fee, negotiable. $8,000 is the ceiling, not a committed fee. The aim is about one month, with required access ready. Price, milestones and schedule must be agreed before hiring.
 
-Own the interface, database and workflow history. Integrate SaaS and AI engines where they produce better results through suitable APIs. The developer may replace all previous architecture; the included material is context and optional reference code. The system should become more capable as AI improves: upgrade agents, models and providers without rebuilding the business or losing its data and history. A dashboard or thin SaaS wrapper alone is not the product.
+The research, creative, store and testing work must function together in the deployed system. A standalone dashboard or demo is not enough. Choose the supported platforms and acceptance checks before starting, and identify any outside approvals that could affect delivery.
 
-Initial business target: **60 product tests per month, with 2–3 winners to scale and a majority reaching break-even through iteration.** These are business objectives, not guaranteed software outcomes.
+Use Codex and Claude subscriptions through supported access. Paid APIs are limited to video generation. Verify the actual capabilities and limits before committing. Disclose hosting and other costs; no additional spending is authorized here.
 
-## Read next
+We are engineers. We want clear answers, useful work and honest limits.
 
-| Document | Purpose |
-|---|---|
-| [Requirements](REQUIREMENTS.md) | Functional scope and expected behavior |
-| [Reference systems](REFERENCE-SYSTEMS.md) | Amboras, Arcads and integration considerations |
-| [Workflow map](methodologies/semantic-workflows.md) | How information and work move through the system |
-| [Requirement summaries](sources/owner-requirements-summary.json) | Structured summary of the intended outcomes; no interview transcript |
-| [Historical intent summary](sources/historical-intent-summary.json) | Relevant lessons and goals from earlier work, paraphrased |
-| [Technical reference catalog](catalog/SOURCES.md) | Methods, SQL, schemas, templates and connector examples |
-| [Implementation considerations](QUESTIONS.md) | Decisions and gaps for the developer |
-| [Upwork job posting](UPWORK-JOB-POSTING.md) | Ready-to-use hiring copy |
+## Methodology reference
 
-## Current delivery terms
+This repository is methodology reference, not a working codebase, a software handoff or a promise of reusable components. Its examples explain research, copywriting and creative processes. Choose an implementation suited to the job; you do not need to inherit an old design.
 
-Maximum $8,000 fixed fee for the full system, completed within one month of kickoff. Codex and Claude subscriptions run the engine through supported access; paid API usage is limited to video generation. See the [requirements](REQUIREMENTS.md) and [hiring brief](UPWORK-JOB-POSTING.md) for the agreed terms.
+- [Product research: Ecom Masterclass, Evolve and God Tier Ecom](methodologies/course-derived-product-research.md)
+- [Research to finished creative](methodologies/research-to-production.md)
+- [Before/after references, AI UGC and video methods](methodologies/before-after-ai-ugc.md)
+- [Methodology catalog](catalog/SOURCES.md)
 
-## Reference material
+## Project details
 
-The main goal is the complete ecommerce operating system described above. Detailed research methods, course-derived workflows, video techniques and agent architecture notes are supporting context, not a narrower project definition or prescribed implementation.
+- [Requirements and acceptance](REQUIREMENTS.md)
+- [Hiring brief](UPWORK-JOB-POSTING.md)
+- [Questions to settle before starting](QUESTIONS.md)
+- [Product references](REFERENCE-SYSTEMS.md)
+- [Structured requirement summary](sources/owner-requirements-summary.json)
 
-The technical appendix is a selected collection, not an exhaustive archive or a working application. Historical methods and code may contain obsolete assumptions or missing dependencies; use the [reference notes](catalog/reading-notes.md) when evaluating them.
+The business target is eventually 60 product tests per month, then scaling promising products. It is not a promise of profitable products or a requirement to run 60 live tests during development.
 
-Owner requirements are summarized rather than quoted. Personal information, actual tested-product records, customer data, private supplier details and credentials are excluded. GitHub is the primary handoff; earlier ZIP snapshots are superseded.
+The [historical index](history/SYSTEM-VERSIONS.md) describes source families and revisions, not a count of failed complete builds. Old examples may be incomplete or obsolete. Current requirements take precedence. Personal information, tested-product records, customer data, private supplier details and credentials are excluded.

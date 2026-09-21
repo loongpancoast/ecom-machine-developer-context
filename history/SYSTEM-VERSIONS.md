@@ -1,6 +1,6 @@
-# System and agent version history
+# Historical methodology sources
 
-This index distinguishes discovered historical families and revisions. It is not a claim that every source file, branch, archive or earlier attempt has been recovered. Dates can be document dates, archive metadata or retrospective reports; they do not prove execution. Private archive paths, business examples and account records are deliberately excluded.
+This index lists methodology source families and revisions, not failed full-system builds or software supplied for this contract. It is not a claim that every source file, branch, archive or earlier attempt has been recovered. Dates can be document dates, archive metadata or retrospective reports; they do not prove execution. Private archive paths, business examples and account records are deliberately excluded.
 
 ## Included material
 
@@ -52,4 +52,4 @@ This is a documentary inventory. Rows marked as absent from the handoff have not
 
 Branch and stash bodies, nested packages, unnamed attempts and the full course-transcript corpus have not been exhaustively reviewed. Whole source applications and third-party course/prompt bodies are not bundled. Public methodology summaries preserve attribution; private product tests, customer/supplier records, interviews, credentials and original local paths remain excluded.
 
-The current [requirements](../REQUIREMENTS.md), $8,000 full-system contract, one-month deadline and subscription/video-API cost constraints take precedence over every historical instruction here.
+The current [requirements](../REQUIREMENTS.md) take precedence over historical instructions. The fee is negotiable within $6,000-$8,000, the schedule is to be agreed with a roughly one-month target, and supplier/3PL work is secondary. This material is methodology reference only.
