@@ -99,6 +99,10 @@
     {
       "id": "U23",
       "summary": "Prefer a custom agent-led operating system over static automation chains. Remove stale automation exports from the current handoff unless they explain a useful methodology. Preserve research, before/after, AI UGC and node-based creative methods without prescribing n8n or other legacy orchestration. Deterministic execution primitives remain useful beneath agent decisions."
+    },
+    {
+      "id": "U24",
+      "summary": "Keep the original full-business goal primary. Detailed methods and architecture notes are supporting context, not a narrower project or mandatory implementation. Build for improving agentic AI: replace or upgrade agents, models and providers while retaining owned source, operational data, business context and history. A dashboard, thin SaaS wrapper or rigid automation alone is not delivery; demonstrate safe adaptability rather than promise immunity to obsolescence."
     }
   ],
   "scope_note": "This summarizes the owner direction captured during preparation. Technical source files remain separate reference material. No original owner-message text is included."

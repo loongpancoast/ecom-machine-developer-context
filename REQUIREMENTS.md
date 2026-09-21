@@ -58,6 +58,10 @@ The fixed development fee is capped at $8,000, with the full system delivered wi
 
 Run the engine on Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation; do not require separately billed LLM, copywriting, image-generation or other API calls. Verify actual subscription capabilities, limits and unattended-use support without bypasses. Disclose hosting, storage and other non-API operating costs before contracting. These requirements do not authorize new spend.
 
+### Adaptability as AI improves
+
+Build for practical longevity, not a dashboard or thin SaaS wrapper that loses its value as agentic AI advances. The owner retains source code, operational data, business context and history. Agents, models and providers must be replaceable without losing that history or rebuilding the entire system. Demonstrate how an upgrade can be evaluated and introduced safely while preserving core business operations. This is an outcome requirement, not a prescribed architecture or a guarantee that technology never changes.
+
 ## 10. Deliverables
 
 - Deployable application source, frontend, backend and database migrations.

@@ -20,7 +20,7 @@ Creative quality is central. Outputs should reflect credible brand references, r
 
 ### Development approach
 
-Own the interface, database and workflow history. Integrate SaaS and AI engines where they produce better results through suitable APIs. The developer may replace all previous architecture; the included material is context and optional reference code.
+Own the interface, database and workflow history. Integrate SaaS and AI engines where they produce better results through suitable APIs. The developer may replace all previous architecture; the included material is context and optional reference code. The system should become more capable as AI improves: upgrade agents, models and providers without rebuilding the business or losing its data and history. A dashboard or thin SaaS wrapper alone is not the product.
 
 Initial business target: **60 product tests per month, with 2–3 winners to scale and a majority reaching break-even through iteration.** These are business objectives, not guaranteed software outcomes.
 

@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "c47ca879411977dee9b75dd881909572eaab2acf417258edb3063ab23681e033"
+      "sha256": "383e2c31c3cd8cabcfaf82a6b3da7efc6dc59f9344205fc899ec156a85a1cd16"
     },
     {
       "id": "H-SUMMARY",
@@ -1497,14 +1497,14 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "9627ccbda760d5c24b78e7e06d0f40a09558f9720ee9e87dcdc2afe9dd579631"
+      "sha256": "f5258b158f29ecc1ce68fa42a5fbd593d366adb65071c71a7f22edbf722459fd"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "888dcab7a13599fe3756a08c9a671f1eb6391ba9460c08a2642ef3202f7e5c1d"
+      "sha256": "f8062aaee26f2751e97719aeec6d8b2d9b591634b272ff9d8b22f169fb6a0ba5"
     },
     {
       "id": "QUESTIONS",
@@ -1525,7 +1525,7 @@
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "77c52e58322e8440a3e50d040881a620590a1c084523b981c60797df29a04460"
+      "sha256": "eb8c371ee984099b9adb51ef588673867cee51c0c7fa8a077cbfb59509b60be3"
     },
     {
       "id": "READING-NOTES",
