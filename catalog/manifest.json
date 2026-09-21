@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "4ea6e91c33fdd4f73b492add23ae1fcfbe719192b1a78fd6130df0d844abe9e7"
+      "sha256": "19a024381ffeb0e38d9b4e981453b2113ed30db97ff8d5790f45cefe80a79ade"
     },
     {
       "id": "H-SUMMARY",
@@ -1490,28 +1490,28 @@
       "package_path": "methodologies/semantic-workflows.md",
       "classification": "workflow_explanation",
       "source_aliases": [],
-      "sha256": "d84548bb9ba024700661fee5aa7350a80f53045f00844c48315f1263f0cba5c7"
+      "sha256": "135e063dfe1b592f1b3f951d476cfd71245e2cedef62743b5c4f3e476dc58166"
     },
     {
       "id": "README",
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "6070d834bbf866234cbacede3cfe3de187668d3a8943dafe81e73e37508e42d8"
+      "sha256": "2815e43ecbcba8ba25f16e0f348eb77984300e3fe6f4ac1aada9cd684e3fa1fe"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "a8e6ac509d2e88e9aea7c2acb1ae38b39acfce7db99569bd3c2d7fe4ef07a8ca"
+      "sha256": "eb8191b09bb719fa705375867c9bc2414e06563f5d2278f5aca6230abe7585d9"
     },
     {
       "id": "QUESTIONS",
       "package_path": "QUESTIONS.md",
       "classification": "implementation_considerations",
       "source_aliases": [],
-      "sha256": "546aa1d0cb6cd91bf9665e7bd5ad80513733b4dca63dccaf3baf1774d649d1cd"
+      "sha256": "2d4399c9315c84c42c2122bab93383690eb3e94b24e697b97ed38eb0f80838bb"
     },
     {
       "id": "REFERENCE-SYSTEMS",
@@ -1525,14 +1525,14 @@
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "8f3022a05ac46ccee611bd490da8a5e055e56f71e93a55967be3242faaef6baf"
+      "sha256": "a720cbaaad8f90b5589d41344365d8067c6f34d5466f4e36257a8bcf7365652f"
     },
     {
       "id": "READING-NOTES",
       "package_path": "catalog/reading-notes.md",
       "classification": "technical_reference_notes",
       "source_aliases": [],
-      "sha256": "c24bc69ce6b8cf1b041813d7a38739a8ce55b005e2f0b68273f510979ad9f935"
+      "sha256": "ac5bfd2e89477c54003552d3c3558e7d4d97f5b3a66b209bdc260c0cdbb3f1ae"
     },
     {
       "id": "INTEGRATION-INDEX",
@@ -1560,7 +1560,7 @@
       "package_path": "methodologies/research-to-production.md",
       "classification": "derived_implementation_methodology",
       "source_aliases": [],
-      "sha256": "dc165df6a44a35a222d65b2130250ab22ee126228894c0c6a2ca6d640f31da8c"
+      "sha256": "21869aa9e1d996bb54d5527e71e24bee2dd7afd10c8bef26b84cdd538abbac8e"
     },
     {
       "id": "HISTORY-001",
@@ -1869,7 +1869,7 @@
       "package_path": "methodologies/agent-led-execution.md",
       "classification": "current_owner_direction",
       "source_aliases": [],
-      "sha256": "9e7ece7f63efb1a1ec2ee88637387b18f52351bbec8ad0f8163f8d7a466f07dc"
+      "sha256": "9fe4ed065e1d7eb91c1e060290a19660bfa4edbac77278c55f4fd7c5e59fdb79"
     }
   ],
   "source_alias_index": {

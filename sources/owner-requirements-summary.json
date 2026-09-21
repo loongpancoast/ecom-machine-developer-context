@@ -91,7 +91,7 @@
     },
     {
       "id": "U20",
-      "summary": "Retain that the clients are engineers. Ask for short personal replies, relevant work, personal contribution and honest limits rather than sales pitches, automated messages or copied claims. AI-assisted development is welcome. An existing walkthrough is welcome initially; promising candidates are asked for a short personally recorded Loom. Do not reject solely for missing a bespoke application-stage recording.",
+      "summary": "The clients are engineers and use AI coding tools. The quote must reflect AI-assisted development and sensible component reuse rather than an all-custom-from-scratch estimate. Explain custom work, integration, creative finishing and testing; do not default to the budget ceiling. Keep short personal replies, relevant work and staged Loom requests.",
       "status": "current owner clarification"
     },
     {
@@ -109,7 +109,7 @@
     },
     {
       "id": "U24",
-      "summary": "Build a useful ecommerce system that is future-proofed for improving agentic AI. Own the code, data and history; replace agents, models and tools without losing previous work or rebuilding the whole application. Demonstrate safe changes. Methodology references do not prescribe architecture.",
+      "summary": "Future-proofing is mandatory acceptance: owner-controlled records and portable exports; replaceable models/runtimes/prompts/skills/agent stages; controls outside model instructions; repeatable output/cost/reliability comparisons; demonstrated replacement, workflow simplification and restore without losing history or repeating external actions. Avoid a universal agent framework or a promise of compatibility with every future model.",
       "status": "current owner clarification"
     },
     {
@@ -131,6 +131,10 @@
     {
       "id": "U29",
       "summary": "Provide visual product summaries for scraped products, landing pages and competitor ads, with images/previews, prices, source links/dates and concise assessments. The dashboard supports real research and execution rather than replacing them."
+    },
+    {
+      "id": "U30",
+      "summary": "Include the upgrade demonstration and fixes needed to meet agreed acceptance in the negotiated build. Extra paid work requires written scope and price approval before starting. AI coding productivity should reduce implementation effort, not excuse untested outputs; price optional later maintenance separately."
     }
   ],
   "scope_note": "Current owner direction. This is a public methodology-reference repository, not a supplied implementation. Current summaries supersede earlier all-area acceptance and definite-price wording retained in Git history."

@@ -10,7 +10,7 @@ Supplier and 3PL work is secondary. Keep the basic supplier, cost and order info
 
 ## Future-proofing
 
-The system must be future-proofed so improving agentic AI makes it more useful. We own the code, data and history. Agents, models and tools must be replaceable without losing that history or rebuilding the whole system. Test changes before putting them into use.
+Future-proofing is part of acceptance, not an optional extra. We own the code, data and history. Better models should let us replace agents and simplify how work gets done without rebuilding the application. Keep business records and permissions separate from prompts and workflows. At handoff, demonstrate a model/runtime replacement, a simpler workflow and a return to the previous setup, with history and controls intact. Compare actual outputs, cost and reliability. A model dropdown alone is not enough. Use supported tools; do not build a universal agent framework. See the [upgrade demonstration](methodologies/agent-led-execution.md#upgrade-demonstration).
 
 ## Budget and delivery
 
@@ -20,7 +20,7 @@ The research, creative, store and testing work must function together in the dep
 
 Use Codex and Claude subscriptions through supported access. Paid APIs are limited to video generation. Verify the actual capabilities and limits before committing. Disclose hosting and other costs; no additional spending is authorized here.
 
-We are engineers. We want clear answers, useful work and honest limits.
+We are engineers and use AI coding tools ourselves. We expect your quote to reflect AI-assisted development and sensible use of proven components, not a from-scratch estimate for everything. Explain the custom work, integration, creative finishing and testing. Do not quote the ceiling by default.
 
 ## Methodology reference
 

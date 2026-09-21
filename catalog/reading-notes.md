@@ -4,6 +4,8 @@
 
 Use [SOURCES.md](SOURCES.md) to browse files and [manifest.json](manifest.json) to resolve IDs, classifications and hashes. U IDs identify requirement summaries; H IDs identify historical-intent summaries. Older aliases resolve to the appropriate included summary, source excerpt or derived explanation. A derived explanation does not make an unavailable original accessible.
 
+The [upgrade demonstration](../methodologies/agent-led-execution.md#upgrade-demonstration) defines how to prove adaptability. Historical references are methods, not additional acceptance requirements.
+
 ## Methods
 
 | References | Useful content | Limits |

@@ -1,6 +1,6 @@
 # Questions to settle before starting
 
-We are engineers. Specific answers and evidence are more useful than a long architecture pitch.
+We are engineers and expect pricing to reflect AI coding tools and proven components. Give specific answers rather than a long architecture pitch.
 
 - Which advertising and commerce platforms will the first delivery use? What access is available, and what needs outside approval?
 - How will research produce finished ads and stores, and how will test results change the next version?
@@ -8,9 +8,10 @@ We are engineers. Specific answers and evidence are more useful than a long arch
 - How will you set up pixels and conversion events, reconcile test orders and avoid duplicate purchase events?
 - What will the visual product summary show for scraped products, landing pages and competitor ads?
 - Which subscription tools support the proposed runtime and image workflow? What are their limits, and what happens when an allowance is exhausted?
-- How will we replace an agent, model or service without losing the saved work?
+- How will you demonstrate both a model/runtime replacement and removal of an unnecessary agent or instruction stage, while retaining data and permissions?
+- What repeatable tests, visual review and restore procedure will let us adopt better models without relying on the original contractor?
 - What representative outputs and tests will establish acceptance?
-- What price do you propose within the negotiable $6,000-$8,000 range? What milestones and schedule can you support, aiming for about one month?
+- What price do you propose within $6,000-$8,000? Break out reuse, custom work, integrations, creative finishing, tests and handoff. What milestones and schedule can you support around the one-month target?
 
 Supplier and 3PL automation is secondary. Do not scope a separate ERP, warehouse or accounting project into this delivery. Include the basic cost and order information needed for product testing.
 

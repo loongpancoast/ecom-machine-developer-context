@@ -18,11 +18,13 @@ Supplier and 3PL work is secondary. Keep the basic supplier, product-cost and or
 
 Budget and delivery
 
+We are engineers and use AI coding tools ourselves. We expect your quote to reflect AI-assisted development and sensible use of proven components, not a from-scratch estimate for everything. Explain the custom work, integration, creative finishing and testing. Do not quote the ceiling by default.
+
 Budget range: $6,000-$8,000 fixed fee, negotiable. Quote your price for the agreed work; $8,000 is a ceiling, not a committed fee. Price, milestones and schedule will be agreed before hiring. We are aiming for about one month, with required account access ready. We want the research, creative, store and testing work connected and usable in the deployed system. A standalone dashboard or demo is not enough. Agree the supported platforms and acceptance checks before starting, and flag outside approvals that could affect the schedule.
 
 Future-proofing
 
-The system must be future-proofed so better agentic AI makes it more useful. We own the code, data and history. We must be able to replace agents, models and tools without losing that history or rebuilding the whole system. Show that a change can be tested safely. Do not tie the business to one provider or a rigid sequence of automations.
+Future-proofing is part of acceptance, not an optional extra. We own the code, data and history. Better models should let us replace agents and simplify how work gets done without rebuilding the application. Keep business records and permissions separate from prompts and workflows. At handoff, demonstrate a model/runtime replacement, a simpler workflow and a return to the previous setup, with history and controls intact. Compare actual outputs, cost and reliability. A model dropdown alone is not enough. Use supported tools; do not build a universal agent framework.
 
 Methodology reference
 
@@ -32,11 +34,11 @@ This is methodology reference, not a working codebase or a promise of reusable s
 
 Costs
 
-Use Codex and Claude subscriptions through officially supported access. Paid APIs are limited to video generation. Verify the actual access, usage limits and image-generation route before committing; do not assume a subscription includes API credits or use a bypass. If a requirement cannot be met this way, explain the specific issue. Disclose hosting and other costs. No additional spend is approved by this posting.
+Use Codex and Claude subscriptions through officially supported access. Paid APIs are limited to video generation. Verify the actual access, usage limits and image-generation route before committing; do not assume a subscription includes API credits or use a bypass. If a requirement cannot be met this way, explain the specific issue. Disclose hosting and other costs. No additional spend is approved by this posting. Extra paid work requires written scope and price approval before it starts; fixing work that fails agreed acceptance is included.
 
 Applying
 
-We are engineers. We care about your work, your judgment and a clear explanation of how you would build this. Ecommerce, product research and experience with converting ads or stores are particularly relevant.
+Ecommerce, product research and experience with converting ads or stores are particularly relevant.
 
 Link work you personally contributed to and explain your part. An existing walkthrough is welcome. We will ask promising candidates for a short, personally recorded Loom showing relevant work and their approach. No unpaid custom build is required.
 
@@ -45,5 +47,5 @@ Write a short reply in your own words. Skip the sales pitch, automated replies a
 ## Screening questions
 
 1. Link relevant work or an existing walkthrough. What did you personally build, and what result can you substantiate?
-2. How would you connect research, finished ads, Shopify catalog management, tracking/pixels and campaign tests? Describe the visual product-review view and what you would demonstrate at handoff.
-3. What dependencies or limits could affect the $6,000-$8,000 negotiable budget, roughly one-month target or subscription-based running costs? Be specific about supported access rather than assuming API credits are included.
+2. How would you deliver the research, creative, bulk Shopify catalog, tracking and visual-review workflow? How would you prove that models and redundant agent steps can be replaced without losing history?
+3. What is your fixed quote within $6,000-$8,000? Explain AI/component reuse, custom work, testing and access dependencies. What schedule can you support around the one-month target?

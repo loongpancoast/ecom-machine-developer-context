@@ -34,7 +34,7 @@ Capture available search demand, trends, marketplace/category observations and c
 
 ### Supplier feasibility and economics
 
-Use private/direct supplier sourcing as well as discovery catalogs. Capture dated quotations, quantity/MOQ, unit basis, currency, destination, shipping method/cost, lead time, sample/QC state, capacity, payment terms and quote limitations. Keep each quote version rather than overwriting prior terms.
+Where supplier evidence is available, use it to assess product costs and feasibility. The following fields describe useful research, not a required supplier-outreach or negotiation system. Consider private/direct sourcing as well as discovery catalogs. Capture dated quotations, quantity/MOQ, unit basis, currency, destination, shipping method/cost, lead time, sample/QC state, capacity, payment terms and quote limitations. Keep each quote version rather than overwriting prior terms.
 
 Cross-check the exact variant/material and claims against supplier evidence and samples. Calculate economics from selling price, discounts, landed costs, fulfillment, payment fees, expected returns and acquisition costs. Distinguish assumptions from observed costs; avoid counting freight twice. A supplier listing is not proof of quality, inventory or deliverability.
 
@@ -84,4 +84,4 @@ Treat weak opening attention, poor retention, weak click intent and poor checkou
 - [Research field map](../reference-implementations/research-os/files/field-map.json): source, quote, ad, supplier, metric and evidence fields, joins and documented incompatibilities. It is not a working importer.
 - [Semantic workflow map](semantic-workflows.md) and [technical notes](../catalog/reading-notes.md): producer/consumer meanings, attribution and remaining implementation gaps.
 
-This guide does not certify that every past system version or transcript has been recovered. The source catalog distinguishes included originals, summaries and unavailable material. Candidates should identify gaps without reducing the contracted full-system deliverable.
+This guide does not certify that every past system version or transcript has been recovered. The source catalog distinguishes included originals, summaries and unavailable material. Agree the core deliverable and access dependencies before contracting. Historical supplier workflows and fixed agent stages do not expand current acceptance.

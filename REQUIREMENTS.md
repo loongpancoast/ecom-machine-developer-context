@@ -4,7 +4,7 @@
 
 Build a private, hosted system for one business running multiple ecommerce brands. Connect product research, finished creative, storefronts and campaign testing. Let the owner approve the initial direction, then run routine work within agreed permissions and budgets.
 
-We are engineers. Explain tradeoffs and verify the parts that matter rather than promising everything.
+We are engineers and use AI coding tools ourselves. We expect your quote to reflect AI-assisted development and sensible use of proven components, not a from-scratch estimate for everything. Explain the custom work, integration, creative finishing and testing. Do not quote the ceiling by default.
 
 ## Research
 
@@ -54,15 +54,25 @@ Include secure access, media storage, background jobs, logs, cost limits and rec
 
 ## Future-proofing
 
-The system must be future-proofed for improving agentic AI. We own the source, data, business context and history. Changing an agent, model or tool must not require rebuilding the application or losing previous work. Demonstrate a tested replacement and show that the saved records still work.
+Better models should let us replace agents, simplify workflows and remove redundant instruction layers without rebuilding the application or losing business records. This is part of the quoted work and final acceptance, not an optional upgrade package.
 
-Choose the implementation. Custom development is preferred where it serves the business; reliable existing tools are welcome. Do not make one provider, dashboard or rigid automation sequence the permanent center of the business.
+Keep product/brand facts, source evidence, media, catalog IDs, permissions, action records and performance history under owner control. Prompts, skills, agent counts, planning methods and model runtimes can change independently. Do not leave essential records only in a provider chat history. Preserve versioned exports and a documented restore path.
+
+Enforce spending, account separation, publishing permissions, data validation and duplicate prevention in tested software, not just model instructions. A model change must not grant more authority. Routine work can still run within the owner's agreed permissions.
+
+Use a small set of representative tasks to compare configurations on evidence accuracy, finished creative quality, catalog/tracking correctness, cost, time, manual corrections and failures. Include human visual review; a model judging itself is not sufficient. Record the actual model/runtime and instruction/workflow versions. Pin production settings where supported, test upgrades separately and require owner approval before replacing the production setup.
+
+At handoff, run the [upgrade demonstration](methodologies/agent-led-execution.md#upgrade-demonstration): use a second supported model or runtime, simplify a workflow, compare the results, then restore the prior setup. Saved records and external IDs must survive, and repeated execution must not duplicate external actions. Connector or configuration changes are allowed; a core application rewrite or business-data reset is not.
+
+Choose the smallest implementation that passes these checks. No universal agent framework, custom model training or perpetual maintenance service is requested. Skills, Markdown and automation tools are optional methods, not inherently obsolete or permanent architecture. Future-proofing means tested replaceability and simplification, not a guarantee against every future platform change.
 
 ## Budget, costs and schedule
 
 Budget: $6,000-$8,000 fixed fee, negotiable. $8,000 is the ceiling, not a committed fee. The aim is about one month, with required access ready. Price, milestones and schedule must be agreed before hiring.
 
-The fee covers the complete research, creative, store and testing work agreed here. Milestones should produce working results. They are not permission to deliver disconnected screens or an unfinished demo.
+The fee covers the agreed core and its upgrade demonstration. Quote a short breakdown of proven components, custom business work, integrations, creative finishing, testing and handoff. Use AI coding tools to reduce implementation effort; do not assume they remove testing or platform-access work. Tie milestones to usable results, not a count of agents or lines of code.
+
+Fixes needed to meet agreed acceptance are included. Additional paid work needs an agreed written scope and price before it starts. No automatic budget increase is authorized. Separately identify any optional ongoing maintenance; the contract does not imply lifetime upgrades.
 
 Use Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation. Verify the actual runtime, image-generation route, allowances and recovery when limits are reached before making a commitment. Do not assume that subscriptions include API credits or use unofficial bypasses. If a requirement cannot be met, identify the specific conflict before contracting. A different cost arrangement requires owner approval.
 
@@ -81,7 +91,9 @@ Agree representative products, platforms, access and acceptance checks before ki
 - A visual summary of scraped products, their landing pages and competitor ads, linked to the actual sources.
 - A controlled campaign test on the agreed platform, with results returned to the correct ad, offer and page records.
 - A subsequent change based on those results, with the earlier version retained.
-- Safe retries, account separation, spend limits and an agent or provider replacement without losing history.
+- Safe retries, account separation and spend limits that remain enforced after model/instruction changes.
+- A model/runtime replacement, workflow simplification and return to the previous setup, with comparison results and preserved business history.
+- Export and restore of representative business records, media references and configuration into a clean test environment.
 
 Supply the source, database migrations, deployment instructions, tests and documentation. Use authorized test or development accounts where appropriate, and distinguish test-mode proof from live account activity. Do not label a blocked integration complete.
 

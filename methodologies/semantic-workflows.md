@@ -37,11 +37,11 @@ The application must define explicit joins across these types. The historical re
 
 ## Supplier and post-purchase feedback
 
-The intended application also handles:
+The historical references also describe a possible later flow:
 
 `private supplier discovery → outreach/conversation → quote/negotiation → sample/QC → selected terms → purchase/order → shipment/fulfillment → support/return/refund → updated economics and product knowledge`
 
-Historical supply-chain and COGS contracts support inputs such as supplier, warehouse, unit cost, freight, tariffs, last-mile cost and evidence. The required scope includes private-supplier discovery and negotiation, dropship testing, bulk/private-label purchasing and 3PL fulfillment. Support, retention and accounting are also required; the references provide partial methods rather than complete implementations.
+Historical supply-chain and COGS contracts explain supplier, warehouse, cost and evidence fields. For the current delivery, retain basic supplier/cost/order records needed to evaluate product tests. Discovery, negotiation, comprehensive 3PL, support, retention and accounting automation are secondary possibilities, not mandatory acceptance. See the current [requirements](../REQUIREMENTS.md#supplier-and-fulfillment-work).
 
 Do not export actual suppliers, private negotiations or customer/order data. The developer needs structures and semantics, not those identities.
 
