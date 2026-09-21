@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "81d1b75a6e7d4da34d4eaedebeec48825f883dda4dc69d67dd52071d0fdea41f"
+      "sha256": "4ea6e91c33fdd4f73b492add23ae1fcfbe719192b1a78fd6130df0d844abe9e7"
     },
     {
       "id": "H-SUMMARY",
@@ -1497,21 +1497,21 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "209c55f9d86d29fe2d355fd5cab835919cce9af5471076d946a38cb111157be3"
+      "sha256": "6070d834bbf866234cbacede3cfe3de187668d3a8943dafe81e73e37508e42d8"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "ec74f3e3dc63a1da46b4f3c213cbcd6360aa4399f47aad8d45075c22a795e937"
+      "sha256": "a8e6ac509d2e88e9aea7c2acb1ae38b39acfce7db99569bd3c2d7fe4ef07a8ca"
     },
     {
       "id": "QUESTIONS",
       "package_path": "QUESTIONS.md",
       "classification": "implementation_considerations",
       "source_aliases": [],
-      "sha256": "e60e85eda1b5ec9ef51b3e085577661222e97c35e2794fb22bf87876162b4668"
+      "sha256": "546aa1d0cb6cd91bf9665e7bd5ad80513733b4dca63dccaf3baf1774d649d1cd"
     },
     {
       "id": "REFERENCE-SYSTEMS",
@@ -1525,7 +1525,7 @@
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "2df34762b3e9b1dfcac72de974ef500c93c18b360c97f9928333ceab6f8d38d6"
+      "sha256": "8f3022a05ac46ccee611bd490da8a5e055e56f71e93a55967be3242faaef6baf"
     },
     {
       "id": "READING-NOTES",

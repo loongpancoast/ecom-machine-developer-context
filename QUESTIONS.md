@@ -4,6 +4,9 @@ We are engineers. Specific answers and evidence are more useful than a long arch
 
 - Which advertising and commerce platforms will the first delivery use? What access is available, and what needs outside approval?
 - How will research produce finished ads and stores, and how will test results change the next version?
+- How will you create and manage Shopify catalogs in bulk? What batch size, review and retry behavior will you demonstrate?
+- How will you set up pixels and conversion events, reconcile test orders and avoid duplicate purchase events?
+- What will the visual product summary show for scraped products, landing pages and competitor ads?
 - Which subscription tools support the proposed runtime and image workflow? What are their limits, and what happens when an allowance is exhausted?
 - How will we replace an agent, model or service without losing the saved work?
 - What representative outputs and tests will establish acceptance?

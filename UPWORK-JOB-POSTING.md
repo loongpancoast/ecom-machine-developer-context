@@ -5,7 +5,10 @@ I am hiring an engineer to build a private system for running ecommerce brands. 
 The main work
 
 - Product research using competitor ads, customer language, product facts and costs.
-- Finished image and video ads, including UGC/avatar formats, plus landing pages, product pages and stores.
+- Finished image and video ads, including UGC/avatar formats, plus landing pages and Shopify stores.
+- Shopify catalog creation and management at scale: products, variants, collections, copy, media and bulk updates, with safe retries and no duplicate listings.
+- Pixel and conversion-event setup, including Meta Pixel/CAPI where used. Verify the events, consent handling and browser/server deduplication against test orders.
+- A visual product-research dashboard: product images, scraped landing-page previews, competitor ad previews, prices, source links and a short assessment. Make it easy to compare products and open the supporting evidence.
 - Campaign setup and management within agreed budgets, with results tied to the ads, offers and pages used.
 - A shared record of the research, prompts, assets, changes, spend and results so each test informs the next one.
 
@@ -42,5 +45,5 @@ Write a short reply in your own words. Skip the sales pitch, automated replies a
 ## Screening questions
 
 1. Link relevant work or an existing walkthrough. What did you personally build, and what result can you substantiate?
-2. How would you connect product research, finished ads and stores, and campaign testing? What would you demonstrate at handoff?
+2. How would you connect research, finished ads, Shopify catalog management, tracking/pixels and campaign tests? Describe the visual product-review view and what you would demonstrate at handoff.
 3. What dependencies or limits could affect the $6,000-$8,000 negotiable budget, roughly one-month target or subscription-based running costs? Be specific about supported access rather than assuming API credits are included.

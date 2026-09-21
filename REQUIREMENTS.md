@@ -16,6 +16,24 @@ Produce finished image ads, video/avatar ads and usable landing pages, product p
 
 The methodology references include before/after frames, AI UGC, customer research and reference-video analysis. They explain possible methods, not a required node editor, model or architecture. Judge the build by the finished output.
 
+## Shopify catalog creation and management
+
+Create and manage catalogs across the agreed Shopify stores. Include products, variants, collections, descriptions, media, prices, relevant metafields and inventory references. Support bulk creation and updates rather than one-product-at-a-time entry. Preserve stable product/variant IDs and the link back to source research.
+
+Show draft review before publication, progress and item-level errors, safe retries and duplicate prevention. Do not silently overwrite unrelated store data. Agree and test a representative catalog batch size before contracting; the business needs catalog-scale operation, not a single demo listing.
+
+## Pixels and conversion tracking
+
+Set up and verify tracking for the agreed stores and ad platforms, including Meta Pixel and CAPI where applicable. Check view-content, add-to-cart, checkout and purchase events, their value/currency and product or variant IDs. Respect customer consent and avoid counting browser and server reports of the same purchase twice.
+
+Use test orders to prove the events arrive in the destination tools and reconcile with Shopify. Keep test traffic separate from commercial results. Document missing permissions or approval dependencies rather than claiming a pixel is working because its code is installed.
+
+## Visual research dashboard
+
+Give each scraped product a visual summary: product images, landing-page previews and links, competitor ad thumbnails or playable previews where permitted, prices/offers, source dates and a short assessment of the opportunity and concerns. Link ads and pages to the correct product. Missing evidence should remain visible rather than filled with invented numbers.
+
+Allow side-by-side comparison and filtering by product, brand and test status. Open the underlying sources from the summary and pass a selected product into the research, creative and store workflow. This is a useful review surface over real work, not a dashboard-only deliverable.
+
 ## Campaigns and improvement
 
 Connect the agreed advertising and commerce platforms. Set up and manage tests within approved spend limits. Bring back spend, conversions and orders, linked to the exact ads, offers and pages used. Use those results to propose and test changes.
@@ -58,6 +76,9 @@ Agree representative products, platforms, access and acceptance checks before ki
 
 - Research that produces a product decision and a usable creative brief.
 - Finished image and video ads and a functioning store or product-page workflow.
+- Shopify product, variant and collection creation plus a bulk update on the agreed representative catalog, with errors and retry behavior shown.
+- Verified pixel/conversion events for a test purchase, correct product/value data and browser/server deduplication.
+- A visual summary of scraped products, their landing pages and competitor ads, linked to the actual sources.
 - A controlled campaign test on the agreed platform, with results returned to the correct ad, offer and page records.
 - A subsequent change based on those results, with the earlier version retained.
 - Safe retries, account separation, spend limits and an agent or provider replacement without losing history.

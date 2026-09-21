@@ -119,6 +119,18 @@
     {
       "id": "U26",
       "summary": "The developer may quote down toward $6,000 within a $6,000-$8,000 negotiable range. No price, milestone, deadline, award or new spending is committed by postings or applicant replies."
+    },
+    {
+      "id": "U27",
+      "summary": "Pixel and conversion-event setup is core, with event receipt, consent behavior, product/value fields and browser/server deduplication verified against test orders."
+    },
+    {
+      "id": "U28",
+      "summary": "Shopify store catalog creation and management at scale is core: products, variants, collections, copy, media and bulk updates, with draft review, stable IDs, item-level errors and duplicate-safe retries."
+    },
+    {
+      "id": "U29",
+      "summary": "Provide visual product summaries for scraped products, landing pages and competitor ads, with images/previews, prices, source links/dates and concise assessments. The dashboard supports real research and execution rather than replacing them."
     }
   ],
   "scope_note": "Current owner direction. This is a public methodology-reference repository, not a supplied implementation. Current summaries supersede earlier all-area acceptance and definite-price wording retained in Git history."

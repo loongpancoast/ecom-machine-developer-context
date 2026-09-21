@@ -4,6 +4,8 @@ Build a private system for running ecommerce brands: research products, make fin
 
 The priority is the work from product research through creative, storefronts and campaign testing. Keep the research, prompts, assets, page changes, spend and results together so we can see what worked and what to try next. The owner approves the initial direction; routine work should then run within agreed permissions and budgets.
 
+Core work also includes Shopify catalog creation and bulk management, pixel/conversion-event setup, and a visual research dashboard. Show product images, scraped landing pages, competitor ads, prices, source links and a short assessment so products can be reviewed quickly. The dashboard supports the working system; it is not a substitute for it.
+
 Supplier and 3PL work is secondary. Keep the basic supplier, cost and order information needed for product tests. This delivery does not include a separate ERP, warehouse platform, autonomous supplier-negotiation system or full accounting/support suite.
 
 ## Future-proofing
