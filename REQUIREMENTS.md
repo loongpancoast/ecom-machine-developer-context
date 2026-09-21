@@ -16,6 +16,8 @@ Produce complete image ads, video/avatar ads, transcripts, scripts and briefs. U
 
 Preserve the relationship between reference, brief, script, prompt, generation job, selected asset and final edit. Use the best-performing production service or model for the job. Initial owner review establishes creative quality; routine production and improvement should become autonomous.
 
+Explicitly support reference-video analysis, before/after start-and-end-frame workflows, AI UGC A-roll/B-roll and inspectable node dependencies with generation/edit lineage. Demonstrate actual playable outputs, not only stills, prompts or graph screenshots. See the [detailed creative workflow](methodologies/before-after-ai-ugc.md). Synthetic transformations are not evidence of real product outcomes.
+
 ## 4. Pages and storefronts
 
 Build and edit landing pages, product pages and storefronts with coherent branding, strong ad-to-page continuity and functioning commerce behavior. Support products, variants, offers, pricing, cart, checkout and tracking.
@@ -67,6 +69,8 @@ Run the engine on Codex and Claude subscriptions through officially supported ac
 ## 11. Research methodology and developer background
 
 Implement the [research-to-production methodology](methodologies/research-to-production.md): source selection and capture fields, product matching, independent cross-checks, customer-language analysis, competitor/offer comparisons, supplier economics, product selection, copywriting, node-based video production, finished-output QA and measured improvement. Prior workflows, agents and course-derived methods are reference context; preserve attribution and distinguish historical guidance from verified results.
+
+The named [Ecom Masterclass, Evolve and God Tier Ecom workflows](methodologies/course-derived-product-research.md) must be available as attributed methodological context, including product-first/problem-first discovery, source cross-references, desire/angle distinctions and evidence-to-creative handoffs. Course summaries are not a claim that full licensed transcripts or prompt libraries are publicly bundled.
 
 Preferred background includes dropshipping, product research and demonstrated work on high-converting stores and ads. Applicants should show their personal contribution and measured results. Engineering delivery remains the complete system, not only the developer's strongest specialty.
 

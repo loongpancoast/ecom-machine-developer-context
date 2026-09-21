@@ -2,6 +2,8 @@
 
 This is an implementation guide derived from the historical workflows and agent contracts linked below, not a new claim of proven results. Course-derived ideas are summarized with attribution rather than republishing course transcripts. Current [requirements](../REQUIREMENTS.md) override historical providers, model names, costs and approval rules.
 
+Detailed companions: [Ecom Masterclass / Evolve / God Tier Ecom research](course-derived-product-research.md) and [before/after reference handling, AI UGC and node execution](before-after-ai-ugc.md). These make the named historical methods and creative acceptance requirements explicit.
+
 ## 1. Collect evidence that answers a decision
 
 Define the product identity, variant, target market, customer problem and research question before collecting data. Keep observations separate from interpretations. Scrape only public or authorized sources through permitted access; do not bypass access controls. The current paid-API allowance is video generation only. A historical paid scraper recommendation is not permission to use it.

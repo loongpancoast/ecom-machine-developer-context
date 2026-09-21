@@ -31,6 +31,8 @@ Initial business target: **60 product tests per month, with 2–3 winners to sca
 | [Requirements](REQUIREMENTS.md) | Functional scope and expected behavior |
 | [Reference systems](REFERENCE-SYSTEMS.md) | Amboras, Arcads and integration considerations |
 | [Research and production methodology](methodologies/research-to-production.md) | What to collect, cross-check and turn into product decisions, copy, videos and tests |
+| [Ecom Masterclass, Evolve and God Tier Ecom](methodologies/course-derived-product-research.md) | Concrete discovery, research, strategy and copy workflows, with attribution |
+| [Before/after, reference videos and AI UGC](methodologies/before-after-ai-ugc.md) | Frame pairs, creator-style A-roll/B-roll, node execution, playable-output evidence and gaps |
 | [Workflow map](methodologies/semantic-workflows.md) | How information and work move through the system |
 | [Requirement summaries](sources/owner-requirements-summary.json) | Structured summary of the intended outcomes; no interview transcript |
 | [Historical intent summary](sources/historical-intent-summary.json) | Relevant lessons and goals from earlier work, paraphrased |

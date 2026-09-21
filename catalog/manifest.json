@@ -1497,14 +1497,14 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "91211c622bd998ed0070b2757f71d71daa370f98ce0e46df1bddbbea9a28261f"
+      "sha256": "96be0f29eca351fc9882e908bd84b04ea5126a9fee3d851c317d27e18f50179e"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "ac132ed519bae089eec887062354c1ccb63375cea7ba5b7a26ab818d75af03d8"
+      "sha256": "96fb569ad2557570ec8f03393f3ed4b0148a29703dbe6f1d449d42486427e875"
     },
     {
       "id": "QUESTIONS",
@@ -1546,7 +1546,7 @@
       "package_path": "catalog/SOURCES.md",
       "classification": "source_navigation",
       "source_aliases": [],
-      "sha256": "773da1d300c6dd505a960b4cac6758da2aa98af89b9e7d787c76a0b13bd2af90"
+      "sha256": "b884f683f27dbca4bb07d11dfb03da7e903a934f526df7ade639124db05c4675"
     },
     {
       "id": "PUBLICATION-EXCLUSIONS",
@@ -1560,7 +1560,7 @@
       "package_path": "methodologies/research-to-production.md",
       "classification": "derived_implementation_methodology",
       "source_aliases": [],
-      "sha256": "acb213f296e6cde17c3b776418cee8728234ee293dbb9a498d3ad70b446793ab"
+      "sha256": "dc165df6a44a35a222d65b2130250ab22ee126228894c0c6a2ca6d640f31da8c"
     },
     {
       "id": "HISTORY-001",
@@ -1848,6 +1848,20 @@
       "classification": "historical_reference_collection",
       "source_aliases": [],
       "sha256": "7bed665fd4df931f222a87553a3ea103734aa8e415f730420c10e0f886ffc3cf"
+    },
+    {
+      "id": "METHOD-COURSE-01",
+      "package_path": "methodologies/course-derived-product-research.md",
+      "classification": "source_derived_methodology_summary",
+      "source_aliases": [],
+      "sha256": "b3c29bfca343bda0def549c93e1d8930c875497e6866a04ae10ab030c9c18473"
+    },
+    {
+      "id": "METHOD-UGC-01",
+      "package_path": "methodologies/before-after-ai-ugc.md",
+      "classification": "source_derived_methodology_summary",
+      "source_aliases": [],
+      "sha256": "ded940afdfbad3e108bd71d4297f95e450b02727e74403de5078db151afe774e"
     }
   ],
   "source_alias_index": {
@@ -3715,6 +3729,24 @@
           "artifact_id": "HISTORY-041",
           "package_path": "history/media/sources/video-production-workflow-excerpts.md",
           "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "METHOD-COURSE-01": {
+      "references": [
+        {
+          "artifact_id": "METHOD-COURSE-01",
+          "package_path": "methodologies/course-derived-product-research.md",
+          "representation": "source_derived_methodology_summary"
+        }
+      ]
+    },
+    "METHOD-UGC-01": {
+      "references": [
+        {
+          "artifact_id": "METHOD-UGC-01",
+          "package_path": "methodologies/before-after-ai-ugc.md",
+          "representation": "source_derived_methodology_summary"
         }
       ]
     }
