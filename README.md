@@ -34,6 +34,7 @@ Initial business target: **60 product tests per month, with 2–3 winners to sca
 | [Workflow map](methodologies/semantic-workflows.md) | How information and work move through the system |
 | [Requirement summaries](sources/owner-requirements-summary.json) | Structured summary of the intended outcomes; no interview transcript |
 | [Historical intent summary](sources/historical-intent-summary.json) | Relevant lessons and goals from earlier work, paraphrased |
+| [System and agent history](history/SYSTEM-VERSIONS.md) | Distinct earlier attempts, source versions, implementation limits and remaining gaps |
 | [Technical reference catalog](catalog/SOURCES.md) | Methods, SQL, schemas, templates and connector examples |
 | [Implementation considerations](QUESTIONS.md) | Decisions and gaps for the developer |
 | [Upwork job posting](UPWORK-JOB-POSTING.md) | Ready-to-use hiring copy |

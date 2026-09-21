@@ -1,0 +1,286 @@
+{
+  "base": "repository root",
+  "sources": [
+    {
+      "source_id": "HCA01",
+      "lineage": "Product research SOP — March draft",
+      "date": "2026-03-15 ingestion stated in source; pipeline date 2026-03-12",
+      "status": "historical draft; superseded constraints",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-03-product-research-sop.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "5be6aa044648048be314983e4b44dc9feb477b5ceddb1e0b0bf4889f8acd0261",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA02",
+      "lineage": "Product research SOP — July revision",
+      "date": "2026-07-23 source frontmatter",
+      "status": "promoted reusable method; implementation not established",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-07-product-research-sop.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "988bc1a208d6bc9a668999622a52e69ef76b0d5828f5acc9eb6d17e1bc24a48c",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA03",
+      "lineage": "Research-to-creative operations — July revision",
+      "date": "2026-07-23 source frontmatter",
+      "status": "promoted method; not a deployed pipeline",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-07-research-creative-playbook.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "84c847656249e6e9c7a4a097927539d59cfc0561483d9155736395e497b532d0",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA04",
+      "lineage": "Storefront copy agent — August",
+      "date": "2026-08-04 introducing git commit",
+      "status": "owned prompt definition; execution not tested by this audit",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-08-storefront-copy-agent.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "405d7682dd5daeb4ed80db65c955b0b125aff543d33003fc4b1a43c6fa8bc81a",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA05",
+      "lineage": "Storefront copy rules — technical excerpts",
+      "date": "2026-08-04 same skill lineage; exact file creation unasserted",
+      "status": "owned local lessons; selected excerpts",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-08-storefront-copy-rules-excerpts.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "b311f075c67878e5ef578aa2d7e5fe53a912eee4ae6117935061ce4527fd2fb6",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA06",
+      "lineage": "Research packet, brief and verification contracts",
+      "date": "2026-07-11 procedure provenance in source",
+      "status": "owned run-derived procedure; historical run not reproduced",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-07-research-brief-quote-contracts.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "8c02bdd573edf89389d9557be47f3344ab84d89341e55280c4aa0592c1383180",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA07",
+      "lineage": "Agent frontmatter profile — July",
+      "date": "2026-07-05 source frontmatter",
+      "status": "documented schema profile; not executable routing",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/2026-07-agent-frontmatter-schema.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "01c9b2627b0629fdcb4ee19a3fe315080fd01e6a89be636166e68489c159bed1",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA08",
+      "lineage": "Web intelligence router — later canonical revision",
+      "date": "later canonical working-tree revision; no creation date inferred",
+      "status": "spec-only in this package; compare historical variant",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/canonical-router.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "faf4bb78e1e2a92352100f6149f96f15b7d8a394edaafeacbe44dba0bab042da",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA09",
+      "lineage": "Evidence normalizer — later canonical revision",
+      "date": "later canonical working-tree revision; no creation date inferred",
+      "status": "spec-only in this package; compare historical variant",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/canonical-evidence-normalizer.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "45658315416ac667eecaebdfbfee85a932a20e0d562b9ce7b73983ecdfcc3f80",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCA10",
+      "lineage": "Cross-harness evidence handoff — local learned procedure",
+      "date": "undated local skill; snapshot chronology not inferred",
+      "status": "owned learned workflow excerpts; tool availability must be probed",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/originals/cross-harness-evidence-handoff-excerpts.md",
+      "rights_disposition": "project-local custom workflow; no third-party prompt body identified in selected text",
+      "resolution": "sanitized-original",
+      "package_sha256": "525be826386cfc306b0a3da1da496b2141b9b48b6f43ef7bb73aeee77f430272",
+      "publication_normalization": "UTF-8 LF text; source wording unchanged"
+    },
+    {
+      "source_id": "HCS01",
+      "lineage": "Evolve course-derived workflow, master routing",
+      "date": "2026-03-24",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS02",
+      "lineage": "Evolve course-derived product researcher",
+      "date": "March 2026 workflow lineage",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS03",
+      "lineage": "Evolve course-derived deep researcher",
+      "date": "March 2026 workflow lineage",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS04",
+      "lineage": "Evolve course-derived avatar builder",
+      "date": "March 2026 workflow lineage",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS05",
+      "lineage": "Evolve course-derived angle generator",
+      "date": "March 2026 workflow lineage",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS06",
+      "lineage": "Evolve course-derived script writer",
+      "date": "2026-03-24",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS07",
+      "lineage": "Evolve course-derived landing-page writer",
+      "date": "2026-03-24",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS08",
+      "lineage": "Evolve course-derived feedback analyst",
+      "date": "March 2026 workflow lineage",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS09",
+      "lineage": "GTE / Anthony Camacho workshop synthesis; cites Evaldo Albuquerque and Eugene Schwartz",
+      "date": "workshop 2025-12-18; local synthesis 2026-04-12",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS10",
+      "lineage": "EAM / Zakaria, Module 5 synthesis; Schwartz awareness and sophistication",
+      "date": "local synthesis 2026-04-14",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS11",
+      "lineage": "Local GTE/EAM mixed synthesis",
+      "date": "2026-04-14 local created date",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS12",
+      "lineage": "Local native-ad method synthesis attributed to Anthony Camacho / GTE",
+      "date": "2026-04-14 local created date",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS13",
+      "lineage": "Earlier copy rules with mixed DR framework attribution",
+      "date": "undated archived rule",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS14",
+      "lineage": "claude-ads copy-writer, canonical copy",
+      "date": "later working-tree copy",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS15",
+      "lineage": "claude-ads copy-writer, historical vault generation 1",
+      "date": "2026-04-26 installation metadata",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS16",
+      "lineage": "claude-ads copy-writer, historical vault generation 2",
+      "date": "2026-05-07 migration metadata",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS17",
+      "lineage": "Local agent status registry, conflicting historical overlays",
+      "date": "through 2026-08 updates",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS18",
+      "lineage": "Local research provenance failure memory",
+      "date": "2026-06 to July annotations",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    },
+    {
+      "source_id": "HCS19",
+      "lineage": "claude-ads creative strategist, canonical copy",
+      "date": "later working-tree copy",
+      "status": "historical source; claims not independently re-run",
+      "proposed_relative_repo_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "rights_disposition": "summary-only: course-derived / vendor / private source; no body redistributed",
+      "resolution": "summary-only; original unavailable in public package"
+    }
+  ]
+}

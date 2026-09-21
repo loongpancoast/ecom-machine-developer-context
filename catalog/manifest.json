@@ -1497,7 +1497,7 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "0573f4e3aa2f68ddb3503e9a3d7361c33be75183c8b4a50b672ad75fa55b93ef"
+      "sha256": "91211c622bd998ed0070b2757f71d71daa370f98ce0e46df1bddbbea9a28261f"
     },
     {
       "id": "REQUIREMENTS",
@@ -1532,7 +1532,7 @@
       "package_path": "catalog/reading-notes.md",
       "classification": "technical_reference_notes",
       "source_aliases": [],
-      "sha256": "d75401c5db227977b9286af1aa7530f8b208226f806e66f2a4041c7b48d22c20"
+      "sha256": "6b07b85f34c4f21c947313809b8214c8bc88512c0730d88cd47c6e1ca322b597"
     },
     {
       "id": "INTEGRATION-INDEX",
@@ -1546,7 +1546,7 @@
       "package_path": "catalog/SOURCES.md",
       "classification": "source_navigation",
       "source_aliases": [],
-      "sha256": "db666c16fb9b5d6e5daf49052c96d5713e67db8ef77ce1e25e5afccbb4d1a272"
+      "sha256": "773da1d300c6dd505a960b4cac6758da2aa98af89b9e7d787c76a0b13bd2af90"
     },
     {
       "id": "PUBLICATION-EXCLUSIONS",
@@ -1561,6 +1561,293 @@
       "classification": "derived_implementation_methodology",
       "source_aliases": [],
       "sha256": "acb213f296e6cde17c3b776418cee8728234ee293dbb9a498d3ad70b446793ab"
+    },
+    {
+      "id": "HISTORY-001",
+      "package_path": "history/SYSTEM-VERSIONS.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "d35e5f46ed4045d39deecf0f7382146eb9c729d70b84f48374ea1fc69d059e3b"
+    },
+    {
+      "id": "HISTORY-002",
+      "package_path": "history/agent-systems/business-web-intelligence/README.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "0bb5a5d11a2306d7c3c3807200d8a662d285dbedeb7a1d1483b1163b4a46e7cc"
+    },
+    {
+      "id": "HISTORY-003",
+      "package_path": "history/agent-systems/business-web-intelligence/brain-promotion.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "1b3461a28b809a6a8a5cca30a56707bf883196a6a4ca150de9c0038d64552b8b"
+    },
+    {
+      "id": "HISTORY-004",
+      "package_path": "history/agent-systems/business-web-intelligence/browser-fallback.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "059c9961edc79487d1de2f24a17d03d80748ed5c87f5db69a59702fae84c283d"
+    },
+    {
+      "id": "HISTORY-005",
+      "package_path": "history/agent-systems/business-web-intelligence/dashboard.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "a813ce6d8ab7da23e416b525957c3646892dc2692c0fda885ecce191a07ee622"
+    },
+    {
+      "id": "HISTORY-006",
+      "package_path": "history/agent-systems/business-web-intelligence/evidence-normalizer.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "7062c025e0e667bd0cccc001228e6113b125dd68694c48e8b3bdf1f33ff9fefd"
+    },
+    {
+      "id": "HISTORY-007",
+      "package_path": "history/agent-systems/business-web-intelligence/index.json",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "66dded94919632ce26e538269b2b471fa2d02036c3b88e7c76223d8d0f1690e4"
+    },
+    {
+      "id": "HISTORY-008",
+      "package_path": "history/agent-systems/business-web-intelligence/local-market.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "4d1b5ef02d11bc272b930971f15e6f7ac2b32bd9a8ff989c285fd7b5116c34c1"
+    },
+    {
+      "id": "HISTORY-009",
+      "package_path": "history/agent-systems/business-web-intelligence/router.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "ea1076bcd75c59d2ba975643b463447eda750dcab2bbfa4371c9be5b18fb9c8b"
+    },
+    {
+      "id": "HISTORY-010",
+      "package_path": "history/agent-systems/business-web-intelligence/scheduler.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "20d5e9757af9eb7ff732f799e95a51d04aacbce3cbdda8746aebfc52aedf46a4"
+    },
+    {
+      "id": "HISTORY-011",
+      "package_path": "history/agent-systems/business-web-intelligence/seo-serp.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "bcb9c9457d9979487a1634ca934be855bbae48c40237658dc126b10e99c49575"
+    },
+    {
+      "id": "HISTORY-012",
+      "package_path": "history/copywriting-agent-systems/README.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "f47f0fa05e92b2f070b63307d2136b3fea83968ea65f1b8a11f5e450b7ceb0cc"
+    },
+    {
+      "id": "HISTORY-013",
+      "package_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "febfee1935f6acc908aa4d7e6558cf57612e0f71b1c51cdc31395a0e59514c1f"
+    },
+    {
+      "id": "HISTORY-014",
+      "package_path": "history/copywriting-agent-systems/methodology-contracts.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "3ac4e021538855f11ef2699c1992f5f3860bb8097bf68e4853b865967f7a3cc8"
+    },
+    {
+      "id": "HISTORY-015",
+      "package_path": "history/copywriting-agent-systems/originals/2026-03-product-research-sop.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "5be6aa044648048be314983e4b44dc9feb477b5ceddb1e0b0bf4889f8acd0261"
+    },
+    {
+      "id": "HISTORY-016",
+      "package_path": "history/copywriting-agent-systems/originals/2026-07-agent-frontmatter-schema.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "01c9b2627b0629fdcb4ee19a3fe315080fd01e6a89be636166e68489c159bed1"
+    },
+    {
+      "id": "HISTORY-017",
+      "package_path": "history/copywriting-agent-systems/originals/2026-07-product-research-sop.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "988bc1a208d6bc9a668999622a52e69ef76b0d5828f5acc9eb6d17e1bc24a48c"
+    },
+    {
+      "id": "HISTORY-018",
+      "package_path": "history/copywriting-agent-systems/originals/2026-07-research-brief-quote-contracts.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "8c02bdd573edf89389d9557be47f3344ab84d89341e55280c4aa0592c1383180"
+    },
+    {
+      "id": "HISTORY-019",
+      "package_path": "history/copywriting-agent-systems/originals/2026-07-research-creative-playbook.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "84c847656249e6e9c7a4a097927539d59cfc0561483d9155736395e497b532d0"
+    },
+    {
+      "id": "HISTORY-020",
+      "package_path": "history/copywriting-agent-systems/originals/2026-08-storefront-copy-agent.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "405d7682dd5daeb4ed80db65c955b0b125aff543d33003fc4b1a43c6fa8bc81a"
+    },
+    {
+      "id": "HISTORY-021",
+      "package_path": "history/copywriting-agent-systems/originals/2026-08-storefront-copy-rules-excerpts.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "b311f075c67878e5ef578aa2d7e5fe53a912eee4ae6117935061ce4527fd2fb6"
+    },
+    {
+      "id": "HISTORY-022",
+      "package_path": "history/copywriting-agent-systems/originals/canonical-evidence-normalizer.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "45658315416ac667eecaebdfbfee85a932a20e0d562b9ce7b73983ecdfcc3f80"
+    },
+    {
+      "id": "HISTORY-023",
+      "package_path": "history/copywriting-agent-systems/originals/canonical-router.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "faf4bb78e1e2a92352100f6149f96f15b7d8a394edaafeacbe44dba0bab042da"
+    },
+    {
+      "id": "HISTORY-024",
+      "package_path": "history/copywriting-agent-systems/originals/cross-harness-evidence-handoff-excerpts.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "525be826386cfc306b0a3da1da496b2141b9b48b6f43ef7bb73aeee77f430272"
+    },
+    {
+      "id": "HISTORY-025",
+      "package_path": "history/copywriting-agent-systems/source-index.json",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "c5951426292e695d1bda2f74824a44d46f4a5674157159639870d4ca0aa5ff60"
+    },
+    {
+      "id": "HISTORY-026",
+      "package_path": "history/media/DEVELOPER-INDEX.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "5ed1bf2bdb878bacd137484ecd7cbaed24324882b480501bc2ca2566b09485e8"
+    },
+    {
+      "id": "HISTORY-027",
+      "package_path": "history/media/IMPLEMENTATION-NOTES.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "0c7634b6a10f856956830309b004f641af02a6eab9808cc589906b98fb7f31e9"
+    },
+    {
+      "id": "HISTORY-028",
+      "package_path": "history/media/VIDEO-PRODUCTION-METHODOLOGY.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "8593d213b11a02812aca73ad3ea28b3c715a4a44b558f2c95eee38f542503616"
+    },
+    {
+      "id": "HISTORY-029",
+      "package_path": "history/media/implementations/business-os/WF-CREATIVE-01.json",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "2d2f961362bd44eb4b8cc6ec255c4cfcd1d47e4c4081ed1d4770108b9a4858d8"
+    },
+    {
+      "id": "HISTORY-030",
+      "package_path": "history/media/implementations/ima2/batch_generate.py",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "d6375d0fceed67a7901297c6b922d023fe66137f9ac591200133da04de31f993"
+    },
+    {
+      "id": "HISTORY-031",
+      "package_path": "history/media/implementations/ima2/generate_image_batch.py",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "81a4e6fa48fe1005358f27cd9701b212159d5b3f90b03516b488c16002b46d1c"
+    },
+    {
+      "id": "HISTORY-032",
+      "package_path": "history/media/node-history/DEVELOPER-INDEX.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "128a17f467b33e030388eaf3b4ce5c17fdeff6780c298a2ad8cddab9a0227b54"
+    },
+    {
+      "id": "HISTORY-033",
+      "package_path": "history/media/node-history/history/flora-evidence-gap.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "82786e9a85c31147b741308435d702b5efe5db091e6f2000a598b895e84df6a9"
+    },
+    {
+      "id": "HISTORY-034",
+      "package_path": "history/media/node-history/history/n8n-video-lineage.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "ddf5c8521897c8fbb07d095010465447c390034548450733aa1faa8bc67a5dcb"
+    },
+    {
+      "id": "HISTORY-035",
+      "package_path": "history/media/node-history/history/pletor-node-video-methods.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "6b319940b591d006b182b7d5d9a82ade8f4e8878bc6601abb6811f4a21098d60"
+    },
+    {
+      "id": "HISTORY-036",
+      "package_path": "history/media/node-history/node-video-evidence.json",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "04a5612c3b102f7c6625c597f76c2f62339591f40811ea098d5d29ba45d08d43"
+    },
+    {
+      "id": "HISTORY-037",
+      "package_path": "history/media/node-history/sources/NODE-N01-n8n-pattern-summary.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "97a9ac2d0b7f4585f3dfc353611fb6f0a879cd2042e241f3afa87e8a8e3ac1e0"
+    },
+    {
+      "id": "HISTORY-038",
+      "package_path": "history/media/node-history/sources/SOURCE-CATALOG.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "d6fd6d276a1bb79656bb5ff967d282af5557d1de74a88c62c00ddd0f61979bc7"
+    },
+    {
+      "id": "HISTORY-039",
+      "package_path": "history/media/sources/editing-assembly-agent-excerpt.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "c4cab1cf2a477a0fc006c3c20b14d5096cc508dbc917f86e50f9a4dd14a0430c"
+    },
+    {
+      "id": "HISTORY-040",
+      "package_path": "history/media/sources/media-source-catalog.json",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "5782e21ee38779066453467002a5511387a93fe97256048a623bb3052c995661"
+    },
+    {
+      "id": "HISTORY-041",
+      "package_path": "history/media/sources/video-production-workflow-excerpts.md",
+      "classification": "historical_reference_collection",
+      "source_aliases": [],
+      "sha256": "7bed665fd4df931f222a87553a3ea103734aa8e415f730420c10e0f886ffc3cf"
     }
   ],
   "source_alias_index": {
@@ -3059,6 +3346,375 @@
           "artifact_id": "RESEARCH-PRODUCTION",
           "package_path": "methodologies/research-to-production.md",
           "representation": "derived_implementation_methodology"
+        }
+      ]
+    },
+    "HISTORY-001": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-001",
+          "package_path": "history/SYSTEM-VERSIONS.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-002": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-002",
+          "package_path": "history/agent-systems/business-web-intelligence/README.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-003": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-003",
+          "package_path": "history/agent-systems/business-web-intelligence/brain-promotion.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-004": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-004",
+          "package_path": "history/agent-systems/business-web-intelligence/browser-fallback.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-005": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-005",
+          "package_path": "history/agent-systems/business-web-intelligence/dashboard.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-006": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-006",
+          "package_path": "history/agent-systems/business-web-intelligence/evidence-normalizer.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-007": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-007",
+          "package_path": "history/agent-systems/business-web-intelligence/index.json",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-008": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-008",
+          "package_path": "history/agent-systems/business-web-intelligence/local-market.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-009": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-009",
+          "package_path": "history/agent-systems/business-web-intelligence/router.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-010": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-010",
+          "package_path": "history/agent-systems/business-web-intelligence/scheduler.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-011": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-011",
+          "package_path": "history/agent-systems/business-web-intelligence/seo-serp.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-012": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-012",
+          "package_path": "history/copywriting-agent-systems/README.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-013": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-013",
+          "package_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-014": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-014",
+          "package_path": "history/copywriting-agent-systems/methodology-contracts.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-015": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-015",
+          "package_path": "history/copywriting-agent-systems/originals/2026-03-product-research-sop.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-016": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-016",
+          "package_path": "history/copywriting-agent-systems/originals/2026-07-agent-frontmatter-schema.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-017": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-017",
+          "package_path": "history/copywriting-agent-systems/originals/2026-07-product-research-sop.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-018": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-018",
+          "package_path": "history/copywriting-agent-systems/originals/2026-07-research-brief-quote-contracts.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-019": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-019",
+          "package_path": "history/copywriting-agent-systems/originals/2026-07-research-creative-playbook.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-020": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-020",
+          "package_path": "history/copywriting-agent-systems/originals/2026-08-storefront-copy-agent.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-021": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-021",
+          "package_path": "history/copywriting-agent-systems/originals/2026-08-storefront-copy-rules-excerpts.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-022": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-022",
+          "package_path": "history/copywriting-agent-systems/originals/canonical-evidence-normalizer.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-023": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-023",
+          "package_path": "history/copywriting-agent-systems/originals/canonical-router.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-024": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-024",
+          "package_path": "history/copywriting-agent-systems/originals/cross-harness-evidence-handoff-excerpts.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-025": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-025",
+          "package_path": "history/copywriting-agent-systems/source-index.json",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-026": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-026",
+          "package_path": "history/media/DEVELOPER-INDEX.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-027": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-027",
+          "package_path": "history/media/IMPLEMENTATION-NOTES.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-028": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-028",
+          "package_path": "history/media/VIDEO-PRODUCTION-METHODOLOGY.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-029": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-029",
+          "package_path": "history/media/implementations/business-os/WF-CREATIVE-01.json",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-030": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-030",
+          "package_path": "history/media/implementations/ima2/batch_generate.py",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-031": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-031",
+          "package_path": "history/media/implementations/ima2/generate_image_batch.py",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-032": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-032",
+          "package_path": "history/media/node-history/DEVELOPER-INDEX.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-033": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-033",
+          "package_path": "history/media/node-history/history/flora-evidence-gap.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-034": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-034",
+          "package_path": "history/media/node-history/history/n8n-video-lineage.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-035": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-035",
+          "package_path": "history/media/node-history/history/pletor-node-video-methods.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-036": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-036",
+          "package_path": "history/media/node-history/node-video-evidence.json",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-037": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-037",
+          "package_path": "history/media/node-history/sources/NODE-N01-n8n-pattern-summary.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-038": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-038",
+          "package_path": "history/media/node-history/sources/SOURCE-CATALOG.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-039": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-039",
+          "package_path": "history/media/sources/editing-assembly-agent-excerpt.md",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-040": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-040",
+          "package_path": "history/media/sources/media-source-catalog.json",
+          "representation": "historical_reference_collection"
+        }
+      ]
+    },
+    "HISTORY-041": {
+      "references": [
+        {
+          "artifact_id": "HISTORY-041",
+          "package_path": "history/media/sources/video-production-workflow-excerpts.md",
+          "representation": "historical_reference_collection"
         }
       ]
     }

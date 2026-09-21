@@ -13,6 +13,13 @@ Owner intent is paraphrased, not quoted. Earlier C01, C02, C03 and C18 aliases r
 
 - [Research to production](../methodologies/research-to-production.md): capture fields, cross-references, product decisions, copywriting, video/node workflows and measurement.
 
+## Historical version collections
+
+- [System/version index](../history/SYSTEM-VERSIONS.md): documentary map and explicit gaps.
+- [Copywriting and research](../history/copywriting-agent-systems/README.md): field contracts and preserved revisions.
+- [Earlier agent definitions](../history/agent-systems/business-web-intelligence/README.md).
+- [Media and node-based workflows](../history/media/DEVELOPER-INDEX.md): source export, image runners and production methodology.
+
 ## Technical sources
 
 | ID | File | Type |

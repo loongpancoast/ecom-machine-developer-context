@@ -1,0 +1,155 @@
+{
+  "name": "WF-CREATIVE-01 — copy/image/video/audio brief to reviewed asset pack",
+  "active": false,
+  "settings": { "executionOrder": "v1" },
+  "meta": {
+    "pinnedN8nVersion": "1.71.0",
+    "capability": "WF-CREATIVE-01",
+    "correlationIdSource": "header:x-correlation-id | fallback webhook eventId",
+    "actionGatewayEndpoint": "https://gateway.example.invalid/v1/actions"
+  },
+  "nodes": [
+    {
+      "id": "creative-webhook",
+      "name": "Webhook Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "wf-creative-01",
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "wf-creative-01",
+        "options": { "rawBody": true, "binaryData": false, "maxPayloadSize": 262144 }
+      }
+    },
+    {
+      "id": "creative-verify",
+      "name": "Verify Signature",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [220, 0],
+      "credentials": {
+        "httpHeaderAuth": {
+          "name": "wf-creative-01 webhook signing secret (env: N8N_WF_CREATIVE_HMAC)"
+        }
+      },
+      "parameters": {
+        "language": "javaScript",
+        "jsCode": "const crypto = require('crypto');\nconst raw = $json.body ?? '';\nconst sig = ($json.headers?.['x-signature'] ?? '').toLowerCase();\nconst secret = $env.N8N_WF_CREATIVE_HMAC;\nconst expected = crypto.createHmac('sha256', secret).update(raw).digest('hex');\nif (expected.length !== sig.length || !crypto.timingSafeEqual(Buffer.from(expected,'hex'), Buffer.from(sig,'hex'))) { throw new Error('invalid_signature'); }\nreturn items;"
+      }
+    },
+    {
+      "id": "creative-corr",
+      "name": "Set Correlation ID",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [440, 0],
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "corr-1",
+              "name": "correlationId",
+              "type": "string",
+              "value": "={{ $json.headers?.['x-correlation-id'] || $json.headers?.['x-event-id'] }}"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "creative-dedup",
+      "name": "Deduplicate",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [660, 0],
+      "parameters": {
+        "language": "javaScript",
+        "jsCode": "const seen = $getWorkflowStaticData('global');\nseen.ids = seen.ids || {};\nconst id = $json.correlationId;\nif (seen.ids[id]) { return []; }\nseen.ids[id] = true;\nreturn items;"
+      }
+    },
+    {
+      "id": "creative-generate",
+      "name": "Generate Asset",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [880, 0],
+      "credentials": {
+        "httpHeaderAuth": { "name": "creative model key (env: CREATIVE_MODEL_KEY)" }
+      },
+      "parameters": {
+        "method": "POST",
+        "url": "https://creative.example.invalid/v1/generate",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { \"brief\": $json.brief, \"kind\": $json.assetKind } }}"
+      }
+    },
+    {
+      "id": "creative-qa",
+      "name": "QA Review",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1100, 0],
+      "parameters": {
+        "language": "javaScript",
+        "jsCode": "const crypto = require('crypto');\nconst asset = $json.asset;\nconst digest = crypto.createHash('sha256').update(Buffer.from(asset.bytesBase64 ?? '', 'base64')).digest('hex');\nreturn [{ json: { assetDigest: digest, provenance: asset.provenance, rights: asset.rights, qa: { brandSafe: asset.brandSafe === true, hasClaims: asset.hasClaims === false }, needsApproval: true } }];"
+      }
+    },
+    {
+      "id": "creative-gateway",
+      "name": "Action Gateway",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1320, 0],
+      "onError": "continueErrorOutput",
+      "credentials": { "httpHeaderAuth": { "name": "action gateway token (env: GATEWAY_TOKEN)" } },
+      "parameters": {
+        "method": "POST",
+        "url": "https://gateway.example.invalid/v1/actions",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { \"verb\": \"record_artifact\", \"risk_class\": \"R1\", \"correlationId\": $json.correlationId, \"artifact\": { \"kind\": \"creative_asset\", \"digest\": $json.assetDigest, \"provenance\": $json.provenance, \"rights\": $json.rights, \"qa\": $json.qa }, \"required_approval_roles\": [\"approve\"] } }}"
+      }
+    },
+    {
+      "id": "creative-done",
+      "name": "Asset Pack Recorded",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [1540, -80],
+      "parameters": {}
+    },
+    {
+      "id": "creative-dlq",
+      "name": "Dead Letter Route",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1540, 120],
+      "credentials": { "httpHeaderAuth": { "name": "dead letter queue token (env: DLQ_TOKEN)" } },
+      "parameters": {
+        "method": "POST",
+        "url": "https://gateway.example.invalid/v1/dead-letter",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { \"workflow\": \"WF-CREATIVE-01\", \"correlationId\": $json.correlationId, \"error\": $json.error, \"payload\": $json } }}"
+      }
+    }
+  ],
+  "connections": {
+    "Webhook Trigger": { "main": [[{ "node": "Verify Signature", "type": "main", "index": 0 }]] },
+    "Verify Signature": {
+      "main": [[{ "node": "Set Correlation ID", "type": "main", "index": 0 }]]
+    },
+    "Set Correlation ID": { "main": [[{ "node": "Deduplicate", "type": "main", "index": 0 }]] },
+    "Deduplicate": { "main": [[{ "node": "Generate Asset", "type": "main", "index": 0 }]] },
+    "Generate Asset": { "main": [[{ "node": "QA Review", "type": "main", "index": 0 }]] },
+    "QA Review": { "main": [[{ "node": "Action Gateway", "type": "main", "index": 0 }]] },
+    "Action Gateway": {
+      "main": [
+        [{ "node": "Asset Pack Recorded", "type": "main", "index": 0 }],
+        [{ "node": "Dead Letter Route", "type": "main", "index": 0 }]
+      ]
+    }
+  }
+}

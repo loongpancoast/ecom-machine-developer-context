@@ -1,0 +1,70 @@
+{
+  "kind": "documentary_source_index_not_runtime_graph",
+  "status": "historical; no workflow executed or original graph redistributed",
+  "date_basis": "README migration metadata establishes May 7, 2026 intake for template families; workflow creation and execution dates unverified",
+  "artifacts": [
+    {
+      "source_id": "NODE-N04",
+      "family": "Chase AI UGC Machine",
+      "artifact_name": "ugcMachine.json",
+      "node_count_observed": 13,
+      "role": "reference video analysis and structured prompt preparation",
+      "input_meaning": [
+        "reference video",
+        "product messaging"
+      ],
+      "output_meaning": [
+        "generation instructions"
+      ],
+      "public_disposition": "attributed structural synthesis only",
+      "rights": "not established for public redistribution",
+      "runtime_verified": false
+    },
+    {
+      "source_id": "NODE-N05",
+      "family": "Loopsera video generator",
+      "artifact_name": "47_AI Ads Sora.json",
+      "node_count_observed": 11,
+      "role": "product photo intake, creative direction and generation-subworkflow orchestration",
+      "input_meaning": [
+        "product photo",
+        "description",
+        "aspect ratio"
+      ],
+      "output_meaning": [
+        "stored generated video",
+        "asset metadata"
+      ],
+      "public_disposition": "attributed structural synthesis only",
+      "rights": "not established for public redistribution",
+      "runtime_verified": false
+    },
+    {
+      "source_id": "NODE-N06",
+      "family": "Loopsera generation subworkflow",
+      "artifact_name": "kie sora 2 image to video test.json",
+      "node_count_observed": 5,
+      "role": "asynchronous provider job submit and polling",
+      "input_meaning": [
+        "generation request"
+      ],
+      "output_meaning": [
+        "provider result after polling"
+      ],
+      "public_disposition": "attributed structural synthesis only",
+      "rights": "not established for public redistribution",
+      "runtime_verified": false
+    }
+  ],
+  "not_included": [
+    "actual n8n export",
+    "actual Pletor export",
+    "actual Flora export",
+    "proprietary prompt bodies",
+    "product tests",
+    "account identifiers",
+    "source code"
+  ],
+  "source_catalog": "sources/SOURCE-CATALOG.md",
+  "limitations": "No owned generic runnable video JSON with established public-export rights was located in the inspected candidates; this index is not a substitute claim."
+}

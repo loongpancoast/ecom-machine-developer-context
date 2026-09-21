@@ -1,0 +1,164 @@
+[
+  {
+    "id": "MEDIA-01",
+    "representation": "included sanitized original/excerpt",
+    "package_path": "implementations/business-os/WF-CREATIVE-01.json",
+    "sha256": "2d2f961362bd44eb4b8cc6ec255c4cfcd1d47e4c4081ed1d4770108b9a4858d8",
+    "lineage": "First-party Business OS growth pack, authored 2026-07-20, n8n 1.71.0",
+    "status": "FIRST_PARTY_REFERENCE_EXPORT_NOT_LIVE",
+    "transformations": "Replace internal endpoint placeholders with reserved example.invalid domains; preserve nodes, edges, credential VARIABLE NAMES only, active:false and source defects",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-02",
+    "representation": "included sanitized original/excerpt",
+    "package_path": "implementations/ima2/batch_generate.py",
+    "sha256": "d6375d0fceed67a7901297c6b922d023fe66137f9ac591200133da04de31f993",
+    "lineage": "Hermes local-imagegen-pipeline v1.0.0; one of two distinct sibling templates, chronology unresolved",
+    "status": "GENERIC_OWNED_TEMPLATE_NOT_EXECUTED",
+    "transformations": "Generic placeholder output path replaced with current-directory image-output; otherwise source code preserved",
+    "exclusions": [],
+    "read_status": "full-text-reviewed",
+    "publication_normalization": "UTF-8 LF text; source wording unchanged"
+  },
+  {
+    "id": "MEDIA-03",
+    "representation": "included sanitized original/excerpt",
+    "package_path": "implementations/ima2/generate_image_batch.py",
+    "sha256": "81a4e6fa48fe1005358f27cd9701b212159d5b3f90b03516b488c16002b46d1c",
+    "lineage": "Hermes local-image-generation-pipeline v1.0.0; sibling variant, not proven successor",
+    "status": "GENERIC_OWNED_TEMPLATE_NOT_EXECUTED",
+    "transformations": "Replace machine-specific ima2 path with APPDATA/home lookup; generic output path with current-directory image-output; retain all other behavior",
+    "exclusions": [],
+    "read_status": "full-text-reviewed",
+    "publication_normalization": "UTF-8 LF text; source wording unchanged"
+  },
+  {
+    "id": "MEDIA-04",
+    "representation": "included sanitized original/excerpt",
+    "package_path": "sources/video-production-workflow-excerpts.md",
+    "sha256": "7bed665fd4df931f222a87553a3ea103734aa8e415f730420c10e0f886ffc3cf",
+    "lineage": "September evidence-led finished-ad methodology; follows June creative-agent mesh and earlier Evolve/GTE/EAM methods",
+    "status": "SPECIFIED_WORKFLOW_NOT_END_TO_END_EXECUTION",
+    "transformations": "Exact selected source line ranges; replace DriveOn with owner-brand. Exclude private product/actual campaign results, local references, owner incident details, paid activation state and unrelated workflow sections",
+    "exclusions": [
+      "Actual product tests and customer/supplier/account details",
+      "Raw owner quotations",
+      "Full third-party course/transcript text"
+    ],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-05",
+    "representation": "included sanitized original/excerpt",
+    "package_path": "sources/editing-assembly-agent-excerpt.md",
+    "sha256": "c4cab1cf2a477a0fc006c3c20b14d5096cc508dbc917f86e50f9a4dd14a0430c",
+    "lineage": "June creative mesh specialist, live local definition inspected",
+    "status": "HISTORICAL_AGENT_DEFINITION_NOT_RUNTIME_PROOF",
+    "transformations": "Select owned generic job/authority/output-contract passages; omit local boot/governance dependencies; preserve historical package names",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-06",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "June Pletor-informed node-builder definition; no runnable graph accompanies this definition",
+    "status": "SUMMARY_ONLY",
+    "transformations": "No original body exported; use methodology summary and typed-plan interpretation only",
+    "exclusions": [
+      "Pletor-derived detailed prompt/wiring prose withheld from public copy"
+    ],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-07",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "June UGC agent: hook script then A/B roll, actor variations, lip-sync, editing handoff",
+    "status": "SUMMARY_ONLY",
+    "transformations": "No original body exported; task sequence summarized and historical paid-voice assumptions marked nonbinding",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-08",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "June/July skill router: OAuth stills, separate paid video route; historic locks not current requirements",
+    "status": "SUMMARY_ONLY",
+    "transformations": "Original not copied: local boot dependencies and obsolete paid/routing policy; source-driven evolution summary only",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-09",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "Hermes v1.0.0 expanded image pipeline; live source includes later lessons not dated per section",
+    "status": "SUMMARY_ONLY",
+    "transformations": "No source body exported; metadata attribution and high-level methodological summary only",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-10",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "Hermes v1.0.0 compact batch image skill",
+    "status": "SUMMARY_ONLY",
+    "transformations": "No source body exported; retain author/version/license metadata in index",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-11",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "Business OS 2026-07-20 first-party exports; offline structural checks only",
+    "status": "SUMMARY_ONLY",
+    "transformations": "No body exported; authored-date, pin and live-import limitations summarized",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-12",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "Hermes ComfyUI v5.1.0 declares MIT; Wan 2.1 template, nine class_type nodes",
+    "status": "THIRD_PARTY_GRAPH_INVENTORIED_NOT_EXPORTED",
+    "transformations": "Body withheld pending complete public attribution/license-notice review. Actual graph structure summarized, not synthesized as executable JSON",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-13",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "Hermes ComfyUI v5.1.0 declares MIT; SD1.5 template, seven class_type nodes",
+    "status": "THIRD_PARTY_GRAPH_INVENTORIED_NOT_EXPORTED",
+    "transformations": "Body withheld pending complete public attribution/license-notice review. Actual graph structure summarized only",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  },
+  {
+    "id": "MEDIA-14",
+    "representation": "summary in index/methodology only; original unavailable in public packet",
+    "package_path": null,
+    "sha256": null,
+    "lineage": "README says Wan2.2 filename while inspected template specifies Wan2.1; unresolved",
+    "status": "SUMMARY_ONLY",
+    "transformations": "Body not exported; dependency discrepancy and available template names summarized",
+    "exclusions": [],
+    "read_status": "full-text-reviewed"
+  }
+]

@@ -39,4 +39,4 @@ Historical broker setup, identity checks and schema comparisons do not prove cur
 
 ## Attribution and rights
 
-Some methods are course-derived or attributed to third parties. Preserve attribution and resolve applicable licensing restrictions before broader reuse. This private developer handoff does not grant public redistribution rights. Examples and redacted schemas are documentation, not evidence of successful business outcomes.
+Some methods are course-derived or attributed to third parties. Preserve attribution and resolve applicable licensing restrictions before broader reuse. This repository is public. Historical references do not grant redistribution rights to underlying courses, prompt libraries or media. Examples and redacted schemas are documentation, not evidence of successful business outcomes.

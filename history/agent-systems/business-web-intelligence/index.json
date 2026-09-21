@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "paths_relative_to": "directory containing this index",
+  "entries": [
+    {
+      "id": "BHA01",
+      "path": "router.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "intake classification",
+        "provider ordering",
+        "specialist dispatch",
+        "routing plans"
+      ],
+      "sha256": "ea1076bcd75c59d2ba975643b463447eda750dcab2bbfa4371c9be5b18fb9c8b",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA02",
+      "path": "seo-serp.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "SERP/PAA/AI-overview research",
+        "crawl and SEO evidence",
+        "coverage reporting"
+      ],
+      "sha256": "bcb9c9457d9979487a1634ca934be855bbae48c40237658dc126b10e99c49575",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA03",
+      "path": "local-market.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "Maps/local-pack research",
+        "review-language evidence",
+        "directory research"
+      ],
+      "sha256": "4d1b5ef02d11bc272b930971f15e6f7ac2b32bd9a8ff989c285fd7b5116c34c1",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA04",
+      "path": "browser-fallback.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "structured-route failure evidence",
+        "visual capture",
+        "human takeover gates"
+      ],
+      "sha256": "059c9961edc79487d1de2f24a17d03d80748ed5c87f5db69a59702fae84c283d",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA05",
+      "path": "evidence-normalizer.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "citation normalization",
+        "deduplication",
+        "confidence and contradictions",
+        "draft-only evidence"
+      ],
+      "sha256": "7062c025e0e667bd0cccc001228e6113b125dd68694c48e8b3bdf1f33ff9fefd",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA06",
+      "path": "brain-promotion.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "canonical placement",
+        "inference/fact separation",
+        "promotion decisions",
+        "index-readback planning"
+      ],
+      "sha256": "1b3461a28b809a6a8a5cca30a56707bf883196a6a4ca150de9c0038d64552b8b",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA07",
+      "path": "scheduler.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "bounded recurring watches",
+        "delta reporting",
+        "cadence and stop conditions",
+        "anti-recursion"
+      ],
+      "sha256": "20d5e9757af9eb7ff732f799e95a51d04aacbce3cbdda8746aebfc52aedf46a4",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    },
+    {
+      "id": "BHA08",
+      "path": "dashboard.md",
+      "classification": "sanitized historical local agent definition",
+      "lineage": "Project-local web-intelligence role family; optional extractor integration, not copied provider prompt modules",
+      "historical_design_date": "2026-07-04",
+      "date_basis": "Contemporaneous design decision and role map; definition files themselves have no date field",
+      "status": "reference-only; publication reviewed; runtime not exercised",
+      "capabilities": [
+        "derived dashboard contracts",
+        "approval visibility",
+        "non-fabricated status",
+        "JSON validation"
+      ],
+      "sha256": "a813ce6d8ab7da23e416b525957c3646892dc2692c0fda885ecce191a07ee622",
+      "third_party_attribution": "Named providers are optional integration references; no provider prompt, course, or module body is included."
+    }
+  ]
+}
