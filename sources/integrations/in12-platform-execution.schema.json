@@ -1,0 +1,201 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:redacted:source-schema-identity",
+  "title": "[REDACTED:INTERNAL_BRAND] Platform Execution Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "execution_id",
+    "action_id",
+    "created_at",
+    "surface",
+    "connector_type",
+    "mode",
+    "approval",
+    "request",
+    "safety",
+    "expected_artifacts",
+    "rollback",
+    "readback_packet_path"
+  ],
+  "properties": {
+    "schema": {
+      "const": "[REDACTED:SCHEMA_IDENTITY]"
+    },
+    "execution_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "action_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "surface": {
+      "type": "string",
+      "enum": [
+        "local_draft",
+        "Shopify",
+        "Stripe",
+        "HubSpot",
+        "Klaviyo",
+        "Meta",
+        "Google Ads",
+        "GA4",
+        "Search Console",
+        "CMS",
+        "email",
+        "CRM",
+        "Apify",
+        "Exa",
+        "Firecrawl",
+        "Composio",
+        "GBrain"
+      ]
+    },
+    "connector_type": {
+      "type": "string",
+      "enum": [
+        "official_api",
+        "official_cli",
+        "mcp",
+        "composio",
+        "local_draft",
+        "apify_actor",
+        "firecrawl",
+        "exa",
+        "browser_fallback"
+      ]
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "read_only",
+        "draft",
+        "paused",
+        "approved_live_write"
+      ]
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required",
+        "status",
+        "allowed_operations",
+        "blocked_operations"
+      ],
+      "properties": {
+        "required": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_required",
+            "pending",
+            "approved",
+            "rejected",
+            "deferred"
+          ]
+        },
+        "approver": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "allowed_operations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "blocked_operations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "endpoint_or_command",
+        "payload",
+        "dry_run"
+      ],
+      "properties": {
+        "method": {
+          "type": "string"
+        },
+        "endpoint_or_command": {
+          "type": "string"
+        },
+        "payload": {
+          "type": "object"
+        },
+        "idempotency_key": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dry_run": {
+          "type": "boolean"
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "external_writes_performed",
+        "pii_policy",
+        "budget_cap",
+        "secrets_redacted"
+      ],
+      "properties": {
+        "external_writes_performed": {
+          "type": "boolean"
+        },
+        "pii_policy": {
+          "type": "string"
+        },
+        "budget_cap": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "secrets_redacted": {
+          "type": "boolean"
+        }
+      }
+    },
+    "expected_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "rollback": {
+      "type": "string",
+      "minLength": 1
+    },
+    "readback_packet_path": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "$comment": "IN12. Sanitized historical original schema. Internal namespace/title/const marked redacted; not wire-compatible with legacy producers until identity is deliberately set. No live execution. Existing required fields and enums retained as historical context, not a required architecture or fixed budget."
+}

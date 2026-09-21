@@ -1,0 +1,1 @@
+supplier_id,product_id,name,direct_url,quote_date,moq,unit_cost,currency,shipping_cost,shipping_method,lead_time_days,landed_unit_cost,sample_status,qc_status,capacity_status,selected,backup,quote_evidence_id,limitations

@@ -1,0 +1,2995 @@
+{
+  "schema_version": 2,
+  "purpose": "Portable file and source-alias catalog for the developer context.",
+  "paths_relative_to": "repository root",
+  "hash_scope": "SHA-256 of each listed package file; this manifest excludes its own hash.",
+  "interpretation": "U and H records summarize owner intent. Historical excerpts, templates and code are optional references, not current runtime evidence.",
+  "artifacts": [
+    {
+      "id": "C04",
+      "package_path": "sources/context/C04-creative-brief-input-and-output-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT2-008"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL AGENT SPEC; attributes context-engineering pattern to Pletor.",
+      "original_ranges": [
+        [
+          16,
+          32
+        ]
+      ],
+      "description": "Prose contract, not a JSON Schema or executed brief. Historical STOP/approval language and named skill routes are not new-system requirements. Pattern redistribution rights need review.",
+      "sha256": "db478a908dc0c85205668e160709a9ef2978800ab88d2ecdb61c6d06fdca3586"
+    },
+    {
+      "id": "C05",
+      "package_path": "sources/context/C05-model-prompt-input-and-output-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT2-009"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL AGENT SPEC; includes Pletor-attributed pattern.",
+      "original_ranges": [
+        [
+          16,
+          30
+        ]
+      ],
+      "description": "Preserves per-model strings, brand_system, and delimiter meanings. No generation executed; model locks, mandatory skill routes and historical failure labels are not governing requirements.",
+      "sha256": "b16845e1a51c717303a9aa79291f6ae60c3550317c102cf567ffd4ac53456b5b"
+    },
+    {
+      "id": "C06",
+      "package_path": "sources/context/C06-video-plan-and-editing-handoff-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT2-010"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL AGENT SPEC; Pletor-attributed patterns.",
+      "original_ranges": [
+        [
+          16,
+          30
+        ]
+      ],
+      "description": "Ad-Energy-Clone wording is historical reference-analysis context only, not rights clearance to copy third-party assets. Graph plan is not a finished video. Historical spending gates and tool availability claims unverified and non-governing.",
+      "sha256": "283134e9b8692e900edaa7a9d3028d815bdf321d1ac09d81ce14968a9b75a984"
+    },
+    {
+      "id": "C07",
+      "package_path": "sources/context/C07-scraped-reference-to-shot-analysis-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "LEAD-0360"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL AGENT SPEC; Pletor-attributed analysis pattern.",
+      "original_ranges": [
+        [
+          16,
+          32
+        ]
+      ],
+      "description": "API/free-tier, popularity, and tool capability assertions are dated source claims, not live verification. Output names are prose, not a validated payload schema.",
+      "sha256": "e40aa24c435b554a865e8658e7920770156863408d536ac61156c0a0ea7aed0e"
+    },
+    {
+      "id": "C08",
+      "package_path": "sources/context/C08-editing-assembly-and-export-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "LEAD-0357"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL AGENT SPEC.",
+      "original_ranges": [
+        [
+          16,
+          29
+        ]
+      ],
+      "description": "Specifies final paths, variants and actual edit commands, but does not establish that a render ran. Historical authority and third-party capability claims need fresh verification.",
+      "sha256": "43abd8d16b88d914c3c53cdd42b015cf0a9156254ae5301dbcbcb4bd868b3570"
+    },
+    {
+      "id": "C09",
+      "package_path": "sources/context/C09-node-graph-and-reference-wiring-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "LEAD-0359"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL AGENT SPEC; Pletor-attributed patterns.",
+      "original_ranges": [
+        [
+          16,
+          32
+        ]
+      ],
+      "description": "Graph field names and delimiter syntax preserved; no runnable graph or third-party package copied. Historical model choice, architecture and paid caps are non-governing.",
+      "sha256": "a5934e15ae211af97ec1d91b668c65996172eeffe325a45f7d192b5824ac58ce"
+    },
+    {
+      "id": "C10",
+      "package_path": "sources/context/C10-evolve-script-structure-and-production-handoffs.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT1-005"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED COURSE-DERIVED METHODOLOGY; source names Evolve and RMBC-inspired framework.",
+      "original_ranges": [
+        [
+          14,
+          31
+        ],
+        [
+          40,
+          81
+        ],
+        [
+          85,
+          114
+        ],
+        [
+          153,
+          159
+        ]
+      ],
+      "description": "Historical 2026-03-24 method, not an executable skill. R3, fixed batch sizes and rigid copy order are replaceable. First/only, clinical proof, testimonial, and risk-free language are source placeholders requiring substantiation; never fabricate claims. Product/niche example hooks and exaggeration checklist excluded; rights review required.",
+      "sha256": "eb242a912f334182beb0bad74e040fa612e03b883bc33e927a55556af0ace7ec"
+    },
+    {
+      "id": "C11",
+      "package_path": "sources/context/C11-evolve-performance-to-next-batch-feedback.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT1-008"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED EVOLVE-DERIVED METHODOLOGY.",
+      "original_ranges": [
+        [
+          7,
+          54
+        ],
+        [
+          62,
+          106
+        ],
+        [
+          126,
+          129
+        ]
+      ],
+      "description": "Historical diagnostic table is a hypothesis generator, not causal proof. Keep control/variant/metric lineage; excluded product-specific claimed results and fixed spend kill threshold. Rights review required.",
+      "sha256": "0af89873078ae951066f5ec3408fc8c90d9992c4e8908484165215dfdd621986"
+    },
+    {
+      "id": "C12",
+      "package_path": "sources/context/C12-evolve-supplier-selection-negotiation-and-diligence.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT1-010"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED COURSE-DERIVED SUPPLIER METHOD; original attribution names Evolve Supply Chain Program.",
+      "original_ranges": [
+        [
+          9,
+          15
+        ],
+        [
+          21,
+          32
+        ],
+        [
+          89,
+          117
+        ],
+        [
+          126,
+          134
+        ],
+        [
+          147,
+          155
+        ],
+        [
+          189,
+          213
+        ]
+      ],
+      "description": "Not supplier relationship data or an authorization to negotiate/pay. Source pricing, cultural, response-speed and supplier-tier generalizations are unverified historical claims, not universal screening rules. Partner tables, identities, contact routes and private terms omitted. Incomplete custom-development section omitted; course redistribution rights unresolved.",
+      "sha256": "71e9e18e01f8b2be7fb01eb4355ed8ea7baeb626c455caa5b15e8dabae767084"
+    },
+    {
+      "id": "C13",
+      "package_path": "sources/context/C13-evolve-research-inputs-evidence-and-downstream-document.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "VAULT1-004"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED EVOLVE-DERIVED RESEARCH METHOD.",
+      "original_ranges": [
+        [
+          13,
+          80
+        ],
+        [
+          88,
+          206
+        ],
+        [
+          233,
+          237
+        ]
+      ],
+      "description": "Longevity-equals-profit assertion at original lines 82-86 omitted, not silently corrected. Remaining popularity/format inferences are hypotheses, not first-party conversion evidence. Fixed counts and G2 gates are historical, replaceable; rights review required.",
+      "sha256": "595afc8f9e30942a1a40dfea363c00e53b35adc91a27516a4d8e0a440b92e81b"
+    },
+    {
+      "id": "C14",
+      "package_path": "sources/context/C14-finished-ad-evidence-generation-edit-and-learning-contract.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "B01"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL WORKFLOW with source-attributed methods; not verbatim owner speech.",
+      "original_ranges": [
+        [
+          18,
+          18
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          70,
+          95
+        ],
+        [
+          109,
+          117
+        ],
+        [
+          136,
+          198
+        ],
+        [
+          214,
+          233
+        ],
+        [
+          250,
+          278
+        ],
+        [
+          286,
+          302
+        ],
+        [
+          306,
+          317
+        ]
+      ],
+      "description": "Source dated 2026-09-07. SPECIFIED_NOT_LIVE describes that historical workflow, not a fresh runtime audit. Architecture, versions, approval language and fixed timing defaults are non-governing. No third-party copying or fabricated proof authorized.",
+      "sha256": "5aaba45604e5fc55d5fa94b24db122cfd39e36a7c3daff83346938580ad98db8"
+    },
+    {
+      "id": "C15",
+      "package_path": "sources/context/C15-recent-correction-test-actual-output-before-new-contracts.md",
+      "classification": "assistant_written_historical_summary",
+      "source_aliases": [
+        "B07"
+      ],
+      "description": "Evaluate finished output before expanding architecture; discontinued experiments are not adopted requirements.",
+      "sha256": "e067ea7b3b9d835c03ba017d96fcbcbd1e946c34089b7faf742e7e4f8f7859e5"
+    },
+    {
+      "id": "C17",
+      "package_path": "sources/context/C17-original-sourcing-payload-and-downstream-catalog-semantics.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "N01"
+      ],
+      "source_attribution": "ASSISTANT-AUTHORED HISTORICAL EXAMPLE PAYLOAD / FIELD NOTES, not live supplier data and not a formal JSON Schema.",
+      "original_ranges": [
+        [
+          14,
+          106
+        ],
+        [
+          110,
+          114
+        ]
+      ],
+      "description": "Original example values visibly redacted; categorical enums retained. Marker strings replacing numbers change types; not executable. AliExpress defaults, approval posture, viability thresholds and seven-day warning are historical and replaceable by the requested private-supplier model. Original profit example omitted through redaction, not represented as actual results.",
+      "sha256": "db8af20150d6bb3606a154054d41b7bdaf1734f81aada95308acc0ec21d0415c"
+    },
+    {
+      "id": "DLC01",
+      "package_path": "reference-implementations/research-os/files/research-schema.sql",
+      "classification": "original",
+      "source_aliases": [
+        "DL0161"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0161",
+          "original_sha256": "08fce4447e76ddb7eb37b55a05b763aa80eae22dceba9a1c4c264c5db29325e1",
+          "original_ranges": [
+            [
+              1,
+              556
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Research runs, products and source observations; no INSERT records included.",
+        "consumer": "Reference PostgreSQL persistence model for evidence, VOC, angles, supplier economics, build artifacts, operation receipts and QA.",
+        "next": "Joined source snapshots can feed brief compilation and downstream production."
+      },
+      "dependencies": [
+        "PostgreSQL dialect; pgcrypto extension; CREATE privilege. Not executed or deployed."
+      ],
+      "known_defects_or_limits": [
+        "Historical stage/approval model and count thresholds are preserved for traceability, NOT requirements for a new application.",
+        "Contains budget/cap fields, not an authorized or fixed budget.",
+        "No row-level security, role grants or automatic updated_at triggers appear in this schema.",
+        "Nullable components in unique constraints do not guarantee logical deduplication of missing external IDs.",
+        "ad_conversion_truth tests presence of first-party metric rows, not profitability or positive values.",
+        "CSV and JavaScript contract shapes are not identical to database tables; see field-map.json."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "08fce4447e76ddb7eb37b55a05b763aa80eae22dceba9a1c4c264c5db29325e1"
+    },
+    {
+      "id": "DLC02",
+      "package_path": "reference-implementations/research-os/files/products-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0172"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0172",
+          "original_sha256": "624dda92e4825095129c224d415a1630f8595336e1c282327aca24c5465c5f7a",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Product/concept intake and research progress",
+        "consumer": "products; research selection; brief product header",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "624dda92e4825095129c224d415a1630f8595336e1c282327aca24c5465c5f7a"
+    },
+    {
+      "id": "DLC03",
+      "package_path": "reference-implementations/research-os/files/voc_quotes-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0173"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0173",
+          "original_sha256": "28f5e22a71309d20b2a8a15f14e94a911810ca9b99f134ad8fff323b61cd21a2",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Source-linked customer excerpts, captured dates and language tags",
+        "consumer": "VOC corpus; angles; copy research (not testimonial permission)",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "28f5e22a71309d20b2a8a15f14e94a911810ca9b99f134ad8fff323b61cd21a2"
+    },
+    {
+      "id": "DLC04",
+      "package_path": "reference-implementations/research-os/files/angles-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0174"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0174",
+          "original_sha256": "0199d2c3cd28c32cdd1f02b6ae2a133fe1f02ad02541200a325d76f194c5215e",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Audience, desire, promise, mechanism, proof plan and parent IDs",
+        "consumer": "angles and junction tables; page/video brief",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "0199d2c3cd28c32cdd1f02b6ae2a133fe1f02ad02541200a325d76f194c5215e"
+    },
+    {
+      "id": "DLC05",
+      "package_path": "reference-implementations/research-os/files/tool_calls-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0175"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0175",
+          "original_sha256": "6773b02592f1c63bf8ea1d3e3d275e9cb58abe28f28dc7c105d33d90ec817274",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Exact tool operation log, timing, result count, usage and errors",
+        "consumer": "tool_calls and evidence links; operational trace, not provider proof",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "6773b02592f1c63bf8ea1d3e3d275e9cb58abe28f28dc7c105d33d90ec817274"
+    },
+    {
+      "id": "DLC06",
+      "package_path": "reference-implementations/research-os/files/suppliers-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0176"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0176",
+          "original_sha256": "13efa7344e3899db7a1d5e05e3f014251ab9a54cbe6bb85fbd7f4d5221be0205",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Supplier candidate plus dated cost/lead-time quotation fields",
+        "consumer": "suppliers + supplier_quotes; product-truth/economics brief",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "13efa7344e3899db7a1d5e05e3f014251ab9a54cbe6bb85fbd7f4d5221be0205"
+    },
+    {
+      "id": "DLC07",
+      "package_path": "reference-implementations/research-os/files/ads-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0177"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0177",
+          "original_sha256": "a30f6d44df05de64c9448c61543693fc3f5056a3f9265f58e8f5bd6a9f4f9d08",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Observed competitor ad, status, ranking basis and transcript/asset links",
+        "consumer": "ads; structural creative reference, not conversion proof",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "a30f6d44df05de64c9448c61543693fc3f5056a3f9265f58e8f5bd6a9f4f9d08"
+    },
+    {
+      "id": "DLC08",
+      "package_path": "reference-implementations/research-os/files/metrics-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0179"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0179",
+          "original_sha256": "33128afb47bad1e378de55c88f688f2d8af247d2de9bce6d0ad4c5174f2ef1cd",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Scoped metric with period, units/currency, source class and limitations",
+        "consumer": "metrics; research comparison and brief economics",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "33128afb47bad1e378de55c88f688f2d8af247d2de9bce6d0ad4c5174f2ef1cd"
+    },
+    {
+      "id": "DLC09",
+      "package_path": "reference-implementations/research-os/files/evidence-header.csv",
+      "classification": "original",
+      "source_aliases": [
+        "DL0180"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0180",
+          "original_sha256": "6627e2403ba186f9ccbc1d7ac0410d71b91c389733f8ec9813d5085d243e8d95",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Source capture metadata plus observation excerpt",
+        "consumer": "source_records + evidence_items; lineage for quotes, metrics, claims and briefs",
+        "next": "Implement explicit import/validation and ID joins using field-map.json; no sample data rows."
+      },
+      "dependencies": [
+        "CSV parser; import adapter not supplied; research-schema.sql is a reference, not a drop-in column-for-column destination."
+      ],
+      "known_defects_or_limits": [
+        "Header-only original: zero data rows.",
+        "Some CSV columns are flattened, renamed, or lack exact SQL equivalents. Do not silently import by position."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "6627e2403ba186f9ccbc1d7ac0410d71b91c389733f8ec9813d5085d243e8d95"
+    },
+    {
+      "id": "DLC10",
+      "package_path": "reference-implementations/research-os/files/brief-compiler.mjs",
+      "classification": "original",
+      "source_aliases": [
+        "DL0183"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0183",
+          "original_sha256": "3bad31754eec6da039dd7da111554f3b46b734099f40cfea6a41350e29641913",
+          "original_ranges": [
+            [
+              1,
+              297
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Snapshot object with run, products, stages, evidence, metrics, ads, suppliers, angles, claims, voc_quotes.",
+        "consumer": "compileBrief(snapshot, type), where type is landing-page, video-editor, or shopify-builder.",
+        "output": "Markdown brief string; briefTypes() lists supported kinds.",
+        "next": "Human or build engine consumes requirements; this function does not render media/build pages/publish."
+      },
+      "dependencies": [
+        "Node.js ESM and built-in node:crypto. No other import in this member.",
+        "Caller must construct a joined, product-scoped snapshot; field-map.json describes visible consumed keys."
+      ],
+      "known_defects_or_limits": [
+        "Uses supplied status/review_status strings; does not verify substantiation or actual stage execution.",
+        "Caps displayed evidence/metrics at 30, ads at 20, VOC at 25. Keep full linked evidence elsewhere.",
+        "Uses products[0] but does not filter other arrays by that product; mixed-product snapshots can misattribute records.",
+        "stableHash uses JSON.stringify, so property insertion order can affect hashes.",
+        "Direct URLs are interpolated without URL scheme validation; Markdown is not a security sanitizer.",
+        "Retains historical gate IDs, approval wording and platform-specific assumptions as source history only."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "3bad31754eec6da039dd7da111554f3b46b734099f40cfea6a41350e29641913"
+    },
+    {
+      "id": "DLC11",
+      "package_path": "reference-implementations/research-os/files/connector-contract.mjs",
+      "classification": "original",
+      "source_aliases": [
+        "DL0186"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0186",
+          "original_sha256": "666832ed53d4d2dec66c7ff7577ed49aa8b9b7087790a4232ace75a5ace76d0b",
+          "original_ranges": [
+            [
+              1,
+              116
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Adapter manifest declaration and actual operation inputs/results.",
+        "consumer": "validateAdapterManifest(manifest) and canonicalReceipt({...}).",
+        "output": "Validation errors/warnings or structured receipt with hashes and returned_objects.",
+        "next": "Store/report actual operation outcome; never fabricate pass/verified statuses."
+      },
+      "dependencies": [
+        "Original import ../engine.mjs is NOT included; sha256 implementation is unresolved in this selection. File is reference code, not a runnable standalone module.",
+        "Caller supplies actual status, timestamps, output, read_back_status and resource usage."
+      ],
+      "known_defects_or_limits": [
+        "Validator accepts declared test statuses; it does not execute connector tests.",
+        "canonicalReceipt defaults read_back_status to not_required and does not perform readback.",
+        "Secret-key regex is not comprehensive; free text, URLs, arbitrary fields and artifacts may carry secrets. It does not sanitize artifacts/evidence_ids/resource_usage/limitations.",
+        "JS supports action classes and forms that differ from SQL constraints; see field-map.json.",
+        "Receipt shape differs from execution_receipts SQL fields and needs an explicit mapping."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "666832ed53d4d2dec66c7ff7577ed49aa8b9b7087790a4232ace75a5ace76d0b"
+    },
+    {
+      "id": "DLC12",
+      "package_path": "reference-implementations/research-os/files/context-variables-excerpt.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "DL0327"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0327",
+          "original_sha256": "68be823d381ad45a788f013e878d7f24d2ab5723868bf7ca74ed84d80ee446a8",
+          "original_ranges": [
+            [
+              20,
+              42
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Research/market/VOC observations and approved product/offer facts.",
+        "consumer": "Later creative, page and testing stages read one consistent variable block.",
+        "next": "The table preserves original set-in, used-by and format meanings; translate stage IDs rather than adopting them."
+      },
+      "dependencies": [
+        "Historical S0–S8 dossier convention; state-manager reference not included."
+      ],
+      "known_defects_or_limits": [
+        "Highest-percent phrases require a defined denominator/deduplication policy.",
+        "UMP/UMS templates cannot establish truth of a hidden cause, product mechanism or result.",
+        "Winning status requires actual test outcomes, not a filled field."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "5ce564c2d2e0da1b953c5475c9e399f65579d64588caf462becca6a248f933cf"
+    },
+    {
+      "id": "DLC13",
+      "package_path": "reference-implementations/research-os/files/video-brief-template-excerpt.md",
+      "classification": "redacted_original_excerpt",
+      "source_aliases": [
+        "DL0498"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0498",
+          "original_sha256": "97c50c79f23b14edb6372ed6b39bfb446bcc8f7fe31a943c67b8251373806034",
+          "original_ranges": [
+            [
+              147,
+              206
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Product facts, audience direction, approved hooks/quote IDs, offer and supported claims.",
+        "consumer": "Editor/creator or generation planner uses casting, props, locations, timed shots and alternate hooks.",
+        "next": "Production and asset review return actual rendered/edited deliverables; template completion is not production proof."
+      },
+      "dependencies": [
+        "Original caller skills/08-copy-generation/SKILL.md not included.",
+        "Quote bank indexed by Q-XXXX; citation verifier/rights checks not included."
+      ],
+      "known_defects_or_limits": [
+        "Fixed 60-second structure is historical; adapt to purpose.",
+        "Original output lacks an explicit per-shot claim-ID and rights field; add these when implementing.",
+        "Discovery/results sequences must not become fabricated testimonials."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "27d75f8c0e5f30d7d5ccdfc84bf2dc27be8684c86f456b7de14f46537403bf6f"
+    },
+    {
+      "id": "DLC14",
+      "package_path": "reference-implementations/research-os/files/creative-continuity-excerpts.md",
+      "classification": "original_excerpt",
+      "source_aliases": [
+        "DL0412"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0412",
+          "original_sha256": "17a0fb48b8ff2f79058143c67feb5ec46f078ebc16ac51b118ee2f67ee870581",
+          "original_ranges": [
+            [
+              10,
+              14
+            ],
+            [
+              58,
+              72
+            ],
+            [
+              88,
+              94
+            ],
+            [
+              128,
+              130
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Audience tension/awareness, selected angle and source-backed product/offer facts.",
+        "consumer": "Image-ad brief, ad copy, advertorial and page handoff share a coherent narrative.",
+        "next": "Build/review actual assets and compare measured results; continuity is a creative hypothesis, not a guarantee."
+      },
+      "dependencies": [
+        "Image archetype, hook-type and image-ad-brief references omitted; dependencies remain historical pointers."
+      ],
+      "known_defects_or_limits": [
+        "Source indicates course-derived material; redistribution is specifically unresolved.",
+        "Image brief is explicitly not a finished image.",
+        "No current evidence validates any implied performance claims."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "686bf8201a9aa9e65b37dc6c9daad0fee41ef436d3bf6b23386389e3c3195ada"
+    },
+    {
+      "id": "DLC15",
+      "package_path": "reference-implementations/research-os/files/field-map.json",
+      "classification": "derived_field_map",
+      "source_aliases": [
+        "DL0161",
+        "DL0183",
+        "DL0186",
+        "DL0172",
+        "DL0173",
+        "DL0174",
+        "DL0175",
+        "DL0176",
+        "DL0177",
+        "DL0179",
+        "DL0180"
+      ],
+      "source_records": [
+        {
+          "source_id": "DL0161",
+          "original_sha256": "08fce4447e76ddb7eb37b55a05b763aa80eae22dceba9a1c4c264c5db29325e1",
+          "original_ranges": [
+            [
+              1,
+              556
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0183",
+          "original_sha256": "3bad31754eec6da039dd7da111554f3b46b734099f40cfea6a41350e29641913",
+          "original_ranges": [
+            [
+              1,
+              297
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0186",
+          "original_sha256": "666832ed53d4d2dec66c7ff7577ed49aa8b9b7087790a4232ace75a5ace76d0b",
+          "original_ranges": [
+            [
+              1,
+              116
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0172",
+          "original_sha256": "624dda92e4825095129c224d415a1630f8595336e1c282327aca24c5465c5f7a",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0173",
+          "original_sha256": "28f5e22a71309d20b2a8a15f14e94a911810ca9b99f134ad8fff323b61cd21a2",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0174",
+          "original_sha256": "0199d2c3cd28c32cdd1f02b6ae2a133fe1f02ad02541200a325d76f194c5215e",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0175",
+          "original_sha256": "6773b02592f1c63bf8ea1d3e3d275e9cb58abe28f28dc7c105d33d90ec817274",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0176",
+          "original_sha256": "13efa7344e3899db7a1d5e05e3f014251ab9a54cbe6bb85fbd7f4d5221be0205",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0177",
+          "original_sha256": "a30f6d44df05de64c9448c61543693fc3f5056a3f9265f58e8f5bd6a9f4f9d08",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0179",
+          "original_sha256": "33128afb47bad1e378de55c88f688f2d8af247d2de9bce6d0ad4c5174f2ef1cd",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "source_id": "DL0180",
+          "original_sha256": "6627e2403ba186f9ccbc1d7ac0410d71b91c389733f8ec9813d5085d243e8d95",
+          "original_ranges": [
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      ],
+      "input_consumer_meaning": {
+        "input": "Header columns, SQL column definitions and actual JavaScript property accesses.",
+        "consumer": "Developer implementing import, snapshot construction and receipt persistence.",
+        "next": "Resolve explicit unknowns and mismatches before connecting real data."
+      },
+      "dependencies": [
+        "Reference schemas and source contracts in this pack.",
+        "No import adapter, database deployment, runtime or successful provider response included."
+      ],
+      "known_defects_or_limits": [
+        "Derived map reviewed statically only; source architecture may be replaced.",
+        "ID formats, CSV list encoding and snapshot assembly need explicit implementation/testing."
+      ],
+      "rights_note": "User-provided local source context. Source authorship/license not independently certified for public redistribution.",
+      "sha256": "c169464325aecfe33cbaa0e32a4cb91d8695bad361d587d16f39f9cca9cc16cc"
+    },
+    {
+      "id": "IN01",
+      "package_path": "sources/integrations/in01-composio-setup-and-probes.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S01",
+        "IN-S02",
+        "IN-S03"
+      ],
+      "description": "Toolkit execution, hosted auth setup, OAuth scope changes and JSON/form proxy requests.",
+      "auth_and_data": "`COMPOSIO_API_KEY`, `x-api-key`, `OAuth`, `API_KEY`; named scopes `forms`, `forms.write`. Toolkit returns `{successful,data,error}`; proxy returns `{status,headers,data}`.",
+      "limitations": "Full least-privilege scopes and webhook contracts are not supplied. Replace `latest` with a deliberate version pin in production.",
+      "source_records": [
+        {
+          "source_id": "S01",
+          "start_line": 17,
+          "end_line": 39,
+          "original_excerpt_sha256": "129bd6212c046f802f8ad7543855af1b60fa145fe6be2ceb350ec3d6db6c8ec5",
+          "sanitized_excerpt_sha256": "129bd6212c046f802f8ad7543855af1b60fa145fe6be2ceb350ec3d6db6c8ec5"
+        },
+        {
+          "source_id": "S01",
+          "start_line": 41,
+          "end_line": 49,
+          "original_excerpt_sha256": "7b97c13a5f02667ac6a2fb6ea3cc8eb281938afa7c9142e928329035d22ee49f",
+          "sanitized_excerpt_sha256": "7b97c13a5f02667ac6a2fb6ea3cc8eb281938afa7c9142e928329035d22ee49f"
+        },
+        {
+          "source_id": "S01",
+          "start_line": 81,
+          "end_line": 93,
+          "original_excerpt_sha256": "f3b266727f3dacce61981d071c02c45d6eba46bcd9cc4d366d72fec60d8ce61a",
+          "sanitized_excerpt_sha256": "f3b266727f3dacce61981d071c02c45d6eba46bcd9cc4d366d72fec60d8ce61a"
+        },
+        {
+          "source_id": "S02",
+          "start_line": 14,
+          "end_line": 49,
+          "original_excerpt_sha256": "ce27bb72278a36f37297ff72e498c4f16e24bb533f3b88388b40d3453f739f75",
+          "sanitized_excerpt_sha256": "ce27bb72278a36f37297ff72e498c4f16e24bb533f3b88388b40d3453f739f75"
+        },
+        {
+          "source_id": "S03",
+          "start_line": 1,
+          "end_line": 29,
+          "original_excerpt_sha256": "5aa4db9b9ebf59be4ec2357582786fac70f18c18005c101d79b46219c5eb49e3",
+          "sanitized_excerpt_sha256": "5aa4db9b9ebf59be4ec2357582786fac70f18c18005c101d79b46219c5eb49e3"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "7e2214d6ec40819d3ed85395ea45afac486be01d5217cfd436d5b44e8bd79dc5"
+    },
+    {
+      "id": "IN02",
+      "package_path": "sources/integrations/in02-custom-mcp-full-envelope.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S04"
+      ],
+      "description": "Catalog import, DCR OAuth, schema synchronization and full SSE/JSON-RPC responses.",
+      "auth_and_data": "`API_KEY`, `DCR_OAUTH`, `generic_api_key`, `X-API-Key`, `MCP_API_BASE_URL`, `MCP-Protocol-Version`. Preserve `content`, `structuredContent`, `_meta`, errors and continuation metadata.",
+      "limitations": "Historical instructions describe experimental Custom MCP and immutable URL/auth settings. Catalog parity is not runtime/output parity; continuation fields can change.",
+      "source_records": [
+        {
+          "source_id": "S04",
+          "start_line": 1,
+          "end_line": 53,
+          "original_excerpt_sha256": "602943488d5c580a3e5d00b5faed7753313b63393ed14038d97d0fbed14cfb05",
+          "sanitized_excerpt_sha256": "2b30750adff81dbf1ab9ab1f7f80c82dd02c70ab20510c494479dfbb974b124c"
+        },
+        {
+          "source_id": "S04",
+          "start_line": 55,
+          "end_line": 67,
+          "original_excerpt_sha256": "d7e2bd60ce51850b08de576f4effec6d2a45c731edefe14e5caadbf32aceb20c",
+          "sanitized_excerpt_sha256": "d7e2bd60ce51850b08de576f4effec6d2a45c731edefe14e5caadbf32aceb20c"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "1a60bb153dd4a2abb45954dbdae9d8a5e09f6e81f03f2adee59b1a6900d1a256"
+    },
+    {
+      "id": "IN03",
+      "package_path": "sources/integrations/in03-shopify-identity-and-host.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S05"
+      ],
+      "description": "Bind an operation to the intended store; distinguish broker auth, theme CLI access and Admin GraphQL.",
+      "auth_and_data": "Admin token, hosted credential UI or Shopify CLI store auth. `SHOPIFY_GET_SHOP_DETAILS` and GraphQL `shop {name myshopifyDomain primaryDomain {url}}` are identity references.",
+      "limitations": "Admin scope lists and order/fulfillment/return payloads are not supplied. Documentation/validation MCP access is not store authorization.",
+      "source_records": [
+        {
+          "source_id": "S05",
+          "start_line": 1,
+          "end_line": 58,
+          "original_excerpt_sha256": "0abaf8386f59e59b45b032cb5ff8e9e499630e69dc58df7d2cd77f62c03bdb1a",
+          "sanitized_excerpt_sha256": "0abaf8386f59e59b45b032cb5ff8e9e499630e69dc58df7d2cd77f62c03bdb1a"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "7137ffa9715f9c6258fbca6c3c1310850f787ea725b7002dd3d65ca5fc5ad6ac"
+    },
+    {
+      "id": "IN04",
+      "package_path": "sources/integrations/in04-market-intel-dated-revalidation.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S06",
+        "IN-S07"
+      ],
+      "description": "September 14 source descriptions of Helium 10, WinningHunter and Brandsearch usage reads and catalog revalidation.",
+      "auth_and_data": "`DCR_OAUTH`, `API_KEY`. Historical schema versions include `20260914_00` and `20260910_00`.",
+      "limitations": "Dated source claims, not current operation tests. A usage read is not necessarily an identity check; writes, pagination and output parity remain separate concerns.",
+      "source_records": [
+        {
+          "source_id": "S06",
+          "start_line": 9,
+          "end_line": 14,
+          "original_excerpt_sha256": "1e44c1392b12805cff84e03e4870e775c2a0fb9a7a04013f28851feac4313769",
+          "sanitized_excerpt_sha256": "e94b5685f76b02315c89b4ece66dc30154d2b56014b76de8387fc3f55125bd19"
+        },
+        {
+          "source_id": "S06",
+          "start_line": 51,
+          "end_line": 57,
+          "original_excerpt_sha256": "66b57c0ee706c2f37c8410b972431f1b99c60cbd5f68e549592e40faeb66e3c4",
+          "sanitized_excerpt_sha256": "66b57c0ee706c2f37c8410b972431f1b99c60cbd5f68e549592e40faeb66e3c4"
+        },
+        {
+          "source_id": "S07",
+          "start_line": 1,
+          "end_line": 19,
+          "original_excerpt_sha256": "2da264fb440bb23a6c37be156ac12ac7c06ac5013864cd26831dd006449a0b28",
+          "sanitized_excerpt_sha256": "e660453332595e72ca5966df7de9f7ec31a572cd0042f2b258f06c2dcc2997b5"
+        },
+        {
+          "source_id": "S07",
+          "start_line": 31,
+          "end_line": 35,
+          "original_excerpt_sha256": "05ebe63a5128245d870959bb60ceb6e7ee8f2b936579f1995fa0782a46438689",
+          "sanitized_excerpt_sha256": "05ebe63a5128245d870959bb60ceb6e7ee8f2b936579f1995fa0782a46438689"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "fb81f5aefa4a5c2c53a1285223acc3b917ea72ae8a4aac72c73043dbd505189a"
+    },
+    {
+      "id": "IN05",
+      "package_path": "sources/integrations/in05-native-tool-schemas.json",
+      "classification": "original tool objects with editorial wrapper and marked example redactions",
+      "source_aliases": [
+        "IN-S08"
+      ],
+      "description": "Selected tool objects for keyword analysis, Amazon seller P&L, ad transcripts, Shopify-store search and product discovery.",
+      "auth_and_data": "Preserves input schemas and available output schemas. H10 output includes errors, caveats, currency, timezone and pagination; selected WH/Brandsearch objects do not declare output schemas.",
+      "limitations": "`generate_if_missing` can trigger paid transcript generation. Seller P&L is not general DTC accounting. Zero COGS may mean unconfigured; provider estimates are not observed commerce results.",
+      "source_records": [
+        {
+          "source_id": "S08",
+          "json_pointer": "/helium10/92",
+          "tool_name": "analyze_keywords"
+        },
+        {
+          "source_id": "S08",
+          "json_pointer": "/helium10/71",
+          "tool_name": "get_product_profit_and_loss_summary"
+        },
+        {
+          "source_id": "S08",
+          "json_pointer": "/winninghunter/17",
+          "tool_name": "get_ad_transcript"
+        },
+        {
+          "source_id": "S08",
+          "json_pointer": "/winninghunter/26",
+          "tool_name": "search_shopify_stores"
+        },
+        {
+          "source_id": "S08",
+          "json_pointer": "/brandsearch/8",
+          "tool_name": "get_products"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "44212f3e1318174e809b6332a5b3c8693077f6c6d0c750e09850d1214642db99"
+    },
+    {
+      "id": "IN06",
+      "package_path": "sources/integrations/in06-ads-handoff-contracts.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S09",
+        "IN-S10"
+      ],
+      "description": "Research/creative/store inputs → campaign, ad-set and creative packet → target-bound readback.",
+      "auth_and_data": "`META_ACCESS_TOKEN`, `META_AD_ACCOUNT_ID`, `DRIVEON_APPROVE_META_PAUSED_DRAFT_WRITE` are historical configuration names. Includes draft payload and `connector_status` fields.",
+      "limitations": "Historical draft-first design, not a new approval mandate. OAuth scope lists, proved write execution and complete creative-to-order attribution are not supplied.",
+      "source_records": [
+        {
+          "source_id": "S09",
+          "start_line": 17,
+          "end_line": 39,
+          "original_excerpt_sha256": "131d5c3e6d26d3c4a9b203e733f2121588c5d27ab50ba62f8cc98473f4dcb47f",
+          "sanitized_excerpt_sha256": "a6f64884278ea79f91293e7a86734e93ab753c4860df0494d9529f2df864a878"
+        },
+        {
+          "source_id": "S10",
+          "start_line": 99,
+          "end_line": 102,
+          "original_excerpt_sha256": "8e7e798eb144dbbdef21bc523ddeccf0689529f4db442e2e24de595e46cc238c",
+          "sanitized_excerpt_sha256": "9445a62d2528126c4f5644770f776ff269bdbb75d5e5cccb84bef2c7eb2f0279"
+        },
+        {
+          "source_id": "S10",
+          "start_line": 125,
+          "end_line": 147,
+          "original_excerpt_sha256": "e40b104f5e5dc3286f898e2ee2853a76ef79eda09bd9d69864362e66b67fd937",
+          "sanitized_excerpt_sha256": "d5a0752f3ae9ca6919353fb5a9fcf6f325cd267877ffbf3573cec07ac14de1a6"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "dab075180c19a8ba50685abbe4d2484f95f8f6cbeefc9af1b94711865107ee36"
+    },
+    {
+      "id": "IN07",
+      "package_path": "sources/integrations/in07-support-triage-sla.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S11"
+      ],
+      "description": "Intake, severity, fact gaps, draft response and escalation tracking.",
+      "auth_and_data": "Input: `intent`, `channel`, `venture`, `raw_item`. Output: `DRAFT_ONLY`, `tier`, `draft_reply`, `fact_gaps`, `sla_target`, `escalation_required`, `evidence`.",
+      "limitations": "Historical disabled/draft-only role. Helpdesk auth, send/close, RMA and refund integrations need implementation.",
+      "source_records": [
+        {
+          "source_id": "S11",
+          "start_line": 38,
+          "end_line": 46,
+          "original_excerpt_sha256": "9f454769015156424744eba2088da1fa72128eddb921f392a35b16ad60e720b1",
+          "sanitized_excerpt_sha256": "c954642fe5127f5b5171de9c9b54f2bfbf69bac0dd21df5971d468cd46030f84"
+        },
+        {
+          "source_id": "S11",
+          "start_line": 54,
+          "end_line": 64,
+          "original_excerpt_sha256": "d3a0a8257c2077c57225ae52a699cead7d66852b2870ecd9855754b44554cd4f",
+          "sanitized_excerpt_sha256": "4d604e435656884b5f6cc75a9968a84a94f89404e818ada3fe597d685ba54bad"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "16775b8e6e3fd985f90018902ef2472b254229f5b651144e8b343d384d2be010"
+    },
+    {
+      "id": "IN08",
+      "package_path": "sources/integrations/in08-bookkeeping-and-landed-cost.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S12",
+        "IN-S13"
+      ],
+      "description": "COGS reconciliation, spend ledger, P&L inputs and unit/freight/customs/last-mile costs.",
+      "auth_and_data": "Historical source names `CJ_API_KEY`, `APIFY_TOKEN`. Period and source records feed `REPORT_ONLY` reconciliation with per-figure evidence and `needs_verification`.",
+      "limitations": "No general ledger, journal posting, accounting SaaS connector or bank-reconciliation engine. Verify shipping-cost overlap, tariff classification and actual quotes.",
+      "source_records": [
+        {
+          "source_id": "S12",
+          "start_line": 42,
+          "end_line": 46,
+          "original_excerpt_sha256": "e9070396e48c35c39ca3f59add7565a51e6fb40927fb41d786976646bdfe500d",
+          "sanitized_excerpt_sha256": "e9070396e48c35c39ca3f59add7565a51e6fb40927fb41d786976646bdfe500d"
+        },
+        {
+          "source_id": "S12",
+          "start_line": 54,
+          "end_line": 64,
+          "original_excerpt_sha256": "7f651a266d8c23614082bef42941a781d349adc6c7432e333dfa5d885ac95072",
+          "sanitized_excerpt_sha256": "ede6f1e7cec3ae03b1e4a8b550d1d3b41d796f6ae731bb4d571d720d991a26f3"
+        },
+        {
+          "source_id": "S13",
+          "start_line": 16,
+          "end_line": 19,
+          "original_excerpt_sha256": "721bc7211d5a3ea6096ad9b688f881581ba3efa96139c43cb0738562900bcb8e",
+          "sanitized_excerpt_sha256": "721bc7211d5a3ea6096ad9b688f881581ba3efa96139c43cb0738562900bcb8e"
+        },
+        {
+          "source_id": "S13",
+          "start_line": 34,
+          "end_line": 40,
+          "original_excerpt_sha256": "97df0e7b2c64b6eb072eed79bc53dac9c5228d2dced7d3977be7399364b689ec",
+          "sanitized_excerpt_sha256": "97df0e7b2c64b6eb072eed79bc53dac9c5228d2dced7d3977be7399364b689ec"
+        },
+        {
+          "source_id": "S13",
+          "start_line": 72,
+          "end_line": 74,
+          "original_excerpt_sha256": "23ec75fcf989c8ca5214649b24d92837f96f273bcae24af198687d79bd5f3097",
+          "sanitized_excerpt_sha256": "23ec75fcf989c8ca5214649b24d92837f96f273bcae24af198687d79bd5f3097"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "847201ce8a007f8deca8a16f5a627623308642156a90384e58f8735eb8b254a3"
+    },
+    {
+      "id": "IN09",
+      "package_path": "sources/integrations/in09-financial-analysis-method.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S14"
+      ],
+      "description": "First/repeat cohort economics, payback, LTV and cash-out timing.",
+      "auth_and_data": "AOV, loaded COGS, new-customer CAC, fees, retention, payment terms and OpEx feed margin and cash analysis.",
+      "limitations": "Course-derived method. Fee defaults and repeat-order acquisition assumptions require validation. No accounting connector or cash-movement implementation.",
+      "source_records": [
+        {
+          "source_id": "S14",
+          "start_line": 7,
+          "end_line": 23,
+          "original_excerpt_sha256": "3c0d7a8e4c045ee3492a69ccc49b8970aa124e3d1ea2d89f096d5d43c7998739",
+          "sanitized_excerpt_sha256": "3c0d7a8e4c045ee3492a69ccc49b8970aa124e3d1ea2d89f096d5d43c7998739"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 27,
+          "end_line": 40,
+          "original_excerpt_sha256": "4d9b8fcb89746e07ee7544fd41f74ad1aea647c3b9ce6e3194f2d43570580198",
+          "sanitized_excerpt_sha256": "4d9b8fcb89746e07ee7544fd41f74ad1aea647c3b9ce6e3194f2d43570580198"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 54,
+          "end_line": 66,
+          "original_excerpt_sha256": "78336cfa8db0b3dfe2ae63538b37bb053a57ac284e2bcd9dbf7e7b8087c601bc",
+          "sanitized_excerpt_sha256": "78336cfa8db0b3dfe2ae63538b37bb053a57ac284e2bcd9dbf7e7b8087c601bc"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 98,
+          "end_line": 105,
+          "original_excerpt_sha256": "59226018949d99233f9b4f6b5620889eb18d6a3a4052e48cbdd10aa2ea114a49",
+          "sanitized_excerpt_sha256": "59226018949d99233f9b4f6b5620889eb18d6a3a4052e48cbdd10aa2ea114a49"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 109,
+          "end_line": 111,
+          "original_excerpt_sha256": "e7561b3002c0f6c8c0cdf2b557a033f139feb0a8e9c65b6d84613a2e2587bd8a",
+          "sanitized_excerpt_sha256": "e7561b3002c0f6c8c0cdf2b557a033f139feb0a8e9c65b6d84613a2e2587bd8a"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 126,
+          "end_line": 130,
+          "original_excerpt_sha256": "a06d501c5bb1ffe647110c20904cad902b19ab4ee9334ac73551f1fc08004f5b",
+          "sanitized_excerpt_sha256": "a06d501c5bb1ffe647110c20904cad902b19ab4ee9334ac73551f1fc08004f5b"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 192,
+          "end_line": 196,
+          "original_excerpt_sha256": "a59dda1beb31e91e3e73b39d6a65bacff0fb099985360e3e7a6cc78a8ba4dfab",
+          "sanitized_excerpt_sha256": "a59dda1beb31e91e3e73b39d6a65bacff0fb099985360e3e7a6cc78a8ba4dfab"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 255,
+          "end_line": 260,
+          "original_excerpt_sha256": "4066be1a05c527b229f6addb234357e7e7296519ac5b5696af5e2520ef8985da",
+          "sanitized_excerpt_sha256": "4066be1a05c527b229f6addb234357e7e7296519ac5b5696af5e2520ef8985da"
+        },
+        {
+          "source_id": "S14",
+          "start_line": 387,
+          "end_line": 433,
+          "original_excerpt_sha256": "8984923e55fcfaf29a71eef25b578082e8dbf6fb576525e708732118b008606f",
+          "sanitized_excerpt_sha256": "8984923e55fcfaf29a71eef25b578082e8dbf6fb576525e708732118b008606f"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "4bec9d6d8d61730d550d7e94464b8572998349ffecc60ed1a2c5b71ac6f60ee5"
+    },
+    {
+      "id": "IN10",
+      "package_path": "sources/integrations/in10-supplier-selection-negotiation-qc.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S15"
+      ],
+      "description": "Supplier modes, MOQ negotiation, samples and certification/QC.",
+      "auth_and_data": "Product, operating stage, market and needs feed negotiation options, comparable samples and certification evidence.",
+      "limitations": "Method only. No purchasing, supplier communication, PO/invoice, 3PL stock/order-exception or RMA adapter. Custom-product-development coverage is incomplete.",
+      "source_records": [
+        {
+          "source_id": "S15",
+          "start_line": 9,
+          "end_line": 15,
+          "original_excerpt_sha256": "3b4a164e93d8d016d2da6e682a34baf43efeebea943e45b9bce5fd75625d4b5b",
+          "sanitized_excerpt_sha256": "3b4a164e93d8d016d2da6e682a34baf43efeebea943e45b9bce5fd75625d4b5b"
+        },
+        {
+          "source_id": "S15",
+          "start_line": 25,
+          "end_line": 32,
+          "original_excerpt_sha256": "42034601c1d68cdba56b6d64e780bfbf64a558a91c078ba3e77f03fee5dcc8b6",
+          "sanitized_excerpt_sha256": "42034601c1d68cdba56b6d64e780bfbf64a558a91c078ba3e77f03fee5dcc8b6"
+        },
+        {
+          "source_id": "S15",
+          "start_line": 126,
+          "end_line": 134,
+          "original_excerpt_sha256": "eac9fa40a318fddbce1d8c3ba89eebb452f933b8cacb761aa3055c1f9449eccd",
+          "sanitized_excerpt_sha256": "717b87030eac58be71722d9d59cb18db1cf2b5588daf32e7adc6954fe4769cbf"
+        },
+        {
+          "source_id": "S15",
+          "start_line": 147,
+          "end_line": 155,
+          "original_excerpt_sha256": "3935ea1614293ab6b5fdb603690a834b584a69c2ad06bc5e9f97776b839bfac2",
+          "sanitized_excerpt_sha256": "3935ea1614293ab6b5fdb603690a834b584a69c2ad06bc5e9f97776b839bfac2"
+        },
+        {
+          "source_id": "S15",
+          "start_line": 189,
+          "end_line": 213,
+          "original_excerpt_sha256": "51e5dabf2ece3cef1830ec8fc44b2a4f20c0856ba89979c20aa59f557d0291a3",
+          "sanitized_excerpt_sha256": "51e5dabf2ece3cef1830ec8fc44b2a4f20c0856ba89979c20aa59f557d0291a3"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "17889d48ddbf8a17823d10fad1b04f4aef0ceb4c3ca1eda41f2e93a52b413032"
+    },
+    {
+      "id": "IN11",
+      "package_path": "sources/integrations/in11-retention-and-fulfillment-touchpoints.md",
+      "classification": "sanitized original excerpts with separate editorial context",
+      "source_aliases": [
+        "IN-S16"
+      ],
+      "description": "Abandoned checkout, welcome, post-purchase, shipment and review flows.",
+      "auth_and_data": "Historical OmniSend/DSers/17Track configuration examples; trigger/timing/content descriptions rather than provider event schemas.",
+      "limitations": "Vendor/API availability is not established. Consent, suppression, unsubscribe, eligibility, send idempotency, order routing and returns require implementation. Historical prices and revenue claims are not targets.",
+      "source_records": [
+        {
+          "source_id": "S16",
+          "start_line": 90,
+          "end_line": 98,
+          "original_excerpt_sha256": "454028bdc2a212615e36891d5d413473bf5dd919ead359c57ef1677f22624589",
+          "sanitized_excerpt_sha256": "454028bdc2a212615e36891d5d413473bf5dd919ead359c57ef1677f22624589"
+        },
+        {
+          "source_id": "S16",
+          "start_line": 411,
+          "end_line": 429,
+          "original_excerpt_sha256": "96ecdfa76b9d0b06e962fef676c8d13c3b5cfa6278e599b94014cc441633cfa6",
+          "sanitized_excerpt_sha256": "96ecdfa76b9d0b06e962fef676c8d13c3b5cfa6278e599b94014cc441633cfa6"
+        },
+        {
+          "source_id": "S16",
+          "start_line": 442,
+          "end_line": 448,
+          "original_excerpt_sha256": "a0d9d8aa17f49ffd5964099abfa9021c1396d56df6ce438a863928f17b61f205",
+          "sanitized_excerpt_sha256": "a0d9d8aa17f49ffd5964099abfa9021c1396d56df6ce438a863928f17b61f205"
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "0afcdee5786cad7ad28fb7cbab44207cbcddca77feb30bfbe691f64b0ebc0dc9"
+    },
+    {
+      "id": "IN12",
+      "package_path": "sources/integrations/in12-platform-execution.schema.json",
+      "classification": "sanitized original JSON Schema",
+      "source_aliases": [
+        "IN-S17"
+      ],
+      "description": "Provider-neutral request, dry-run, idempotency, readback and rollback fields.",
+      "auth_and_data": "`action_id`, `execution_id`, surface, connector type, mode, approval, request, safety, expected artifacts and readback path.",
+      "limitations": "Historical schema identity is redacted; assign an intentional identity before use. Validation neither executes requests nor establishes permission. Vendor enums and `budget_cap` are not required design choices.",
+      "source_records": [
+        {
+          "source_id": "S17",
+          "start_line": 1,
+          "end_line": 78
+        }
+      ],
+      "runtime_status": "historical reference; current operation unverified",
+      "sha256": "5454fa518408ca340d87bea159b69795662c4ce3ffc78c5368ced6273ddfc4b1"
+    },
+    {
+      "id": "U-SUMMARY",
+      "package_path": "sources/owner-requirements-summary.json",
+      "classification": "assistant_written_requirement_summary",
+      "source_aliases": [],
+      "sha256": "df193088dc7c4d9a761a19ec7e79691a50cfbd37db24928d62d9521833df2872"
+    },
+    {
+      "id": "H-SUMMARY",
+      "package_path": "sources/historical-intent-summary.json",
+      "classification": "assistant_written_historical_summary",
+      "source_aliases": [],
+      "sha256": "e6f97d898369b84431915a6e6bc2825795b9e5d6cdf63673b8c453563cd33936"
+    },
+    {
+      "id": "B08",
+      "package_path": "reference-implementations/asset-manifest.original.json",
+      "classification": "original_blank_template",
+      "source_aliases": [],
+      "sha256": "d3276f6981fdcf0ff239087d42e5f1ac46aac8243dded32379c176199f778d4b"
+    },
+    {
+      "id": "B09",
+      "package_path": "reference-implementations/revenue-readback.sanitized.schema.json",
+      "classification": "sanitized_historical_schema",
+      "source_aliases": [],
+      "sha256": "862925409b66fbbf24fe56c29f37b71f0621670798ce42a2540d1cb0bf07c9f3"
+    },
+    {
+      "id": "C16",
+      "package_path": "reference-implementations/edit-lineage-fields.json",
+      "classification": "derived_field_map_not_run_data",
+      "source_aliases": [],
+      "sha256": "9e02cff63311f10b565e493ff6cc118799c18e6551b21bbc52875d7e9d760627"
+    },
+    {
+      "id": "METHOD-MAP",
+      "package_path": "methodologies/historical-workflow-contracts.json",
+      "classification": "derived_semantic_crosswalk",
+      "source_aliases": [],
+      "sha256": "09b53bd5a4642d6fec4a1b403d0c2921c6f6a1702b79a69b1950948fd8d9b42e"
+    },
+    {
+      "id": "WORKFLOWS",
+      "package_path": "methodologies/semantic-workflows.md",
+      "classification": "workflow_explanation",
+      "source_aliases": [],
+      "sha256": "d84548bb9ba024700661fee5aa7350a80f53045f00844c48315f1263f0cba5c7"
+    },
+    {
+      "id": "README",
+      "package_path": "README.md",
+      "classification": "developer_brief",
+      "source_aliases": [],
+      "sha256": "699674a5043e014155316115eec5b1e47081fbf78dd1b13fdb869b3b9a1ffb03"
+    },
+    {
+      "id": "REQUIREMENTS",
+      "package_path": "REQUIREMENTS.md",
+      "classification": "requirements",
+      "source_aliases": [],
+      "sha256": "978e5c821cfaaec2096b8d5ab392f6f698c5c8d74c50f92c41261295bd20ce0b"
+    },
+    {
+      "id": "QUESTIONS",
+      "package_path": "QUESTIONS.md",
+      "classification": "implementation_considerations",
+      "source_aliases": [],
+      "sha256": "0e6726f34218310235cbbda7767b198b70aae03bb5d2b6c87e8e125ce7acf52d"
+    },
+    {
+      "id": "REFERENCE-SYSTEMS",
+      "package_path": "REFERENCE-SYSTEMS.md",
+      "classification": "official_product_page_summary",
+      "source_aliases": [],
+      "sha256": "559c6f212655cc2a07f7a2ed76f982347a0ac2fe8ee119d7d13a3a92486b3d38"
+    },
+    {
+      "id": "UPWORK-JOB",
+      "package_path": "UPWORK-JOB-POSTING.md",
+      "classification": "hiring_copy",
+      "source_aliases": [],
+      "sha256": "a2659a30cde48a1d5ee652415b0703172ef53fcaa80c30e11afedbc8e422a577"
+    },
+    {
+      "id": "READING-NOTES",
+      "package_path": "catalog/reading-notes.md",
+      "classification": "technical_reference_notes",
+      "source_aliases": [],
+      "sha256": "d75401c5db227977b9286af1aa7530f8b208226f806e66f2a4041c7b48d22c20"
+    },
+    {
+      "id": "INTEGRATION-INDEX",
+      "package_path": "sources/integrations/index.md",
+      "classification": "integration_reference_notes",
+      "source_aliases": [],
+      "sha256": "9aec31eb8c1f4ac97efaedc3617d2bc6462ce8e907eb3b05b234708b75f17956"
+    },
+    {
+      "id": "SOURCE-CATALOG",
+      "package_path": "catalog/SOURCES.md",
+      "classification": "source_navigation",
+      "source_aliases": [],
+      "sha256": "f953cbd70cb221df1213c6c4d15023c26269d2664f7c2e37e454f5f080260ffd"
+    },
+    {
+      "id": "PUBLICATION-EXCLUSIONS",
+      "package_path": ".gitignore",
+      "classification": "publication_exclusions",
+      "source_aliases": [],
+      "sha256": "a432a830b3e6052d2bda1fb42ae41857100d188f22c453484bbc288fe746e9fe"
+    }
+  ],
+  "source_alias_index": {
+    "B01": {
+      "references": [
+        {
+          "artifact_id": "C14",
+          "package_path": "sources/context/C14-finished-ad-evidence-generation-edit-and-learning-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "B07": {
+      "references": [
+        {
+          "artifact_id": "C15",
+          "package_path": "sources/context/C15-recent-correction-test-actual-output-before-new-contracts.md",
+          "representation": "assistant_written_historical_summary"
+        }
+      ]
+    },
+    "B08": {
+      "references": [
+        {
+          "artifact_id": "B08",
+          "package_path": "reference-implementations/asset-manifest.original.json",
+          "representation": "original_blank_template"
+        }
+      ]
+    },
+    "B09": {
+      "references": [
+        {
+          "artifact_id": "B09",
+          "package_path": "reference-implementations/revenue-readback.sanitized.schema.json",
+          "representation": "sanitized_historical_schema"
+        }
+      ]
+    },
+    "B12": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/1",
+          "summary_id": "H02",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "B14": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/5",
+          "summary_id": "H06",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "C01": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/0",
+          "summary_id": "H01",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "C02": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/1",
+          "summary_id": "H02",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "C03": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/2",
+          "summary_id": "H03",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "C04": {
+      "references": [
+        {
+          "artifact_id": "C04",
+          "package_path": "sources/context/C04-creative-brief-input-and-output-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C05": {
+      "references": [
+        {
+          "artifact_id": "C05",
+          "package_path": "sources/context/C05-model-prompt-input-and-output-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C06": {
+      "references": [
+        {
+          "artifact_id": "C06",
+          "package_path": "sources/context/C06-video-plan-and-editing-handoff-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C07": {
+      "references": [
+        {
+          "artifact_id": "C07",
+          "package_path": "sources/context/C07-scraped-reference-to-shot-analysis-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C08": {
+      "references": [
+        {
+          "artifact_id": "C08",
+          "package_path": "sources/context/C08-editing-assembly-and-export-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C09": {
+      "references": [
+        {
+          "artifact_id": "C09",
+          "package_path": "sources/context/C09-node-graph-and-reference-wiring-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C10": {
+      "references": [
+        {
+          "artifact_id": "C10",
+          "package_path": "sources/context/C10-evolve-script-structure-and-production-handoffs.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C11": {
+      "references": [
+        {
+          "artifact_id": "C11",
+          "package_path": "sources/context/C11-evolve-performance-to-next-batch-feedback.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C12": {
+      "references": [
+        {
+          "artifact_id": "C12",
+          "package_path": "sources/context/C12-evolve-supplier-selection-negotiation-and-diligence.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C13": {
+      "references": [
+        {
+          "artifact_id": "C13",
+          "package_path": "sources/context/C13-evolve-research-inputs-evidence-and-downstream-document.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C14": {
+      "references": [
+        {
+          "artifact_id": "C14",
+          "package_path": "sources/context/C14-finished-ad-evidence-generation-edit-and-learning-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C15": {
+      "references": [
+        {
+          "artifact_id": "C15",
+          "package_path": "sources/context/C15-recent-correction-test-actual-output-before-new-contracts.md",
+          "representation": "assistant_written_historical_summary"
+        }
+      ]
+    },
+    "C16": {
+      "references": [
+        {
+          "artifact_id": "C16",
+          "package_path": "reference-implementations/edit-lineage-fields.json",
+          "representation": "derived_field_map_not_run_data"
+        }
+      ]
+    },
+    "C17": {
+      "references": [
+        {
+          "artifact_id": "C17",
+          "package_path": "sources/context/C17-original-sourcing-payload-and-downstream-catalog-semantics.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "C18": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/5",
+          "summary_id": "H06",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "DL0161": {
+      "references": [
+        {
+          "artifact_id": "DLC01",
+          "package_path": "reference-implementations/research-os/files/research-schema.sql",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0172": {
+      "references": [
+        {
+          "artifact_id": "DLC02",
+          "package_path": "reference-implementations/research-os/files/products-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0173": {
+      "references": [
+        {
+          "artifact_id": "DLC03",
+          "package_path": "reference-implementations/research-os/files/voc_quotes-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0174": {
+      "references": [
+        {
+          "artifact_id": "DLC04",
+          "package_path": "reference-implementations/research-os/files/angles-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0175": {
+      "references": [
+        {
+          "artifact_id": "DLC05",
+          "package_path": "reference-implementations/research-os/files/tool_calls-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0176": {
+      "references": [
+        {
+          "artifact_id": "DLC06",
+          "package_path": "reference-implementations/research-os/files/suppliers-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0177": {
+      "references": [
+        {
+          "artifact_id": "DLC07",
+          "package_path": "reference-implementations/research-os/files/ads-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0179": {
+      "references": [
+        {
+          "artifact_id": "DLC08",
+          "package_path": "reference-implementations/research-os/files/metrics-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0180": {
+      "references": [
+        {
+          "artifact_id": "DLC09",
+          "package_path": "reference-implementations/research-os/files/evidence-header.csv",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0183": {
+      "references": [
+        {
+          "artifact_id": "DLC10",
+          "package_path": "reference-implementations/research-os/files/brief-compiler.mjs",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0186": {
+      "references": [
+        {
+          "artifact_id": "DLC11",
+          "package_path": "reference-implementations/research-os/files/connector-contract.mjs",
+          "representation": "original"
+        },
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "DL0327": {
+      "references": [
+        {
+          "artifact_id": "DLC12",
+          "package_path": "reference-implementations/research-os/files/context-variables-excerpt.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "DL0412": {
+      "references": [
+        {
+          "artifact_id": "DLC14",
+          "package_path": "reference-implementations/research-os/files/creative-continuity-excerpts.md",
+          "representation": "original_excerpt"
+        }
+      ]
+    },
+    "DL0498": {
+      "references": [
+        {
+          "artifact_id": "DLC13",
+          "package_path": "reference-implementations/research-os/files/video-brief-template-excerpt.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "DLC01": {
+      "references": [
+        {
+          "artifact_id": "DLC01",
+          "package_path": "reference-implementations/research-os/files/research-schema.sql",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC02": {
+      "references": [
+        {
+          "artifact_id": "DLC02",
+          "package_path": "reference-implementations/research-os/files/products-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC03": {
+      "references": [
+        {
+          "artifact_id": "DLC03",
+          "package_path": "reference-implementations/research-os/files/voc_quotes-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC04": {
+      "references": [
+        {
+          "artifact_id": "DLC04",
+          "package_path": "reference-implementations/research-os/files/angles-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC05": {
+      "references": [
+        {
+          "artifact_id": "DLC05",
+          "package_path": "reference-implementations/research-os/files/tool_calls-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC06": {
+      "references": [
+        {
+          "artifact_id": "DLC06",
+          "package_path": "reference-implementations/research-os/files/suppliers-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC07": {
+      "references": [
+        {
+          "artifact_id": "DLC07",
+          "package_path": "reference-implementations/research-os/files/ads-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC08": {
+      "references": [
+        {
+          "artifact_id": "DLC08",
+          "package_path": "reference-implementations/research-os/files/metrics-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC09": {
+      "references": [
+        {
+          "artifact_id": "DLC09",
+          "package_path": "reference-implementations/research-os/files/evidence-header.csv",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC10": {
+      "references": [
+        {
+          "artifact_id": "DLC10",
+          "package_path": "reference-implementations/research-os/files/brief-compiler.mjs",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC11": {
+      "references": [
+        {
+          "artifact_id": "DLC11",
+          "package_path": "reference-implementations/research-os/files/connector-contract.mjs",
+          "representation": "original"
+        }
+      ]
+    },
+    "DLC12": {
+      "references": [
+        {
+          "artifact_id": "DLC12",
+          "package_path": "reference-implementations/research-os/files/context-variables-excerpt.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "DLC13": {
+      "references": [
+        {
+          "artifact_id": "DLC13",
+          "package_path": "reference-implementations/research-os/files/video-brief-template-excerpt.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "DLC14": {
+      "references": [
+        {
+          "artifact_id": "DLC14",
+          "package_path": "reference-implementations/research-os/files/creative-continuity-excerpts.md",
+          "representation": "original_excerpt"
+        }
+      ]
+    },
+    "DLC15": {
+      "references": [
+        {
+          "artifact_id": "DLC15",
+          "package_path": "reference-implementations/research-os/files/field-map.json",
+          "representation": "derived_field_map"
+        }
+      ]
+    },
+    "H-SUMMARY": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "representation": "assistant_written_historical_summary"
+        }
+      ]
+    },
+    "H01": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/0",
+          "summary_id": "H01",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "H02": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/1",
+          "summary_id": "H02",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "H03": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/2",
+          "summary_id": "H03",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "H04": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/3",
+          "summary_id": "H04",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "H05": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/4",
+          "summary_id": "H05",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "H06": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/5",
+          "summary_id": "H06",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "IN-S01": {
+      "references": [
+        {
+          "artifact_id": "IN01",
+          "package_path": "sources/integrations/in01-composio-setup-and-probes.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S02": {
+      "references": [
+        {
+          "artifact_id": "IN01",
+          "package_path": "sources/integrations/in01-composio-setup-and-probes.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S03": {
+      "references": [
+        {
+          "artifact_id": "IN01",
+          "package_path": "sources/integrations/in01-composio-setup-and-probes.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S04": {
+      "references": [
+        {
+          "artifact_id": "IN02",
+          "package_path": "sources/integrations/in02-custom-mcp-full-envelope.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S05": {
+      "references": [
+        {
+          "artifact_id": "IN03",
+          "package_path": "sources/integrations/in03-shopify-identity-and-host.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S06": {
+      "references": [
+        {
+          "artifact_id": "IN04",
+          "package_path": "sources/integrations/in04-market-intel-dated-revalidation.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S07": {
+      "references": [
+        {
+          "artifact_id": "IN04",
+          "package_path": "sources/integrations/in04-market-intel-dated-revalidation.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S08": {
+      "references": [
+        {
+          "artifact_id": "IN05",
+          "package_path": "sources/integrations/in05-native-tool-schemas.json",
+          "representation": "original tool objects with editorial wrapper and marked example redactions"
+        }
+      ]
+    },
+    "IN-S09": {
+      "references": [
+        {
+          "artifact_id": "IN06",
+          "package_path": "sources/integrations/in06-ads-handoff-contracts.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S10": {
+      "references": [
+        {
+          "artifact_id": "IN06",
+          "package_path": "sources/integrations/in06-ads-handoff-contracts.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S11": {
+      "references": [
+        {
+          "artifact_id": "IN07",
+          "package_path": "sources/integrations/in07-support-triage-sla.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S12": {
+      "references": [
+        {
+          "artifact_id": "IN08",
+          "package_path": "sources/integrations/in08-bookkeeping-and-landed-cost.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S13": {
+      "references": [
+        {
+          "artifact_id": "IN08",
+          "package_path": "sources/integrations/in08-bookkeeping-and-landed-cost.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S14": {
+      "references": [
+        {
+          "artifact_id": "IN09",
+          "package_path": "sources/integrations/in09-financial-analysis-method.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S15": {
+      "references": [
+        {
+          "artifact_id": "IN10",
+          "package_path": "sources/integrations/in10-supplier-selection-negotiation-qc.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S16": {
+      "references": [
+        {
+          "artifact_id": "IN11",
+          "package_path": "sources/integrations/in11-retention-and-fulfillment-touchpoints.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN-S17": {
+      "references": [
+        {
+          "artifact_id": "IN12",
+          "package_path": "sources/integrations/in12-platform-execution.schema.json",
+          "representation": "sanitized original JSON Schema"
+        }
+      ]
+    },
+    "IN01": {
+      "references": [
+        {
+          "artifact_id": "IN01",
+          "package_path": "sources/integrations/in01-composio-setup-and-probes.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN02": {
+      "references": [
+        {
+          "artifact_id": "IN02",
+          "package_path": "sources/integrations/in02-custom-mcp-full-envelope.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN03": {
+      "references": [
+        {
+          "artifact_id": "IN03",
+          "package_path": "sources/integrations/in03-shopify-identity-and-host.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN04": {
+      "references": [
+        {
+          "artifact_id": "IN04",
+          "package_path": "sources/integrations/in04-market-intel-dated-revalidation.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN05": {
+      "references": [
+        {
+          "artifact_id": "IN05",
+          "package_path": "sources/integrations/in05-native-tool-schemas.json",
+          "representation": "original tool objects with editorial wrapper and marked example redactions"
+        }
+      ]
+    },
+    "IN06": {
+      "references": [
+        {
+          "artifact_id": "IN06",
+          "package_path": "sources/integrations/in06-ads-handoff-contracts.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN07": {
+      "references": [
+        {
+          "artifact_id": "IN07",
+          "package_path": "sources/integrations/in07-support-triage-sla.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN08": {
+      "references": [
+        {
+          "artifact_id": "IN08",
+          "package_path": "sources/integrations/in08-bookkeeping-and-landed-cost.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN09": {
+      "references": [
+        {
+          "artifact_id": "IN09",
+          "package_path": "sources/integrations/in09-financial-analysis-method.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN10": {
+      "references": [
+        {
+          "artifact_id": "IN10",
+          "package_path": "sources/integrations/in10-supplier-selection-negotiation-qc.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN11": {
+      "references": [
+        {
+          "artifact_id": "IN11",
+          "package_path": "sources/integrations/in11-retention-and-fulfillment-touchpoints.md",
+          "representation": "sanitized original excerpts with separate editorial context"
+        }
+      ]
+    },
+    "IN12": {
+      "references": [
+        {
+          "artifact_id": "IN12",
+          "package_path": "sources/integrations/in12-platform-execution.schema.json",
+          "representation": "sanitized original JSON Schema"
+        }
+      ]
+    },
+    "INTEGRATION-INDEX": {
+      "references": [
+        {
+          "artifact_id": "INTEGRATION-INDEX",
+          "package_path": "sources/integrations/index.md",
+          "representation": "integration_reference_notes"
+        }
+      ]
+    },
+    "LEAD-0357": {
+      "references": [
+        {
+          "artifact_id": "C08",
+          "package_path": "sources/context/C08-editing-assembly-and-export-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "LEAD-0359": {
+      "references": [
+        {
+          "artifact_id": "C09",
+          "package_path": "sources/context/C09-node-graph-and-reference-wiring-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "LEAD-0360": {
+      "references": [
+        {
+          "artifact_id": "C07",
+          "package_path": "sources/context/C07-scraped-reference-to-shot-analysis-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "METHOD-MAP": {
+      "references": [
+        {
+          "artifact_id": "METHOD-MAP",
+          "package_path": "methodologies/historical-workflow-contracts.json",
+          "representation": "derived_semantic_crosswalk"
+        }
+      ]
+    },
+    "N01": {
+      "references": [
+        {
+          "artifact_id": "C17",
+          "package_path": "sources/context/C17-original-sourcing-payload-and-downstream-catalog-semantics.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "PUBLICATION-EXCLUSIONS": {
+      "references": [
+        {
+          "artifact_id": "PUBLICATION-EXCLUSIONS",
+          "package_path": ".gitignore",
+          "representation": "publication_exclusions"
+        }
+      ]
+    },
+    "QUESTIONS": {
+      "references": [
+        {
+          "artifact_id": "QUESTIONS",
+          "package_path": "QUESTIONS.md",
+          "representation": "implementation_considerations"
+        }
+      ]
+    },
+    "READING-NOTES": {
+      "references": [
+        {
+          "artifact_id": "READING-NOTES",
+          "package_path": "catalog/reading-notes.md",
+          "representation": "technical_reference_notes"
+        }
+      ]
+    },
+    "README": {
+      "references": [
+        {
+          "artifact_id": "README",
+          "package_path": "README.md",
+          "representation": "developer_brief"
+        }
+      ]
+    },
+    "REFERENCE-SYSTEMS": {
+      "references": [
+        {
+          "artifact_id": "REFERENCE-SYSTEMS",
+          "package_path": "REFERENCE-SYSTEMS.md",
+          "representation": "official_product_page_summary"
+        }
+      ]
+    },
+    "REQUIREMENTS": {
+      "references": [
+        {
+          "artifact_id": "REQUIREMENTS",
+          "package_path": "REQUIREMENTS.md",
+          "representation": "requirements"
+        }
+      ]
+    },
+    "SOURCE-CATALOG": {
+      "references": [
+        {
+          "artifact_id": "SOURCE-CATALOG",
+          "package_path": "catalog/SOURCES.md",
+          "representation": "source_navigation"
+        }
+      ]
+    },
+    "U-SUMMARY": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "representation": "assistant_written_requirement_summary"
+        }
+      ]
+    },
+    "U01": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/0",
+          "summary_id": "U01",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U02": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/1",
+          "summary_id": "U02",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U03": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/2",
+          "summary_id": "U03",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U04": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/3",
+          "summary_id": "U04",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U05": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/4",
+          "summary_id": "U05",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U06": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/5",
+          "summary_id": "U06",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U07": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/6",
+          "summary_id": "U07",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U08": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/7",
+          "summary_id": "U08",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U09": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/8",
+          "summary_id": "U09",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U10": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/9",
+          "summary_id": "U10",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U11": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/10",
+          "summary_id": "U11",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U12": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/11",
+          "summary_id": "U12",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U13": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/12",
+          "summary_id": "U13",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U14": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/13",
+          "summary_id": "U14",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U15": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/14",
+          "summary_id": "U15",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U16": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/15",
+          "summary_id": "U16",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U17": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/16",
+          "summary_id": "U17",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "UPWORK-JOB": {
+      "references": [
+        {
+          "artifact_id": "UPWORK-JOB",
+          "package_path": "UPWORK-JOB-POSTING.md",
+          "representation": "hiring_copy"
+        }
+      ]
+    },
+    "VAULT1-001": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/0",
+          "summary_id": "H01",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "VAULT1-002": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/3",
+          "summary_id": "H04",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "VAULT1-004": {
+      "references": [
+        {
+          "artifact_id": "C13",
+          "package_path": "sources/context/C13-evolve-research-inputs-evidence-and-downstream-document.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT1-005": {
+      "references": [
+        {
+          "artifact_id": "C10",
+          "package_path": "sources/context/C10-evolve-script-structure-and-production-handoffs.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT1-006": {
+      "original_available": false,
+      "references": [
+        {
+          "artifact_id": "METHOD-MAP",
+          "package_path": "methodologies/historical-workflow-contracts.json",
+          "representation": "derived_explanation_only"
+        }
+      ]
+    },
+    "VAULT1-007": {
+      "original_available": false,
+      "references": [
+        {
+          "artifact_id": "METHOD-MAP",
+          "package_path": "methodologies/historical-workflow-contracts.json",
+          "representation": "derived_explanation_only"
+        }
+      ]
+    },
+    "VAULT1-008": {
+      "references": [
+        {
+          "artifact_id": "C11",
+          "package_path": "sources/context/C11-evolve-performance-to-next-batch-feedback.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT1-010": {
+      "references": [
+        {
+          "artifact_id": "C12",
+          "package_path": "sources/context/C12-evolve-supplier-selection-negotiation-and-diligence.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT2-001": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/2",
+          "summary_id": "H03",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "VAULT2-006": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/4",
+          "summary_id": "H05",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "VAULT2-008": {
+      "references": [
+        {
+          "artifact_id": "C04",
+          "package_path": "sources/context/C04-creative-brief-input-and-output-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT2-009": {
+      "references": [
+        {
+          "artifact_id": "C05",
+          "package_path": "sources/context/C05-model-prompt-input-and-output-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT2-010": {
+      "references": [
+        {
+          "artifact_id": "C06",
+          "package_path": "sources/context/C06-video-plan-and-editing-handoff-contract.md",
+          "representation": "redacted_original_excerpt"
+        }
+      ]
+    },
+    "VAULT2-011": {
+      "original_available": false,
+      "references": [
+        {
+          "artifact_id": "METHOD-MAP",
+          "package_path": "methodologies/historical-workflow-contracts.json",
+          "representation": "derived_explanation_only"
+        }
+      ]
+    },
+    "VAULT2-013": {
+      "original_available": false,
+      "references": [
+        {
+          "artifact_id": "METHOD-MAP",
+          "package_path": "methodologies/historical-workflow-contracts.json",
+          "representation": "derived_explanation_only"
+        }
+      ]
+    },
+    "VAULT2-014": {
+      "original_available": false,
+      "references": [
+        {
+          "artifact_id": "METHOD-MAP",
+          "package_path": "methodologies/historical-workflow-contracts.json",
+          "representation": "derived_explanation_only"
+        }
+      ]
+    },
+    "WANT-V-01": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/0",
+          "summary_id": "H01",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "WANT-V-02": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/0",
+          "summary_id": "H01",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "WANT-V-03": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/3",
+          "summary_id": "H04",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "WANT-V-04": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/2",
+          "summary_id": "H03",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "WANT-V-05": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/4",
+          "summary_id": "H05",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "WANT-V-06": {
+      "references": [
+        {
+          "artifact_id": "H-SUMMARY",
+          "package_path": "sources/historical-intent-summary.json",
+          "json_pointer": "/items/4",
+          "summary_id": "H05",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "WORKFLOWS": {
+      "references": [
+        {
+          "artifact_id": "WORKFLOWS",
+          "package_path": "methodologies/semantic-workflows.md",
+          "representation": "workflow_explanation"
+        }
+      ]
+    }
+  }
+}

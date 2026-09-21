@@ -1,0 +1,25 @@
+# Local-only runtime and private material must not enter context exports
+.git/
+.env
+.env.*
+!.env.example
+*credentials*
+*cookies*
+*private-manifest*
+*redaction-map*
+__pycache__/
+node_modules/
+.DS_Store
+
+# Local archives and preparation records; preserve on disk
+/.hermes/
+/verification/
+/AGENTS.md
+/sources/current-owner-interview.json
+/sources/selected-historical-wants.json
+/sources/context/C01-*
+/sources/context/C02-*
+/sources/context/C03-*
+/sources/context/C18-*
+/catalog/source-index.json
+/catalog/coverage.json

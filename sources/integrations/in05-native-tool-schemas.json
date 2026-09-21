@@ -1,0 +1,1351 @@
+{
+  "artifact_id": "IN05",
+  "classification": "selected_original_catalog_objects_redacted",
+  "captured_source_date": "2026-09-14",
+  "fresh_live_test": false,
+  "editorial_note": "Five selected objects from a dated native tools/list catalog, not API responses or proof these five operations executed. Tool descriptions are provider claims. H10 outputs are full schemas; WH/Brandsearch outputs are not declared in these selected catalog objects. Public schema example identifiers are conservatively redacted. Object values otherwise preserved; enclosing index is editorial.",
+  "tools": [
+    {
+      "provider": "helium10",
+      "source_id": "S08",
+      "source_json_pointer": "/helium10/92",
+      "original": {
+        "name": "analyze_keywords",
+        "title": "Keyword Batch Analysis",
+        "description": "Helium 10 Keyword Research (formerly Cerebro). Batch enrichment for an explicit list of 1–200 keywords: one row per keyword with search volume, CPC, ABA top-3 click/conversion share, and H10 metrics (CPR, IQ score, title density, competing products). Use when the user already has a candidate-keyword set to score, rank, structure into ad groups, or cross-compare. Not for: deriving new terms from one seed (use get_keywords_by_keyword); reverse search on an ASIN (use get_keywords_by_asin). Note: output order does NOT match input order — match results by the phrase field.",
+        "inputSchema": {
+          "properties": {
+            "keywords": {
+              "description": "Explicit list of candidate phrases. Max 200 per call — split larger lists.",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 200,
+              "minItems": 1,
+              "title": "Keywords",
+              "type": "array"
+            },
+            "marketplace": {
+              "description": "Marketplace code: US, UK, DE, JP, etc.",
+              "enum": [
+                "US",
+                "CA",
+                "MX",
+                "DE",
+                "ES",
+                "IT",
+                "FR",
+                "UK",
+                "IN",
+                "NL",
+                "AU",
+                "JP",
+                "AE",
+                "BR",
+                "SA"
+              ],
+              "title": "Marketplace",
+              "type": "string"
+            },
+            "context": {
+              "type": "string",
+              "description": "In one short sentence, explain why you are calling this tool and what you are trying to accomplish for the user. Used for analytics only; it does not affect the tool's behavior."
+            }
+          },
+          "required": [
+            "keywords",
+            "marketplace"
+          ],
+          "title": "magnet_analyze_keywordsArguments",
+          "type": "object"
+        },
+        "outputSchema": {
+          "oneOf": [
+            {
+              "properties": {
+                "data": {
+                  "description": "Batch phrase scoring payload when the call succeeds. May be omitted or empty on failure—check for an ``error`` payload.",
+                  "properties": {
+                    "keywords": {
+                      "description": "One enriched row per phrase you submitted (same metric family as single-seed expansion, applied to your candidate list).",
+                      "items": {
+                        "properties": {
+                          "phrase_id": {
+                            "description": "Internal phrase id linking this row to Helium 10 phrase metadata when present.",
+                            "type": "integer"
+                          },
+                          "phrase": {
+                            "description": "Keyword Phrase — Keyword or phrase used by customers in search for a product.",
+                            "type": "string"
+                          },
+                          "aba_click_share": {
+                            "description": "ABA Total Click Share — Keyword metrics, including click & conversion rates for the top 3 ASINs. ",
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "aba_conv_share": {
+                            "description": "ABA Total Conv. Share — Gain valuable insights into the top 3 clicked products for each keyword; ",
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "keyword_sales_weekly": {
+                            "description": "Keyword Sales — Estimated number of weekly sales (in number of units) attributed to each keyword ",
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "iq_score": {
+                            "description": "Cerebro IQ Score — Score based on ratio of estimated search volume vs. number of competing products: a high score means a relatively high number of searches compared to the number of competitors; a low score means the opposite.",
+                            "type": "number"
+                          },
+                          "search_volume": {
+                            "description": "Search Volume — Estimated number of times this keyword is searched monthly on Amazon.",
+                            "type": "integer"
+                          },
+                          "search_volume_trend_30d_pct": {
+                            "description": "Search Volume Trend — Over the past 30 days (percentage change as a number).",
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "suggested_bid_usd": {
+                            "description": "Suggested PPC Bid — Suggested bid and bid range are calculated from a group of winning bids for ads that are similar to yours. You can choose to use the suggested bid, or any bid in or outside of the bid range.",
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          },
+                          "sponsored_asins_count": {
+                            "description": "Sponsored ASINs — Number of ASINs detected running sponsored ads recently in search results associated with this keyword phrase.",
+                            "type": "integer"
+                          },
+                          "competing_products": {
+                            "description": "Competing Products — Total number of products returned in a customer search using this keyword/phrase.",
+                            "type": "integer"
+                          },
+                          "cpr": {
+                            "description": "CPR — Estimated number of units that need to be sold over 8 days, resulting from a search for this keyword in order for the product to rank on top half of page one for this keyword.",
+                            "type": "number"
+                          },
+                          "title_density": {
+                            "description": "Title Density — Number of page 1 products with the searched keyword in their title.",
+                            "type": "integer"
+                          },
+                          "amazon_choice": {
+                            "description": "Amazon Choice — Badge / label context for the phrase (see Amazon Choice filter semantics in the Cerebro UI).",
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "type": "array"
+                    }
+                  },
+                  "required": [
+                    "keywords"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "data"
+              ],
+              "type": "object"
+            },
+            {
+              "properties": {
+                "error": {
+                  "description": "Structured error response from io-api for MCP endpoints.",
+                  "properties": {
+                    "code": {
+                      "description": "MCP string error code.",
+                      "type": "string"
+                    },
+                    "message": {
+                      "description": "Human-readable error message.",
+                      "type": "string"
+                    },
+                    "details": {
+                      "additionalProperties": true,
+                      "description": "Optional structured error details.",
+                      "type": "object"
+                    },
+                    "remediation": {
+                      "description": "Optional human-readable remediation guidance (may be omitted).",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "code",
+                    "message"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "error"
+              ],
+              "type": "object"
+            }
+          ],
+          "type": "object"
+        },
+        "annotations": {
+          "destructiveHint": false,
+          "idempotentHint": false,
+          "openWorldHint": true,
+          "readOnlyHint": true
+        },
+        "_meta": {
+          "tool_version": "0.0.1"
+        }
+      }
+    },
+    {
+      "provider": "helium10",
+      "source_id": "S08",
+      "source_json_pointer": "/helium10/71",
+      "original": {
+        "name": "get_product_profit_and_loss_summary",
+        "title": "Product P&L Summary",
+        "description": "Helium 10 Product P&L Summary (formerly Profits). Returns product-level P&L SNAPSHOTS — one row per product_level (sku | asin | parent_asin) with identity fields and a single Level 1 metrics map covering the WHOLE date range; NO time buckets, no trend, no breakdown trees. Use to rank products by profitability for one period, compare margin across the catalog, flag loss-making SKUs, build a product-level report. IMPORTANT: if the question mentions a TREND or change OVER TIME (daily/weekly, 'over the last N days', 'units sold trend', etc.) use get_product_profit_and_loss_summary_series instead — it ranks top-N AND returns the time series in one call. Not for: store-wide totals (use get_account_profit_and_loss_summary); per-product trends (use get_product_profit_and_loss_summary_series); per-product drill-down (use get_product_profit_and_loss_breakdown). A cost_of_goods or indirect_cost of 0 on any row may mean the cost was never configured rather than genuinely zero — data.caveats flags that when it happens. Verify with list_amazon_cogs / list_amazon_indirect_cost_settings before describing the figures as normal: net_profit and margin are upper bounds until you do.Comparing two periods? Both must span the same number of days: read data.meta.period_days from each response and require them to match. A 30-day window against a 31-day one inflates every percentage delta by roughly 2pp. If they differ, align the windows, switch to daily averages, or state the difference and its effect on every percentage you report.Amounts are converted into the requested currency per marketplace before aggregation; omitting marketplace means the figures are the combined total across every authorised marketplace, so say so when reporting them. data.meta echoes both.",
+        "inputSchema": {
+          "properties": {
+            "current_date_from": {
+              "description": "Inclusive start calendar date in date_tz, YYYY-MM-DD only (no time). Use the exact parameter name current_date_from; do not use start_date, date_from, or from_date. Must be <= current_date_to.",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "title": "Current Date From",
+              "type": "string"
+            },
+            "current_date_to": {
+              "description": "Inclusive end calendar date in date_tz, YYYY-MM-DD only (no time). Use the exact parameter name current_date_to; do not use end_date, date_to, or to_date. Must be >= current_date_from. A value after today in date_tz is silently clamped to today in date_tz (the future has no data).",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+              "title": "Current Date To",
+              "type": "string"
+            },
+            "date_tz": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Timezone used to interpret calendar dates. Must be one of the Amazon marketplace report timezones (not any IANA timezone). Examples: America/Los_Angeles, Europe/Paris, Europe/London. Italy/Germany/Spain use Europe/Paris (not Europe/Rome or Europe/Berlin). Do not pass a city name, abbreviation, or UTC offset. Optional; when omitted, defaults to the queried marketplace's report timezone (America/Los_Angeles when no single marketplace is set).",
+              "enum": [
+                "Africa/Cairo",
+                "Africa/Johannesburg",
+                "America/Los_Angeles",
+                "America/Sao_Paulo",
+                "Asia/Dubai",
+                "Asia/Kolkata",
+                "Asia/Riyadh",
+                "Asia/Shanghai",
+                "Asia/Singapore",
+                "Asia/Tokyo",
+                "Australia/Sydney",
+                "Europe/Amsterdam",
+                "Europe/Brussels",
+                "Europe/Dublin",
+                "Europe/Istanbul",
+                "Europe/London",
+                "Europe/Paris",
+                "Europe/Stockholm",
+                "Europe/Warsaw"
+              ],
+              "title": "Date Tz"
+            },
+            "product_level": {
+              "default": "sku",
+              "description": "Row aggregation: sku | asin | parent_asin. Parent ASIN groups child ASINs; one ASIN may map to multiple SKUs.",
+              "enum": [
+                "asin",
+                "sku",
+                "parent_asin"
+              ],
+              "title": "Product Level",
+              "type": "string"
+            },
+            "currency": {
+              "default": "USD",
+              "description": "ISO 4217 code for amounts. Optional, defaults to USD.",
+              "enum": [
+                "AED",
+                "AUD",
+                "BRL",
+                "CAD",
+                "CNY",
+                "EGP",
+                "EUR",
+                "GBP",
+                "INR",
+                "JPY",
+                "MXN",
+                "PLN",
+                "SAR",
+                "SEK",
+                "SGD",
+                "TRY",
+                "USD",
+                "ZAR"
+              ],
+              "title": "Currency",
+              "type": "string"
+            },
+            "seller_ids": {
+              "anyOf": [
+                {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. SQL IN filter on seller account IDs (array of strings). Profits intersects with sellers from Pacvue token; no intersection → empty result. Default null (all authorised sellers).",
+              "title": "Seller Ids"
+            },
+            "marketplace": {
+              "anyOf": [
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional marketplace filter as an array of region short codes ONLY (e.g. ['US', 'CA', 'MX']); Amazon SP-API marketplace IDs (e.g. '[REDACTED:PUBLIC_EXAMPLE_IDENTIFIER]'), seller IDs, and domains are rejected. Allowed: AE, AU, BE, BR, CA, CN, DE, EG, ES, FR, IE, IN, IT, JP, MX, NL, PL, SA, SE, SG, TR, UK, US, ZA. Default null (all authorised marketplaces).",
+              "items": {
+                "enum": [
+                  "AE",
+                  "AU",
+                  "BE",
+                  "BR",
+                  "CA",
+                  "CN",
+                  "DE",
+                  "EG",
+                  "ES",
+                  "FR",
+                  "IE",
+                  "IN",
+                  "IT",
+                  "JP",
+                  "MX",
+                  "NL",
+                  "PL",
+                  "SA",
+                  "SE",
+                  "SG",
+                  "TR",
+                  "UK",
+                  "US",
+                  "ZA"
+                ]
+              },
+              "title": "Marketplace"
+            },
+            "asins": {
+              "anyOf": [
+                {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. SQL IN filter by ASIN list (array of strings, e.g. ['[REDACTED:PUBLIC_EXAMPLE_IDENTIFIER]']). Default null (all ASINs).",
+              "title": "Asins"
+            },
+            "skus": {
+              "anyOf": [
+                {
+                  "items": {
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. SQL IN filter by seller SKU list (array of strings). Default null (all SKUs).",
+              "title": "Skus"
+            },
+            "page_index": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. Page number (integer), starts from 1. Default 1.",
+              "title": "Page Index"
+            },
+            "page_size": {
+              "anyOf": [
+                {
+                  "maximum": 1000,
+                  "minimum": 5,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. Rows per page (integer). Min 5, max 1000. Default 50.",
+              "title": "Page Size"
+            },
+            "sort_by": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. Metric to sort product rows by. Rows are ordered by the metric's value over the queried date range. If omitted, server default order applies. Allowed values: sales, units_sold, units_returned, refund, promo, advertising_cost, amazon_fees, reimbursements, estimated_payout, cost_of_goods, gross_revenue, gross_profit, expenses, indirect_cost, net_profit, margin, roi, tacos, ads_acos, refunds_percentage, sessions. Cost-type metrics (refund, promo, advertising_cost, amazon_fees, cost_of_goods, expenses, indirect_cost) are returned as negative values and are ordered by ABSOLUTE amount, not signed value: sort_order=desc lists the highest spend/cost first and asc the lowest.",
+              "enum": [
+                "sales",
+                "units_sold",
+                "units_returned",
+                "refund",
+                "promo",
+                "advertising_cost",
+                "amazon_fees",
+                "reimbursements",
+                "estimated_payout",
+                "cost_of_goods",
+                "gross_revenue",
+                "gross_profit",
+                "expenses",
+                "indirect_cost",
+                "net_profit",
+                "margin",
+                "roi",
+                "tacos",
+                "ads_acos",
+                "refunds_percentage",
+                "sessions"
+              ],
+              "title": "Sort By"
+            },
+            "sort_order": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "asc",
+                    "desc"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional. Sort direction for sort_by. 'desc' = highest value first (default); 'asc' = lowest value first. Ignored if sort_by is not provided.",
+              "title": "Sort Order"
+            },
+            "context": {
+              "type": "string",
+              "description": "In one short sentence, explain why you are calling this tool and what you are trying to accomplish for the user. Used for analytics only; it does not affect the tool's behavior."
+            }
+          },
+          "required": [
+            "current_date_from",
+            "current_date_to"
+          ],
+          "title": "get_product_profit_and_loss_summaryArguments",
+          "type": "object"
+        },
+        "outputSchema": {
+          "$defs": {
+            "CostConfigCaveat": {
+              "description": "A zero cost metric that may mean \"never configured\" (spec HP-1483 §6 / HP-2033).\n\n``cost_of_goods`` / ``indirect_cost`` come back as 0 both when the real cost is\nzero and when the seller never configured one — the P&L response cannot tell\nthose apart, and the difference decides whether the profit figures mean\nanything. QA found an agent reading ``indirect_cost: 0`` as \"data completely\nnormal\" on an account whose net_profit was inflated by two unconfigured cost\nlines, so the ambiguity is stated in the payload rather than left to be inferred.\n\nDeliberately NOT a ``configured: false`` assertion: this response has no way to\nknow that (see :func:`_flag_unconfigured_costs`), and asserting it would repeat\nthe very error the caveat exists to prevent.",
+              "properties": {
+                "code": {
+                  "description": "Caveat code, e.g. 'ZERO_COST_MAY_BE_UNCONFIGURED'.",
+                  "title": "Code",
+                  "type": "string"
+                },
+                "metric": {
+                  "description": "The zero metric this caveat is about, e.g. 'indirect_cost'.",
+                  "title": "Metric",
+                  "type": "string"
+                },
+                "severity": {
+                  "description": "Advisory severity, e.g. 'warning'.",
+                  "title": "Severity",
+                  "type": "string"
+                },
+                "message": {
+                  "description": "What the zero does and does not establish, and what it distorts.",
+                  "title": "Message",
+                  "type": "string"
+                },
+                "affects": {
+                  "description": "Metric keys present in this response whose values are distorted while the zero is unexplained. Do not report them as reliable until verified.",
+                  "items": {
+                    "type": "string"
+                  },
+                  "title": "Affects",
+                  "type": "array"
+                },
+                "verify_with": {
+                  "description": "Tools that settle whether the cost is configured. Call before concluding.",
+                  "items": {
+                    "type": "string"
+                  },
+                  "title": "Verify With",
+                  "type": "array"
+                }
+              },
+              "required": [
+                "code",
+                "metric",
+                "severity",
+                "message"
+              ],
+              "title": "CostConfigCaveat",
+              "type": "object"
+            },
+            "ErrorResponse": {
+              "description": "Error object returned in structuredContent.error on failure.",
+              "properties": {
+                "code": {
+                  "description": "Error code string, e.g. 'INVALID_INPUT.DATE_RANGE_INVALID'.",
+                  "title": "Code",
+                  "type": "string"
+                },
+                "message": {
+                  "description": "Human-readable error message.",
+                  "title": "Message",
+                  "type": "string"
+                },
+                "details": {
+                  "additionalProperties": true,
+                  "description": "Additional error context keyed by field or topic.",
+                  "title": "Details",
+                  "type": "object"
+                },
+                "remediation": {
+                  "description": "Suggested action to resolve the error.",
+                  "title": "Remediation",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "remediation"
+              ],
+              "title": "ErrorResponse",
+              "type": "object"
+            },
+            "NoticeObject": {
+              "description": "Non-blocking advisory in structuredContent.notice (spec §6.1 / HP-1966).\n\nDistinct from ``error``: the call still succeeded (``isError=false``, ``data``\npopulated). Currently emitted only when MCP usage quota nears its limit.",
+              "properties": {
+                "code": {
+                  "description": "Notice code, e.g. 'QUOTA_NEAR_LIMIT'.",
+                  "title": "Code",
+                  "type": "string"
+                },
+                "message": {
+                  "description": "Human-readable advisory message for the end user.",
+                  "title": "Message",
+                  "type": "string"
+                },
+                "severity": {
+                  "description": "Advisory severity, e.g. 'warning'.",
+                  "title": "Severity",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "message",
+                "severity"
+              ],
+              "title": "NoticeObject",
+              "type": "object"
+            },
+            "ProductPnLSummaryData": {
+              "properties": {
+                "page_index": {
+                  "description": "1-based page number that was returned. Matches the page_index request parameter (defaults to 1 when not specified).",
+                  "title": "Page Index",
+                  "type": "integer"
+                },
+                "page_size": {
+                  "description": "Maximum number of rows per page that was applied. Matches the page_size request parameter (defaults to 50 when not specified; range 5–1000).",
+                  "title": "Page Size",
+                  "type": "integer"
+                },
+                "total_count": {
+                  "description": "Total number of matching product rows across all pages for the given filters. Use this value together with page_size to determine the total number of pages: ceil(total_count / page_size).",
+                  "title": "Total Count",
+                  "type": "integer"
+                },
+                "rows": {
+                  "description": "Product rows for the current page, each containing identity fields (asin, parent_asin, sku, product_name, brand, image_url, marketplace, seller_id) and a flat P&L metrics map. Empty list when no products match the filters.",
+                  "items": {
+                    "$ref": "#/$defs/ProductSummaryRow"
+                  },
+                  "title": "Rows",
+                  "type": "array"
+                },
+                "caveats": {
+                  "anyOf": [
+                    {
+                      "items": {
+                        "$ref": "#/$defs/CostConfigCaveat"
+                      },
+                      "type": "array"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Zero-cost ambiguities detected in this response (HP-2033). Absent when there is nothing to flag. A cost metric of 0 does not establish that the cost is really zero — it is equally consistent with the seller never having configured it — so each entry names the distorted metrics and the tools that settle it. Resolve these before characterising the profit figures.",
+                  "title": "Caveats"
+                },
+                "meta": {
+                  "anyOf": [
+                    {
+                      "$ref": "#/$defs/ResponseMeta"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "What the returned amounts cover: currency/unit, the resolved timezone and marketplaces, and the window actually queried. Check period_days against the other period before quoting any percentage change (HP-2032)."
+                }
+              },
+              "required": [
+                "page_index",
+                "page_size",
+                "total_count",
+                "rows"
+              ],
+              "title": "ProductPnLSummaryData",
+              "type": "object"
+            },
+            "ProductSummaryRow": {
+              "properties": {
+                "asin": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Amazon Standard Identification Number (ASIN) of the child product variant, e.g. '[REDACTED:PUBLIC_EXAMPLE_IDENTIFIER]'. Null when the product level is parent_asin.",
+                  "title": "Asin"
+                },
+                "parent_asin": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Parent ASIN that groups child variants (e.g. different sizes/colours). Populated at all product levels; null when not applicable.",
+                  "title": "Parent Asin"
+                },
+                "sku": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Seller-defined SKU, unique within a seller account. Reliably populated when product_level=sku. At asin/parent_asin level: typically null in non-series tools, but may be non-null in *_series tools; use asin/parent_asin for identity matching.",
+                  "title": "Sku"
+                },
+                "product_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Amazon product listing title as it appears on the detail page. May be null if the product metadata is not available.",
+                  "title": "Product Name"
+                },
+                "brand": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Brand name associated with the product as registered in Amazon Brand Registry or the seller's catalog. Null when not available.",
+                  "title": "Brand"
+                },
+                "image_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "HTTPS URL of the main product image thumbnail served by Amazon. Null when the product has no image or metadata is unavailable.",
+                  "title": "Image Url"
+                },
+                "marketplace": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Amazon marketplace short country code where this product is sold (e.g. 'US', 'CA', 'UK'). Same vocabulary as the 'marketplace' filter parameter — this value can be fed straight back as a filter.",
+                  "title": "Marketplace"
+                },
+                "seller_id": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Amazon seller account ID (merchant token) that owns this product listing, e.g. '[REDACTED:PUBLIC_EXAMPLE_IDENTIFIER]'. Corresponds to the seller_ids filter parameter.",
+                  "title": "Seller Id"
+                },
+                "metrics": {
+                  "additionalProperties": {
+                    "anyOf": [
+                      {
+                        "type": "number"
+                      },
+                      {
+                        "type": "integer"
+                      }
+                    ]
+                  },
+                  "description": "Per-product flat metric map for the requested date range. Flat map of metric_key → numeric value. Monetary amounts (float, rounded to 2 decimal places, denominated in the requested currency). Expenditure metrics (refund, promo, advertising_cost, amazon_fees, cost_of_goods, expenses, indirect_cost) are returned as NEGATIVE values (cash outflows). Income metrics (sales, reimbursements, estimated_payout, gross_revenue, gross_profit, net_profit) are positive when the period is profitable. Per-metric notes: sales — gross sales revenue before any deductions; refund — total refund/return amount (negative, expenditure); promo — promotional discounts (negative, expenditure); advertising_cost — total ad spend across Sponsored Products, Brands, Display (negative, expenditure); amazon_fees — all Amazon platform fees: FBA, referral, etc. (negative, expenditure); reimbursements — Amazon reimbursement credits; estimated_payout — estimated settlement payout from Amazon; cost_of_goods — seller-defined cost of goods sold / COGS (negative, expenditure); gross_revenue — top-line revenue (sales minus refunds); gross_profit — gross_revenue minus amazon_fees and cost_of_goods; expenses — total operating expenses (negative, expenditure); indirect_cost — overhead / indirect costs allocated to this period (negative, expenditure); net_profit — bottom-line profit after all deductions. Rate/percentage values (float, rounded to 2 decimal places, expressed as a percentage, e.g. 21.01 means 21.01%): margin — net profit margin (net_profit / gross_revenue × 100); roi — return on investment (net_profit / cost_of_goods × 100); tacos — TACoS (attr 1 day): ad spend / total sales, using Profits 1-day attribution for ad spend alignment; measures ad spend impact on total sales and profitability (advertising_cost / gross_revenue × 100); ads_acos — ACoS (attr 1 day): ACOS based on Profits ad sales (1-day attribution, SKU-level SP/SD only); use mainly for profit, same-day, or organic sales analysis — for general advertising performance prefer Ads ACOS (advertising_cost / ad-attributed sales × 100); refunds_percentage — refund rate (refund / gross_revenue × 100). Count metrics (integer, e.g. 6): units_sold — total units ordered; units_returned — total units returned/refunded; sessions — unique visitor sessions on product detail pages. A key is omitted when its value is null for the period.",
+                  "title": "Metrics",
+                  "type": "object"
+                }
+              },
+              "required": [
+                "metrics"
+              ],
+              "title": "ProductSummaryRow",
+              "type": "object"
+            },
+            "ResponseMeta": {
+              "description": "What the returned amounts cover (HP-1674/1677, HP-2032).\n\nPresent on every P&L response. Declared here because it has been on the wire\nsince HP-1674 without appearing in any outputSchema — which made ``period_days``\nuseless as the cross-period check HP-2032 needs it to be.",
+              "properties": {
+                "currency": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "ISO-4217 currency every amount is expressed in. Amounts originate in each marketplace's local currency and are CONVERTED into this one per marketplace before being aggregated — figures spanning several marketplaces are therefore comparable, not a raw sum of mixed currencies. One exchange rate is applied across the whole requested range rather than each day's historical rate, so a period-over-period change can carry some FX movement that is not a change in the underlying business.",
+                  "title": "Currency"
+                },
+                "fx_converted": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Always true for these tools. Every amount has already been converted into `currency`; none is a raw local-marketplace figure, and a multi-marketplace total is NOT a mixed-currency sum. Do not state or imply otherwise — a response carrying this flag has been checked against the backend, and claiming the figures are unconverted contradicts the payload.",
+                  "title": "Fx Converted"
+                },
+                "unit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Always 'major' — amounts are not in cents.",
+                  "title": "Unit"
+                },
+                "scale": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Always 1 — no rescaling applied.",
+                  "title": "Scale"
+                },
+                "display_ready": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "True: amounts can be shown as-is, no /100.",
+                  "title": "Display Ready"
+                },
+                "date_tz": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "IANA timezone the day boundaries were resolved in.",
+                  "title": "Date Tz"
+                },
+                "marketplaces": {
+                  "anyOf": [
+                    {},
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Marketplace short codes the amounts cover, or 'all_authorised' when the request did not narrow it. 'all_authorised' means the figures are the combined total across EVERY marketplace this account is authorised for, not one storefront — say so when reporting them, since the caller did not choose that. Converted into a single currency first (see currency).",
+                  "title": "Marketplaces"
+                },
+                "period_from": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "First day actually queried (YYYY-MM-DD), after validation and the future-end-day clamp. May differ from what was requested.",
+                  "title": "Period From"
+                },
+                "period_to": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Last day actually queried (YYYY-MM-DD), after validation and the future-end-day clamp. May differ from what was requested.",
+                  "title": "Period To"
+                },
+                "period_days": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ],
+                  "default": null,
+                  "description": "Inclusive length of the queried window in days. When comparing two periods, read this from BOTH responses and require them to be equal before quoting any percentage change: comparing a 30-day window with a 31-day one inflates every delta (~2pp on a monthly comparison). If they differ, align the windows, switch to daily averages, or state the difference and its effect on every percentage reported.",
+                  "title": "Period Days"
+                }
+              },
+              "title": "ResponseMeta",
+              "type": "object"
+            }
+          },
+          "properties": {
+            "notice": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/NoticeObject"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional non-blocking advisory (spec §6.1). Present only when the platform attaches one — currently a quota near-limit reminder (code QUOTA_NEAR_LIMIT). Null/absent on the vast majority of responses. Independent of 'error': the call still succeeded."
+            },
+            "data": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/ProductPnLSummaryData"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "Paginated product-level P&L summary for the requested date range. Null when no matching data exists (e.g. seller_ids filter yields no authorised sellers)."
+            },
+            "error": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/ErrorResponse"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Null on success; error object on failure."
+            }
+          },
+          "required": [
+            "data"
+          ],
+          "title": "ProductPnLSummaryResponse",
+          "type": "object"
+        },
+        "annotations": {
+          "destructiveHint": false,
+          "idempotentHint": true,
+          "openWorldHint": false,
+          "readOnlyHint": true
+        }
+      }
+    },
+    {
+      "provider": "winninghunter",
+      "source_id": "S08",
+      "source_json_pointer": "/winninghunter/17",
+      "original": {
+        "name": "get_ad_transcript",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "ad_url_or_id": {
+              "type": "string",
+              "description": "Meta ad identifier. Same formats as scan_ad — prefer context.ad.id or context.public_share_url from WinningHunter ad detail JSON."
+            },
+            "generate_if_missing": {
+              "type": "boolean",
+              "description": "When true (default), run OpenAI Whisper on the ad video if no stored transcript exists. Paid plans only."
+            }
+          },
+          "required": [
+            "ad_url_or_id"
+          ],
+          "additionalProperties": false
+        },
+        "description": "Fetch or generate the Whisper video transcript for one Meta ad (full script plus timestamped segments). Uses the same ad_url_or_id formats as scan_ad — prefer context.ad.id or context.public_share_url from WinningHunter ad detail JSON. Returns a cached transcript from MongoDB when available; otherwise runs OpenAI Whisper on the ad video when generate_if_missing is true (default). Generating new transcripts requires a paid plan. Image-only ads cannot be transcribed."
+      }
+    },
+    {
+      "provider": "winninghunter",
+      "source_id": "S08",
+      "source_json_pointer": "/winninghunter/26",
+      "original": {
+        "name": "search_shopify_stores",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "keyword": {
+              "type": "string",
+              "description": "Full-text search over store name, domain, category, descriptions, products, and bestsellers."
+            },
+            "niche": {
+              "type": "string",
+              "enum": [
+                "Clothing",
+                "Arts & Crafts",
+                "Accessories",
+                "Beauty",
+                "Health",
+                "Toys & Games",
+                "Electronics",
+                "Pet Supplies",
+                "Other"
+              ],
+              "description": "Explore Shops vertical. Use Clothing for fashion/clothing/apparel."
+            },
+            "category": {
+              "type": "string",
+              "enum": [
+                "Clothing",
+                "Arts & Crafts",
+                "Accessories",
+                "Beauty",
+                "Health",
+                "Toys & Games",
+                "Electronics",
+                "Pet Supplies",
+                "Other"
+              ],
+              "description": "Explore Shops vertical. Same as niche; use one or the other."
+            },
+            "store_created_from": {
+              "type": "string",
+              "description": "YYYY-MM-DD inclusive first_product_date lower bound. Must be paired with store_created_to."
+            },
+            "store_created_to": {
+              "type": "string",
+              "description": "YYYY-MM-DD inclusive first_product_date upper bound. Must be paired with store_created_from."
+            },
+            "sort_by": {
+              "type": "string",
+              "enum": [
+                "monthly_visits",
+                "30d_rev_estimated_max",
+                "1d_rev_estimated_max",
+                "revenue_1y",
+                "aov",
+                "visits_growth_pct_m1",
+                "visits_growth_pct_m3",
+                "first_product_date"
+              ],
+              "description": "Allowed Store Explorer sort field."
+            },
+            "sort_order": {
+              "type": "string",
+              "enum": [
+                "asc",
+                "desc"
+              ],
+              "description": "Sort direction."
+            },
+            "page": {
+              "type": "integer",
+              "description": "1-based page number.",
+              "minimum": 1
+            },
+            "size": {
+              "type": "integer",
+              "description": "Rows per page.",
+              "minimum": 1,
+              "maximum": 50
+            },
+            "country": {
+              "type": "string",
+              "enum": [
+                "US",
+                "GB",
+                "CA",
+                "AU",
+                "DE",
+                "FR",
+                "NL",
+                "IN",
+                "BR",
+                "IT",
+                "ES",
+                "SE",
+                "CN",
+                "JP",
+                "HK",
+                "CH",
+                "BE",
+                "AE",
+                "AT",
+                "NZ",
+                "SG",
+                "IE",
+                "DK",
+                "NO",
+                "PT",
+                "PL",
+                "MX",
+                "KR",
+                "IL",
+                "ZA",
+                "SA",
+                "MY",
+                "TH",
+                "PH",
+                "ID",
+                "NG",
+                "PK",
+                "MA",
+                "CO",
+                "AR",
+                "FI",
+                "CZ",
+                "RO",
+                "GR",
+                "HU"
+              ],
+              "description": "Merchant/store registered country. Not visitor traffic country."
+            },
+            "currency": {
+              "type": "string",
+              "enum": [
+                "USD",
+                "EUR",
+                "GBP",
+                "CAD",
+                "SEK",
+                "DKK",
+                "TRY",
+                "NOK",
+                "CHF",
+                "AUD",
+                "NZD",
+                "HKD",
+                "MXN",
+                "BRL",
+                "INR"
+              ],
+              "description": "Store currency."
+            },
+            "product_taxonomy_l1": {
+              "type": "string",
+              "description": "Optional dynamic product taxonomy level 1 refinement. Discover values with list_shopify_store_filter_options. Not the vertical filter."
+            },
+            "product_taxonomy_l2": {
+              "type": "string",
+              "description": "Optional dynamic product taxonomy level 2 refinement. Discover values with list_shopify_store_filter_options. Not the vertical filter."
+            },
+            "product_taxonomy_l3": {
+              "type": "string",
+              "description": "Optional dynamic product taxonomy level 3 refinement. Discover values with list_shopify_store_filter_options. Not the vertical filter."
+            },
+            "visitor_country_main": {
+              "type": "string",
+              "description": "Comma-separated ISO2 visitor country codes that must be tied for highest visitor share."
+            },
+            "visitor_country_among": {
+              "type": "string",
+              "description": "Comma-separated ISO2 visitor country codes that must appear in visitor mix."
+            },
+            "visitor_country_exclude": {
+              "type": "string",
+              "description": "Comma-separated ISO2 visitor country codes to exclude from visitor mix."
+            },
+            "aov_min": {
+              "type": "number",
+              "description": "Minimum average product price / AOV.",
+              "minimum": 0
+            },
+            "aov_max": {
+              "type": "number",
+              "description": "Maximum average product price / AOV.",
+              "minimum": 0
+            },
+            "monthly_visits_min": {
+              "type": "integer",
+              "description": "Minimum monthly visits.",
+              "minimum": 0
+            },
+            "monthly_visits_max": {
+              "type": "integer",
+              "description": "Maximum monthly visits.",
+              "minimum": 0
+            },
+            "product_count_min": {
+              "type": "integer",
+              "description": "Minimum published product count.",
+              "minimum": 0
+            },
+            "product_count_max": {
+              "type": "integer",
+              "description": "Maximum published product count.",
+              "minimum": 0
+            },
+            "language": {
+              "type": "string",
+              "enum": [
+                "en",
+                "fr",
+                "de",
+                "es",
+                "it",
+                "pt",
+                "nl",
+                "sv",
+                "da",
+                "no",
+                "pl",
+                "ja",
+                "ko",
+                "zh",
+                "ar",
+                "tr",
+                "ru",
+                "he",
+                "th"
+              ],
+              "description": "Store language."
+            },
+            "store_apps": {
+              "type": "string",
+              "description": "Installed Shopify app name substring, max 128 chars. Discover values with list_shopify_store_filter_options(section=apps)."
+            },
+            "revenue_change_pct_min": {
+              "type": "number",
+              "description": "Minimum 30d revenue change percent, non-negative.",
+              "minimum": 0
+            },
+            "revenue_change_pct_max": {
+              "type": "number",
+              "description": "Maximum 30d revenue change percent, non-negative.",
+              "minimum": 0
+            },
+            "trustpilot_rating_min": {
+              "type": "number",
+              "description": "Minimum Trustpilot rating.",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "trustpilot_rating_max": {
+              "type": "number",
+              "description": "Maximum Trustpilot rating.",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "trustpilot_reviews_min": {
+              "type": "integer",
+              "description": "Minimum Trustpilot review count.",
+              "minimum": 0
+            },
+            "trustpilot_reviews_max": {
+              "type": "integer",
+              "description": "Maximum Trustpilot review count.",
+              "minimum": 0
+            },
+            "traffic_growth_rules_json": {
+              "type": "string",
+              "description": "JSON array of rules: months 1|3, direction growth|loss, percentage number, optional maxPercentage."
+            },
+            "shopify_themes": {
+              "type": "string",
+              "description": "Comma/semicolon-separated theme names or JSON string array. Discover values with list_shopify_store_filter_options(section=themes)."
+            },
+            "include_wlads": {
+              "type": "boolean",
+              "description": "Whether to include per-store wlads previews. Defaults false for table parity."
+            },
+            "min_revenue": {
+              "type": "integer",
+              "description": "Minimum estimated 30d revenue.",
+              "minimum": 0
+            },
+            "max_revenue": {
+              "type": "integer",
+              "description": "Maximum estimated 30d revenue.",
+              "minimum": 0
+            },
+            "min_annual_revenue": {
+              "type": "integer",
+              "description": "Minimum estimated annual revenue; converted to monthly backend bounds.",
+              "minimum": 0
+            },
+            "max_annual_revenue": {
+              "type": "integer",
+              "description": "Maximum estimated annual revenue; converted to monthly backend bounds.",
+              "minimum": 0
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "provider": "brandsearch",
+      "source_id": "S08",
+      "source_json_pointer": "/brandsearch/8",
+      "original": {
+        "description": "List products sold by a brand, product_type can be all, bestsellers, or latest",
+        "inputSchema": {
+          "properties": {
+            "brand_id": {
+              "title": "Brand Id",
+              "type": "string"
+            },
+            "product_type": {
+              "default": "all",
+              "title": "product_type",
+              "type": "string"
+            },
+            "fields": {
+              "default": null,
+              "title": "fields",
+              "type": "string"
+            }
+          },
+          "required": [
+            "brand_id"
+          ],
+          "type": "object",
+          "title": "get_productsArguments"
+        },
+        "name": "get_products"
+      }
+    }
+  ]
+}

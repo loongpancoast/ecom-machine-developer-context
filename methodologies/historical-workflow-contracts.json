@@ -1,0 +1,216 @@
+{
+  "artifact_kind": "derived semantic crosswalk, NOT an original JSON Schema or proven runtime",
+  "privacy": "No product, campaign, supplier or customer values copied. Key spellings below preserved where present; explanatory field lists paraphrased.",
+  "contracts": [
+    {
+      "name": "Research Document",
+      "sources": [
+        "VAULT1-004:13-21",
+        "VAULT1-004:164-206",
+        "VAULT1-004:233-237"
+      ],
+      "input_meaning": "Product brief, scorecard, margin analysis, competition assessment and competitor URLs seed evidence collection.",
+      "structure": [
+        "VOC phrase/exact quote, frequency count, source, theme",
+        "Competitor positioning, offer, pricing, guarantee, creative angle, gap",
+        "Desire urgency/staying-power/scope",
+        "Objections and failed solutions with supporting source language",
+        "Mechanism and surprising-information opportunities with sources"
+      ],
+      "consumer": "Avatar/angle builders, then script and page writers",
+      "effect": "Ground message choice in observed customer language; preserve provenance rather than treating generated personas as facts"
+    },
+    {
+      "name": "brief.json",
+      "sources": [
+        "VAULT2-008:16-31"
+      ],
+      "original_literal_keys": [
+        "brand_system"
+      ],
+      "named_sections": [
+        "Context Extractor",
+        "Art-Direction Extractor",
+        "Hypothesis Extractor",
+        "Brand Voice Analyzer"
+      ],
+      "field_meanings": {
+        "context": "product, audience, desire, objection, offer",
+        "art_direction": "visual style, mood, palette, references",
+        "hypothesis": "testable angle/claim",
+        "brand_voice": "tone, devices, do/dont",
+        "brand_system": "palette/typography/devices, propagated to downstream brand_system_sources"
+      },
+      "consumer": "prompt-engineering-agent",
+      "limitations": "Four named sections are prose, not a fully enumerated JSON key/type schema"
+    },
+    {
+      "name": "prompts.json",
+      "sources": [
+        "VAULT2-009:16-29"
+      ],
+      "structure": [
+        "per-model prompt strings",
+        "brand devices applied",
+        "delimiter structure when multi-clip"
+      ],
+      "syntax_literals": [
+        "@@@",
+        ".0.0.0."
+      ],
+      "consumer": "node-builder and model-specific generation",
+      "effect": "Carry brief intent and brand attributes into generation; split clips/fields without losing branch symmetry",
+      "limitations": "No sample payload validator read"
+    },
+    {
+      "name": "Multi-clip generation and editing",
+      "sources": [
+        "VAULT2-010:16-20",
+        "VAULT2-010:28-30"
+      ],
+      "structure": [
+        "node-graph plan",
+        "each clip receives full branch outputs",
+        "per-clip overlay specification",
+        "video_concat output",
+        "editing-assembly handoff"
+      ],
+      "consumer": "generation provider, compositor, editor",
+      "effect": "Plans become clips; clips plus overlays/audio/editing become candidate finished ads",
+      "limitations": "This source outputs a plan plus historical STOP blocks, not proof of rendered finished ads"
+    },
+    {
+      "name": "Campaign specification and results",
+      "sources": [
+        "VAULT1-006:7-58",
+        "VAULT1-006:134-139",
+        "VAULT1-007:45-54",
+        "VAULT1-008:95-106"
+      ],
+      "input_meaning": "Accepted creatives, page destinations, targeting and budget create campaign/adset/ad structure.",
+      "structure": [
+        "Campaign [Brand]_[Campaign Type]_[Date]_[Objective]",
+        "Ad Set [Batch#]_[Concept]_[Targeting]_[Format]",
+        "Ad [Batch#]_[Variation]_[Hook#]_[Format]",
+        "UTM naming and live campaign IDs",
+        "Spend, ROAS/CPA, hook rate, hold rate, average play time, CVR, AOV, share of campaign spend",
+        "Next batch: control ad, test variant, success metric, kill threshold"
+      ],
+      "consumer": "daily optimizer -> feedback analyst -> next creative/research batch",
+      "limitations": "Campaign format and absolute thresholds are historical hypotheses, not current API facts or current owner constraints"
+    },
+    {
+      "name": "Dossier and status contract",
+      "sources": [
+        "VAULT2-013:20-42",
+        "VAULT2-013:46-119",
+        "VAULT2-013:145-185"
+      ],
+      "section_keys": [
+        "S0_frame",
+        "S1_market",
+        "S1_corpus",
+        "S2_voc",
+        "S3_avatar",
+        "S3_desires",
+        "S4_mechanism",
+        "S5_offer",
+        "S6_angles",
+        "S6_copy",
+        "S7_page",
+        "S8_iterate",
+        "S8_store",
+        "S9_launch",
+        "S10_scale",
+        "S11_iterate"
+      ],
+      "status_fields_mentioned": [
+        "met",
+        "grounded",
+        "evidence",
+        "independent",
+        "grader",
+        "verdict"
+      ],
+      "golden_variables": [
+        "ONE-SENTENCE DESIRE",
+        "PRODUCT SNAPSHOT",
+        "AWARENESS LEVEL",
+        "SOPHISTICATION STAGE",
+        "TOP phrases with count and corpus percentage",
+        "AVATAR NAME + 3-TIER PAIN STACK",
+        "5 DISTINCT DESIRES",
+        "UMP",
+        "UMS",
+        "LEAD TYPE",
+        "OFFER + GUARANTEE + PRICE",
+        "WINNING DESIRE / ANGLE",
+        "BREAK-EVEN CPA",
+        "TARGET CPA",
+        "MER TARGET"
+      ],
+      "consumer": "successive research, creative, page, store, launch and iteration stages",
+      "limitations": "Markdown schema only. Actual dossier.py parser/status JSON not read. Both S8_iterate and later S11_iterate appear, signaling version layering to reconcile."
+    },
+    {
+      "name": "COGS_verified",
+      "sources": [
+        "VAULT2-014:41-105"
+      ],
+      "input_meaning": "Supplier variant, warehouse, shipping and tariff evidence establish landed cost rather than guessed economics.",
+      "literal_fields": [
+        "COGS_verified",
+        "HEDGE_SUPPLIER"
+      ],
+      "structure": [
+        "Supplier",
+        "Ship-from",
+        "Unit",
+        "Freight",
+        "Tariff%",
+        "Last-mile",
+        "LANDED/unit",
+        "Chosen landed cost",
+        "margin_model verdict",
+        "evidence links/grounding"
+      ],
+      "consumer": "margin model and product-economics qualification",
+      "limitations": "Actual tested-product query terms omitted. Country-wide tariff assertions and hardcoded supplier defaults require current verification; do not import as universal formula."
+    },
+    {
+      "name": "cma/build-sheet.json",
+      "sources": [
+        "VAULT2-011:1-32"
+      ],
+      "original_key_shape": {
+        "meta": [
+          "founder",
+          "company",
+          "problem",
+          "vision",
+          "created",
+          "method",
+          "runtime",
+          "skill_version",
+          "hosted_vs_local"
+        ],
+        "agents[]": [
+          "key",
+          "file",
+          "name",
+          "role",
+          "model",
+          "job",
+          "multiagent"
+        ],
+        "local_mesh": [
+          "note",
+          "gen_specialists"
+        ],
+        "cap": "string"
+      },
+      "consumer": "Historical hosted/local creative agent build planning",
+      "limitations": "Only orchestrator.json appeared among discovered agents JSON files. Other referenced specialist JSON payloads not verified. Hosted planning/local execution split does not meet newest full hosted production requirement by itself."
+    }
+  ]
+}

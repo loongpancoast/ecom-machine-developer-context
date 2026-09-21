@@ -1,0 +1,77 @@
+{
+  "classification": "assistant-written summary of owner requirements; not a transcript or quotation",
+  "purpose": "Plain-language requirements for a developer building the ecommerce operating system. IDs preserve reference continuity without publishing original messages.",
+  "requirements": [
+    {
+      "id": "U01",
+      "summary": "Build a separate, generic developer-context repository for a full ecommerce operating system. Cover product research and testing, briefs, transcripts, ads, landing pages, connected accounts, complete data history, analytics and iterative improvement. Include useful methods, schemas, skills and integration knowledge, but exclude personal information and actual tested-product records."
+    },
+    {
+      "id": "U02",
+      "summary": "The product is private and hosted, supports multiple brands/stores/accounts within one business, and includes a full database. Reconcile Downloads and prior work with emphasis on recent corrections. Deliver commercially credible ads and pages rather than generic AI output or unnecessary process terminology."
+    },
+    {
+      "id": "U03",
+      "summary": "Begin with owner approval of creative direction and finished examples, then allow autonomous production and evolution. Use capable SaaS workflows as quality and functionality references for image ads, avatar/video ads and storefront creation."
+    },
+    {
+      "id": "U04",
+      "summary": "Own the interface, data and workflows while using external SaaS or generation engines when they perform better. Evaluate documented APIs and the ability to return usable data to the system rather than rebuilding underlying AI models."
+    },
+    {
+      "id": "U05",
+      "summary": "Include full commercial operations, not just acquisition: supplier sourcing and negotiation, purchasing, fulfillment, returns, support and retention. Accounting is part of the agreed full-system scope. Supplier relationships must be private/direct rather than limited to a marketplace catalog."
+    },
+    {
+      "id": "U06",
+      "summary": "Discover new private suppliers and handle outreach and negotiation, as well as managing existing supplier relationships."
+    },
+    {
+      "id": "U07",
+      "summary": "Support private-supplier dropshipping for testing and bulk/private-label purchasing with warehouse or 3PL fulfillment for scaling."
+    },
+    {
+      "id": "U08",
+      "summary": "Aim for autonomous execution. The main practical obstacle to solve is poor creative quality: use relevant competitor and customer language, strong product-specific copy and real evidence without turning ordinary work into repetitive approval paperwork."
+    },
+    {
+      "id": "U09",
+      "summary": "Run product discovery and profitable scaling together, allowing investment in learning while expanding successful products."
+    },
+    {
+      "id": "U10",
+      "summary": "The initial monthly business target is 60 product tests, at least two or three products suitable for scaling, and a majority reaching break-even through iteration. These are desired outcomes, not guaranteed software results."
+    },
+    {
+      "id": "U11",
+      "summary": "An early tentative testing-budget suggestion was discussed and subsequently withdrawn as a design constraint.",
+      "status": "superseded"
+    },
+    {
+      "id": "U12",
+      "summary": "The developer should recommend realistic resource requirements and economics rather than constrain the design to the earlier budget suggestion."
+    },
+    {
+      "id": "U13",
+      "summary": "Budget is not a fixed design guardrail. Continue to track costs and allocate resources intelligently; this brief does not itself authorize spending."
+    },
+    {
+      "id": "U14",
+      "summary": "The developer may replace the entire previous architecture. Earlier work is context and a source of reusable ideas, not a mandatory design."
+    },
+    {
+      "id": "U15",
+      "summary": "Make the repository useful to a developer and coding assistant through clear workflow explanations, requirement summaries, memory-derived lessons, JSON/schema examples and traceable technical references. A separate browser chat application is not required."
+    },
+    {
+      "id": "U16",
+      "summary": "Job-posting drafting chats are supplementary, lower-priority context. An earlier exclusion of live Upwork work was superseded by the later request for an actual job posting; this repository provides the ready-to-post hiring copy.",
+      "status": "earlier live-account exclusion superseded"
+    },
+    {
+      "id": "U17",
+      "summary": "Present owner intent as clear assistant-written summaries instead of word-for-word quotations. Use a private GitHub repository as the primary developer handoff. The latest SaaS names supplied are amboris and arcads; Amboras is a likely match for the intended storefront platform, pending confirmation, while Arcads provides ad/video/avatar capabilities."
+    }
+  ],
+  "scope_note": "This summarizes the owner direction captured during preparation. Technical source files remain separate reference material. No original owner-message text is included."
+}

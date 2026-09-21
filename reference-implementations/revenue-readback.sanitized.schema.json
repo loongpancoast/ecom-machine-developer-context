@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/revenue-readback.schema.json",
+  "title": "Ecommerce Revenue Readback Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "readback_id",
+    "action_id",
+    "execution_packet_path",
+    "measured_at",
+    "surface",
+    "kpi_results",
+    "attribution_confidence",
+    "decision",
+    "brain_promotion",
+    "gaps"
+  ],
+  "properties": {
+    "schema": { "const": "ecommerce-revenue-readback-v1" },
+    "readback_id": { "type": "string", "minLength": 3 },
+    "action_id": { "type": "string", "minLength": 3 },
+    "execution_packet_path": { "type": "string", "minLength": 1 },
+    "measured_at": { "type": "string", "format": "date-time" },
+    "surface": {
+      "type": "string",
+      "enum": ["local_draft", "Shopify", "Stripe", "HubSpot", "Klaviyo", "Meta", "Google Ads", "GA4", "Search Console", "CMS", "email", "CRM", "Apify", "Exa", "Firecrawl", "Composio", "GBrain"]
+    },
+    "kpi_results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["metric", "baseline", "current", "unit", "source_path", "verdict"],
+        "properties": {
+          "metric": { "type": "string", "minLength": 1 },
+          "baseline": { "type": ["number", "string", "null"] },
+          "current": { "type": ["number", "string", "null"] },
+          "unit": { "type": "string" },
+          "source_path": { "type": "string", "minLength": 1 },
+          "verdict": { "type": "string", "enum": ["improved", "flat", "worse", "inconclusive", "not_measured"] }
+        }
+      }
+    },
+    "attribution_confidence": { "type": "string", "enum": ["low", "medium", "high"] },
+    "decision": { "type": "string", "enum": ["scale", "iterate", "kill", "hold", "incomplete"] },
+    "brain_promotion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["allowed", "status", "target_path", "claim_text", "source_paths"],
+      "properties": {
+        "allowed": { "type": "boolean" },
+        "status": { "type": "string", "enum": ["not_allowed", "pending_review", "promoted", "rejected"] },
+        "target_path": { "type": ["string", "null"] },
+        "claim_text": { "type": ["string", "null"] },
+        "source_paths": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "gaps": { "type": "array", "items": { "type": "string" } }
+  }
+}

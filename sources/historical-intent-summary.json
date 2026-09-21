@@ -1,0 +1,12 @@
+{
+  "classification": "assistant-written summaries of historical intent; not quotations",
+  "items": [
+    {"id":"H01","source_aliases":["VAULT1-001","C01","WANT-V-01","WANT-V-02"],"summary":"Create a repeatable end-to-end ecommerce workflow that connects research, tools, prompts, skills, images and ad scripts. Retain enough context to continue across sessions, and choose useful existing components without being constrained by the previous architecture."},
+    {"id":"H02","source_aliases":["C02"],"summary":"Customer-facing copy should sound natural and relevant, not expose internal research counts or process terminology. Preserve effective design work and improve visible output instead of repeatedly producing frameworks or regressing good sections."},
+    {"id":"H03","source_aliases":["VAULT2-001","C03","WANT-V-04"],"summary":"A product or supplier reference, or an upstream research brief, should lead to convincing brand-aware UGC. The desired result is a usable ad rather than an isolated generated clip."},
+    {"id":"H04","source_aliases":["VAULT1-002","WANT-V-03"],"summary":"Reduce hands-on work across advertising, editing, brand building, social media and websites while maintaining professional output quality."},
+    {"id":"H05","source_aliases":["VAULT2-006","WANT-V-05","WANT-V-06"],"summary":"Maintain shared context across workers and remember how workflows and decisions developed so later work builds on prior learning."},
+    {"id":"H06","source_aliases":["C18"],"summary":"Build connected operational infrastructure with understandable relationships between acquisition, revenue, outreach, social media, advertising accounts and databases. Choose what the business needs instead of treating a few examples as an exhaustive specification."}
+  ],
+  "interpretation":"These paraphrases summarize selected historical records. Current requirements take precedence. Technical reference files remain separate; original owner-message text is not published."
+}

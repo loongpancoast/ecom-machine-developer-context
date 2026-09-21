@@ -1,0 +1,24 @@
+{
+  "classification": "derived_field_map_not_original_payload",
+  "source_context": "C16 historical private receipt; actual run and its cardinality/order are not exported.",
+  "not_a_run": true,
+  "fields": {
+    "classification": "string describing artifact use, e.g. review versus release; no actual value retained",
+    "owner_accepted": "boolean; acceptance distinct from technical validity",
+    "publish_ready": "boolean; publication readiness distinct from acceptance",
+    "verified_top_converting": "boolean; performance proof distinct from aesthetic review",
+    "source_matched_to": "source reference identifier",
+    "edit": "description of editorial choices",
+    "target_duration": "number; intended length",
+    "timeline[].label": "stable shot/take identifier",
+    "timeline[].start": "number; timeline start",
+    "timeline[].end": "number; timeline end",
+    "timeline[].source": "selected source artifact reference",
+    "timeline[].sha256": "string; selected source content fingerprint",
+    "timeline[].source_role": "narrative function of the shot",
+    "output": "final artifact reference",
+    "sha256": "final content fingerprint",
+    "bytes": "number; final artifact byte length"
+  },
+  "identity_note": "No actual IDs, value equality, timing, count, ordering, source role sequence or output is represented. Stable aliases must be implemented by the developer, not inferred from repeated redaction markers."
+}

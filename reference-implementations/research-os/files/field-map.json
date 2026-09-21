@@ -1,0 +1,1310 @@
+{
+  "classification": "derived_field_map",
+  "scope": "Static, source-grounded implementation mapping; no example payload, no executed operation and no successful response represented.",
+  "architecture_status": "Optional adaptation aid. Historical stages, gate/approval machinery, thresholds, vendor assumptions and numeric budgets are not new application requirements.",
+  "source_ids": [
+    "DL0161",
+    "DL0183",
+    "DL0186",
+    "DL0172",
+    "DL0173",
+    "DL0174",
+    "DL0175",
+    "DL0176",
+    "DL0177",
+    "DL0179",
+    "DL0180"
+  ],
+  "csv_imports": [
+    {
+      "source_id": "DL0172",
+      "candidate": "files/products-header.csv",
+      "meaning": {
+        "producer_input": "Product/concept intake and research progress",
+        "downstream_consumer": "products; research selection; brief product header"
+      },
+      "header_field_count": 12,
+      "fields": [
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "products.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "run_id",
+          "sql_targets": [
+            "products.run_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "name",
+          "sql_targets": [
+            "products.name"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "concept",
+          "sql_targets": [
+            "products.concept"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "niche",
+          "sql_targets": [
+            "products.niche"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "stage",
+          "sql_targets": [
+            "products.stage_id"
+          ],
+          "operation": "rename",
+          "note": "Historical stage labels are not new app requirements."
+        },
+        {
+          "csv_field": "score_100",
+          "sql_targets": [
+            "products.score_100"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "decision",
+          "sql_targets": [
+            "products.decision"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "evidence_level",
+          "sql_targets": [
+            "products.evidence_level"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "owner",
+          "sql_targets": [],
+          "operation": "unmapped",
+          "note": "No owner column in products. Define ownership separately; do not discard silently."
+        },
+        {
+          "csv_field": "created_at",
+          "sql_targets": [
+            "products.created_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "updated_at",
+          "sql_targets": [
+            "products.updated_at"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "owner has no destination; stage is named stage_id in SQL."
+      ]
+    },
+    {
+      "source_id": "DL0173",
+      "candidate": "files/voc_quotes-header.csv",
+      "meaning": {
+        "producer_input": "Source-linked customer excerpts, captured dates and language tags",
+        "downstream_consumer": "VOC corpus; angles; copy research (not testimonial permission)"
+      },
+      "header_field_count": 13,
+      "fields": [
+        {
+          "csv_field": "quote_id",
+          "sql_targets": [
+            "voc_quotes.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "voc_quotes.product_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "source_type",
+          "sql_targets": [
+            "voc_quotes.source_type"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "source_url",
+          "sql_targets": [
+            "voc_quotes.source_url"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "published_at",
+          "sql_targets": [
+            "voc_quotes.published_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "captured_at",
+          "sql_targets": [
+            "voc_quotes.captured_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "author_alias_hash",
+          "sql_targets": [
+            "voc_quotes.author_alias_hash"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "excerpt",
+          "sql_targets": [
+            "voc_quotes.excerpt"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "content_hash",
+          "sql_targets": [
+            "voc_quotes.content_hash"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "sentiment",
+          "sql_targets": [
+            "voc_quotes.sentiment"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "pain_desire",
+          "sql_targets": [
+            "voc_quotes.pain_desire"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "solution_tried",
+          "sql_targets": [
+            "voc_quotes.solution_tried"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "evidence_id",
+          "sql_targets": [
+            "voc_quotes.source_record_id"
+          ],
+          "operation": "resolve_join",
+          "note": "Resolve evidence_items.id -> evidence_items.source_record_id. A CSV evidence ID is not a source_record_id. Retain the evidence relationship separately if needed."
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "source_record_id is required in SQL but header supplies evidence_id instead; resolve explicitly.",
+        "SQL excerpt max length is 500; header alone provides no validation."
+      ]
+    },
+    {
+      "source_id": "DL0174",
+      "candidate": "files/angles-header.csv",
+      "meaning": {
+        "producer_input": "Audience, desire, promise, mechanism, proof plan and parent IDs",
+        "downstream_consumer": "angles and junction tables; page/video brief"
+      },
+      "header_field_count": 12,
+      "fields": [
+        {
+          "csv_field": "angle_id",
+          "sql_targets": [
+            "angles.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "angles.product_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "name",
+          "sql_targets": [
+            "angles.name"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "audience",
+          "sql_targets": [
+            "angles.audience"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "pain_or_desire",
+          "sql_targets": [
+            "angles.pain_or_desire"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "promise",
+          "sql_targets": [
+            "angles.promise"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "mechanism",
+          "sql_targets": [
+            "angles.mechanism"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "proof_plan",
+          "sql_targets": [
+            "angles.proof_plan"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "risk_note",
+          "sql_targets": [
+            "angles.risk_note"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "voc_quote_ids",
+          "sql_targets": [
+            "angle_voc_links.angle_id",
+            "angle_voc_links.voc_quote_id"
+          ],
+          "operation": "fan_out",
+          "note": "List encoding is not specified by this CSV header. Parse explicitly and preserve quote IDs."
+        },
+        {
+          "csv_field": "ad_evidence_ids",
+          "sql_targets": [
+            "angle_evidence_links.angle_id",
+            "angle_evidence_links.evidence_item_id",
+            "angle_evidence_links.relationship"
+          ],
+          "operation": "fan_out",
+          "note": "Relationship (ad_signal/transcript_signal/etc.) is not encoded by this header; must be supplied from evidence semantics."
+        },
+        {
+          "csv_field": "status",
+          "sql_targets": [
+            "angles.status"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "Junction IDs need parsing; neither array syntax nor relationship typing is specified by header."
+      ]
+    },
+    {
+      "source_id": "DL0175",
+      "candidate": "files/tool_calls-header.csv",
+      "meaning": {
+        "producer_input": "Exact tool operation log, timing, result count, usage and errors",
+        "downstream_consumer": "tool_calls and evidence links; operational trace, not provider proof"
+      },
+      "header_field_count": 15,
+      "fields": [
+        {
+          "csv_field": "call_id",
+          "sql_targets": [
+            "tool_calls.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "run_id",
+          "sql_targets": [
+            "tool_calls.run_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "connector",
+          "sql_targets": [
+            "tool_calls.connector"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "tool",
+          "sql_targets": [
+            "tool_calls.tool"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "arguments_hash",
+          "sql_targets": [
+            "tool_calls.arguments_hash"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "started_at",
+          "sql_targets": [
+            "tool_calls.started_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "ended_at",
+          "sql_targets": [
+            "tool_calls.ended_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "status",
+          "sql_targets": [
+            "tool_calls.status"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "retry_count",
+          "sql_targets": [
+            "tool_calls.retry_count"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "result_count",
+          "sql_targets": [
+            "tool_calls.result_count"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "credits_used",
+          "sql_targets": [
+            "tool_calls.credits_used"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "cost",
+          "sql_targets": [
+            "tool_calls.cost"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "output_evidence_ids",
+          "sql_targets": [
+            "tool_call_evidence_links.tool_call_id",
+            "tool_call_evidence_links.evidence_item_id"
+          ],
+          "operation": "fan_out",
+          "note": "List encoding unspecified; preserve evidence IDs, not result text."
+        },
+        {
+          "csv_field": "error_code",
+          "sql_targets": [
+            "tool_calls.error_code"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "error_message",
+          "sql_targets": [
+            "tool_calls.error_message"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "Schema has result_hash and limitations not present in this header. Hashes and counts do not prove provider semantics."
+      ]
+    },
+    {
+      "source_id": "DL0176",
+      "candidate": "files/suppliers-header.csv",
+      "meaning": {
+        "producer_input": "Supplier candidate plus dated cost/lead-time quotation fields",
+        "downstream_consumer": "suppliers + supplier_quotes; product-truth/economics brief"
+      },
+      "header_field_count": 19,
+      "fields": [
+        {
+          "csv_field": "supplier_id",
+          "sql_targets": [
+            "suppliers.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "suppliers.product_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "name",
+          "sql_targets": [
+            "suppliers.name"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "direct_url",
+          "sql_targets": [
+            "suppliers.direct_url"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "quote_date",
+          "sql_targets": [
+            "supplier_quotes.quote_date"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "moq",
+          "sql_targets": [
+            "supplier_quotes.moq"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "unit_cost",
+          "sql_targets": [
+            "supplier_quotes.unit_cost"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "currency",
+          "sql_targets": [
+            "supplier_quotes.currency"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "shipping_cost",
+          "sql_targets": [
+            "supplier_quotes.shipping_cost"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "shipping_method",
+          "sql_targets": [
+            "supplier_quotes.shipping_method"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "lead_time_days",
+          "sql_targets": [
+            "supplier_quotes.lead_time_days"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "landed_unit_cost",
+          "sql_targets": [
+            "supplier_quotes.landed_unit_cost"
+          ],
+          "operation": "split_record",
+          "note": "Quote row links to supplier_id and source_record_id; do not overwrite previous dated quotes."
+        },
+        {
+          "csv_field": "sample_status",
+          "sql_targets": [
+            "suppliers.sample_status"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "qc_status",
+          "sql_targets": [
+            "suppliers.qc_status"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "capacity_status",
+          "sql_targets": [
+            "suppliers.capacity_status"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "selected",
+          "sql_targets": [
+            "suppliers.selected"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "backup",
+          "sql_targets": [
+            "suppliers.backup"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "quote_evidence_id",
+          "sql_targets": [
+            "supplier_quotes.source_record_id"
+          ],
+          "operation": "resolve_join",
+          "note": "Resolve evidence_items.id -> source_record_id; quote-source linkage is not the same as quote row ID."
+        },
+        {
+          "csv_field": "limitations",
+          "sql_targets": [
+            "suppliers.limitations"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "Template flattens supplier + quote; SQL supplier_quotes needs id, supplier_id, source_record_id.",
+        "Quotes may vary by destination, method, date/expiry, MOQ, unit basis and currency. This header omits some SQL fields; never invent them."
+      ]
+    },
+    {
+      "source_id": "DL0177",
+      "candidate": "files/ads-header.csv",
+      "meaning": {
+        "producer_input": "Observed competitor ad, status, ranking basis and transcript/asset links",
+        "downstream_consumer": "ads; structural creative reference, not conversion proof"
+      },
+      "header_field_count": 16,
+      "fields": [
+        {
+          "csv_field": "ad_id",
+          "sql_targets": [
+            "ads.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "ads.product_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "competitor_id",
+          "sql_targets": [
+            "ads.competitor_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "platform",
+          "sql_targets": [
+            "ads.platform"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "account_name",
+          "sql_targets": [
+            "ads.account_name"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "direct_url",
+          "sql_targets": [
+            "ads.direct_url"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "observed_at",
+          "sql_targets": [
+            "ads.observed_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "observed_status",
+          "sql_targets": [
+            "ads.observed_status"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "media_type",
+          "sql_targets": [
+            "ads.media_type"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "started_at",
+          "sql_targets": [
+            "ads.started_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "last_seen_at",
+          "sql_targets": [
+            "ads.last_seen_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "ranking_basis",
+          "sql_targets": [
+            "ads.ranking_basis"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "conversion_proven",
+          "sql_targets": [
+            "ads.conversion_proven"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "transcript_evidence_id",
+          "sql_targets": [
+            "ads.transcript_evidence_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "creative_asset_evidence_id",
+          "sql_targets": [
+            "ads.creative_asset_evidence_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "limitations",
+          "sql_targets": [
+            "ads.limitations"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "Required SQL source_record_id is absent; must come from capture provenance.",
+        "platform_ad_id exists in SQL but is not in this CSV. Do not use account_name as stable ad identity."
+      ]
+    },
+    {
+      "source_id": "DL0179",
+      "candidate": "files/metrics-header.csv",
+      "meaning": {
+        "producer_input": "Scoped metric with period, units/currency, source class and limitations",
+        "downstream_consumer": "metrics; research comparison and brief economics"
+      },
+      "header_field_count": 18,
+      "fields": [
+        {
+          "csv_field": "metric_id",
+          "sql_targets": [
+            "metrics.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "run_id",
+          "sql_targets": [
+            "metrics.run_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "metrics.product_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "object_type",
+          "sql_targets": [
+            "metrics.object_type"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "object_id",
+          "sql_targets": [
+            "metrics.object_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "metric_name",
+          "sql_targets": [
+            "metrics.metric_name"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "value",
+          "sql_targets": [
+            "metrics.value"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "unit",
+          "sql_targets": [
+            "metrics.unit"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "currency",
+          "sql_targets": [
+            "metrics.currency"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "period_start",
+          "sql_targets": [
+            "metrics.period_start"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "period_end",
+          "sql_targets": [
+            "metrics.period_end"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "period_label",
+          "sql_targets": [
+            "metrics.period_label"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "source_class",
+          "sql_targets": [
+            "metrics.source_class"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "authorized_account_ref",
+          "sql_targets": [
+            "metrics.authorized_account_ref"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "evidence_id",
+          "sql_targets": [
+            "metrics.source_record_id"
+          ],
+          "operation": "resolve_join",
+          "note": "Resolve evidence_items.id -> evidence_items.source_record_id. A CSV evidence ID is not a source_record_id. Retain the evidence relationship separately if needed."
+        },
+        {
+          "csv_field": "calculation",
+          "sql_targets": [
+            "metrics.calculation"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "conflict_group",
+          "sql_targets": [
+            "metrics.conflict_group"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "limitations",
+          "sql_targets": [
+            "metrics.limitations"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "SQL source_record_id needs evidence resolution; source_class unavailable requires a null value.",
+        "Blank/missing is not numeric zero."
+      ]
+    },
+    {
+      "source_id": "DL0180",
+      "candidate": "files/evidence-header.csv",
+      "meaning": {
+        "producer_input": "Source capture metadata plus observation excerpt",
+        "downstream_consumer": "source_records + evidence_items; lineage for quotes, metrics, claims and briefs"
+      },
+      "header_field_count": 15,
+      "fields": [
+        {
+          "csv_field": "evidence_id",
+          "sql_targets": [
+            "evidence_items.id"
+          ],
+          "operation": "rename",
+          "note": "Preserve a stable ID or use an explicit external-to-internal ID map; SQL expects UUIDs."
+        },
+        {
+          "csv_field": "run_id",
+          "sql_targets": [
+            "source_records.run_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "product_id",
+          "sql_targets": [
+            "source_records.product_id"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "source_type",
+          "sql_targets": [
+            "source_records.source_type"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "source_object_type",
+          "sql_targets": [
+            "source_records.object_type"
+          ],
+          "operation": "split_record"
+        },
+        {
+          "csv_field": "source_object_id",
+          "sql_targets": [
+            "source_records.object_external_id"
+          ],
+          "operation": "split_record"
+        },
+        {
+          "csv_field": "source_url",
+          "sql_targets": [
+            "source_records.source_url"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "artifact_path",
+          "sql_targets": [
+            "source_records.artifact_path"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "captured_at",
+          "sql_targets": [
+            "source_records.captured_at"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "collector_tool",
+          "sql_targets": [
+            "source_records.collector_tool"
+          ],
+          "operation": "direct"
+        },
+        {
+          "csv_field": "evidence_level",
+          "sql_targets": [
+            "evidence_items.evidence_level"
+          ],
+          "operation": "split_record"
+        },
+        {
+          "csv_field": "excerpt_or_synopsis",
+          "sql_targets": [
+            "evidence_items.excerpt_or_synopsis"
+          ],
+          "operation": "split_record"
+        },
+        {
+          "csv_field": "content_hash",
+          "sql_targets": [
+            "evidence_items.content_hash"
+          ],
+          "operation": "split_record"
+        },
+        {
+          "csv_field": "limitations",
+          "sql_targets": [
+            "source_records.limitations",
+            "evidence_items.limitations"
+          ],
+          "operation": "requires_semantic_split",
+          "note": "Header merges capture-level and observation-level limitations; decide where each belongs."
+        },
+        {
+          "csv_field": "conflict_group",
+          "sql_targets": [
+            "source_records.conflict_group"
+          ],
+          "operation": "direct"
+        }
+      ],
+      "missing_or_transform_requirements": [
+        "Create source_records and evidence_items separately with an explicit evidence_items.source_record_id relationship.",
+        "CSV content_hash maps to evidence content, not automatically to source_records.raw_payload_hash."
+      ]
+    }
+  ],
+  "brief_compiler": {
+    "candidate": "files/brief-compiler.mjs",
+    "entrypoint": "compileBrief(snapshot, type)",
+    "types": [
+      "landing-page",
+      "video-editor",
+      "shopify-builder"
+    ],
+    "snapshot_fields": {
+      "run": {
+        "keys": [
+          "market",
+          "channel"
+        ],
+        "meaning": "Context shown in brief header",
+        "source_relations": [
+          "research_runs"
+        ]
+      },
+      "products": {
+        "keys": [
+          "id",
+          "name",
+          "concept",
+          "decision",
+          "evidence_level",
+          "score_100"
+        ],
+        "meaning": "Only element 0 is selected for the header",
+        "source_relations": [
+          "products"
+        ]
+      },
+      "stages": {
+        "keys": [
+          "id",
+          "status",
+          "blocker",
+          "next_action"
+        ],
+        "meaning": "Caller-supplied historical gate summary; not a SQL table dump",
+        "source_relations": [
+          "stage_gates"
+        ],
+        "needs_mapping": "stage_id -> id; aggregate fields/requirements deliberately; next_action has no direct stage_gates column"
+      },
+      "evidence": {
+        "keys": [
+          "id",
+          "evidence_level",
+          "source_type",
+          "source_url",
+          "artifact_path",
+          "excerpt_or_synopsis",
+          "limitations"
+        ],
+        "meaning": "Evidence items joined to source capture records; first 30 displayed",
+        "source_relations": [
+          "evidence_items",
+          "source_records"
+        ]
+      },
+      "metrics": {
+        "keys": [
+          "id",
+          "object_type",
+          "object_id",
+          "metric_name",
+          "value",
+          "currency",
+          "unit",
+          "period_label",
+          "source_class",
+          "evidence_id",
+          "limitations"
+        ],
+        "meaning": "Whitelisted metrics, first 30 displayed",
+        "source_relations": [
+          "metrics"
+        ],
+        "needs_mapping": "evidence_id is not a metrics SQL column; retain/resolve observation provenance without inventing a one-to-one link"
+      },
+      "ads": {
+        "keys": [
+          "id",
+          "platform",
+          "direct_url",
+          "ranking_basis",
+          "conversion_proven"
+        ],
+        "meaning": "Structural references; first 20 displayed",
+        "source_relations": [
+          "ads"
+        ]
+      },
+      "suppliers": {
+        "keys": [
+          "id",
+          "name",
+          "direct_url",
+          "landed_unit_cost",
+          "currency",
+          "unit_cost",
+          "sample_status",
+          "qc_status",
+          "selected"
+        ],
+        "meaning": "Flattened selected quote/economics plus supplier state",
+        "source_relations": [
+          "suppliers",
+          "supplier_quotes"
+        ],
+        "needs_mapping": "Select quotation by date, destination, quantity, expiry and currency explicitly; source compiler does not choose a quote"
+      },
+      "angles": {
+        "keys": [
+          "id",
+          "status",
+          "audience",
+          "pain_or_desire",
+          "promise",
+          "mechanism",
+          "proof_plan"
+        ],
+        "meaning": "Includes grounded/tested/winner supplied statuses",
+        "source_relations": [
+          "angles"
+        ],
+        "needs_mapping": "Grounding status is not recalculated by compiler"
+      },
+      "claims": {
+        "keys": [
+          "id",
+          "review_status",
+          "text",
+          "claim_type",
+          "allowed_channels",
+          "limitations"
+        ],
+        "meaning": "Displays only supplied review_status=supported; does not filter by current channel",
+        "source_relations": [
+          "claims"
+        ]
+      },
+      "voc_quotes": {
+        "keys": [
+          "id",
+          "source_type",
+          "source_url",
+          "excerpt",
+          "pain_desire"
+        ],
+        "meaning": "First 25 quotes displayed; quotes are evidence not merchant endorsements",
+        "source_relations": [
+          "voc_quotes"
+        ]
+      }
+    },
+    "output": "Markdown string; no render, deployment or provider action",
+    "scope_requirement": "Prepare one product-scoped snapshot; supplied arrays are not cross-filtered by products[0].",
+    "round_trip": "Save source IDs/versions outside the brief; render/implementation IDs, actual QA and performance observations belong to later steps, not to the compiled text."
+  },
+  "connector_contract": {
+    "candidate": "files/connector-contract.mjs",
+    "sha256_dependency": "../engine.mjs not included; hashing behavior unresolved here",
+    "manifest_top_fields_read": [
+      "id",
+      "provider",
+      "official_source_url",
+      "integration_form",
+      "owner",
+      "version",
+      "capability_ids",
+      "operations",
+      "contract_tests",
+      "admission_status",
+      "schema_hash",
+      "last_probed_at"
+    ],
+    "operation_fields_read": [
+      "id",
+      "action_class",
+      "side_effects",
+      "read_back",
+      "compensating_action",
+      "approval_class"
+    ],
+    "test_entry_fields": [
+      "name",
+      "status"
+    ],
+    "required_test_names": [
+      "happy_path",
+      "empty_result",
+      "revoked_auth",
+      "partial_success",
+      "schema_drift",
+      "rate_limit",
+      "timeout",
+      "duplicate_delivery"
+    ],
+    "canonical_receipt_input_fields": [
+      "run_id",
+      "step_id",
+      "capability_id",
+      "adapter_id",
+      "exact_operation",
+      "arguments",
+      "status",
+      "result",
+      "started_at",
+      "ended_at",
+      "retry_count",
+      "approval_id",
+      "read_back_status",
+      "artifacts",
+      "evidence_ids",
+      "resource_usage",
+      "limitations"
+    ],
+    "canonical_receipt_output_fields": [
+      "schema_version",
+      "run_id",
+      "step_id",
+      "capability_id",
+      "adapter_id",
+      "exact_operation",
+      "arguments_hash",
+      "status",
+      "result_hash",
+      "started_at",
+      "ended_at",
+      "retry_count",
+      "approval_id",
+      "read_back_status",
+      "returned_objects",
+      "artifacts",
+      "evidence_ids",
+      "resource_usage",
+      "limitations"
+    ],
+    "database_mapping": {
+      "step_id": "execution_receipts.workflow_step_id",
+      "adapter_id": "execution_receipts.adapter_id",
+      "exact_operation": "execution_receipts.exact_operation",
+      "arguments_hash": "execution_receipts.arguments_hash",
+      "result_hash": "execution_receipts.result_hash",
+      "returned_objects": "execution_receipts.returned_objects",
+      "read_back_status": "execution_receipts.read_back_status",
+      "approval_id": "execution_receipts.approval_id",
+      "resource_usage": "execution_receipts.resource_usage",
+      "limitations": "execution_receipts.limitations"
+    },
+    "not_directly_stored_in_execution_receipts": [
+      "schema_version",
+      "run_id",
+      "capability_id",
+      "status",
+      "started_at",
+      "ended_at",
+      "retry_count",
+      "artifacts",
+      "evidence_ids"
+    ],
+    "sql_fields_not_returned_by_function": [
+      "id",
+      "tool_call_id",
+      "target_objects",
+      "elapsed_ms",
+      "created_at"
+    ],
+    "mapping_warning": "Link operation log, workflow step, artifacts and evidence explicitly. SQL execution_receipts.id is generated; timestamps/duration mapping and returned object schema need implementation.",
+    "static_contract_incompatibilities": [
+      "SQL capability_adapters permits integration_form=local; JavaScript FORMS does not.",
+      "JavaScript ACTIONS admits publish/send/payment/supplier_order/security/destructive/hire; SQL capability_adapters.action_class does not."
+    ],
+    "trust_boundary": "Caller supplies status and read_back_status. Function hashes and copies data; no network call, test execution, authenticated approval or readback is performed."
+  },
+  "semantic_flow": [
+    {
+      "input": "Captured source record + observation excerpt + scoped metric",
+      "consumer": "Research/claim/angle evaluation",
+      "output": "Source-linked VOC, claims and angle hypotheses with limitations"
+    },
+    {
+      "input": "Supplier identity reference + dated quotation + cost assumptions + sample/QC observations",
+      "consumer": "Product/economics snapshot",
+      "output": "Selected product facts, offer terms and explicit unknowns; not invented supplier terms"
+    },
+    {
+      "input": "Single-product joined snapshot",
+      "consumer": "Brief compiler",
+      "output": "Page/video/store requirements with IDs, references and blockers"
+    },
+    {
+      "input": "Approved direction, rights-cleared inputs and substantiated product claims",
+      "consumer": "Build/generation/edit implementation, outside this candidate pack",
+      "output": "Actual artifacts, versions, operation outcomes and QA; no such outcomes included here"
+    },
+    {
+      "input": "Actual deployment/performance/economics observations",
+      "consumer": "Later experiment and revision logic, not implemented by these excerpts",
+      "output": "Next research/creative/offer revision with traceable evidence"
+    }
+  ]
+}

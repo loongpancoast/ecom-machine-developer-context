@@ -1,0 +1,67 @@
+# Requirements
+
+## 1. Hosted application
+
+A private frontend, backend and operational database for one business managing multiple brands, stores and ad accounts. Include secure login, team roles, brand/account separation, media storage and background processing. The interface should support direct control as well as autonomous execution.
+
+## 2. Research and product testing
+
+Collect product, market, competitor and customer-language evidence. Compare demand signals, offers, creative approaches, supplier options and economics. Turn findings into product briefs and test plans. Retain sources and prior learning rather than re-creating research at every step.
+
+Test new products while scaling successful ones. The initial monthly objective is 60 tests, 2–3 scalable winners and a majority reaching break-even through iteration. The system must accurately measure outcomes; it cannot guarantee commercial winners.
+
+## 3. Creative production
+
+Produce complete image ads, video/avatar ads, transcripts, scripts and briefs. Use relevant brand references to understand hooks, pacing, visual direction, objections and offers. Create original product-specific work using accurate product information and supported claims.
+
+Preserve the relationship between reference, brief, script, prompt, generation job, selected asset and final edit. Use the best-performing production service or model for the job. Initial owner review establishes creative quality; routine production and improvement should become autonomous.
+
+## 4. Pages and storefronts
+
+Build and edit landing pages, product pages and storefronts with coherent branding, strong ad-to-page continuity and functioning commerce behavior. Support products, variants, offers, pricing, cart, checkout and tracking.
+
+Use analytics and heatmaps to diagnose friction, generate improvements and test page variants. Amboras is a relevant reference for prompt-driven storefront construction and autonomous optimization; Arcads is a reference for ad/video/avatar production.
+
+## 5. Advertising and learning
+
+Connect advertising accounts and commerce data. Launch and manage campaigns, track spend and join results to the exact creative, page, offer and product versions.
+
+Use attention, click, page and purchase data to decide what to revise. Preserve experiments, decisions, unsuccessful attempts and subsequent outcomes. Allocate effort between discovery and scaling using both commercial performance and the value of learning.
+
+## 6. Private suppliers and purchasing
+
+Discover private suppliers, conduct outreach, negotiate, compare quotes and manage existing relationships. Record samples, quality checks, lead times, shipping terms, capacity, pricing and purchasing decisions.
+
+Support private-supplier dropshipping for testing and bulk/private-label purchasing with warehouse or 3PL fulfillment for scaling.
+
+## 7. Post-purchase operations
+
+Operate order management, fulfillment, shipment exceptions, returns, refunds, support and retention. Connect these workflows to the relevant commerce, logistics, communication and accounting systems.
+
+Feed customer issues, refund reasons and fulfillment costs back into product research, supplier selection, public messaging and economics.
+
+## 8. Shared database and memory
+
+Link brands, products, suppliers, sources, customer-language research, briefs, scripts, prompts, media, page versions, ads, campaigns, tests, orders, costs and decisions.
+
+Preserve provenance, version history and the meaning of each field. Distinguish observed facts, estimates and hypotheses. Keep missing information separate from zero values. Make the history searchable by the operator, developer and authorized AI workers.
+
+## 9. Build versus integrate
+
+The application owns its interface, data and workflow history. External generation engines and SaaS products may provide individual capabilities when their quality, APIs, export options and economics are suitable.
+
+The developer is free to choose the stack and replace earlier implementations. Existing stage labels, approval-heavy processes, model choices and budget thresholds are not requirements. Budget is not a fixed design guardrail; propose realistic resources, costs and milestones.
+
+## 10. Deliverables
+
+- Deployable application source, frontend, backend and database migrations.
+- Documented integrations, data contracts and background workflows.
+- Working end-to-end demonstrations using appropriate development/test accounts.
+- Functional, visual and operational tests; monitoring and maintainable deployment configuration.
+- Clear technical documentation and handoff.
+
+## 11. Context and privacy
+
+Requirements are assistant-written summaries, not word-for-word owner messages. Technical schemas, code and methodologies remain separate reference material. No personal data, actual tested products, private supplier identities, customer records, account credentials or private source history should be included in the handoff.
+
+The [structured requirement summary](sources/owner-requirements-summary.json) retains stable IDs for traceability. [Reference systems](REFERENCE-SYSTEMS.md) separates product capabilities from unverified integration assumptions.
