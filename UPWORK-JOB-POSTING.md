@@ -43,11 +43,11 @@ Acceptance requires every scope area working together in the deployed system, wi
 
 Target: 60 product tests/month, then scale winners. Profit is a business objective, not an engineering guarantee.
 
-Apply only if you can deliver the full scope for $8,000 within one month under these cost constraints. Include shipped examples, your role, architecture, quality checks and delivery milestones. No unpaid custom build is required.
+Send a personal Loom video showing relevant work you built and explaining your approach, quality checks and full-system delivery for $8,000 within one month. No AI avatar or generated narration. No unpaid custom build required.
 
 ## Screening questions
 
-1. Which comparable systems have you shipped? Link a demo or walkthrough and explain what you personally built.
+1. Send a Loom video personally recorded and narrated by you. Show a relevant system you built, explain your own contribution, and walk through how you would deliver our full scope. Use existing work; no unpaid custom build, AI avatar or generated narration.
 2. Describe your dropshipping/product-research experience and a store/ad improvement you personally made, with measured results. What data did you collect and cross-reference to choose the product, offer and creative?
 3. What custom system would you build for this business? Explain integration choices and how current AI tools reduce your discovery and implementation time and cost.
 4. Explain how Codex and Claude subscriptions will run the engine through officially supported access, with paid API usage limited to video generation. Address usage limits and failure recovery.
