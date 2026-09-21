@@ -49,11 +49,13 @@
     },
     {
       "id": "U12",
-      "summary": "The developer should recommend realistic resource requirements and economics rather than constrain the design to the earlier budget suggestion."
+      "summary": "The developer should recommend realistic resource requirements and economics rather than constrain the design to the earlier budget suggestion.",
+      "status": "historical budget guidance; superseded for this contract by U18 and U19"
     },
     {
       "id": "U13",
-      "summary": "Budget is not a fixed design guardrail. Continue to track costs and allocate resources intelligently; this brief does not itself authorize spending."
+      "summary": "Budget is not a fixed design guardrail. Continue to track costs and allocate resources intelligently; this brief does not itself authorize spending.",
+      "status": "historical budget guidance; superseded for this contract by U18 and U19"
     },
     {
       "id": "U14",
@@ -71,6 +73,26 @@
     {
       "id": "U17",
       "summary": "Present owner intent as clear assistant-written summaries instead of word-for-word quotations. Use a private GitHub repository as the primary developer handoff. The latest SaaS names supplied are amboris and arcads; Amboras is a likely match for the intended storefront platform, pending confirmation, while Arcads provides ad/video/avatar capabilities."
+    },
+    {
+      "id": "U18",
+      "summary": "Current development contract: maximum $8,000 fixed fee, full system complete within one month of kickoff. Definition of done includes all requirement areas working together in the deployed application. Milestones cannot narrow scope to an MVP, discovery phase or partial build."
+    },
+    {
+      "id": "U19",
+      "summary": "Run the engine on Codex and Claude subscriptions through officially supported access. Limit paid API usage to video generation. Do not depend on separately billed LLM, copywriting, image-generation or other API calls. Disclose hosting, storage and other non-API costs before contracting; no new spend is authorized."
+    },
+    {
+      "id": "U20",
+      "summary": "The client states that they are engineers and understand the scope. Applicants must personally write and submit proposals and follow-up replies. AI-written applications or automated replies mean immediate disqualification. AI-assisted development is welcome."
+    },
+    {
+      "id": "U21",
+      "summary": "Preserve and make available the system and agent versions attempted over prior months, including node-based video workflows, copywriting and image generation. Review the available history before rebuilding. Maintain explicit omissions and implementation-status labels rather than claiming unverified completeness."
+    },
+    {
+      "id": "U22",
+      "summary": "Make the methodology visible to developers: which data to scrape or collect, fields to preserve and evidence to cross-reference, product research, copywriting, video production and performance feedback. Use earlier workflows, agents and attributed course-derived summaries. Dropshipping, product research and high-converting store/ad experience are preferred."
     }
   ],
   "scope_note": "This summarizes the owner direction captured during preparation. Technical source files remain separate reference material. No original owner-message text is included."

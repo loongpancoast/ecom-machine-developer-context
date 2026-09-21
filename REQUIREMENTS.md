@@ -50,7 +50,11 @@ Preserve provenance, version history and the meaning of each field. Distinguish 
 
 The application owns its interface, data and workflow history. External generation engines and SaaS products may provide individual capabilities when their quality, APIs, export options and economics are suitable.
 
-The developer is free to choose the stack and replace earlier implementations. Existing stage labels, approval-heavy processes, model choices and budget thresholds are not requirements. Budget is not a fixed design guardrail; propose realistic resources, costs and milestones.
+Custom development is preferred. The developer may replace earlier implementations; existing MCPs are not a preferred stack. Historical stage labels, approval processes and budgets do not override the current contract.
+
+The fixed development fee is capped at $8,000, with the full system delivered within one month of kickoff. Definition of done is every scope area in this document working together in the deployed system, with real outputs and verified integrations. A discovery phase, MVP, partial build, placeholder workflow or dashboard alone is not acceptance. Milestones divide delivery, not scope.
+
+Run the engine on Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation; do not require separately billed LLM, copywriting, image-generation or other API calls. Verify actual subscription capabilities, limits and unattended-use support without bypasses. Disclose hosting, storage and other non-API operating costs before contracting. These requirements do not authorize new spend.
 
 ## 10. Deliverables
 
@@ -60,7 +64,13 @@ The developer is free to choose the stack and replace earlier implementations. E
 - Functional, visual and operational tests; monitoring and maintainable deployment configuration.
 - Clear technical documentation and handoff.
 
-## 11. Context and privacy
+## 11. Research methodology and developer background
+
+Implement the [research-to-production methodology](methodologies/research-to-production.md): source selection and capture fields, product matching, independent cross-checks, customer-language analysis, competitor/offer comparisons, supplier economics, product selection, copywriting, node-based video production, finished-output QA and measured improvement. Prior workflows, agents and course-derived methods are reference context; preserve attribution and distinguish historical guidance from verified results.
+
+Preferred background includes dropshipping, product research and demonstrated work on high-converting stores and ads. Applicants should show their personal contribution and measured results. Engineering delivery remains the complete system, not only the developer's strongest specialty.
+
+## 12. Context and privacy
 
 Requirements are assistant-written summaries, not word-for-word owner messages. Technical schemas, code and methodologies remain separate reference material. No personal data, actual tested products, private supplier identities, customer records, account credentials or private source history should be included in the handoff.
 

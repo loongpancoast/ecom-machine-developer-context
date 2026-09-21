@@ -22,7 +22,7 @@ Creative quality is central. Outputs should reflect credible brand references, r
 
 Own the interface, database and workflow history. Integrate SaaS and AI engines where they produce better results through suitable APIs. The developer may replace all previous architecture; the included material is context and optional reference code.
 
-Initial business target: **60 product tests per month, with 2–3 winners to scale and a majority reaching break-even through iteration.** These are business objectives, not guaranteed software outcomes. Budget is not a fixed design constraint; the developer should propose realistic costs and delivery milestones.
+Initial business target: **60 product tests per month, with 2–3 winners to scale and a majority reaching break-even through iteration.** These are business objectives, not guaranteed software outcomes. The fixed development fee is capped at $8,000 for the full system, delivered within one month of kickoff. Milestones do not reduce that scope. Codex and Claude subscriptions run the engine through supported access; paid API usage is limited to video generation. Hosting, storage and other non-API operating costs must be disclosed before contracting.
 
 ## Read next
 
@@ -30,6 +30,7 @@ Initial business target: **60 product tests per month, with 2–3 winners to sca
 |---|---|
 | [Requirements](REQUIREMENTS.md) | Functional scope and expected behavior |
 | [Reference systems](REFERENCE-SYSTEMS.md) | Amboras, Arcads and integration considerations |
+| [Research and production methodology](methodologies/research-to-production.md) | What to collect, cross-check and turn into product decisions, copy, videos and tests |
 | [Workflow map](methodologies/semantic-workflows.md) | How information and work move through the system |
 | [Requirement summaries](sources/owner-requirements-summary.json) | Structured summary of the intended outcomes; no interview transcript |
 | [Historical intent summary](sources/historical-intent-summary.json) | Relevant lessons and goals from earlier work, paraphrased |

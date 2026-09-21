@@ -1,76 +1,53 @@
-# Full-Stack AI Engineer — Autonomous Ecommerce Operating System
+# Full-Stack AI Engineer - Autonomous Ecommerce Operating System
 
-## The project
+Budget: $8,000 USD maximum fixed fee for the FULL SYSTEM described here and in the repository requirements, delivered within one month of kickoff. Definition of done is the complete working system, not an MVP, discovery phase or partial build. Milestones split delivery, not scope.
 
-We are building a private, cloud-hosted operating system for running multiple ecommerce brands. It should connect product research, creative production, storefronts, advertising, suppliers and post-purchase operations in one application with a complete backend, frontend and database.
+Build a private, cloud-hosted multi-brand ecommerce system with interface, backend and database. Deliver finished stores/pages and ads, then improve product tests using results. A chatbot, prompt library or unfinished dashboard is not enough.
 
-This is a production engineering project, not a chatbot or prompt-library setup. Design, build and demonstrate working end-to-end workflows.
+Earlier builds and technical references:
+https://github.com/loongpancoast/ecom-machine-developer-context
 
-## What the system needs to do
+Months of earlier system/agent attempts cover node-based video, copywriting and image generation. Review the available workflows and course-derived methods: what to scrape, which fields to capture, how to cross-reference evidence, select products and produce/test videos. Explain what to use, improve or replace. History expansion is in progress; flag gaps.
 
-**Research and product testing**
-- Find and assess product opportunities using market intelligence, competitor ads/pages, customer language, supplier information and unit economics.
-- Turn research into useful product briefs, offers, ad scripts and landing-page direction.
-- Retain evidence, decisions and outcomes so future tests build on prior learning.
+Direction:
+https://youtube.com/shorts/Um7gmblnUjg?is=AIKpCuIuaB2CTUpP
+The video is a reference, not proof of its cost claims.
 
-**Creative and storefront production**
-- Produce finished image ads, video/avatar ads, landing pages and product pages at scale.
-- Use strong brand references, relevant customer language and product-specific evidence rather than generic AI copy or template visuals.
-- Support initial approval of creative direction, followed by increasingly autonomous production and iteration.
-- Evaluate tools such as Amboras for storefront creation/optimization and Arcads or Higgsfield for creative production. Build or integrate based on output quality, supported APIs and data ownership—not a requirement to recreate their underlying AI models.
+What needs to work
 
-**Advertising and improvement**
-- Connect advertising and commerce accounts, launch/manage campaigns and collect spend, conversion and profitability data.
-- Connect each result to its product, offer, ad, creative and page version.
-- Use performance data, page analytics and heatmaps to generate and test improvements.
+Research and testing: assess product opportunities using competitor ads/pages, customer language, market data, supplier information and unit economics. Turn evidence into product briefs, offers, scripts and page direction. Preserve sources, decisions and outcomes.
 
-**Commerce operations**
-- Discover private suppliers, conduct outreach, negotiate and manage quotes, samples and purchasing.
-- Support private-supplier dropshipping for tests and bulk/private-label inventory with warehouse or 3PL fulfillment for scaling.
-- Include order management, returns, support, retention and accounting integrations.
+Creative and storefronts: produce finished image ads, video/avatar ads, landing pages and product pages. Use real brand references and product evidence. Support approval of the initial direction, then increasingly autonomous production. Assess production tools by output quality, supported access and data ownership.
 
-## The technical foundation
+Advertising and improvement: connect ad and commerce accounts; launch/manage campaigns within agreed permissions and budgets; collect spend, conversions, orders and costs. Tie results to the exact product, offer, ad and page version. Use performance data, page analytics and available heatmap data to test improvements. Identify tools whose required features are manual-only or need enterprise access.
 
-Include login/team roles, brand/account separation, a relational database, media storage, background jobs, reliable integrations and a usable interface.
+Commerce operations: supplier discovery, outreach, quotes, samples and purchasing; private-supplier dropshipping for tests; bulk/private-label inventory with warehouse or 3PL fulfillment for scaling; orders, returns, support, retention and accounting integrations.
 
-Preserve the complete lifecycle: research sources → briefs/scripts → prompts and generation jobs → edited assets/pages → campaigns → orders/costs → decisions and subsequent versions. Models and SaaS providers should be replaceable without losing that history.
+Preferred background: dropshipping, product research, and high-converting stores and ads
 
-Use documented APIs, SDKs or MCPs. Identify manual-only features, enterprise access and unsupported integrations.
+We are engineers and understand the scope of work. Absolutely no AI-written proposals or automated replies. They mean immediate disqualification. Write and submit every application and follow-up personally. No AI sales bots or copy-paste pitches. AI-assisted development is welcome. Show conversion expertise or competent use of ad data. Give your own store/ad example, test period and measured conversion, acquisition-cost or profit result.
 
-## What we will provide
+If proposing model training, explain data, labels, unseen-data evaluation and attribution limits. Distinguish training from retrieval/prompt changes; explain where human creative or media-buying judgment is needed.
 
-A private GitHub repository containing the brief, requirement summaries, methodologies, workflows, implementation examples, schemas and integration notes.
+Custom development and fair pricing
 
-You are free to replace the earlier architecture. The material is context to build from, not a system you must preserve.
+Custom development is preferred, not existing MCPs or a prescribed stack. We know current repos, plugins, APIs and AI coding tools. Use engineered AI loops to discover, build, test and fix until features work. Justify build/integration choices, time and costs against today's tools. You own working delivery.
 
-## Delivery expectations
+Operating cost requirement: run the engine on Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation. Do not design around separately billed LLM, copywriting, image-generation or other API calls. Verify subscription capabilities and usage limits; no unofficial bypasses. Disclose hosting, storage and other non-API operating costs before contracting. No new spend is authorized by this posting.
 
-Propose milestones covering:
-1. Architecture, build-versus-integrate decisions and a working data foundation.
-2. A complete product workflow from research through finished creative and a functional page.
-3. Connected campaign/commerce data and an iteration loop that acts on results.
-4. Supplier and post-purchase workflows, operational hardening and scaling.
+Technical delivery
 
-Each milestone should demonstrate functioning software, not only designs or documentation. Deliver source code, deployment configuration, tests, API documentation and a maintainable handoff.
+Include login/team roles, brand/account separation, relational data, media storage, background jobs and reliable integrations. Preserve research sources, briefs, scripts, prompts, generation jobs, edited assets/pages, campaigns, orders, costs and later versions. Providers must be replaceable without losing that history.
 
-The initial operating target is approximately 60 product tests per month, with successful products moving into scaling. Commercial winners are a business objective, not a guaranteed engineering deliverable.
+Acceptance requires every scope area working together in the deployed system, with real outputs and verified external actions. Include failure recovery, duplicate-safe retries, permissions and cost controls. Deliver all source, migrations, deployment configuration, tests and documentation. Earlier architecture is context, not a required design.
 
-## Experience required
+Target: 60 product tests/month, then scale winners. Profit is a business objective, not an engineering guarantee.
 
-- Production full-stack applications with authentication, databases and background processing.
-- Ecommerce/storefront and advertising-platform integrations.
-- AI workflows that use tools, preserve state and produce real artifacts.
-- Image/video generation or media-production API integrations.
-- Data modeling for attribution, experiments, costs and version history.
-- Clear judgment about what to build versus buy, and how to keep the interface simple.
+Apply only if you can deliver the full scope for $8,000 within one month under these cost constraints. Include shipped examples, your role, architecture, quality checks and delivery milestones. No unpaid custom build is required.
 
-## In your proposal
+## Screening questions
 
-Please include:
-1. Two relevant systems you have shipped, your role and links or a walkthrough.
-2. Your recommended architecture and the first end-to-end workflow you would deliver.
-3. Which capabilities you would build, integrate or investigate first, and why.
-4. How you would prevent generic creative output and verify the quality of finished ads/pages.
-5. Your proposed milestones, timeline, estimate and ongoing infrastructure/API cost assumptions.
-
-Propose realistic milestones, costs and timelines backed by completed work.
+1. Which comparable systems have you shipped? Link a demo or walkthrough and explain what you personally built.
+2. Describe your dropshipping/product-research experience and a store/ad improvement you personally made, with measured results. What data did you collect and cross-reference to choose the product, offer and creative?
+3. What custom system would you build for this business? Explain integration choices and how current AI tools reduce your discovery and implementation time and cost.
+4. Explain how Codex and Claude subscriptions will run the engine through officially supported access, with paid API usage limited to video generation. Address usage limits and failure recovery.

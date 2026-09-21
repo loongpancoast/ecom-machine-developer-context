@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "df193088dc7c4d9a761a19ec7e79691a50cfbd37db24928d62d9521833df2872"
+      "sha256": "f1c4454f1fd9448968c162824477bcf14f2ee175d263e648beedd8fc64232e04"
     },
     {
       "id": "H-SUMMARY",
@@ -1497,14 +1497,14 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "699674a5043e014155316115eec5b1e47081fbf78dd1b13fdb869b3b9a1ffb03"
+      "sha256": "0573f4e3aa2f68ddb3503e9a3d7361c33be75183c8b4a50b672ad75fa55b93ef"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "978e5c821cfaaec2096b8d5ab392f6f698c5c8d74c50f92c41261295bd20ce0b"
+      "sha256": "ac132ed519bae089eec887062354c1ccb63375cea7ba5b7a26ab818d75af03d8"
     },
     {
       "id": "QUESTIONS",
@@ -1525,7 +1525,7 @@
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "a2659a30cde48a1d5ee652415b0703172ef53fcaa80c30e11afedbc8e422a577"
+      "sha256": "f159e930e665c016ef9c8414ec60053f9474862cb6892a13278af2170874f648"
     },
     {
       "id": "READING-NOTES",
@@ -1546,7 +1546,7 @@
       "package_path": "catalog/SOURCES.md",
       "classification": "source_navigation",
       "source_aliases": [],
-      "sha256": "f953cbd70cb221df1213c6c4d15023c26269d2664f7c2e37e454f5f080260ffd"
+      "sha256": "db666c16fb9b5d6e5daf49052c96d5713e67db8ef77ce1e25e5afccbb4d1a272"
     },
     {
       "id": "PUBLICATION-EXCLUSIONS",
@@ -1554,6 +1554,13 @@
       "classification": "publication_exclusions",
       "source_aliases": [],
       "sha256": "a432a830b3e6052d2bda1fb42ae41857100d188f22c453484bbc288fe746e9fe"
+    },
+    {
+      "id": "RESEARCH-PRODUCTION",
+      "package_path": "methodologies/research-to-production.md",
+      "classification": "derived_implementation_methodology",
+      "source_aliases": [],
+      "sha256": "acb213f296e6cde17c3b776418cee8728234ee293dbb9a498d3ad70b446793ab"
     }
   ],
   "source_alias_index": {
@@ -2988,6 +2995,70 @@
           "artifact_id": "WORKFLOWS",
           "package_path": "methodologies/semantic-workflows.md",
           "representation": "workflow_explanation"
+        }
+      ]
+    },
+    "U18": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/17",
+          "summary_id": "U18",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U19": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/18",
+          "summary_id": "U19",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U20": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/19",
+          "summary_id": "U20",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U21": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/20",
+          "summary_id": "U21",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U22": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/21",
+          "summary_id": "U22",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "RESEARCH-PRODUCTION": {
+      "references": [
+        {
+          "artifact_id": "RESEARCH-PRODUCTION",
+          "package_path": "methodologies/research-to-production.md",
+          "representation": "derived_implementation_methodology"
         }
       ]
     }

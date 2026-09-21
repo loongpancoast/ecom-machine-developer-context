@@ -4,10 +4,14 @@ Start with [requirements](../REQUIREMENTS.md) and [technical reference notes](re
 
 ## Requirement and historical-intent summaries
 
-- [U01–U17: requirement summaries](../sources/owner-requirements-summary.json)
+- [U01–U22: requirement summaries](../sources/owner-requirements-summary.json)
 - [H01–H06: historical-intent summaries](../sources/historical-intent-summary.json)
 
 Owner intent is paraphrased, not quoted. Earlier C01, C02, C03 and C18 aliases resolve to H01, H02, H03 and H06 respectively. The [manifest](manifest.json) provides complete alias resolution and package-file hashes.
+
+## Implementation methodology
+
+- [Research to production](../methodologies/research-to-production.md): capture fields, cross-references, product decisions, copywriting, video/node workflows and measurement.
 
 ## Technical sources
 
