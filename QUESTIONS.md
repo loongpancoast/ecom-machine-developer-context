@@ -4,6 +4,7 @@ We are engineers and expect pricing to reflect AI coding tools and proven compon
 
 - Which advertising and commerce platforms will the first delivery use? What access is available, and what needs outside approval?
 - How will research produce finished ads and stores, and how will test results change the next version?
+- Which capabilities from WinningHunter, Kalodata, Atria, Brandsearch or Higgsfield will you reproduce or integrate? Show how a reference becomes our ad/page and how performance changes the next brief. Separate stored learning from any proposed model training, and disclose access/cost limits.
 - How will you create and manage Shopify catalogs in bulk? What batch size, review and retry behavior will you demonstrate?
 - How will you set up pixels and conversion events, reconcile test orders and avoid duplicate purchase events?
 - What will the visual product summary show for scraped products, landing pages and competitor ads?

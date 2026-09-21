@@ -15,6 +15,8 @@ Owner intent is paraphrased, not quoted. Earlier C01, C02, C03 and C18 aliases r
 
 ## Named research and creative workflows
 
+- [METHOD-ADINT-01: Ad intelligence and reference-led creation](../methodologies/ad-intelligence-and-reference-led-creation.md): WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield, with official sources and a performance-learning demonstration.
+
 - [Ecom Masterclass, Evolve and God Tier Ecom](../methodologies/course-derived-product-research.md): source-derived operational summary, not redistributed paid course bodies.
 - [Before/after, reference videos, AI UGC and node workflows](../methodologies/before-after-ai-ugc.md): implementation contract, historical source fields and explicit playable-media gaps.
 

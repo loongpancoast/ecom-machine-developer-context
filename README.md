@@ -29,6 +29,7 @@ This repository is methodology reference, not a working codebase, a software han
 - [Product research: Ecom Masterclass, Evolve and God Tier Ecom](methodologies/course-derived-product-research.md)
 - [Research to finished creative](methodologies/research-to-production.md)
 - [Before/after references, AI UGC and video methods](methodologies/before-after-ai-ugc.md)
+- [WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield capabilities](methodologies/ad-intelligence-and-reference-led-creation.md): reference-led ads/pages and learning from performance.
 - [Methodology catalog](catalog/SOURCES.md)
 
 ## Project details

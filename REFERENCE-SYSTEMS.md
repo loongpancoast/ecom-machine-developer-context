@@ -30,3 +30,15 @@ Its [AI video API page](https://www.arcads.ai/features/ai-video-api) and [API do
 - Keep the application's interface, database, version history, costs and decisions independent of the service.
 
 The descriptions above reflect official product pages, not authenticated API or generation tests. See [requirements](REQUIREMENTS.md) for the full scope.
+
+## Ad intelligence and reference-led production
+
+The [capability and workflow guide](methodologies/ad-intelligence-and-reference-led-creation.md) connects earlier research methods with current official descriptions:
+
+- **WinningHunter:** product/ad discovery, competitor matching, store tracking and research data.
+- **Kalodata:** TikTok Shop product, creator, video and livestream relationships; a current documented API, not the older no-API assumption.
+- **Atria:** ad libraries, creative analytics, performance-informed briefs, image variants and feedback into the next creative.
+- **Brandsearch:** brand/product/ad/landing-page research, Spectre monitoring and reference-led ad recreation.
+- **Higgsfield:** ready-made creative skills, Ad Reference/Recreate, UGC and other production workflows, plus documented website-building capabilities.
+
+These are capability references, not five mandatory subscriptions or verified integrations. Learning from our ad results is required; a claim of continual model training is not assumed. See the guide for source links, evidence limits, access/cost checks and the reference-to-output demonstration.

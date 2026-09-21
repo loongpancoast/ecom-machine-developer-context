@@ -135,6 +135,14 @@
     {
       "id": "U30",
       "summary": "Include the upgrade demonstration and fixes needed to meet agreed acceptance in the negotiated build. Extra paid work requires written scope and price approval before starting. AI coding productivity should reduce implementation effort, not excuse untested outputs; price optional later maintenance separately."
+    },
+    {
+      "id": "U31",
+      "summary": "Include WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield as sourced capability/methodology references for product/ad/landing-page research, creative analytics, skills/workflows and reference-led original ads/pages. Do not require all subscriptions or claim current integrated capability from vendor documentation."
+    },
+    {
+      "id": "U32",
+      "summary": "The system must retain and reuse ad-performance evidence to improve future briefs and variants, with reference-to-output comparisons and portable history. Distinguish vendor training claims, application learning through records/retrieval and actual model-weight training. Existing rights, supported access and video-only paid-API limits remain."
     }
   ],
   "scope_note": "Current owner direction. This is a public methodology-reference repository, not a supplied implementation. Current summaries supersede earlier all-area acceptance and definite-price wording retained in Git history."

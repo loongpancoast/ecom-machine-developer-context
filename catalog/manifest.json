@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "19a024381ffeb0e38d9b4e981453b2113ed30db97ff8d5790f45cefe80a79ade"
+      "sha256": "1185299f2cfbe2ed7696ffaa7b13d98a60f208837cce981c21e0db6140690a8e"
     },
     {
       "id": "H-SUMMARY",
@@ -1497,35 +1497,35 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "2815e43ecbcba8ba25f16e0f348eb77984300e3fe6f4ac1aada9cd684e3fa1fe"
+      "sha256": "850de809c7fc9f3b85261f61522b1148470a4450490a01d6c21cdc60b6c1962c"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "eb8191b09bb719fa705375867c9bc2414e06563f5d2278f5aca6230abe7585d9"
+      "sha256": "c320a80e3d62c272e978c6b5d94b2da10eb5d88183ce5ea79a633777205f32e2"
     },
     {
       "id": "QUESTIONS",
       "package_path": "QUESTIONS.md",
       "classification": "implementation_considerations",
       "source_aliases": [],
-      "sha256": "2d4399c9315c84c42c2122bab93383690eb3e94b24e697b97ed38eb0f80838bb"
+      "sha256": "bfe833de261e5108b095a4d24e8547d627029ca084c1083dff9931deb42a54ef"
     },
     {
       "id": "REFERENCE-SYSTEMS",
       "package_path": "REFERENCE-SYSTEMS.md",
       "classification": "official_product_page_summary",
       "source_aliases": [],
-      "sha256": "559c6f212655cc2a07f7a2ed76f982347a0ac2fe8ee119d7d13a3a92486b3d38"
+      "sha256": "2d32cd989fbdc6f7faac2180749e983d06174380613817e80de41bcae737ec47"
     },
     {
       "id": "UPWORK-JOB",
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "a720cbaaad8f90b5589d41344365d8067c6f34d5466f4e36257a8bcf7365652f"
+      "sha256": "e4e3a7bfaf8b918c412fea43711489878cae524618f4cc518c3462d38a0d4b63"
     },
     {
       "id": "READING-NOTES",
@@ -1546,7 +1546,7 @@
       "package_path": "catalog/SOURCES.md",
       "classification": "source_navigation",
       "source_aliases": [],
-      "sha256": "335e67c6f1d020c5cc2d152fd5cdc7e61fd03387e8b8929cc41c13cb21ad82e2"
+      "sha256": "67006651911711743f21d2d52652e8862c612fea18780630cee55b69d25355c7"
     },
     {
       "id": "PUBLICATION-EXCLUSIONS",
@@ -1870,6 +1870,13 @@
       "classification": "current_owner_direction",
       "source_aliases": [],
       "sha256": "9fe4ed065e1d7eb91c1e060290a19660bfa4edbac77278c55f4fd7c5e59fdb79"
+    },
+    {
+      "id": "METHOD-ADINT-01",
+      "package_path": "methodologies/ad-intelligence-and-reference-led-creation.md",
+      "classification": "official_documentation_and_owner_methodology_synthesis_not_runtime_verified",
+      "source_aliases": [],
+      "sha256": "5a3e812a9541c9ddf63d02ec6d37e374cda637422273d3688dc1395fc71b647e"
     }
   ],
   "source_alias_index": {

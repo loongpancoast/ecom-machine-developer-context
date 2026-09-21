@@ -10,6 +10,12 @@ We are engineers and use AI coding tools ourselves. We expect your quote to refl
 
 Collect product facts, competitor ads and pages, customer language, supplier costs and other evidence needed to decide whether a product deserves a test. Keep source links and dates. Use the research to choose an offer and write a brief, scripts and a test plan. Keep rejected ideas and previous results so the next test does not start from scratch.
 
+## Ad intelligence and reference-led creation
+
+Use WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield as [capability references](methodologies/ad-intelligence-and-reference-led-creation.md), not a mandatory shopping list. Connect product/ad/landing-page evidence to a recreation brief, finished original ads and Shopify pages. Evaluate existing skills and complete provider workflows before rebuilding them. Show the reference and output together, using authorized media and accurate product claims.
+
+Retain an owner-controlled library of references, tags, hypotheses and joined performance results, including failed tests. Use it to change the next brief and creative/page version. This is a required learning loop, not a requirement to train foundation models or purchase every named platform. Separate vendor training claims, competitor estimates and our actual account results. Existing cost limits still apply.
+
 ## Creative and stores
 
 Produce finished image ads, video/avatar ads and usable landing pages, product pages and stores. The output must fit the product and brand, use accurate facts and carry the same offer from ad to page. Include the editing needed to turn generated clips into a finished ad.
@@ -90,7 +96,8 @@ Agree representative products, platforms, access and acceptance checks before ki
 - Verified pixel/conversion events for a test purchase, correct product/value data and browser/server deduplication.
 - A visual summary of scraped products, their landing pages and competitor ads, linked to the actual sources.
 - A controlled campaign test on the agreed platform, with results returned to the correct ad, offer and page records.
-- A subsequent change based on those results, with the earlier version retained.
+- A subsequent brief, ad or page change based on those results, with the earlier version and supporting evidence retained.
+- A reference-to-output comparison showing how research informed the finished ad and Shopify page; distinguish original live measurements from any historical-data replay.
 - Safe retries, account separation and spend limits that remain enforced after model/instruction changes.
 - A model/runtime replacement, workflow simplification and return to the previous setup, with comparison results and preserved business history.
 - Export and restore of representative business records, media references and configuration into a clean test environment.
