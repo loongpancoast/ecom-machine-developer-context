@@ -72,7 +72,8 @@
     },
     {
       "id": "U17",
-      "summary": "Present owner intent as clear assistant-written summaries instead of word-for-word quotations. Use a private GitHub repository as the primary developer handoff. The latest SaaS names supplied are amboris and arcads; Amboras is a likely match for the intended storefront platform, pending confirmation, while Arcads provides ad/video/avatar capabilities."
+      "summary": "Present owner intent as clear assistant-written summaries instead of word-for-word quotations. Use a private GitHub repository as the primary developer handoff. The latest SaaS names supplied are amboris and arcads; Amboras is a likely match for the intended storefront platform, pending confirmation, while Arcads provides ad/video/avatar capabilities.",
+      "status": "Historical repository-privacy preference; this developer repository is PUBLIC. All additions must remain public-safe."
     },
     {
       "id": "U18",
@@ -88,11 +89,16 @@
     },
     {
       "id": "U21",
-      "summary": "Preserve and make available the system and agent versions attempted over prior months, including node-based video workflows, copywriting and image generation. Review the available history before rebuilding. Maintain explicit omissions and implementation-status labels rather than claiming unverified completeness."
+      "summary": "Preserve and make available the system and agent versions attempted over prior months, including node-based video workflows, copywriting and image generation. Review the available history before rebuilding. Maintain explicit omissions and implementation-status labels rather than claiming unverified completeness.",
+      "status": "Preservation narrowed by U23: retain methods and useful references, not stale runnable exports in the current handoff."
     },
     {
       "id": "U22",
       "summary": "Make the methodology visible to developers: which data to scrape or collect, fields to preserve and evidence to cross-reference, product research, copywriting, video production and performance feedback. Use earlier workflows, agents and attributed course-derived summaries. Dropshipping, product research and high-converting store/ad experience are preferred."
+    },
+    {
+      "id": "U23",
+      "summary": "Prefer a custom agent-led operating system over static automation chains. Remove stale automation exports from the current handoff unless they explain a useful methodology. Preserve research, before/after, AI UGC and node-based creative methods without prescribing n8n or other legacy orchestration. Deterministic execution primitives remain useful beneath agent decisions."
     }
   ],
   "scope_note": "This summarizes the owner direction captured during preparation. Technical source files remain separate reference material. No original owner-message text is included."

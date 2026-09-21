@@ -1448,7 +1448,7 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "f1c4454f1fd9448968c162824477bcf14f2ee175d263e648beedd8fc64232e04"
+      "sha256": "c47ca879411977dee9b75dd881909572eaab2acf417258edb3063ab23681e033"
     },
     {
       "id": "H-SUMMARY",
@@ -1497,14 +1497,14 @@
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "96be0f29eca351fc9882e908bd84b04ea5126a9fee3d851c317d27e18f50179e"
+      "sha256": "fc970bb0bc1984a0ec5d40220d4e79758d8eb9480000c96055aae8a8e244798a"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "96fb569ad2557570ec8f03393f3ed4b0148a29703dbe6f1d449d42486427e875"
+      "sha256": "888dcab7a13599fe3756a08c9a671f1eb6391ba9460c08a2642ef3202f7e5c1d"
     },
     {
       "id": "QUESTIONS",
@@ -1567,7 +1567,7 @@
       "package_path": "history/SYSTEM-VERSIONS.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "d35e5f46ed4045d39deecf0f7382146eb9c729d70b84f48374ea1fc69d059e3b"
+      "sha256": "5870b6b7b28166ad7adf866b6970560459115ca86327c79c4752ec58c766f113"
     },
     {
       "id": "HISTORY-002",
@@ -1742,28 +1742,29 @@
       "package_path": "history/media/DEVELOPER-INDEX.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "5ed1bf2bdb878bacd137484ecd7cbaed24324882b480501bc2ca2566b09485e8"
+      "sha256": "157aaabced65dff06ba6afb65affc67d2e7ca4a1e2143780f03601e575a53f4b"
     },
     {
       "id": "HISTORY-027",
       "package_path": "history/media/IMPLEMENTATION-NOTES.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "0c7634b6a10f856956830309b004f641af02a6eab9808cc589906b98fb7f31e9"
+      "sha256": "9773432da5a52cfb0651cf1a766dbd0f3a8d715eb9a7404cd47ab54de81c1efd"
     },
     {
       "id": "HISTORY-028",
       "package_path": "history/media/VIDEO-PRODUCTION-METHODOLOGY.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "8593d213b11a02812aca73ad3ea28b3c715a4a44b558f2c95eee38f542503616"
+      "sha256": "5e44076b299880384b13059d7a109db0882bcf133d94194b4c054844be2b13de"
     },
     {
       "id": "HISTORY-029",
-      "package_path": "history/media/implementations/business-os/WF-CREATIVE-01.json",
-      "classification": "historical_reference_collection",
+      "package_path": "history/media/automation-method-lessons.md",
+      "classification": "retired_automation_method_summary",
       "source_aliases": [],
-      "sha256": "2d2f961362bd44eb4b8cc6ec255c4cfcd1d47e4c4081ed1d4770108b9a4858d8"
+      "sha256": "b9dbddd16734eaf457093f5eacaa8d849d9ddf8d6a35951320d382097e0c4161",
+      "removed_date": "2026-09-21"
     },
     {
       "id": "HISTORY-030",
@@ -1784,7 +1785,7 @@
       "package_path": "history/media/node-history/DEVELOPER-INDEX.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "128a17f467b33e030388eaf3b4ce5c17fdeff6780c298a2ad8cddab9a0227b54"
+      "sha256": "fd691a9b0bde8f738a3e19a96548d12a2054a2971252e14dcf23dd1ee4297b64"
     },
     {
       "id": "HISTORY-033",
@@ -1798,7 +1799,7 @@
       "package_path": "history/media/node-history/history/n8n-video-lineage.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "ddf5c8521897c8fbb07d095010465447c390034548450733aa1faa8bc67a5dcb"
+      "sha256": "316e8ee534576b1bbf1d2a1032bb0c54e0d95228276605fc5e28d67a64ef0640"
     },
     {
       "id": "HISTORY-035",
@@ -1840,7 +1841,7 @@
       "package_path": "history/media/sources/media-source-catalog.json",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "5782e21ee38779066453467002a5511387a93fe97256048a623bb3052c995661"
+      "sha256": "efd83b19936c7d26477976924aa97a5c8b63b04b072006a9e8a6296b58d3e668"
     },
     {
       "id": "HISTORY-041",
@@ -1861,7 +1862,14 @@
       "package_path": "methodologies/before-after-ai-ugc.md",
       "classification": "source_derived_methodology_summary",
       "source_aliases": [],
-      "sha256": "ded940afdfbad3e108bd71d4297f95e450b02727e74403de5078db151afe774e"
+      "sha256": "d34ab608a735be691207e8a48ab8f4ed6096c3e748277b7e00023906c015e245"
+    },
+    {
+      "id": "METHOD-AGENT-01",
+      "package_path": "methodologies/agent-led-execution.md",
+      "classification": "current_owner_direction",
+      "source_aliases": [],
+      "sha256": "2b4efbd64780d1c8a3f4d2e68f669c7b2e59f54d0890d9627cfc3b5105317cb3"
     }
   ],
   "source_alias_index": {
@@ -3619,8 +3627,8 @@
       "references": [
         {
           "artifact_id": "HISTORY-029",
-          "package_path": "history/media/implementations/business-os/WF-CREATIVE-01.json",
-          "representation": "historical_reference_collection"
+          "package_path": "history/media/automation-method-lessons.md",
+          "representation": "retired_automation_method_summary"
         }
       ]
     },
@@ -3747,6 +3755,15 @@
           "artifact_id": "METHOD-UGC-01",
           "package_path": "methodologies/before-after-ai-ugc.md",
           "representation": "source_derived_methodology_summary"
+        }
+      ]
+    },
+    "METHOD-AGENT-01": {
+      "references": [
+        {
+          "artifact_id": "METHOD-AGENT-01",
+          "package_path": "methodologies/agent-led-execution.md",
+          "representation": "current_owner_direction"
         }
       ]
     }

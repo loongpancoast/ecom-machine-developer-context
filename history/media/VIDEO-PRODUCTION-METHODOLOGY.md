@@ -49,7 +49,7 @@ The historical node-builder expected explicit nodes, edges, split/selection/comp
 
 Carry `run_id`, `brief_version`, `script_version`, `shot_id`, `prompt_version`, reference-role IDs/hashes, node dependencies and output IDs across every edge. Branches may explore hook/actor/format options, but do not silently mix their inputs. Keep provider-specific delimiters and node payloads behind adapters. Pletor patterns informed historical planning; neither Pletor SaaS nor its proprietary graph syntax is a current dependency. (MEDIA-06; historical node packet.)
 
-The included [Business OS n8n export](implementations/business-os/WF-CREATIVE-01.json) is real first-party reference code, not a made-up recovered graph. Its nine-node skeleton receives a signed request, sets/deduplicates correlation, calls a generation endpoint, records QA/provenance and routes a gateway error. It is **not a shot-level renderer or complete production pipeline**; see [implementation limits](IMPLEMENTATION-NOTES.md).
+The stale Business OS n8n export has been removed. Its useful [method lessons](automation-method-lessons.md) survive: authenticated actions, stable correlation, duplicate protection, verified artifacts and failure recovery. Implement these beneath agent-led planning; do not rebuild the old static skeleton.
 
 ## 5. Generate a small candidate set and preserve every attempt
 

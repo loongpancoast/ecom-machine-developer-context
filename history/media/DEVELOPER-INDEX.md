@@ -4,11 +4,13 @@
 
 This is a bounded historical reference collection, not a complete history or a working application. The developer may replace historical tools and architecture. Current requirement: Codex + Claude subscriptions for the core engine, paid APIs only for video generation; historical non-video paid routes are nonbinding.
 
-## Concrete included artifacts
+Current direction is [agent-led execution](../../methodologies/agent-led-execution.md). The following historical artifacts teach methods or tool-call behavior; they are not a stack to inherit.
+
+## Included methods and supporting references
 
 | Artifact | What it actually establishes |
 |---|---|
-| [Business OS n8n JSON](implementations/business-os/WF-CREATIVE-01.json) | Real first-party nine-node creative orchestration export, authored July 2026, inactive; placeholder endpoints and unresolved runtime gaps |
+| [Retired automation lessons](automation-method-lessons.md) | Only reusable provenance, idempotency and failure-handling methods; stale n8n export removed |
 | [Image batch template A](implementations/ima2/batch_generate.py) | Owned generic ima2 runner with dynamic installation lookup, receipts and partial hashes |
 | [Image batch template B](implementations/ima2/generate_image_batch.py) | Distinct owned sibling runner with shared style footer and placeholder shots; machine path sanitized |
 | [September video workflow excerpts](sources/video-production-workflow-excerpts.md) | Selected original method passages with original line ranges; private run/product details omitted |
@@ -21,7 +23,7 @@ This is a bounded historical reference collection, not a complete history or a w
 1. **April reference automation:** n8n reference-video analysis, production orchestration and async generation templates; historical third-party references, not evidence of a deployed owned application. See the [companion historical-node packet](node-history/DEVELOPER-INDEX.md).
 2. **May Pletor intake / June preservation:** prompt and node-pattern knowledge. Duplicate local snapshots must not be counted as separate versions. Bodies withheld because public licensing was not established.
 3. **June creative mesh / July router:** separate brief, prompt, node, generation, consistency and editing roles. Agent definitions are not runtime proof. Earlier exclusive models, paid voice/image recommendations and stop rules are not current requirements.
-4. **July Business OS first-party export:** a concrete inactive n8n orchestration skeleton with provenance and gateway concepts, not a finished video renderer.
+4. **July Business OS automation, retired:** the export was removed from the current handoff. Only provenance, duplicate-protection and failure-handling lessons remain; it is not a proposed stack.
 5. **September finished-ad method:** reference evidence, product/rights locks, per-shot QA, deterministic editing, whole-ad acceptance and performance-driven regeneration. The source itself labels the full creative-to-commerce feedback join specified, not live.
 6. **Installed Hermes media skills:** two distinct owned image-batch templates and generic ComfyUI starter graphs. Installed skill presence establishes available reference material, not date-of-use or past production success.
 

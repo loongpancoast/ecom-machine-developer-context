@@ -20,7 +20,7 @@ Creative quality is central. Outputs should reflect credible brand references, r
 
 ### Development approach
 
-Own the interface, database and workflow history. Integrate SaaS and AI engines where they produce better results through suitable APIs. The developer may replace all previous architecture; the included material is context and optional reference code.
+Build an agent-led system, not a static automation bundle. Agents choose tools, inspect evidence/results and revise their plans. Own the interface, database and workflow history; use tested code for reliable execution, safeguards and rendering. Retain historical material only for useful methods, data relationships or failure lessons, not obsolete stack requirements. See [current architecture direction](methodologies/agent-led-execution.md).
 
 Initial business target: **60 product tests per month, with 2–3 winners to scale and a majority reaching break-even through iteration.** These are business objectives, not guaranteed software outcomes. The fixed development fee is capped at $8,000 for the full system, delivered within one month of kickoff. Milestones do not reduce that scope. Codex and Claude subscriptions run the engine through supported access; paid API usage is limited to video generation. Hosting, storage and other non-API operating costs must be disclosed before contracting.
 
@@ -29,6 +29,7 @@ Initial business target: **60 product tests per month, with 2–3 winners to sca
 | Document | Purpose |
 |---|---|
 | [Requirements](REQUIREMENTS.md) | Functional scope and expected behavior |
+| [Agent-led execution](methodologies/agent-led-execution.md) | Current architecture direction; methods to keep and stale automation to retire |
 | [Reference systems](REFERENCE-SYSTEMS.md) | Amboras, Arcads and integration considerations |
 | [Research and production methodology](methodologies/research-to-production.md) | What to collect, cross-check and turn into product decisions, copy, videos and tests |
 | [Ecom Masterclass, Evolve and God Tier Ecom](methodologies/course-derived-product-research.md) | Concrete discovery, research, strategy and copy workflows, with attribution |

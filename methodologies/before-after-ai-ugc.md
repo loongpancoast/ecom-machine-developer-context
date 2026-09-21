@@ -59,7 +59,7 @@ Every node needs an ID/type/version, input/output artifact IDs, dependency edges
 
 The developer can implement this in custom code with a node inspection/editing surface. The historical recommendation to make the visual editor optional is a past architecture opinion, not a reason to erase the requested node-based workflows. Current custom-build preference and full-system scope govern.
 
-**Actual packaged source:** [inactive nine-node n8n export](../history/media/implementations/business-os/WF-CREATIVE-01.json), [two image runners and their limitations](../history/media/IMPLEMENTATION-NOTES.md), [historical node contract](../sources/context/C09-node-graph-and-reference-wiring-contract.md), [Pletor lineage](../history/media/node-history/history/pletor-node-video-methods.md). The n8n export is a skeleton, not this complete shot-level pipeline. No executable Flora or complete D7 renderer is claimed.
+**Retained method references:** [lessons from retired automation](../history/media/automation-method-lessons.md), [image-tool references and limitations](../history/media/IMPLEMENTATION-NOTES.md), [historical node contract](../sources/context/C09-node-graph-and-reference-wiring-contract.md), [Pletor lineage](../history/media/node-history/history/pletor-node-video-methods.md). The stale n8n export is no longer packaged. Follow [agent-led execution](agent-led-execution.md), not a static orchestration template. No executable Flora or complete D7 renderer is claimed.
 
 ## What the developer must demonstrate
 

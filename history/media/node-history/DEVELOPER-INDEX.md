@@ -26,4 +26,4 @@ Original paths and private source manifests are excluded from this public collec
 
 ## Integration note
 
-This companion packet covers historical vault/archive candidates only. The parent media packet additionally includes a first-party Business OS creative n8n export; do not extend this packet's negative owned-graph finding to that sibling source. Current engine requirement is Codex + Claude subscriptions, with paid APIs only for video generation. Historical providers and paid reasoning/voice/image paths are nonbinding.
+This companion packet retains methodology and provenance only. The first-party Business OS n8n export was found but has now been retired from the developer handoff; see [retained lessons](../automation-method-lessons.md). Current direction is agent-led execution with Codex + Claude subscriptions and paid APIs only for video generation. No legacy automation platform is required.

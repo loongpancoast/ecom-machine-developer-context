@@ -1,14 +1,15 @@
 [
   {
     "id": "MEDIA-01",
-    "representation": "included sanitized original/excerpt",
-    "package_path": "implementations/business-os/WF-CREATIVE-01.json",
-    "sha256": "2d2f961362bd44eb4b8cc6ec255c4cfcd1d47e4c4081ed1d4770108b9a4858d8",
+    "representation": "methodology summary; original export retired",
+    "package_path": "automation-method-lessons.md",
+    "sha256": "b9dbddd16734eaf457093f5eacaa8d849d9ddf8d6a35951320d382097e0c4161",
     "lineage": "First-party Business OS growth pack, authored 2026-07-20, n8n 1.71.0",
-    "status": "FIRST_PARTY_REFERENCE_EXPORT_NOT_LIVE",
-    "transformations": "Replace internal endpoint placeholders with reserved example.invalid domains; preserve nodes, edges, credential VARIABLE NAMES only, active:false and source defects",
+    "status": "RETIRED_EXPORT_METHOD_ONLY",
+    "transformations": "Original export removed from current handoff; retain platform-independent provenance, idempotency and failure lessons. Original preserved in history/private evidence.",
     "exclusions": [],
-    "read_status": "full-text-reviewed"
+    "read_status": "full-text-reviewed",
+    "removed_date": "2026-09-21"
   },
   {
     "id": "MEDIA-02",

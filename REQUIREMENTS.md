@@ -52,7 +52,7 @@ Preserve provenance, version history and the meaning of each field. Distinguish 
 
 The application owns its interface, data and workflow history. External generation engines and SaaS products may provide individual capabilities when their quality, APIs, export options and economics are suitable.
 
-Custom development is preferred. The developer may replace earlier implementations; existing MCPs are not a preferred stack. Historical stage labels, approval processes and budgets do not override the current contract.
+Custom, agent-led development is preferred. Agents must choose tools, inspect results and revise plans rather than rely on a static n8n-style automation as the operating brain. Keep deterministic tools for reliable execution, permissions, validation, duplicate protection and rendering. Historical workflows survive only as useful methodology or supporting primitives, not a prescribed stack. See [current execution direction](methodologies/agent-led-execution.md). Existing MCPs are not a preferred stack; historical stage labels, approval processes and budgets do not override the current contract.
 
 The fixed development fee is capped at $8,000, with the full system delivered within one month of kickoff. Definition of done is every scope area in this document working together in the deployed system, with real outputs and verified integrations. A discovery phase, MVP, partial build, placeholder workflow or dashboard alone is not acceptance. Milestones divide delivery, not scope.
 

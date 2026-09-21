@@ -6,7 +6,7 @@ This index distinguishes discovered historical families and revisions. It is not
 
 - [Research and copywriting versions](copywriting-agent-systems/README.md): March and July research methods, August storefront copy, later routing and evidence contracts.
 - [Earlier web-intelligence agent definitions](agent-systems/business-web-intelligence/README.md): eight preserved specialist definitions.
-- [Video, node and image history](media/DEVELOPER-INDEX.md): inactive n8n export, image templates, production methods and attributed third-party lineage summaries.
+- [Video, node and image history](media/DEVELOPER-INDEX.md): retired-automation method lessons, image-tool references, production methods and attributed third-party lineage summaries.
 - [Current research-to-production guide](../methodologies/research-to-production.md): the practical developer reading path.
 
 ## Discovered system families and revisions
