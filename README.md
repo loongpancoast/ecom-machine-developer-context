@@ -1,6 +1,32 @@
 # Ecom Machine
 
-Build a private system for running ecommerce brands: research products, make finished ads and stores, run tests and use the results to improve.
+## Project brief
+
+Build a private, cloud-hosted operating system that runs multiple ecommerce brands from one application: product research, creative production, storefronts, advertising, suppliers and post-purchase operations.
+
+The system should turn research into finished ads and pages, launch tests, collect results and make improvements. Its database should connect every product, source, brief, script, prompt, asset, page, campaign, cost and decision.
+
+Creative quality is central. Outputs should reflect credible brand references, real customer language and product-specific evidence, not generic AI copy or template visuals. The owner approves the initial creative direction; the system then operates and improves within agreed permissions and budgets.
+
+### Overall system and long-term scope
+
+- Product and competitor research, customer-language analysis and product testing.
+- Briefs, transcripts, scripts, image ads and video/avatar ads.
+- Landing pages, product pages and storefront management.
+- Advertising, spend tracking, analytics, heatmaps and iterative optimization.
+- Private supplier discovery, outreach, negotiation, purchasing and quality checks.
+- Dropshipping, bulk/private-label inventory, warehouse/3PL fulfillment, returns and support.
+- Retention, accounting and profitability analysis.
+
+This is the overall business vision, not a requirement to deliver every operation in the current contract. The delivery boundary and commercial terms below govern this hire. Broader capabilities remain part of the long-term direction, not an automatic expansion of the contractor's scope or fee.
+
+### Development approach
+
+Own the interface, database and work history. Integrate SaaS and AI engines where they produce better results through supported access. The developer can choose a fresh architecture; the material in this repository is methodology reference, not supplied working software or a prescribed design.
+
+The original business objective is 60 product tests per month, with 2-3 winners to scale and a majority reaching break-even through iteration. These are business aspirations, not guaranteed software outcomes or a requirement to run 60 live tests during development.
+
+## Current contractor delivery
 
 The priority is the work from product research through creative, storefronts and campaign testing. Keep the research, prompts, assets, page changes, spend and results together so we can see what worked and what to try next. The owner approves the initial direction; routine work should then run within agreed permissions and budgets.
 
@@ -8,11 +34,7 @@ Core work also includes Shopify catalog creation and bulk management, pixel/conv
 
 Supplier and 3PL work is secondary. Keep the basic supplier, cost and order information needed for product tests. This delivery does not include a separate ERP, warehouse platform, autonomous supplier-negotiation system or full accounting/support suite.
 
-## Future-proofing
-
-Future-proofing is part of acceptance, not an optional extra. We own the code, data and history. Better models should let us replace agents and simplify how work gets done without rebuilding the application. Keep business records and permissions separate from prompts and workflows. At handoff, demonstrate a model/runtime replacement, a simpler workflow and a return to the previous setup, with history and controls intact. Compare actual outputs, cost and reliability. A model dropdown alone is not enough. Use supported tools; do not build a universal agent framework. See the [upgrade demonstration](methodologies/agent-led-execution.md#upgrade-demonstration).
-
-## Budget and delivery
+### Budget and delivery
 
 Budget: $6,000-$8,000 fixed fee, negotiable. $8,000 is the ceiling, not a committed fee. The aim is about one month, with required access ready. Price, milestones and schedule must be agreed before hiring.
 
@@ -21,6 +43,10 @@ The research, creative, store and testing work must function together in the dep
 Use Codex and Claude subscriptions through supported access. Paid APIs are limited to video generation. Verify the actual capabilities and limits before committing. Disclose hosting and other costs; no additional spending is authorized here.
 
 We are engineers and use AI coding tools ourselves. We expect your quote to reflect AI-assisted development and sensible use of proven components, not a from-scratch estimate for everything. Explain the custom work, integration, creative finishing and testing. Do not quote the ceiling by default.
+
+## Future-proofing
+
+Future-proofing is part of acceptance, not an optional extra. We own the code, data and history. Better models should let us replace agents and simplify how work gets done without rebuilding the application. Keep business records and permissions separate from prompts and workflows. At handoff, demonstrate a model/runtime replacement, a simpler workflow and a return to the previous setup, with history and controls intact. Compare actual outputs, cost and reliability. A model dropdown alone is not enough. Use supported tools; do not build a universal agent framework. See the [upgrade demonstration](methodologies/agent-led-execution.md#upgrade-demonstration).
 
 ## Methodology reference
 
@@ -39,7 +65,5 @@ This repository is methodology reference, not a working codebase, a software han
 - [Questions to settle before starting](QUESTIONS.md)
 - [Product references](REFERENCE-SYSTEMS.md)
 - [Structured requirement summary](sources/owner-requirements-summary.json)
-
-The business target is eventually 60 product tests per month, then scaling promising products. It is not a promise of profitable products or a requirement to run 60 live tests during development.
 
 The [historical index](history/SYSTEM-VERSIONS.md) describes source families and revisions, not a count of failed complete builds. Old examples may be incomplete or obsolete. Current requirements take precedence. Personal information, tested-product records, customer data, private supplier details and credentials are excluded.
