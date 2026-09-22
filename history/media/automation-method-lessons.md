@@ -1,5 +1,7 @@
 # Lessons retained from retired automation
 
+> **Current status — 2026-09-22:** Under the [approved full-system scope](../../sources/owner-requirements-summary.json), agent-led replacement is a working connected delivery requirement, not permission to stop at the plan/graph described below. Keep dependable execution controls while allowing models, providers, skills and whole workflows to be replaced, stages combined or removed, and prior versions restored without losing source context, data, history or assets. Compare actual quality, cost, speed and reliability; improved AI capabilities must be adoptable without promising literal AGI.
+
 Status: methodology only. The inactive Business OS n8n export was removed from the current developer handoff on 2026-09-21. The original remains in Git history and the private evidence archive, not as a recommended implementation. No canonical source system was deleted.
 
 ## What is worth retaining

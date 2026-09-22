@@ -1,5 +1,7 @@
 # Copywriting, research and agent-system history
 
+> **Current status — 2026-09-22:** The [public owner-requirements summary](../../sources/owner-requirements-summary.json) requires the full connected ecommerce system as completed commissioned delivery, including sourcing and post-purchase operations. **60 live product tests per month** is an operational and final-acceptance requirement, not a replaceable historical prompt quota. A brief or copy replacement is an intermediate artifact: delivery requires finished reference-led original ads and fully functioning stores, live budgeted campaigns, verified tracking and recorded spend/results/decisions. Preserve the historical bodies below; their narrower jobs do not narrow current scope.
+
 Selected historical context for the developer—not a complete archive, current product specification or working agent runtime. All historical budgets, fixed counts, approval rules, model/provider choices and stage labels are replaceable. No files here publish or operate an account.
 
 ## Start here

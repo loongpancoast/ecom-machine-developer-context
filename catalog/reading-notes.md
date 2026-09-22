@@ -1,10 +1,12 @@
 # Methodology reference notes
 
-[Requirements](../REQUIREMENTS.md) defines the intended application. This repository is methodology reference only, not a software handoff. Historical architecture, tool choices, stage labels, approval rules and budgets are context, not requirements. Supplier/3PL references describe secondary work, not mandatory integrations for this delivery.
+[Requirements](../REQUIREMENTS.md) defines the complete commissioned application. This repository is methodology reference only, not a software handoff. Historical architecture, tool choices, stage labels, approval rules and budgets are context, not requirements. **Current reconciliation, 2026-09-22:** sourcing, supplier negotiation/diligence/QC, purchasing, order routing, 3PL/fulfillment/tracking, returns, support, retention and financial operations are included connected capabilities, not secondary or later-contract exclusions. The source snippets do not supply those working integrations.
 
 Use [SOURCES.md](SOURCES.md) to browse files and [manifest.json](manifest.json) to resolve IDs, classifications and hashes. U IDs identify requirement summaries; H IDs identify historical-intent summaries. Older aliases resolve to the appropriate included summary, source excerpt or derived explanation. A derived explanation does not make an unavailable original accessible.
 
-The [upgrade demonstration](../methodologies/agent-led-execution.md#upgrade-demonstration) defines how to prove adaptability. Historical references are methods, not additional acceptance requirements.
+The [upgrade demonstration](../methodologies/agent-led-execution.md#upgrade-demonstration) defines how to prove model/provider, skill and whole-workflow replacement, simplification and restore with output quality/cost/speed/reliability comparisons. Historical references are methods, not additional acceptance requirements. Both Codex and Claude power development and the deployed engine through verified supported access; direct image and video APIs are preferred, with aggregator workflows justified by better rendered results. Earlier video-only API restrictions are superseded, not current cost policy.
+
+The full private, cloud-hosted multi-brand system includes complete Shopify stores/catalogs/offers, Meta identity and verified tracking, finished reference-led original ads/pages, business operations and **60 live product tests per month as operating and final acceptance requirements**. Each test requires research/economics/offer, finished ads, a working purchase destination, live budgeted traffic, verified tracking and recorded spend/results/decisions. Agree monthly and per-test measurement windows and separately approved operating spend; rows, variants and simulations do not count. A demo, scaffold, disconnected automation or partial build is unacceptable as final delivery. Platform/legal/KYC dependencies must be supported and resolved, not used to exclude capabilities. Historical originals and source-review receipts remain historical evidence, not verification of the current build.
 
 ## Methods
 
@@ -16,7 +18,7 @@ The [upgrade demonstration](../methodologies/agent-led-execution.md#upgrade-demo
 | C12 | Supplier selection, negotiation, samples and diligence | Partial method, not a purchasing/order-routing integration. Supplier-tier, response-speed and cultural generalizations are not universal rules. |
 | C14 | Evidence, generation, editing and learning relationships | Historical specified workflow, not a live implementation. Fixed timing and approval language are not binding. |
 | C15 | Test actual output before expanding architecture | Historical lesson, not an instruction to resume an old experiment. |
-| C17 | Sourcing fields and downstream catalog meaning | Documentary redactions change numeric types; not executable data. Repeated placeholders do not imply equal values. Marketplace defaults illustrate one sourcing route; they do not add supplier-integration requirements to the current scope. |
+| C17 | Sourcing fields and downstream catalog meaning | Documentary redactions change numeric types; not executable data. Repeated placeholders do not imply equal values. Marketplace defaults illustrate one sourcing route, not a required provider. Current requirements independently mandate connected sourcing and fulfillment capabilities. |
 
 Reference-ad transcripts, customer language, production scripts and rendered-output transcripts serve different purposes. Preserve their source and version relationships; do not turn customer research into fabricated testimonials or competitor claims into product facts.
 

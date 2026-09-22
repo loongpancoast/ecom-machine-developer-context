@@ -1,6 +1,93 @@
 {
   "artifact_kind": "derived semantic crosswalk, NOT an original JSON Schema or proven runtime",
   "privacy": "No product, campaign, supplier or customer values copied. Key spellings below preserved where present; explanatory field lists paraphrased.",
+  "current_commissioning_overlay": {
+    "status": "Current owner-approved requirements, NOT recovered historical fields, source quotations, an executable schema or evidence of a completed implementation. The historical contracts array below is preserved unchanged.",
+    "delivery": "Completed full owner-controlled multi-brand private-cloud autonomous ecommerce engine; not a smaller core or future out-of-contract vision.",
+    "acceptance": {
+      "live_product_tests_per_month": 60,
+      "applies_to": [
+        "ongoing operation",
+        "final commissioning acceptance"
+      ],
+      "required_for_each_test": [
+        "completed source-linked research",
+        "completed economics and offer",
+        "original product-specific finished ads",
+        "functioning Shopify checkout destination",
+        "live budgeted campaign with actual platform IDs",
+        "verified conversion and purchase tracking",
+        "recorded actual spend and results",
+        "recorded decision tied to exact product, creative, offer, page and campaign versions"
+      ],
+      "not_counted_as_product_tests": [
+        "candidate or catalog rows",
+        "creative variants or generation attempts",
+        "simulations",
+        "historical replays"
+      ],
+      "measurement": "Preagree measurement windows, stop rules and decision criteria; retain failures and insufficient evidence honestly. No guaranteed profitable winners.",
+      "spend_authority": "Separate operating-spend approval is required. The build fee and test target do not authorize spend.",
+      "initial_work_samples": "Distinct from final acceptance; a demo, scaffold, disconnected automation or partial build is unacceptable final delivery."
+    },
+    "included_capabilities": {
+      "shopify_stores": "Domains, branding, native Liquid, responsive navigation, policies, configured payment/shipping and functional checkout.",
+      "catalog": "Bulk creation and management of products, variants, collections, media, copy, prices, metafields and templates; import/migration, stable platform IDs and duplicate-safe retries.",
+      "conversion_and_discovery": "Bundles, upsells, cross-sells, post-purchase flows and measured SEO/AEO/GEO tests.",
+      "meta": "Facebook Pages/configuration, Instagram links as applicable, business/ad accounts, catalogs, Pixel/CAPI, consent, browser/server deduplication and purchase verification against actual test orders.",
+      "connected_operations": "Sourcing, quotes, supplier diligence, negotiation, sample/QC, purchasing, order routing, 3PL fulfillment, shipment tracking, returns, support, retention, accounting and profitability.",
+      "boundary": "Connected operation and integration, not ownership of a warehouse or payment rail. Owner/KYC/legal approvals and account access are dependencies to resolve, not scope exclusions."
+    },
+    "reference_to_execution": {
+      "capability_references": [
+        "Amboras",
+        "Higgsfield",
+        "Arcads",
+        "Atria",
+        "Brandsearch"
+      ],
+      "meaning": "CREATE required capabilities inside the owned engine, not a SaaS link bundle, mandatory vendor subscriptions or a clone of every proprietary feature/dataset.",
+      "workflow": "Permitted scraping/capture of ads/pages; analyze hooks, pacing, narrative, CTA and angles; create ORIGINAL product-specific finished ads/pages; launch, measure and improve.",
+      "review": "Actually decode/render and visually/functionally inspect finished outputs and purchase paths against references, then produce the next measured iteration. Retain sources, rights, versions, attempts and review decisions."
+    },
+    "runtime_and_cost": {
+      "required_engines": [
+        "Codex",
+        "Claude"
+      ],
+      "usage": "BOTH engines power development AND the deployed engine through verified official supported access, capacity and runtime terms. Do not assume subscriptions include API credits or unattended private-cloud rights.",
+      "media_preference": "Direct image AND video APIs.",
+      "aggregator_condition": "Only when its complete workflow/skill improves the rendered result, behind an owned replaceable adapter.",
+      "video_only_paid_api_cap": false,
+      "approval": "No unapproved spend. Verify entitlements, commercial rights, limits and costs for all subscriptions, APIs, media, campaigns and operations."
+    },
+    "futureproofing": {
+      "goal": "Keep up with the AI race, newer models, better agents and increasingly AGI-like capabilities through tested adaptability, not literal AGI immunity or a lifetime-maintenance promise.",
+      "replaceable": [
+        "models",
+        "providers",
+        "skills",
+        "whole workflows"
+      ],
+      "stage_changes": "Combine/remove obsolete stages while preserving required outcomes and evidence.",
+      "comparison": [
+        "actual output quality",
+        "cost",
+        "speed",
+        "reliability"
+      ],
+      "preserve": "Owner-controlled data, business context, history, source assets and stable platform IDs, with versions, exports and demonstrated restore. Configuration restore does not undo published actions or spend."
+    },
+    "commercial_terms": {
+      "negotiable_range_usd": [6000, 8000],
+      "ceiling_usd": 8000,
+      "automatic_fee": false,
+      "schedule_target": "roughly one month",
+      "before_hire": "Agree final price, schedule, milestones, access dependencies and measurement windows.",
+      "milestones": "Stage COMPLETE delivery, not reduced scope.",
+      "estimation": "Expect efficient Codex/Claude-assisted engineering and vibe coding; unsupported padded manual estimates are unacceptable. Honest technical pushback is welcome; integration, creative finishing and verification still require real work."
+    }
+  },
   "contracts": [
     {
       "name": "Research Document",

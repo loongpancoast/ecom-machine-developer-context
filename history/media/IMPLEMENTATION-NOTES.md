@@ -1,5 +1,7 @@
 # Reference implementation limits
 
+> **Current status — 2026-09-22:** [Current owner scope](../../sources/owner-requirements-summary.json) requires a completed deployed system, not these templates as the deliverable. Prefer direct image and video APIs through owned adapters; subscription-backed historical image runners are optional implementation references, not an API spending prohibition. Verify supported access, terms, capacity, decoded output and reference-led quality. File-size checks and receipts alone cannot satisfy finished-ad acceptance. Model/provider/skill and whole-workflow replacement must preserve source context, data, assets and history with version/restore and quality/cost/speed/reliability comparison.
+
 All artifacts are historical references, not a deployable application. Nothing was imported into n8n, no model was called and no reference script was executed. JSON parsing and Python syntax parsing are packaging checks only. See [source identities](sources/media-source-catalog.json).
 
 ## MEDIA-01 — retired static automation

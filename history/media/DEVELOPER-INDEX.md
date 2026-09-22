@@ -2,7 +2,9 @@
 
 **Start with [VIDEO-PRODUCTION-METHODOLOGY.md](VIDEO-PRODUCTION-METHODOLOGY.md).** It describes research/reference-ad collection → cross-referenced evidence → brief/script → shots/node plan → generation → edit → review → measured iteration.
 
-This is a bounded historical reference collection, not a complete history or a working application. The developer may replace historical tools and architecture. Current requirement: Codex + Claude subscriptions for the core engine, paid APIs only for video generation; historical non-video paid routes are nonbinding.
+This is a bounded historical reference collection, not a complete history or a working application. The developer may replace historical tools and architecture.
+
+> **Current status — 2026-09-22:** The [public owner-requirements summary](../../sources/owner-requirements-summary.json) supersedes the former video-only paid-API limit, including stale editorial wording in preserved source excerpts. Codex **and** Claude must power development and the deployed engine through supported official access, with terms/capacity verified and no assumed subscription API entitlement. Prefer direct **image and video APIs**; use an aggregator only when its skill or full workflow demonstrably improves the rendered result through an owner-controlled adapter. Operating media/ad/platform spend requires separate approval. Finished reference-led original ads/pages, actual decoded visual and functional review, reference comparison and measured iteration belong to the completed full system and its **60 live product tests per month** operational/final acceptance—not a demo or a batch of unlaunched variants.
 
 Current direction is [agent-led execution](../../methodologies/agent-led-execution.md). The following historical artifacts teach methods or tool-call behavior; they are not a stack to inherit.
 

@@ -1,5 +1,7 @@
 # Historical web-intelligence agent definitions
 
+> **Current status — 2026-09-22:** Read the [public owner-requirements summary](../../../sources/owner-requirements-summary.json) before these preserved definitions. Plan-only routing, disabled specialists and historical approval/provider restrictions describe earlier artifacts, not the commissioned system’s acceptance boundary. Codex **and** Claude must power development and the deployed agent-led engine through supported official access with terms and capacity verified; subscriptions do not imply API entitlement. Implement and verify connected execution and retain source evidence, not merely role prompts or dashboard statuses. The [system-history map](../../SYSTEM-VERSIONS.md) distinguishes this archive from the full current delivery.
+
 Eight sanitized actual local definitions, not newly invented personas or summaries. The original local role family was designed around intake → capture → normalized evidence → canonical promotion, with recurring watches and derived dashboards. These are historical reference prompts, not a working deployed agent system.
 
 ## Definitions

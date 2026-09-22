@@ -4,9 +4,11 @@ This is an implementation guide derived from the historical workflows and agent 
 
 Detailed companions: [Ecom Masterclass / Evolve / God Tier Ecom research](course-derived-product-research.md) and [before/after reference handling, AI UGC and node execution](before-after-ai-ugc.md). These make the named historical methods and creative acceptance requirements explicit.
 
+The commissioned result is the **completed full multi-brand private-cloud autonomous ecommerce engine**, not a narrower research/creative core or a future out-of-contract vision. The methodology below connects into full Shopify stores, catalog operations, campaigns, sourcing, fulfillment, support, retention, accounting and profitability. Capability references describe what to CREATE inside the owned engine, not a bundle of SaaS links or a requirement to clone every vendor feature. Historical examples remain references rather than proof of supplied working software.
+
 ## 1. Collect evidence that answers a decision
 
-Define the product identity, variant, target market, customer problem and research question before collecting data. Keep observations separate from interpretations. Scrape only public or authorized sources through permitted access; do not bypass access controls. The current paid-API allowance is video generation only. A historical paid scraper recommendation is not permission to use it.
+Define the product identity, variant, target market, customer problem and research question before collecting data. Keep observations separate from interpretations. Scrape only public or authorized sources through permitted access; do not bypass access controls. The former video-only paid-API cap is superseded. Verify rights, supported access, capacity and costs for each service; a historical paid scraper recommendation or approved build fee is not operating-spend authorization.
 
 For every capture retain source URL or platform object ID, collection time, source date when available, collector/version, product and market match, original metric definition, evidence type, limitations and a content hash. Store exact useful customer wording separately from a model's summary. Record unavailable fields as missing, not zero.
 
@@ -34,9 +36,11 @@ Capture available search demand, trends, marketplace/category observations and c
 
 ### Supplier feasibility and economics
 
-Where supplier evidence is available, use it to assess product costs and feasibility. The following fields describe useful research, not a required supplier-outreach or negotiation system. Consider private/direct sourcing as well as discovery catalogs. Capture dated quotations, quantity/MOQ, unit basis, currency, destination, shipping method/cost, lead time, sample/QC state, capacity, payment terms and quote limitations. Keep each quote version rather than overwriting prior terms.
+Include connected supplier discovery, outreach, diligence, quotations, negotiation and sample/QC workflows to establish product costs and feasibility, not merely optional cost notes. Consider private/direct sourcing as well as discovery catalogs. Capture dated quotations, quantity/MOQ, unit basis, currency, destination, shipping method/cost, lead time, sample/QC state, capacity, payment terms and quote limitations. Keep each quote version rather than overwriting prior terms. Purchases and other commitments remain within explicit owner-approved authority and budgets.
 
 Cross-check the exact variant/material and claims against supplier evidence and samples. Calculate economics from selling price, discounts, landed costs, fulfillment, payment fees, expected returns and acquisition costs. Distinguish assumptions from observed costs; avoid counting freight twice. A supplier listing is not proof of quality, inventory or deliverability.
+
+Carry accepted supplier terms into purchasing, order routing, 3PL fulfillment, shipment tracking, returns/refunds and support. Include retention, accounting and profitability reconciliation, with actual costs and outcomes feeding the next product decision. These are connected operational deliverables, not a requirement to own a warehouse or payment rail. Owner/KYC/legal approvals are dependencies to plan and resolve, not exclusions from the completed system.
 
 ## 2. Turn research into a product decision
 
@@ -62,17 +66,29 @@ The production deliverable is the finished usable ad, not a raw generated clip o
 2. Define an audience and creative hypothesis with a control, changed variable, expected metric movement and a falsifier. If first-party evidence is sparse, label the result a hypothesis rather than a winning format.
 3. Write the script and timed shot/audio plan. Choose UGC, demonstration, montage, dialogue or silent product film because it serves the concept. Keep narration, captions, proof source, action and timing aligned.
 4. Bind references by purpose: product truth, authorized identity, visual-format abstraction, start/end frame and continuity. For a node graph, store node identity/type/version, input/output artifact IDs, dependencies, prompt/settings, status, retries and selected output. A prose graph contract must not be labeled an executable workflow export.
-5. Generate short purposeful shots with explicit acceptance criteria. Use Codex/Claude subscription-supported operations for the engine; paid API generation is limited to video. Verify supported access instead of silently substituting billed image, speech, scraping or LLM APIs.
+5. Generate short purposeful shots with explicit acceptance criteria. Codex AND Claude must power development and the deployed engine through verified official supported access, capacity and runtime terms. Prefer direct image AND video APIs; use an aggregator only when its complete workflow/skill improves the rendered result, through an owned replaceable adapter. Verify subscription/API entitlements and costs instead of hiding billed image, speech, scraping or LLM operations; no unapproved spend.
 6. Save every generation attempt: shot ID, actual provider/model, input hashes, exact prompt/parameters, job ID, costs/credits, output hash and terminal status. Reject failed shots and regenerate the diagnosed variable. A vendor score is not creative approval.
 7. Assemble approved shots into a real edit with selected takes, trims, caption timing, transitions, audio cues, rights and version lineage. Use owned/licensed audio and permitted generation routes. Preserve the edit decision list.
-8. Decode and review the entire exported ad. Check product/brand accuracy, hands/anatomy, motion continuity, readable text, pacing, sound-off clarity, audio, CTA and destination consistency. Verify technical export properties separately from creative quality. Passing a codec check is not evidence of a good ad.
+8. Decode and review the entire exported ad against the selected references. Check product/brand accuracy, hands/anatomy, motion continuity, readable text, pacing, narrative, sound-off clarity, audio, CTA and destination consistency. Verify technical export properties separately from creative quality, and functionally review the rendered destination and purchase journey. Passing a codec check is not evidence of a good ad.
 9. Produce controlled variants and retain a control. Distinguish a hook change from a genuinely different format or narrative. Failed attempts stay labeled as rejected, not quietly promoted as examples of success.
 
-## 5. Measure and improve
+## 5. Complete stores, catalog and launch infrastructure
+
+Create full Shopify stores with domains, branding, native Liquid, responsive navigation, policies, configured payment/shipping and functioning checkout. A generated landing-page screenshot or isolated HTML is not store delivery. Support bulk catalog creation and management of products, variants, collections, media, copy, prices, metafields and templates, including import/migration, stable platform IDs, draft review and duplicate-safe retries. Agree representative catalog volumes and validation cases before hire without excluding the capability. Include bundles, upsells, cross-sells, post-purchase flows and measured SEO/AEO/GEO tests.
+
+Configure/connect Meta business and ad accounts, Facebook Pages/configuration, Instagram links as applicable, catalogs, Pixel and CAPI. Verify event receipt, product IDs, value/currency, consent behavior and browser/server deduplication against test orders and verified purchases. Record actual platform IDs and read back live campaign/destination state; a successful API request alone is not functional verification. Resolve owner/KYC/legal/access dependencies rather than quietly substituting a mock or excluding the work.
+
+## 6. Measure and improve
 
 Join the exact product, offer, creative, page and campaign versions to a measurement window. Retain impressions/spend/frequency; opening attention and completion; clicks/landing-page views; cart/checkout/purchases; revenue, refunds and contribution costs. Use authorized first-party platform and commerce records for commercial conclusions, not competitor estimates.
 
 Treat weak opening attention, poor retention, weak click intent and poor checkout conversion as different diagnostic questions. Check event health, traffic mix, sample size and attribution before assigning a cause. Change the suspected variable, record the hypothesis and evaluate the next version. Do not promise profitable winners as an engineering guarantee.
+
+Operate **60 live product tests per month** as an operating and final-acceptance requirement. Each has completed research/economics/offer, finished ads, a functioning checkout destination, a live budgeted campaign, verified tracking and recorded spend, results and decisions. Rows, variants, simulations and historical replays do not count. Preagree measurement windows, spend budgets, stop rules and decision criteria, with separate operating-spend approval. Retain insufficient-evidence and failed outcomes honestly rather than manufacture success. Review reference versus actual decoded/functional output and produce the next measured iteration.
+
+Initial work samples and bounded workflow demonstrations do not replace final commissioning. A demo, scaffold, disconnected automation or partial build is unacceptable final delivery. Milestones stage the complete system. The negotiable $6,000-$8,000 range is capped at $8,000 rather than an automatic fee, with roughly one month as the target; agree final price, milestones and schedule before hiring. Expect efficient Codex/Claude-assisted engineering and vibe coding, not unsupported padded manual estimates, while welcoming honest technical pushback.
+
+Preserve source assets, data, business context and history as models/providers/skills and whole workflows change. Combine/remove obsolete stages only after actual output-quality, cost, speed and reliability comparisons, with versioning and tested restore. The [upgrade demonstration](agent-led-execution.md#upgrade-demonstration) establishes practical adaptability to newer models, better agents and increasingly AGI-like capabilities, not a literal AGI-immunity promise.
 
 ## Source map
 
@@ -84,4 +100,4 @@ Treat weak opening attention, poor retention, weak click intent and poor checkou
 - [Research field map](../reference-implementations/research-os/files/field-map.json): source, quote, ad, supplier, metric and evidence fields, joins and documented incompatibilities. It is not a working importer.
 - [Semantic workflow map](semantic-workflows.md) and [technical notes](../catalog/reading-notes.md): producer/consumer meanings, attribution and remaining implementation gaps.
 
-This guide does not certify that every past system version or transcript has been recovered. The source catalog distinguishes included originals, summaries and unavailable material. Agree the core deliverable and access dependencies before contracting. Historical supplier workflows and fixed agent stages do not expand current acceptance.
+This guide does not certify that every past system version or transcript has been recovered. The source catalog distinguishes included originals, summaries and unavailable material. Agree price, milestones, schedule, access dependencies and measurement windows for the complete commissioned system before contracting. Historical supplier workflows and fixed agent stages inform implementation; they neither replace current acceptance nor reduce included connected operations to optional later work.

@@ -2,7 +2,9 @@
 
 This is a **source-driven synthesis**, not a copied course, transcript or promise that the pipeline already runs. It draws primarily on the September finished-ad workflow (**MEDIA-04**, [sanitized original excerpts](sources/video-production-workflow-excerpts.md)), the historical UGC/node/editing specialists (**MEDIA-05–08**), and the historical node-workflow packet. Source identities and representations resolve in [the source catalog](sources/media-source-catalog.json).
 
-**Current operating requirement:** Codex + Claude subscriptions are the engine for research reasoning, copy, prompts, image work and orchestration where their authenticated subscription capabilities permit. Paid API use is limited to **video generation**. Historical paid image, voice, analysis and orchestration routes below are not authorization or required architecture. Do not silently fall back to billable APIs. Verify subscription functionality and permitted automation before implementation; a subscription is not an unlimited API entitlement.
+> **Current status — 2026-09-22:** The [public owner-requirements summary](../../sources/owner-requirements-summary.json) supersedes the former video-only API restriction, including stale editorial restrictions retained in historical excerpts. Codex **and** Claude must power development and the deployed engine through officially supported access with terms and capacity verified; subscription access does not imply API inclusion. Prefer direct **image and video APIs**. An aggregator is appropriate only when its skill or full workflow improves the actual rendered result through an owned adapter. Disclose costs and obtain separate operating-spend approval; this scope is not permission to spend.
+
+Finished reference-led **original** ads and pages must be produced and reviewed as part of the completed full ecommerce system, not left as briefs, clips, demos or disconnected automations. Amboras, Arcads, Higgsfield, Atria and Brandsearch represent capabilities and quality to create inside the owned engine—not a SaaS-link bundle or a demand to duplicate every vendor feature. Require decoded visual/functional output review, comparison with references and measured iteration. **60 live product tests per month** is operational and final acceptance: complete research/economics/offer, finished ads, functioning purchase destination, live budgeted campaign, verified tracking and recorded spend/results/decisions. Variants or simulations do not count as separate product tests.
 
 ## 1. Research and scrape a reference-ad evidence packet
 
@@ -41,11 +43,13 @@ Write a timestamped script/audio plan: `time_range`, shot purpose, visual action
 
 ## 4. Turn the script into shots, reference roles and a node plan
 
-Every shot should have an ID, script-segment IDs, purpose, duration, one principal physical action, one coherent camera move, model-control requirements and acceptance criteria. Bind references by role: format abstraction, exact product, authorized identity, start frame, end frame, adjacent-shot continuity and authorized audio/performance. Product and identity locks remain separate from style references. Generate original control frames through the subscription-backed image route; use real product imagery when generation changes product truth. (MEDIA-04 original 157–198.)
+Every shot should have an ID, script-segment IDs, purpose, duration, one principal physical action, one coherent camera move, model-control requirements and acceptance criteria. Bind references by role: format abstraction, exact product, authorized identity, start frame, end frame, adjacent-shot continuity and authorized audio/performance. Product and identity locks remain separate from style references. Generate original control frames through a supported image route, preferring direct image APIs under the current scope; use real product imagery when generation changes product truth. (MEDIA-04 original 157–198.)
 
 The historical node-builder expected explicit nodes, edges, split/selection/composition behavior and a run boundary; its definition is not itself an executable graph. A developer's graph should preserve these relationships:
 
 `source evidence → brief → approved script → shot plan → per-shot prompt/reference bundle → generation job → accepted take → edit timeline → export variant → measured result`
+
+Current future-proofing requires replacing models, providers, prompts, skills or whole workflows; combining/removing stages; retaining source context, data, history and assets; and demonstrating version/restore plus quality, cost, speed and reliability comparisons. Adopt improving AI capabilities without a literal AGI guarantee.
 
 Carry `run_id`, `brief_version`, `script_version`, `shot_id`, `prompt_version`, reference-role IDs/hashes, node dependencies and output IDs across every edge. Branches may explore hook/actor/format options, but do not silently mix their inputs. Keep provider-specific delimiters and node payloads behind adapters. Pletor patterns informed historical planning; neither Pletor SaaS nor its proprietary graph syntax is a current dependency. (MEDIA-06; historical node packet.)
 
@@ -65,7 +69,7 @@ Review chronological frames **and motion**, not just a thumbnail. Check product 
 
 Use a deterministic, editable timeline with selected take IDs, source in/out points, transitions, captions, graphics, VO/music/SFX provenance, gain/ducking, safe zones and platform variants. Each cut needs a narrative or attention purpose. Historical options include FFmpeg, HyperFrames and CapCut draft tooling; the developer can replace them. The [editing agent excerpt](sources/editing-assembly-agent-excerpt.md) preserves the actual earlier job/output contract. (MEDIA-05.)
 
-Audio must fit the current cost boundary: owned/licensed recordings or subscription/local functionality where supported; a historical ElevenLabs recommendation does not authorize a paid non-video API. Do not fabricate testimonials or impersonate a creator.
+Use owned/licensed recordings or supported generation functionality with rights, terms, actual quality and separately approved operating costs verified. A historical ElevenLabs recommendation is neither a required provider nor spending authorization; the superseded video-only API cap is not a current restriction. Do not fabricate testimonials or impersonate a creator.
 
 ## 8. Separate technical QA, creative QA and owner acceptance
 

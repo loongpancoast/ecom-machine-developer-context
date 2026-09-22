@@ -1,5 +1,7 @@
 # Historical versions and failed-attempt lessons
 
+> **Current status — 2026-09-22:** [Current owner scope](../../sources/owner-requirements-summary.json) takes precedence. The replaceable counts and thresholds discussed below are historical research/creative defaults, not the approved **60 live product tests per month** operational and final-acceptance requirement. Connected supplier discovery, quotes, diligence, negotiation, QC, purchasing/3PL routing, fulfillment, returns, support, retention and accounting/profitability are included in commissioned delivery. Historical source coverage and failed-attempt labels remain unchanged; none establishes that the new system is complete.
+
 Selected history, not an all-versions archive. Source IDs resolve through [source-index.json](source-index.json); the business-agent family has its own [index](../agent-systems/business-web-intelligence/index.json). Included definitions are sanitized sources; course and vendor material is summarized and attributed, not reproduced. Current application requirements override historical gating, budgets and stack choices.
 
 ## Version distinctions

@@ -1,53 +1,43 @@
-# Engineer for Ecommerce Research, Ads and Stores ($6k-$8k)
+# Build a Complete Autonomous Ecommerce Engine ($6k-$8k)
 
-I am hiring an engineer to build a private system for running ecommerce brands. It should help us find products worth testing, make finished ads and stores, run tests and use the results to improve.
+## Description
 
-The main work
+Build a complete private, cloud-hosted, multi-brand autonomous ecommerce engine. The full business system is the commissioned delivery, not a smaller core, pilot or future extra. I approve initial direction; it then operates within permissions and budgets.
 
-- Product research using competitor ads, customer language, product facts and costs.
-- Finished image and video ads, including UGC/avatar formats, plus landing pages and Shopify stores.
-- Shopify catalog creation and management at scale: products, variants, collections, copy, media and bulk updates, with safe retries and no duplicate listings.
-- Pixel and conversion-event setup, including Meta Pixel/CAPI where used. Verify the events, consent handling and browser/server deduplication against test orders.
-- A visual product-research dashboard: product images, scraped landing-page previews, competitor ad previews, prices, source links and a short assessment. Make it easy to compare products and open the supporting evidence.
-- Campaign setup and management within agreed budgets, with results tied to the ads, offers and pages used.
-- A shared record of the research, prompts, assets, changes, spend and results so each test informs the next one.
+60 LIVE PRODUCT TESTS PER MONTH is both an operating AND final acceptance requirement. Each needs research/economics/offer, finished ads, a functioning purchase destination, a live budgeted campaign, verified tracking and recorded spend, results and decisions. Not 60 rows, variants or simulations. Agree the monthly measurement window, test observation periods and spend/stop criteria before hire. Ad/media/platform and other operating spend is separately approved from engineering. Commercial winners are not guaranteed.
 
-Creative quality matters. The ads and pages need to be good enough to use, not generic copy and unfinished generations. I approve the initial direction; the system should then handle routine work within agreed permissions.
+DELIVER
+- Research products, customers, suppliers, top ads and landing pages; analyze hooks, pacing, narrative, CTA and angles. Create ORIGINAL product-specific ads/pages, launch, measure and improve. Keep first-party results separate from vendor estimates; no unauthorized footage, fake reviews or unsupported claims.
+- Finished image and UGC/avatar/video ads: editing, captions, audio, transitions and exports. Review actual decoded media and functioning pages against references, then make a measured next iteration. No generic AI slop or unfinished clips.
+- Complete Shopify stores: domains, branding, native Liquid, responsive navigation, policies, checkout/payments/shipping. Catalog products, variants, collections, media/copy/pricing, metafields and templates; bulk updates/imports and store migration with duplicate-safe retries. Offers, bundles, upsells, cross-sells, post-purchase flows and SEO/AEO/GEO, with functional/conversion tests.
+- Meta Facebook Page creation/configuration, applicable Instagram linkage, business/ad-account connections, catalogs, Pixel/CAPI and verified purchase events, consent and browser/server deduplication.
+- Visual product research with images, page/ad previews, prices, source links/dates and concise assessments, connected to execution. Live campaigns, spend/results, analytics and improvement.
+- Connected sourcing, quotes, negotiation, diligence, QC, purchasing, order routing, 3PL/fulfillment/tracking, returns, support, retention, accounting and profitability. Not a separate physical warehouse or payment rail. Legal/KYC/platform and owner approvals are dependencies, not exclusions.
 
-Supplier and 3PL work is secondary. Keep the basic supplier, product-cost and order information needed for testing. A custom ERP, warehouse platform, supplier-negotiation system or full accounting/support suite is not part of this delivery.
+OWNED ENGINE
+Amboras, Arcads, Higgsfield, Atria, Brandsearch and similar tools are capability references to CREATE inside our engine, not a bundle of SaaS links or a demand to clone every vendor feature. We retain source, workflows, context, data, assets and history.
 
-Budget and delivery
+Codex AND Claude must power development AND the deployed engine through officially supported access. Verify runtime terms, capacity and limits; subscriptions do not automatically include API use. Direct image AND video APIs are preferred. Use an aggregator such as Higgsfield only when its skill/full workflow improves the rendered result, through an adapter in our owned creative engine. Disclose costs; no spend is authorized here.
 
-We are engineers and use AI coding tools ourselves. We expect your quote to reflect AI-assisted development and sensible use of proven components, not a from-scratch estimate for everything. Explain the custom work, integration, creative finishing and testing. Do not quote the ceiling by default.
+Keep up with the AI race, newer models, better agents and increasingly AGI-like capabilities. Replace models/providers/skills and whole workflows; combine or remove obsolete stages without losing context/history/data/assets. Demonstrate versioning/restore and compare output quality, cost, speed and reliability. A model dropdown is insufficient; no literal AGI or permanent future-immunity promise.
 
-Budget range: $6,000-$8,000 fixed fee, negotiable. Quote your price for the agreed work; $8,000 is a ceiling, not a committed fee. Price, milestones and schedule will be agreed before hiring. We are aiming for about one month, with required account access ready. We want the research, creative, store and testing work connected and usable in the deployed system. A standalone dashboard or demo is not enough. Agree the supported platforms and acceptance checks before starting, and flag outside approvals that could affect the schedule.
+DELIVERY AND PRICE
+A demo, scaffold, disconnected automation or partial build is UNACCEPTABLE as final delivery. Milestones stage the complete system, including the monthly live-test acceptance run.
 
-Future-proofing
+$6,000-$8,000 negotiable fixed fee; $8,000 is the ceiling, not the automatic fee. Target roughly one month with access ready. Agree final price, milestones, schedule and measurement windows before hiring.
 
-Future-proofing is part of acceptance, not an optional extra. We own the code, data and history. Better models should let us replace agents and simplify how work gets done without rebuilding the application. Keep business records and permissions separate from prompts and workflows. At handoff, demonstrate a model/runtime replacement, a simpler workflow and a return to the previous setup, with history and controls intact. Compare actual outputs, cost and reliability. A model dropdown alone is not enough. Use supported tools; do not build a universal agent framework.
+We are engineers using Codex, Claude and vibe coding. Unsupported padded manual-from-scratch estimates are unacceptable. Break down custom work, reuse, integrations, creative finishing, testing and deployment. Do not invent coding hours or assume AI removes testing. Acceptance fixes and upgrade proof are included. Paid extras need prior written scope/price approval.
 
-Methodology reference
-
+METHODOLOGY AND APPLYING
 https://github.com/loongpancoast/ecom-machine-developer-context
+Read README and REQUIREMENTS for full scope. This is methodology reference, not supplied working software: research, Ecom Masterclass/Evolve/God Tier Ecom, copywriting, before/after and AI UGC methods.
 
-This is methodology reference, not a working codebase or a promise of reusable software. It covers product research, copywriting and creative methods, including Ecom Masterclass, Evolve, God Tier Ecom, before/after references and AI UGC. Choose the implementation that fits the job.
-
-Capability references include WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield. Study useful skills/workflows for recreating ad and page formats with our product and authorized assets. Keep a library that uses our ad results to improve the next brief and variant. These are references, not required subscriptions or a model-training project.
-
-Costs
-
-Use Codex and Claude subscriptions through officially supported access. Paid APIs are limited to video generation. Verify the actual access, usage limits and image-generation route before committing; do not assume a subscription includes API credits or use a bypass. If a requirement cannot be met this way, explain the specific issue. Disclose hosting and other costs. No additional spend is approved by this posting. Extra paid work requires written scope and price approval before it starts; fixing work that fails agreed acceptance is included.
-
-Applying
-
-Ecommerce, product research and experience with converting ads or stores are particularly relevant.
-
-Link work you personally contributed to and explain your part. An existing walkthrough is welcome. We will ask promising candidates for a short, personally recorded Loom showing relevant work and their approach. No unpaid custom build is required.
-
-Write a short reply in your own words. Skip the sales pitch, automated replies and copied claims. AI-assisted development is welcome. Tell us where you see a real constraint rather than agreeing to everything.
+Write a short personal reply with relevant work, your contribution and substantiable outcomes. Existing walkthroughs welcome; promising candidates may be asked for a personal Loom. No unpaid custom build required. Initial samples are not final acceptance. Honest technical pushback is welcome; agreement alone is not competence.
 
 ## Screening questions
 
-1. Link relevant work or an existing walkthrough. What did you personally build, and what result can you substantiate?
-2. How would you deliver the research, creative, bulk Shopify catalog, tracking and visual-review workflow? How would you prove that models and redundant agent steps can be replaced without losing history?
-3. What is your fixed quote within $6,000-$8,000? Explain AI/component reuse, custom work, testing and access dependencies. What schedule can you support around the one-month target?
+1. What relevant ecommerce work did you personally build? Link it and substantiate your contribution and results.
+2. How will you deliver the full system and prove 60 live product tests/month, including budgets and measurement windows?
+3. How will researched ads/pages become original finished creative and working Shopify/Meta flows? Show relevant output quality.
+4. How will both Codex and Claude power the engine, and how will you replace models/skills/whole workflows without losing history?
+5. What is your fixed quote within $6k-$8k and schedule near one month? Break down reuse, custom work, integrations, creative, tests and deployment.

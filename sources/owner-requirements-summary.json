@@ -4,39 +4,43 @@
   "requirements": [
     {
       "id": "U01",
-      "summary": "Provide methodology reference for an ecommerce system focused on product research, finished ads and stores, campaign tests and improvement. Historical agents, code and schemas illustrate methods; they are not supplied working software or promised reusable components. Exclude private data.",
-      "status": "current owner clarification"
+      "summary": "Provide methodology reference for the complete original private, cloud-hosted, multi-brand autonomous ecommerce engine. All required research, creative, stores, advertising and connected business operations are commissioned delivery, not a reduced core, pilot or future out-of-contract target. Historical agents, code and schemas illustrate methods, not supplied working software or guaranteed reusable components. Exclude private data.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U02",
-      "summary": "The product is private and hosted, supports multiple brands/stores/accounts within one business, and includes a full database. Reconcile Downloads and prior work with emphasis on recent corrections. Deliver commercially credible ads and pages rather than generic AI output or unnecessary process terminology."
+      "summary": "The product is private and cloud-hosted, supports multiple brands/stores/accounts within one business, and includes a complete owner-controlled database. Preserve recent owner corrections and relevant historical methodology. Deliver commercially credible ads/pages and functioning business operations, not generic AI output or process terminology.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U03",
-      "summary": "Begin with owner approval of creative direction and finished examples, then allow autonomous production and evolution. Use capable SaaS workflows as quality and functionality references for image ads, avatar/video ads and storefront creation."
+      "summary": "Begin with owner approval of creative direction and finished examples, then autonomous production, execution and improvement within approved permissions and budgets. Create the useful storefront and image/UGC/avatar/video capabilities represented by reference platforms inside the owned engine.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U04",
-      "summary": "Own the interface, data and workflows while using external SaaS or generation engines when they perform better. Evaluate documented APIs and the ability to return usable data to the system rather than rebuilding underlying AI models."
+      "summary": "Own interface, source code, data, assets, history and workflows. Integrate supported engines where useful without turning the system into SaaS links. Prefer direct image and video APIs; use an aggregator such as Higgsfield only when its skill/full workflow improves actual rendered output, through an adapter within the owned creative engine. Do not require literally every vendor feature.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U05",
-      "summary": "Supplier, 3PL and back-office automation is secondary. Include the basic supplier, cost and order information needed for product tests. A separate ERP, warehouse, accounting, support or retention suite is not required for the current delivery.",
-      "status": "current owner clarification"
+      "summary": "Include connected sourcing, quotes, diligence, negotiation, QC, purchasing, order routing, 3PL/fulfillment/tracking, returns, support, retention, bookkeeping/accounting and profitability functions in the commissioned delivery. This is not a requirement to own a physical warehouse, recreate payment rails or build an unrelated standalone ERP. These functions are not secondary or excluded.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U06",
-      "summary": "Private supplier discovery and negotiation remain possible later work, not mandatory acceptance for the current research, creative and testing delivery.",
-      "status": "current owner clarification"
+      "summary": "Deliver private supplier discovery, outreach, quotes, negotiation, due diligence, samples, QC and purchasing workflows with source evidence, terms, landed costs and authority controls. They are included acceptance, not deferred to a future contract.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U07",
-      "summary": "Dropshipping, bulk/private-label purchasing and 3PL are business context for testing and scaling. Comprehensive integration is secondary and requires an agreed scope.",
-      "status": "current owner clarification"
+      "summary": "Connect dropshipping, bulk/private-label purchasing and inventory, selected warehouse/3PL order routing and fulfillment, tracking, exceptions and returns. Choose concrete providers and representative cases before hire. Platform, legal/KYC and owner approvals are dependencies with supported workflows, not capability exclusions.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U08",
-      "summary": "Aim for autonomous execution. The main practical obstacle to solve is poor creative quality: use relevant competitor and customer language, strong product-specific copy and real evidence without turning ordinary work into repetitive approval paperwork."
+      "summary": "Deliver autonomous execution within permissions and budgets. Solve poor creative quality through relevant competitor/customer evidence, product-specific copy and actual decoded visual/audio and functional page review against references. Reject generic AI slop, unfinished clips, fabricated reviews and unsupported claims without making routine work repetitive approval paperwork.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U09",
@@ -44,7 +48,8 @@
     },
     {
       "id": "U10",
-      "summary": "The initial monthly business target is 60 product tests, at least two or three products suitable for scaling, and a majority reaching break-even through iteration. These are desired outcomes, not guaranteed software results."
+      "summary": "60 LIVE PRODUCT TESTS PER MONTH is mandatory operating capacity AND final acceptance. Each qualifying product test has research/economics/offer, finished reviewed ads, a functioning purchase destination, a live budgeted campaign with delivered traffic and actual spend, verified tracking, measured results and decisions. Rows, variants, duplicate relaunches, simulations and test-mode transactions do not count. Desired 2-3 scalable winners and majority break-even are aspirations, not guaranteed outcomes; that uncertainty does not waive the 60-test requirement.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U11",
@@ -72,27 +77,28 @@
     },
     {
       "id": "U16",
-      "summary": "Job-posting drafting chats are supplementary, lower-priority context. An earlier exclusion of live Upwork work was superseded by the later request for an actual job posting; this repository provides the ready-to-post hiring copy.",
-      "status": "earlier live-account exclusion superseded"
+      "summary": "Job-posting drafting history is supplementary. The current hiring copy and five screening questions express the approved scope, but preparing local publication text does not authorize external publication, hiring or spending.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U17",
-      "summary": "Present owner intent as clear assistant-written summaries instead of word-for-word quotations. Use a private GitHub repository as the primary developer handoff. The latest SaaS names supplied are amboris and arcads; Amboras is a likely match for the intended storefront platform, pending confirmation, while Arcads provides ad/video/avatar capabilities.",
-      "status": "Historical repository-privacy preference; this developer repository is PUBLIC. All additions must remain public-safe."
+      "summary": "Present owner intent as clearly attributed assistant-written summaries, not fabricated quotations. This developer methodology repository is public-safe; the commissioned application is private. The historical spelling amboris was mapped tentatively to Amboras as a storefront reference, with Arcads an ad/video/avatar reference. Current capability intent does not prove vendor identity, feature access or integration.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U18",
-      "summary": "Current commercial position: $6,000-$8,000 negotiable fixed fee, with $8,000 as a ceiling rather than a committed price. Aim for about one month with access ready. Price, milestones and schedule must be agreed before hiring. Deliver connected research, finished creative, stores and campaign testing; secondary supplier/3PL/back-office systems are not mandatory acceptance.",
-      "status": "current owner clarification"
+      "summary": "Current commercial position: $6,000-$8,000 negotiable fixed fee; $8,000 is a ceiling, not an automatic or committed fee. Target roughly one month with access ready. Agree final price, complete-delivery milestones, schedule, monthly measurement windows and operating budgets before hiring. The fee covers the full commissioned system, not only a core or pilot; milestones stage complete delivery and must accommodate monthly live-test acceptance.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U19",
-      "summary": "Run the engine on Codex and Claude subscriptions through officially supported access. Limit paid API usage to video generation. Do not depend on separately billed LLM, copywriting, image-generation or other API calls. Disclose hosting, storage and other non-API costs before contracting; no new spend is authorized."
+      "summary": "Codex AND Claude power development AND the deployed engine through officially supported access. Verify runtime/automation/commercial terms, capacity, concurrency, allowances and recovery, never assume subscriptions include APIs or permit bypasses. Direct image AND video APIs are preferred; aggregator skills/full workflows must improve rendered output within the owned engine. The video-only API restriction is superseded. Disclose costs and obtain separate approval; no spend is authorized by this brief.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U20",
-      "summary": "The clients are engineers and use AI coding tools. The quote must reflect AI-assisted development and sensible component reuse rather than an all-custom-from-scratch estimate. Explain custom work, integration, creative finishing and testing; do not default to the budget ceiling. Keep short personal replies, relevant work and staged Loom requests.",
-      "status": "current owner clarification"
+      "summary": "Clients are engineers using Codex, Claude and vibe coding. Unsupported padded manual-from-scratch estimates are unacceptable. Explain custom work, proven-component reuse, integrations, creative finishing, testing and deployment without invented coding hours or promised savings. Do not default to the ceiling. Honest technical pushback is welcome, not applicant disqualification. Ask for personal contributions, substantiable work and staged Looms.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U21",
@@ -109,12 +115,13 @@
     },
     {
       "id": "U24",
-      "summary": "Future-proofing is mandatory acceptance: owner-controlled records and portable exports; replaceable models/runtimes/prompts/skills/agent stages; controls outside model instructions; repeatable output/cost/reliability comparisons; demonstrated replacement, workflow simplification and restore without losing history or repeating external actions. Avoid a universal agent framework or a promise of compatibility with every future model.",
-      "status": "current owner clarification"
+      "summary": "Keep up with the AI race, newer models, better agents and increasingly AGI-like capabilities through tested adaptability. Replace models/providers/runtimes/prompts/skills and whole workflows; combine or remove obsolete stages. Retain context, source/data/assets, history, external IDs and controls outside prompts. Compare actual quality/cost/speed/reliability, version and restore. Demonstrate replacement, simplification and restore without repeating external actions. No literal AGI, perpetual maintenance or permanent immunity to obsolescence is promised.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U25",
-      "summary": "Primary delivery is product research, finished ads and stores, campaign testing and improvement. Supplier/3PL work is secondary. This supersedes the earlier requirement that all logistics and back-office functions be complete in the same contract."
+      "summary": "The full original private multi-brand business vision is the completed commissioned system, including sourcing, logistics and back-office functions. Earlier smaller-core, secondary-supplier and nonbinding-volume wording is superseded as of 2026-09-22. A demo, scaffold, disconnected automation, dashboard-only system or partial build is UNACCEPTABLE as final delivery. Initial applicant work samples are separate from final acceptance.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U26",
@@ -122,11 +129,13 @@
     },
     {
       "id": "U27",
-      "summary": "Pixel and conversion-event setup is core, with event receipt, consent behavior, product/value fields and browser/server deduplication verified against test orders."
+      "summary": "Include Meta Facebook Page creation/configuration, applicable Instagram linkage, business/ad-account connections and catalogs. Set up Pixel/CAPI and other agreed conversion tracking; verify event receipt, consent, product/variant/value/currency fields and browser/server purchase deduplication against Shopify orders. Keep test traffic distinct from live commercial results. Owner/legal/KYC/platform approvals remain dependencies, not exclusions.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U28",
-      "summary": "Shopify store catalog creation and management at scale is core: products, variants, collections, copy, media and bulk updates, with draft review, stable IDs, item-level errors and duplicate-safe retries."
+      "summary": "Deliver complete Shopify store creation: domains, branding, native Liquid themes/sections/templates, responsive layouts/navigation, policies, checkout/payment and shipping. Catalog-scale products, variants, collections, copy/media/pricing, metafields/templates, bulk mutations/imports and store migration include draft review, stable IDs, item-level errors and duplicate-safe retries. Agree representative batch sizes and verify real purchase paths.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U29",
@@ -134,16 +143,69 @@
     },
     {
       "id": "U30",
-      "summary": "Include the upgrade demonstration and fixes needed to meet agreed acceptance in the negotiated build. Extra paid work requires written scope and price approval before starting. AI coding productivity should reduce implementation effort, not excuse untested outputs; price optional later maintenance separately."
+      "summary": "Include complete-delivery acceptance fixes, upgrade demonstration, deployment and handoff in the negotiated build. Paid extras require prior written scope and price approval. AI productivity does not excuse untested outputs. Separately price optional ongoing maintenance; no automatic budget increase or lifetime upgrades.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U31",
-      "summary": "Include WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield as sourced capability/methodology references for product/ad/landing-page research, creative analytics, skills/workflows and reference-led original ads/pages. Do not require all subscriptions or claim current integrated capability from vendor documentation."
+      "summary": "Amboras, Arcads, WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield represent capabilities to CREATE inside the owned engine: research/ad/page intelligence, storefront construction, creative analytics and skills/workflows producing original finished outputs. Not a SaaS-link bundle, mandatory subscriptions or literal clone of all features. Vendor documentation does not prove current authenticated capability.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     },
     {
       "id": "U32",
-      "summary": "The system must retain and reuse ad-performance evidence to improve future briefs and variants, with reference-to-output comparisons and portable history. Distinguish vendor training claims, application learning through records/retrieval and actual model-weight training. Existing rights, supported access and video-only paid-API limits remain."
+      "summary": "Retain and reuse first-party performance to improve briefs, creative, offers and pages, including failed tests. Research/scrape accessible top ads/pages, analyze hooks/pacing/narrative/CTA/angles, create ORIGINAL product-specific finished outputs, launch, measure and improve. Compare actual decoded and functional outputs to references and record a measured next iteration. Separate vendor estimates/training claims, application learning and actual weight training; preserve rights and accurate claims.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
+    },
+    {
+      "id": "U33",
+      "summary": "Implement and test conversion-led landing/product pages, bundles, upsells, cross-sells, post-purchase offers and SEO/AEO/GEO. Verify mobile/desktop purchase paths, structured data and discoverability implementation with supported Shopify features. No guaranteed conversion uplift, rankings or AI-answer placement.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
+    },
+    {
+      "id": "U34",
+      "summary": "Final acceptance requires an actual monthly run of 60 qualifying live product tests with a deduplicated ledger of product identity, research/economics, offer, finished ads, purchase destination, campaign, approved budget, delivered traffic, actual spend, verified tracking, outcomes and decisions. Agree monthly window/timezone, launch cadence, per-test observation/attribution periods, spend thresholds, stop/scale rules and reporting lag before hire. Blocked/unlaunched tests do not count; capacity forecasts and historical replay cannot substitute.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
+    },
+    {
+      "id": "U35",
+      "summary": "Ad/media/platform/model, hosting/storage, supplier/fulfillment and other operating spend is separate from the engineering fee and needs explicit approval. Disclose legal/KYC, permissions and owner actions with responsibility and schedule impact. Missing approval blocks acceptance rather than removing the capability; this repository authorizes no spend, publication, account action or hiring.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
+    },
+    {
+      "id": "U36",
+      "summary": "Finished UGC/avatar/image/video ads include editing, captions, audio, transitions, aspect ratios and exports. Require human review of actual decoded visual/audio outputs plus functional store/page/purchase review, reference comparisons and measured next iteration. A prompt, render-job receipt, isolated clip or model self-score is not completion.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
+    },
+    {
+      "id": "U37",
+      "summary": "Handoff includes owner-controlled source, database/migrations, adapters, tests, deployment/runbooks, business context/history/data/assets and a clean-environment restore. Enforce account separation, permissions, cost caps, validation and duplicate prevention outside prompts. Verify external effects by readback and preserve live-action history when restoring configurations.",
+      "status": "current owner-approved scope, reconciled 2026-09-22"
     }
   ],
-  "scope_note": "Current owner direction. This is a public methodology-reference repository, not a supplied implementation. Current summaries supersede earlier all-area acceptance and definite-price wording retained in Git history."
+  "scope_note": "Current owner-approved scope reconciled 2026-09-22. Full original vision is commissioned delivery. Earlier smaller-core, supplier/back-office exclusions, nonbinding 60-test and video-only API wording is superseded; historical originals remain preserved evidence, not current authority. This public methodology repository supplies no implemented system.",
+  "reconciled_date": "2026-09-22",
+  "current_authority": [
+    "README.md",
+    "REQUIREMENTS.md",
+    "UPWORK-JOB-POSTING.md",
+    "QUESTIONS.md"
+  ],
+  "monthly_live_test_acceptance": {
+    "required_tests": 60,
+    "period": "month",
+    "operating_requirement": true,
+    "final_acceptance_requirement": true,
+    "requires_actual_live_run": true,
+    "commercial_winners_guaranteed": false,
+    "operating_spend_separately_approved": true,
+    "measurement_windows": "Agree monthly window/timezone, per-test observation/attribution periods, launch cadence, spend/stop criteria and reporting lag before hiring.",
+    "excluded_counts": [
+      "research rows",
+      "creative variants",
+      "duplicate relaunches",
+      "simulations",
+      "test-mode orders",
+      "blocked or unlaunched tests"
+    ]
+  }
 }

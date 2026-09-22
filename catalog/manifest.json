@@ -3,7 +3,7 @@
   "purpose": "Portable file and source-alias catalog for the developer context.",
   "paths_relative_to": "repository root",
   "hash_scope": "SHA-256 of each listed package file; this manifest excludes its own hash.",
-  "interpretation": "U/H records summarize intent; historical examples are methodology reference only, not supplied working software or promised reusable components.",
+  "interpretation": "Current U summaries and commissioning overlays are reconciled 2026-09-22 to the full commissioned system, including 60 live product tests/month as operating and final acceptance. H records and historical originals preserve source intent and methods, not current exclusions or supplied working software. Original excerpt hashes/ranges remain unchanged; package hashes describe the current files.",
   "artifacts": [
     {
       "id": "C04",
@@ -1448,14 +1448,14 @@
       "package_path": "sources/owner-requirements-summary.json",
       "classification": "assistant_written_requirement_summary",
       "source_aliases": [],
-      "sha256": "1185299f2cfbe2ed7696ffaa7b13d98a60f208837cce981c21e0db6140690a8e"
+      "sha256": "699b307b57ec9b11d41c1406c4a5b125c65f328f97cbd5b5473babc7e281df39"
     },
     {
       "id": "H-SUMMARY",
       "package_path": "sources/historical-intent-summary.json",
       "classification": "assistant_written_historical_summary",
       "source_aliases": [],
-      "sha256": "e6f97d898369b84431915a6e6bc2825795b9e5d6cdf63673b8c453563cd33936"
+      "sha256": "e43c720c7f8dcd89377a1e9327c140db5f4dcd661e6ecf657bd463197a50c160"
     },
     {
       "id": "B08",
@@ -1483,70 +1483,70 @@
       "package_path": "methodologies/historical-workflow-contracts.json",
       "classification": "derived_semantic_crosswalk",
       "source_aliases": [],
-      "sha256": "09b53bd5a4642d6fec4a1b403d0c2921c6f6a1702b79a69b1950948fd8d9b42e"
+      "sha256": "e02774d530fcf016b215e864d8a91fb446a6f5ee1d1b5985a4fddb44147b9413"
     },
     {
       "id": "WORKFLOWS",
       "package_path": "methodologies/semantic-workflows.md",
       "classification": "workflow_explanation",
       "source_aliases": [],
-      "sha256": "135e063dfe1b592f1b3f951d476cfd71245e2cedef62743b5c4f3e476dc58166"
+      "sha256": "480478031d652f530b87dd9e03ff5f89ec40da24eb9e6449876d38f581964ec5"
     },
     {
       "id": "README",
       "package_path": "README.md",
       "classification": "developer_brief",
       "source_aliases": [],
-      "sha256": "6c8053e91dfbedf00bd129f3f061d7ce722077271bb70983005719f11e53a850"
+      "sha256": "a9b167744e89ec2c3b827a7eef55804d8833e53c91aa976854b1110884251317"
     },
     {
       "id": "REQUIREMENTS",
       "package_path": "REQUIREMENTS.md",
       "classification": "requirements",
       "source_aliases": [],
-      "sha256": "c320a80e3d62c272e978c6b5d94b2da10eb5d88183ce5ea79a633777205f32e2"
+      "sha256": "b32a0d6463eb3f151e482a4da29949cef22c9e9de7c6268aa933ba7e3ff73aef"
     },
     {
       "id": "QUESTIONS",
       "package_path": "QUESTIONS.md",
       "classification": "implementation_considerations",
       "source_aliases": [],
-      "sha256": "bfe833de261e5108b095a4d24e8547d627029ca084c1083dff9931deb42a54ef"
+      "sha256": "48701941bf01b05576b9dd62c9c747b6038bf4c93530661e581f5102b5434f3a"
     },
     {
       "id": "REFERENCE-SYSTEMS",
       "package_path": "REFERENCE-SYSTEMS.md",
       "classification": "official_product_page_summary",
       "source_aliases": [],
-      "sha256": "2d32cd989fbdc6f7faac2180749e983d06174380613817e80de41bcae737ec47"
+      "sha256": "5ccde7dd2f49b2d719e38bd4c0b1e5a3ce1a6d5f37a6b8d91609748a12ec7d7d"
     },
     {
       "id": "UPWORK-JOB",
       "package_path": "UPWORK-JOB-POSTING.md",
       "classification": "hiring_copy",
       "source_aliases": [],
-      "sha256": "e4e3a7bfaf8b918c412fea43711489878cae524618f4cc518c3462d38a0d4b63"
+      "sha256": "0ca407dd494ddff87bc4c6c7f6a876e5b137d69a4186945f16745fa3200989b7"
     },
     {
       "id": "READING-NOTES",
       "package_path": "catalog/reading-notes.md",
       "classification": "technical_reference_notes",
       "source_aliases": [],
-      "sha256": "ac5bfd2e89477c54003552d3c3558e7d4d97f5b3a66b209bdc260c0cdbb3f1ae"
+      "sha256": "948dd19f8843a4de599bc2d84ff6538d319ea531d269451975edff47ed65d812"
     },
     {
       "id": "INTEGRATION-INDEX",
       "package_path": "sources/integrations/index.md",
       "classification": "integration_reference_notes",
       "source_aliases": [],
-      "sha256": "9aec31eb8c1f4ac97efaedc3617d2bc6462ce8e907eb3b05b234708b75f17956"
+      "sha256": "df95908a20b03b165031392a9bb6e544802a5043e74c5427422a0c413478f950"
     },
     {
       "id": "SOURCE-CATALOG",
       "package_path": "catalog/SOURCES.md",
       "classification": "source_navigation",
       "source_aliases": [],
-      "sha256": "67006651911711743f21d2d52652e8862c612fea18780630cee55b69d25355c7"
+      "sha256": "d7b0110226a0a744f90732b40a0e96ebd5403de5ea0b96fd19fb2d9b7249b93d"
     },
     {
       "id": "PUBLICATION-EXCLUSIONS",
@@ -1560,21 +1560,21 @@
       "package_path": "methodologies/research-to-production.md",
       "classification": "derived_implementation_methodology",
       "source_aliases": [],
-      "sha256": "21869aa9e1d996bb54d5527e71e24bee2dd7afd10c8bef26b84cdd538abbac8e"
+      "sha256": "c8f3306f17e404b8a2a9955a4f3c95b5cbffba196b42308ec7f04e20f8bfb84d"
     },
     {
       "id": "HISTORY-001",
       "package_path": "history/SYSTEM-VERSIONS.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "c3df49d06ce46349e4e2ea0735796855c37a0b7803d4ab9714862d3b57314d4b"
+      "sha256": "0be458767567caa26cc4b3f36f788aa21c87c1b1a4bc600c5e541665191139e9"
     },
     {
       "id": "HISTORY-002",
       "package_path": "history/agent-systems/business-web-intelligence/README.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "0bb5a5d11a2306d7c3c3807200d8a662d285dbedeb7a1d1483b1163b4a46e7cc"
+      "sha256": "a7e022b954d0fe481a6662b29c3505c2be532359a88416e5286b9b8656322592"
     },
     {
       "id": "HISTORY-003",
@@ -1644,21 +1644,21 @@
       "package_path": "history/copywriting-agent-systems/README.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "f47f0fa05e92b2f070b63307d2136b3fea83968ea65f1b8a11f5e450b7ceb0cc"
+      "sha256": "9ab2bee37389745603527569f51f713f32ce34527b858e417cf4b11c0b55fedc"
     },
     {
       "id": "HISTORY-013",
       "package_path": "history/copywriting-agent-systems/lineage-and-lessons.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "febfee1935f6acc908aa4d7e6558cf57612e0f71b1c51cdc31395a0e59514c1f"
+      "sha256": "ae03599c42728a802a52194cb6b6a9f62bb9afa14233fbeb3dee00252c42d808"
     },
     {
       "id": "HISTORY-014",
       "package_path": "history/copywriting-agent-systems/methodology-contracts.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "3ac4e021538855f11ef2699c1992f5f3860bb8097bf68e4853b865967f7a3cc8"
+      "sha256": "7e33a301ffbd2cb1326eb838428f89e6451ed75cf67e6eb3ca8cec60eca58455"
     },
     {
       "id": "HISTORY-015",
@@ -1742,28 +1742,28 @@
       "package_path": "history/media/DEVELOPER-INDEX.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "157aaabced65dff06ba6afb65affc67d2e7ca4a1e2143780f03601e575a53f4b"
+      "sha256": "511fb85f17e2fca51ef3e80ac4ec9b4c4643615ec81c0124b179f3c6dbb65252"
     },
     {
       "id": "HISTORY-027",
       "package_path": "history/media/IMPLEMENTATION-NOTES.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "9773432da5a52cfb0651cf1a766dbd0f3a8d715eb9a7404cd47ab54de81c1efd"
+      "sha256": "0bfb165ecd5af40dc7bcfe1faa6ab48bcb084de4fdeb1e6052d6ac9a5d5f7b5b"
     },
     {
       "id": "HISTORY-028",
       "package_path": "history/media/VIDEO-PRODUCTION-METHODOLOGY.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "5e44076b299880384b13059d7a109db0882bcf133d94194b4c054844be2b13de"
+      "sha256": "94f3ec00a7bcd83d34d55686545de1d41b79a91c2a8506ec5b79f39ba3c579ac"
     },
     {
       "id": "HISTORY-029",
       "package_path": "history/media/automation-method-lessons.md",
       "classification": "retired_automation_method_summary",
       "source_aliases": [],
-      "sha256": "b9dbddd16734eaf457093f5eacaa8d849d9ddf8d6a35951320d382097e0c4161",
+      "sha256": "69f30c4a2ec1432b3865d369a8000a555337416fa4c9bb187f30750e900b2bb8",
       "removed_date": "2026-09-21"
     },
     {
@@ -1785,7 +1785,7 @@
       "package_path": "history/media/node-history/DEVELOPER-INDEX.md",
       "classification": "historical_reference_collection",
       "source_aliases": [],
-      "sha256": "fd691a9b0bde8f738a3e19a96548d12a2054a2971252e14dcf23dd1ee4297b64"
+      "sha256": "0269677ae67fb37e0161fee3af2cfe223cfabe40fd8064c58c39b6774857552a"
     },
     {
       "id": "HISTORY-033",
@@ -1855,28 +1855,28 @@
       "package_path": "methodologies/course-derived-product-research.md",
       "classification": "source_derived_methodology_summary",
       "source_aliases": [],
-      "sha256": "b3c29bfca343bda0def549c93e1d8930c875497e6866a04ae10ab030c9c18473"
+      "sha256": "42671bc75503245fe25efc5f1048aa17b3be87e7c68bcd3ba5de98e5eef9e7fa"
     },
     {
       "id": "METHOD-UGC-01",
       "package_path": "methodologies/before-after-ai-ugc.md",
       "classification": "source_derived_methodology_summary",
       "source_aliases": [],
-      "sha256": "d34ab608a735be691207e8a48ab8f4ed6096c3e748277b7e00023906c015e245"
+      "sha256": "2fd57cf32c217f8f32d1b5e37e01dafb21018408e2be838cfcec6c44d9415224"
     },
     {
       "id": "METHOD-AGENT-01",
       "package_path": "methodologies/agent-led-execution.md",
       "classification": "current_owner_direction",
       "source_aliases": [],
-      "sha256": "9fe4ed065e1d7eb91c1e060290a19660bfa4edbac77278c55f4fd7c5e59fdb79"
+      "sha256": "01a4d586d52ddacc1de7bc58112b19e569c1eec7d304a8700fa899bdcae197d8"
     },
     {
       "id": "METHOD-ADINT-01",
       "package_path": "methodologies/ad-intelligence-and-reference-led-creation.md",
       "classification": "official_documentation_and_owner_methodology_synthesis_not_runtime_verified",
       "source_aliases": [],
-      "sha256": "5a3e812a9541c9ddf63d02ec6d37e374cda637422273d3688dc1395fc71b647e"
+      "sha256": "b2a621b699b5c073ae83d2e15924157f9431c827bdffcf3b8c23ac33e4679d4f"
     }
   ],
   "source_alias_index": {
@@ -3771,6 +3771,180 @@
           "artifact_id": "METHOD-AGENT-01",
           "package_path": "methodologies/agent-led-execution.md",
           "representation": "current_owner_direction"
+        }
+      ]
+    },
+    "METHOD-ADINT-01": {
+      "references": [
+        {
+          "artifact_id": "METHOD-ADINT-01",
+          "package_path": "methodologies/ad-intelligence-and-reference-led-creation.md",
+          "representation": "official_documentation_and_owner_methodology_synthesis_not_runtime_verified"
+        }
+      ]
+    },
+    "U23": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/22",
+          "summary_id": "U23",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U24": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/23",
+          "summary_id": "U24",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U25": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/24",
+          "summary_id": "U25",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U26": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/25",
+          "summary_id": "U26",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U27": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/26",
+          "summary_id": "U27",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U28": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/27",
+          "summary_id": "U28",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U29": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/28",
+          "summary_id": "U29",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U30": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/29",
+          "summary_id": "U30",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U31": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/30",
+          "summary_id": "U31",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U32": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/31",
+          "summary_id": "U32",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U33": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/32",
+          "summary_id": "U33",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U34": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/33",
+          "summary_id": "U34",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U35": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/34",
+          "summary_id": "U35",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U36": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/35",
+          "summary_id": "U36",
+          "representation": "assistant_written_summary_not_quotation"
+        }
+      ]
+    },
+    "U37": {
+      "references": [
+        {
+          "artifact_id": "U-SUMMARY",
+          "package_path": "sources/owner-requirements-summary.json",
+          "json_pointer": "/requirements/36",
+          "summary_id": "U37",
+          "representation": "assistant_written_summary_not_quotation"
         }
       ]
     }

@@ -2,112 +2,134 @@
 
 ## The main job
 
-Build a private, hosted system for one business running multiple ecommerce brands. Connect product research, finished creative, storefronts and campaign testing. Let the owner approve the initial direction, then run routine work within agreed permissions and budgets.
+Build the complete original vision: a private, cloud-hosted autonomous ecommerce system for one business operating multiple brands, stores and accounts. Connect research, finished creative, storefronts, advertising, sourcing, fulfillment, support, retention and financial operations. This full system is the commissioned delivery, not a smaller core, pilot or later out-of-contract ambition. Owner approval sets initial direction and permissions; routine work then runs within agreed authority and budgets.
 
-We are engineers and use AI coding tools ourselves. We expect your quote to reflect AI-assisted development and sensible use of proven components, not a from-scratch estimate for everything. Explain the custom work, integration, creative finishing and testing. Do not quote the ceiling by default.
+**Current scope reconciliation: 2026-09-22.** Current requirements supersede earlier secondary-supplier/back-office exclusions, nonbinding 60-test language, reduced-core acceptance and video-only API limits. Historical originals remain methodology evidence. Milestones sequence complete delivery rather than remove capabilities.
+
+We are engineers using Codex, Claude and vibe coding. Unsupported padded manual-from-scratch estimates are unacceptable. Explain the real custom work, proven-component reuse, integrations, creative finishing, testing and deployment. Do not invent coding hours or savings, quote the ceiling by default or pretend AI eliminates integration and testing. Honest technical pushback is useful, not applicant disqualification; identify conflicts without silently narrowing the brief.
 
 ## Research
 
-Collect product facts, competitor ads and pages, customer language, supplier costs and other evidence needed to decide whether a product deserves a test. Keep source links and dates. Use the research to choose an offer and write a brief, scripts and a test plan. Keep rejected ideas and previous results so the next test does not start from scratch.
+Collect product facts, competitor ads and landing pages, customer language, supplier quotes/costs and evidence needed to decide whether a product deserves a test. Keep source links, capture dates, rights/access constraints and confidence. Research market demand, competition, differentiation, fulfillment feasibility, landed costs, margins, break-even economics, offer and test budget. Preserve rejected ideas and prior results so new tests do not start from scratch.
+
+Use customer vocabulary and sourced objections to inform briefs, positioning, claims, scripts and offers. Preserve distinctions among source quotes, reference-ad transcripts, production scripts and actual rendered-ad transcripts. Unavailable evidence remains unknown, not an invented number or testimonial.
 
 ## Ad intelligence and reference-led creation
 
-Use WinningHunter, Kalodata, Atria, Brandsearch and Higgsfield as [capability references](methodologies/ad-intelligence-and-reference-led-creation.md), not a mandatory shopping list. Connect product/ad/landing-page evidence to a recreation brief, finished original ads and Shopify pages. Evaluate existing skills and complete provider workflows before rebuilding them. Show the reference and output together, using authorized media and accurate product claims.
+Amboras, Arcads, Higgsfield, Atria, Brandsearch, WinningHunter and Kalodata are references for capabilities to create inside the owner-controlled engine, not a bundle of SaaS links or mandatory subscriptions. Reproduce the useful business workflows and output quality, not literally every vendor feature. See the [capability guide](methodologies/ad-intelligence-and-reference-led-creation.md) and [reference systems](REFERENCE-SYSTEMS.md).
 
-Retain an owner-controlled library of references, tags, hypotheses and joined performance results, including failed tests. Use it to change the next brief and creative/page version. This is a required learning loop, not a requirement to train foundation models or purchase every named platform. Separate vendor training claims, competitor estimates and our actual account results. Existing cost limits still apply.
+Research and scrape accessible top ads/pages with source and rights records. Analyze hooks, pacing, narrative structure, visual treatment, offer, CTA and angle. Translate those findings into an original, product-specific recreation brief, finished ads and conversion-led Shopify pages. Do not copy unauthorized footage, impersonate endorsers or invent reviews, testimonials, proof or product claims. Vendor or competitor estimates are not our measured conversion results.
 
-## Creative and stores
+Evaluate useful provider skills and complete workflows as well as endpoints. Direct image AND video APIs are preferred; an aggregator such as Higgsfield is appropriate only if its skill/full workflow improves the actual rendered result. Keep its adapter and workflow inside the owned creative engine, with exported assets, prompts, costs and a replacement path.
 
-Produce finished image ads, video/avatar ads and usable landing pages, product pages and stores. The output must fit the product and brand, use accurate facts and carry the same offer from ad to page. Include the editing needed to turn generated clips into a finished ad.
+Retain a portable library of sources, references, tags, hypotheses, briefs, production versions, finished outputs and joined first-party performance, including failures. Use results to change the next brief, creative, offer or page and measure that iteration. Application learning through retained records/retrieval, vendor training claims and actual model-weight training are different. Training a foundation model is not required.
 
-The methodology references include before/after frames, AI UGC, customer research and reference-video analysis. They explain possible methods, not a required node editor, model or architecture. Judge the build by the finished output.
+## Finished creative and conversion-led pages
 
-## Shopify catalog creation and management
+Produce usable image ads and finished UGC/avatar/video ads, landing pages, product pages and stores. Carry the same substantiated product facts and offer from ad through checkout. Include editing and assembly, captions, voice/audio and music rights, transitions, aspect-ratio variants, thumbnails and platform-ready exports. A script, prompt, graph, generated clip or render-job success is not a finished ad.
 
-Create and manage catalogs across the agreed Shopify stores. Include products, variants, collections, descriptions, media, prices, relevant metafields and inventory references. Support bulk creation and updates rather than one-product-at-a-time entry. Preserve stable product/variant IDs and the link back to source research.
+Review actual decoded images/video/audio and functioning pages, not merely metadata or model self-scores. Evaluate reference alignment, product identity, typography, composition, pacing, believable speech/appearance, readable captions, audio sync, mobile presentation and accurate claims. Reject generic AI slop and visibly broken output. Compare references and outputs side by side and retain correction evidence before launch; judge the next iteration against measured outcomes, not an unsupported conversion promise.
 
-Show draft review before publication, progress and item-level errors, safe retries and duplicate prevention. Do not silently overwrite unrelated store data. Agree and test a representative catalog batch size before contracting; the business needs catalog-scale operation, not a single demo listing.
+Before/after frames, AI UGC, customer research and reference-video analysis are useful methods, not mandatory node editors, fixed script order or immutable model choices. [Creative methods](methodologies/before-after-ai-ugc.md) retain their source context and evidence limitations.
 
-## Pixels and conversion tracking
+## Complete Shopify stores and catalogs
 
-Set up and verify tracking for the agreed stores and ad platforms, including Meta Pixel and CAPI where applicable. Check view-content, add-to-cart, checkout and purchase events, their value/currency and product or variant IDs. Respect customer consent and avoid counting browser and server reports of the same purchase twice.
+Create and operate Shopify stores across brands, not just connect a prebuilt storefront. Include domain setup/connection, brand identity and assets, native Liquid themes/templates/sections, responsive layouts and navigation, product/collection/landing pages, policies and required legal-owner review, checkout, payment configuration and shipping zones/rates. Verify desktop/mobile browsing and the complete purchase path. Respect Shopify plan and checkout-extension constraints; propose supported implementations, not unavailable platform modifications.
 
-Use test orders to prove the events arrive in the destination tools and reconcile with Shopify. Keep test traffic separate from commercial results. Document missing permissions or approval dependencies rather than claiming a pixel is working because its code is installed.
+Create and manage products, variants, collections, media, copy/descriptions, pricing, inventory references, relevant metafields and templates. Support catalog-scale bulk creation/mutation, imports and store migration, preserving stable IDs and source relationships. Show draft review, progress, item-level errors, duplicate-safe retries and reconciliation; never silently overwrite unrelated store data. Agree and exercise representative batch sizes, stores, migration fixtures and rollback/recovery before contracting rather than promising unbounded volume or one demo listing.
+
+Implement and test offers, bundles, upsells, cross-sells and post-purchase experiences with accurate pricing, availability and brand continuity. Include SEO, AEO and GEO: crawlable product/brand information, sensible information architecture, structured data where appropriate, metadata and useful evidence-led content. Test correctness and measurable changes; do not guarantee search or AI-answer placement. Conversion testing includes the ad-to-page-to-checkout journey, analytics/heatmaps where supported and documented experiments.
+
+## Meta identity, accounts and verified tracking
+
+Include Facebook Page creation and configuration, Instagram linkage where applicable, business/ad-account connections, catalogs and appropriate product feeds. Bind each brand, store, Page, ad account and catalog correctly. Support owner-controlled account creation/authorization steps through official flows; do not evade verification or fabricate eligibility.
+
+Set up Meta Pixel and CAPI and other agreed platform conversion tracking. Verify view-content, add-to-cart, checkout and purchase events, product/variant IDs, value/currency and event provenance. Test consent behavior and browser/server deduplication against Shopify orders and destination event receipts. Installation of code alone is not tracking verification. Separate test-mode transactions from commercial activity and reconcile live purchases where observed; never create fictitious purchases to make a test appear successful.
+
+Identify legal/KYC, account-owner actions, permissions, platform reviews and external approvals before dates are agreed. They are delivery dependencies, not capability exclusions or permission to label blocked integrations complete. Document owner actions, responsible party and schedule impact, implement the supported workflow and verify execution when access is ready.
 
 ## Visual research dashboard
 
-Give each scraped product a visual summary: product images, landing-page previews and links, competitor ad thumbnails or playable previews where permitted, prices/offers, source dates and a short assessment of the opportunity and concerns. Link ads and pages to the correct product. Missing evidence should remain visible rather than filled with invented numbers.
+Give each product a visual summary: images, scraped landing-page previews/links, permitted competitor ad thumbnails or playable previews, prices/offers, source dates and concise opportunity/risk assessments. Link evidence to the correct product and brand. Missing evidence stays visible.
 
-Allow side-by-side comparison and filtering by product, brand and test status. Open the underlying sources from the summary and pass a selected product into the research, creative and store workflow. This is a useful review surface over real work, not a dashboard-only deliverable.
+Support side-by-side comparison and filtering by product, brand and test status. Open sources and send selections into actual research, creative, catalog and campaign workflows. The dashboard is a review surface over working operations, never a substitute for them.
 
-## Campaigns and improvement
+## Campaigns and monthly live-test acceptance
 
-Connect the agreed advertising and commerce platforms. Set up and manage tests within approved spend limits. Bring back spend, conversions and orders, linked to the exact ads, offers and pages used. Use those results to propose and test changes.
+Connect the agreed advertising and commerce platforms, create and manage live campaigns within approved caps, and join actual spend, impressions, clicks, conversions and orders to exact product, ad, offer and page versions. Reconcile reporting/attribution windows, currency, timezone and lag. Record continue/iterate/stop/scale decisions with their evidence. Iterate creative, pages, offers and budget allocation within permissions and retain the prior state.
 
-Choose the initial platforms and access requirements before contracting. Do not promise integrations with unnamed providers. External platform approvals and unavailable permissions must be identified before dates are agreed.
+**60 LIVE PRODUCT TESTS PER MONTH is mandatory operating capacity AND final acceptance.** A qualifying product test includes all of:
 
-## Supplier and fulfillment work
+1. A distinct product-level test record with sourced research, supplier/fulfillment feasibility, unit economics, offer and explicit hypothesis.
+2. Finished, reviewed product-specific ads and a functioning purchase destination with checkout, payment and shipping readiness.
+3. A real live campaign launched into the intended audience under an approved budget, with delivered traffic and recorded actual spend.
+4. Verified tracking, reconciled events and first-party outcome records, including a genuine zero-sales outcome when that is what happened.
+5. The agreed observation window and outcome/stop criteria, recorded results and a reasoned decision, with measured follow-up iteration evidence in the monthly portfolio.
 
-These are secondary to research, creative and testing. Include basic supplier/product-cost records and the order information needed to evaluate tests. Keep the design open to later supplier and fulfillment connections.
+Count distinct product tests, not research rows, ad variants, duplicate records, relaunches of the same test, simulated traffic or test-mode orders. Reusing a product across creatives/channels does not create more product tests. Establish the product identity/counting rule before hiring and use a deduplicated monthly ledger to verify the count.
 
-A custom ERP, warehouse system, autonomous supplier negotiation, comprehensive 3PL integration, full accounting, returns/support or retention suite is not required for this delivery. Further operational automation needs its own agreed scope; it is not an unwritten condition of acceptance.
+Before kickoff, agree the named monthly acceptance window and timezone, launch cadence, per-test observation/attribution windows, required evidence and spend thresholds, campaign budget allocation, stop/scale rules and the handling of reporting lag, outages and blocked dependencies. Do not silently shorten observation periods or count blocked/unlaunched tests. Any schedule adjustment needs explicit agreement without removing the 60-live-test requirement. The roughly one-month delivery target must accommodate the agreed monthly run and reporting windows.
 
-## Records and reliability
+Final acceptance requires the actual 60-test monthly run in the deployed system with auditable spend/results/decisions and documented ability to continue that monthly cadence. A throughput forecast, queue of products, historical-data replay or isolated controlled campaign cannot substitute. Operating ad/media/platform/fulfillment and other business spend is separately disclosed and approved, not included implicitly in the engineering fee or authorized by this document. If access or spend is not approved, report acceptance as blocked rather than delivered.
 
-Keep brands and accounts separate. Store sources, product facts, briefs, prompts, media, page versions, campaigns, costs and results. Preserve earlier versions rather than overwriting them.
+The aspiration of 2-3 scalable winners and a majority reaching break-even through iteration is not a guarantee of profitability or commercial winners. It does not turn the 60-test acceptance requirement into an aspiration.
 
-Include secure access, media storage, background jobs, logs, cost limits and recovery from failures. Retrying a failed request must not create duplicate campaigns, purchases or posts. Check that external actions actually succeeded.
+## Sourcing, fulfillment and post-purchase operations
 
-## Future-proofing
+Deliver connected supplier discovery, private outreach, quotes, negotiation, due diligence, sample/QC workflows, landed costs, purchasing and supplier selection. Keep evidence, versions, terms, lead times, minimum quantities and decision history. Route orders and inventory information across dropshipping, bulk/private-label suppliers and selected warehouse/3PL services. Verify acknowledgements, fulfillment status, shipment tracking and exception handling against actual provider records.
 
-Better models should let us replace agents, simplify workflows and remove redundant instruction layers without rebuilding the application or losing business records. This is part of the quoted work and final acceptance, not an optional upgrade package.
+Include returns/refund workflows, support triage and responses, retention/lifecycle messaging, inventory/reorder signals, bookkeeping/accounting connections, cost reconciliation, contribution margin, cash planning and profitability analysis. Keep acquisition and post-purchase records joined so refunds, fulfillment cost and retention affect product economics and scaling decisions. Escalate financial/legal commitments outside approved authority.
 
-Keep product/brand facts, source evidence, media, catalog IDs, permissions, action records and performance history under owner control. Prompts, skills, agent counts, planning methods and model runtimes can change independently. Do not leave essential records only in a provider chat history. Preserve versioned exports and a documented restore path.
+This is included connected business functionality, not a separate physical warehouse, payment rail or unrelated standalone ERP build. Select the concrete providers and representative transaction/exception cases before hiring; do not silently defer these capabilities to a later contract. Owner/KYC/legal approvals remain dependencies with a supported path and verification evidence. Use authorized test environments where needed for exceptional cases without relabeling them as live commercial outcomes or monthly product tests.
 
-Enforce spending, account separation, publishing permissions, data validation and duplicate prevention in tested software, not just model instructions. A model change must not grant more authority. Routine work can still run within the owner's agreed permissions.
+## Records, security and reliability
 
-Use a small set of representative tasks to compare configurations on evidence accuracy, finished creative quality, catalog/tracking correctness, cost, time, manual corrections and failures. Include human visual review; a model judging itself is not sufficient. Record the actual model/runtime and instruction/workflow versions. Pin production settings where supported, test upgrades separately and require owner approval before replacing the production setup.
+Keep brands and accounts isolated. Preserve source evidence, product/brand context, supplier quotes, briefs, prompts, skills, media, page/catalog versions, external IDs, campaigns, orders, costs, consent/event records, decisions and results. Preserve earlier versions and exportable history rather than overwrite them or leave essential facts only in provider chats.
 
-At handoff, run the [upgrade demonstration](methodologies/agent-led-execution.md#upgrade-demonstration): use a second supported model or runtime, simplify a workflow, compare the results, then restore the prior setup. Saved records and external IDs must survive, and repeated execution must not duplicate external actions. Connector or configuration changes are allowed; a core application rewrite or business-data reset is not.
+Include secure role-based access, secret handling, media storage, background jobs, logs, approvals, spend limits, failure recovery and actionable alerts. Retries must not duplicate campaigns, purchases, orders, posts or refunds. Read back external actions, reconcile uncertain results before retrying and test isolation/idempotency/failure paths. Enforce account separation, spending, publishing permissions and validation in tested software, not just prompts. A model or workflow change must not expand authority.
 
-Choose the smallest implementation that passes these checks. No universal agent framework, custom model training or perpetual maintenance service is requested. Skills, Markdown and automation tools are optional methods, not inherently obsolete or permanent architecture. Future-proofing means tested replaceability and simplification, not a guarantee against every future platform change.
+## Codex, Claude and future-proofing
+
+Codex AND Claude must be used in development and power the deployed engine. Verify the officially supported runtime/access methods, automation and commercial terms, capacity/concurrency, limits and recovery before committing. Do not assume subscription plans include separately billed APIs or allow unsupported unattended usage. Disclose the supported arrangement and obtain approval for costs; no bypasses. Direct image and video APIs are preferred, with aggregator workflows justified by better finished results.
+
+The owner's meaning of future-proofing is keeping up with the AI race, newer models, better agents and increasingly AGI-like capabilities. Make models/providers, prompts, skills, agent stages and whole workflows replaceable. Combine or remove obsolete stages as capabilities improve, without rewriting the core application or resetting business records. This is mandatory quoted acceptance, not a model dropdown or optional upgrade package.
+
+Use representative tasks to compare configurations on evidence accuracy, finished-output quality, store/catalog/tracking and operational correctness, cost, speed, manual corrections and reliability/failures. Include human visual and functional review; model self-grading alone is insufficient. Record actual runtime/model and instruction/workflow versions, pin production settings where supported and test changes separately before owner-approved adoption.
+
+At handoff, run the [upgrade demonstration](methodologies/agent-led-execution.md#upgrade-demonstration): replace a model/provider or runtime, replace a skill and a whole workflow, simplify by combining/removing obsolete stages, compare actual results and restore the previous configuration. Preserve business context, source/data/assets, history, external IDs and controls; repeated execution must not duplicate external actions. Also export and restore representative records and media references into a clean test environment. Restoring configuration does not reverse published actions, orders or spend; record any compensating actions separately.
+
+Choose an implementation suited to these tests. No universal agent framework, foundation-model training, literal AGI guarantee, permanent immunity to obsolescence or lifetime maintenance is required. Skills, Markdown and deterministic automation primitives can remain useful without being permanent architecture.
 
 ## Budget, costs and schedule
 
-Budget: $6,000-$8,000 fixed fee, negotiable. $8,000 is the ceiling, not a committed fee. The aim is about one month, with required access ready. Price, milestones and schedule must be agreed before hiring.
+Budget: $6,000-$8,000 negotiable fixed fee; $8,000 is a ceiling, not a committed or automatic fee. Target roughly one month with required access ready. Agree final price, complete-delivery milestones, schedule, operating budgets and measurement windows before hiring. No award, spend or deadline is committed by this brief alone.
 
-The fee covers the agreed core and its upgrade demonstration. Quote a short breakdown of proven components, custom business work, integrations, creative finishing, testing and handoff. Use AI coding tools to reduce implementation effort; do not assume they remove testing or platform-access work. Tie milestones to usable results, not a count of agents or lines of code.
+The fee covers the complete system, acceptance fixes, upgrade demonstration, deployment and handoff. Break down custom business work, component reuse, integrations, creative finishing, tests and deployment. Tie milestones to working results across the full scope, not agent counts, code volume or a smaller pilot. Explain feasibility and dependencies honestly rather than inventing manual coding hours or agreeing without evidence.
 
-Fixes needed to meet agreed acceptance are included. Additional paid work needs an agreed written scope and price before it starts. No automatic budget increase is authorized. Separately identify any optional ongoing maintenance; the contract does not imply lifetime upgrades.
+Extra paid work needs prior written scope and price approval. There is no automatic budget increase. Itemize hosting, storage, model/API and media generation, ad/platform, supplier/fulfillment and other operating costs separately, with approval requirements and exhaustion behavior. Optional ongoing maintenance is separately priced; acceptance corrections are not paid extras.
 
-Use Codex and Claude subscriptions through officially supported access. Paid API usage is limited to video generation. Verify the actual runtime, image-generation route, allowances and recovery when limits are reached before making a commitment. Do not assume that subscriptions include API credits or use unofficial bypasses. If a requirement cannot be met, identify the specific conflict before contracting. A different cost arrangement requires owner approval.
+## Final acceptance and handoff
 
-Disclose hosting, storage and other non-API costs. No new spending is authorized by this document.
+**A demo, scaffold, disconnected automation, dashboard-only system or partial build is unacceptable as final delivery.** Initial applicant work samples, diagrams and Looms are recruiting evidence, not final acceptance. Agree representative products, providers, catalogs, stores, operational cases and access before kickoff without reducing capability scope.
 
-The business aims to reach 60 product tests per month. Document realistic capacity and costs; do not promise commercial winners or treat that goal as a requirement to run 60 paid tests during development.
+Acceptance evidence must cover:
 
-## Acceptance and handoff
+- Research and economics leading to traceable product decisions, offers and production briefs.
+- Original finished image and UGC/avatar/video ads and conversion-led pages, reviewed through actual decoded visual/audio outputs and functional purchase paths against references.
+- Complete Shopify store/domain/brand/Liquid/navigation/policy/payment/shipping setup; product/variant/collection/media/metafield/template operations, bulk import/update and representative migration with duplicate-safe recovery.
+- Tested bundles, upsells, cross-sells, post-purchase flows and SEO/AEO/GEO implementation; measurable conversion experiments with no guaranteed uplift claims.
+- Meta Page/business/ad-account/catalog setup and applicable Instagram linkage; verified Pixel/CAPI purchase receipt, values/IDs, consent and browser/server deduplication.
+- Visual product summaries that link evidence to actual execution.
+- The monthly ledger proving 60 qualifying live product tests, approved budgets, real spend, reporting windows, results, decisions and a measured next iteration. Synthetic, test-mode and historical replay records stay explicitly separate.
+- Connected supplier/quote/diligence/negotiation/QC/purchasing and order-to-3PL/tracking flows, including return/support/retention and financial reconciliation cases.
+- Secure account separation, enforced authority/spend limits, external readback, safe retries and recovery under changed models/workflows.
+- Both supported Codex and Claude runtime routes operating in the deployed engine, with documented capacity, terms and cost arrangements.
+- Model/provider, skill and whole-workflow replacement/simplification, actual quality/cost/speed/reliability comparisons, version restore and clean-environment data/media-reference restore.
 
-Agree representative products, platforms, access and acceptance checks before kickoff. The demonstration must cover:
-
-- Research that produces a product decision and a usable creative brief.
-- Finished image and video ads and a functioning store or product-page workflow.
-- Shopify product, variant and collection creation plus a bulk update on the agreed representative catalog, with errors and retry behavior shown.
-- Verified pixel/conversion events for a test purchase, correct product/value data and browser/server deduplication.
-- A visual summary of scraped products, their landing pages and competitor ads, linked to the actual sources.
-- A controlled campaign test on the agreed platform, with results returned to the correct ad, offer and page records.
-- A subsequent brief, ad or page change based on those results, with the earlier version and supporting evidence retained.
-- A reference-to-output comparison showing how research informed the finished ad and Shopify page; distinguish original live measurements from any historical-data replay.
-- Safe retries, account separation and spend limits that remain enforced after model/instruction changes.
-- A model/runtime replacement, workflow simplification and return to the previous setup, with comparison results and preserved business history.
-- Export and restore of representative business records, media references and configuration into a clean test environment.
-
-Supply the source, database migrations, deployment instructions, tests and documentation. Use authorized test or development accounts where appropriate, and distinguish test-mode proof from live account activity. Do not label a blocked integration complete.
+Supply owner-controlled source code, database/schema migrations, configuration, provider adapters, automated tests, deployment instructions, operational runbooks, credentials-transfer procedure and documentation. Transfer business context/history/data/assets and demonstrate operation without dependence on the original contractor. Distinguish authorized test/development proof from real commercial results; never label an inaccessible or failed integration complete.
 
 ## Methodology and privacy
 
-The repository is methodology reference only. Agent definitions, code snippets, schemas and historical examples explain methods; they are not supplied working software or promised development savings.
+This repository provides methods, not supplied working software or guaranteed reusable components/development savings. Historical agents, snippets and schemas are selected examples, not live integration evidence. Use the [research guide](methodologies/research-to-production.md), [course-derived methods](methodologies/course-derived-product-research.md) and [creative references](methodologies/before-after-ai-ugc.md) without inheriting obsolete architecture or costs.
 
-Use the [research guide](methodologies/research-to-production.md), [course-derived methods](methodologies/course-derived-product-research.md) and [creative references](methodologies/before-after-ai-ugc.md) where useful. They do not prescribe the implementation. The present scope supersedes older wording that made every supplier, logistics and back-office function mandatory.
-
-Keep private products, account records, customer and supplier information, credentials and applicant conversations out of this public repository. Preserve attribution for reference material.
+Keep private products, account/applicant records, customer and supplier identities, credentials, machine paths and raw paid course text out of this public repository. Preserve attribution, evidence distinctions and historical originals; current requirements control delivery.
